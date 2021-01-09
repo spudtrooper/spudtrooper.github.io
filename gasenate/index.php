@@ -70,7 +70,7 @@
 		</tr>
     </tbody>
 </table>
-<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/img/Warnock.jpg"></img>
+<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/gasenate/img/Warnock.jpg"></img>
 </div>
 <script>
 $.bootstrapSortable({ applyLast: true })
@@ -112,7 +112,7 @@ $.bootstrapSortable({ applyLast: true })
 		</tr>
     </tbody>
 </table>
-<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/img/Ossoff.jpg"></img>
+<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/gasenate/img/Ossoff.jpg"></img>
 </div>
 <script>
 $.bootstrapSortable({ applyLast: true })
@@ -149,7 +149,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Sat Jan 9 17:16:41 EST 2021</em>
+		Last updated: <em>Sat Jan 9 17:17:37 EST 2021</em>
 		</div>
 	</div>
 </body>
