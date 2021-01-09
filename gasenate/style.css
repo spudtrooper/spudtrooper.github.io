@@ -1,0 +1,42 @@
+.winner {
+    font-weight: bold;
+    font-style: italic;
+}
+
+td .number {
+    text-align: right;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: .9em;
+}
+
+body {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+img .reverse {
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+}
+
+div .date-div {
+    margin-top: 30px;
+    font-size: .7em;
+}
+
+.left-edge {
+    border-left: 1px solid black;
+}
+
+.right-edge {
+    border-right: 1px solid black;
+}
+
+.both-edge {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black
+}
