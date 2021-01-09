@@ -24,16 +24,16 @@
 	<div class="container">
 		<ul class="nav nav-pills">
 		  <li class="nav-item">
-			<a class="nav-link active" href="/"><img src="bootstrap-icons-1.2.2/house-fill.svg"></img></a>
+			<a class="nav-link active" href="/gasenate/"><img src="/gasenate/bootstrap-icons-1.2.2/house-fill.svg"></img></a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="/warnock-loeffler/">Warnock</a>
+			<a class="nav-link" href="/gasenate/warnock-loeffler/">Warnock</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="/ossoff-perdue/">Ossoff</a>
+			<a class="nav-link" href="/gasenate/ossoff-perdue/">Ossoff</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="both.html">Both</a>
+			<a class="nav-link" href="/gasenate/both.html">Both</a>
 		  </li>
 		</ul>
 		<div>
@@ -149,7 +149,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Sat Jan 9 15:54:47 EST 2021</em>
+		Last updated: <em>Sat Jan 9 17:12:46 EST 2021</em>
 		</div>
 	</div>
 </body>
