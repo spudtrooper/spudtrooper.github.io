@@ -1,0 +1,30 @@
+<html><body><head><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'County');
+		data.addColumn('number', '% Left');
+		data.addColumn('number', '% Biden');
+		data.addColumn('number', '% Trump');
+		data.addColumn('number', '# Votes');
+		data.addColumn('number', '# Biden');
+		data.addColumn('number', '# Trump');
+		data.addColumn('number', 'Outstanding Votes');
+		data.addColumn('number', 'Potential Votes');
+		data.addColumn('number', 'Potential Biden');
+		data.addColumn('number', 'Potential Biden Delta');
+		data.addColumn('number', 'Potential Trump');
+		data.addColumn('number', 'Potential Trump Delta');
+        data.addRows([
+          ['Apache County',28.0,68.0,31.0,24065,16574,7491,9358,33423,22728,6154,10361,2870],['Pinal County',18.0,42.0,57.0,147401,62672,84729,32356,179757,75498,12826,102461,17732],['Cochise County',15.0,41.0,57.0,51146,21238,29908,9025,60171,24670,3432,34297,4389],['Navajo County',12.0,45.0,53.0,49631,22900,26731,6767,56398,25379,2479,29891,3160],['Santa Cruz County',7.0,67.0,32.0,19300,13121,6179,1452,20752,13904,783,6640,461],['Maricopa County',7.0,51.0,48.0,1884685,972570,912115,141858,2026543,1033536,60966,972740,60625],['Yuma County',6.0,46.0,53.0,60911,28297,32614,3887,64798,29807,1510,34343,1729],['Mohave County',5.0,24.0,75.0,102411,24687,77724,5390,107801,25872,1185,80850,3126],['La Paz County',5.0,31.0,68.0,6592,2050,4542,346,6938,2151,101,4718,176],['Greenlee County',5.0,32.0,66.0,3615,1182,2433,190,3805,1217,35,2511,78],['Graham County',5.0,27.0,72.0,14781,4034,10747,777,15558,4200,166,11202,455],['Gila County',5.0,32.0,66.0,27116,8875,18241,1427,28543,9133,258,18838,597],['Coconino County',5.0,61.0,37.0,70027,43815,26212,3685,73712,44964,1149,27273,1061],['Yavapai County',5.0,35.0,64.0,136525,48488,88037,7185,143710,50298,1810,91974,3937],['Pima County',5.0,59.0,39.0,485240,291697,193543,25538,510778,301359,9662,199203,5660]
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('counties_div'));
+
+        table.draw(data, {showRowNumber: true});
+      }
+    </script>
+<meta http-equiv="refresh" content="60"></head><h1>AZ</h1><ul><li>Last updated: <em>2020-11-06 15:12:50.449749 -0500 EST m=+0.707935631</em></li><li>Source <a href="https://assets-cdn.abcnews.com/elections/national/2020/general/v1/maps/states/az/electoral.json">https://assets-cdn.abcnews.com/elections/national/2020/general/v1/maps/states/az/electoral.json</a></li></ul><h2>Actual</h2><table class="table" border=1><tr><td>Biden</td><td>1562200</td><td><td>50.66%</td></tr><tr><td>Trump</td><td>1521246</td><td><td>49.34%</td></tr><tr><td>Difference</td><td>-40954</td></tr></table><h2>History</h2><table class="table" border=1><tr><th>Date</th><th>Diff</th><th>Delta</th></tr><tr><td>2020-11-05_18-34-24</td><td style='color: #fff; background:#0000cc'>-65179</td><td style='color: #000; background:lightblue'>--</td></tr><tr><td>2020-11-05_19-17-03</td><td style='color: #fff; background:#0000cc'>-61469</td><td style='color: #000; background:#ffcccb'>3710</td></tr><tr><td>2020-11-05_19-36-34</td><td style='color: #fff; background:#0000cc'>-61280</td><td style='color: #000; background:#ffcccb'>189</td></tr><tr><td>2020-11-05_19-56-47</td><td style='color: #fff; background:#0000cc'>-58953</td><td style='color: #000; background:#ffcccb'>2327</td></tr><tr><td>2020-11-05_20-14-39</td><td style='color: #fff; background:#0000cc'>-57986</td><td style='color: #000; background:#ffcccb'>967</td></tr><tr><td>2020-11-05_20-38-54</td><td style='color: #fff; background:#0000cc'>-57844</td><td style='color: #000; background:#ffcccb'>142</td></tr><tr><td>2020-11-05_20-39-22</td><td style='color: #fff; background:#0000cc'>-56833</td><td style='color: #000; background:#ffcccb'>1011</td></tr><tr><td>2020-11-05_21-06-42</td><td style='color: #fff; background:#0000cc'>-46257</td><td style='color: #000; background:#ffcccb'>10576</td></tr><tr><td>2020-11-05_22-37-30</td><td style='color: #fff; background:#0000cc'>-46667</td><td style='color: #000; background:lightblue'>-410</td></tr><tr><td>2020-11-06_03-11-12</td><td style='color: #fff; background:#0000cc'>-47052</td><td style='color: #000; background:lightblue'>-385</td></tr><tr><td>2020-11-06_12-04-00</td><td style='color: #fff; background:#0000cc'>-43779</td><td style='color: #000; background:#ffcccb'>3273</td></tr><tr><td>2020-11-06_14-31-35</td><td style='color: #fff; background:#0000cc'>-41302</td><td style='color: #000; background:#ffcccb'>2477</td></tr><tr><td>2020-11-06_14-51-46</td><td style='color: #fff; background:#0000cc'>-40954</td><td style='color: #000; background:#ffcccb'>348</td></tr></table><h2>Projected (these are almost definitely wrong)</h2><table class="table" border=1><tr><td>Biden</td><td>1664723</td><td>50.57%</td><td>+102523</td></tr><tr><td>Trump</td><td>1627311</td><td>49.43%</td><td>+106065</td></tr><tr><td>Difference</td><td>-37412</td></tr></table><h2>Counties</h2><div id="counties_div"></div></body></html>
