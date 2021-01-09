@@ -1,7 +1,0 @@
-<html>
-  <body>
-    <script>
-      document.location = document.location + '/2020pres';
-    </script>
-  </body>
-</html>
