@@ -1,4 +1,4 @@
-* [/fourlongyearsisalmostover](/fourlongyearsisalmostover)
-* [/gasenate/both.html](gasenate)
+* [fourlongyearsisalmostover](/fourlongyearsisalmostover)
+* [gasenate](/gasenate/both.html)
     
-More: [http://jeffpalm.com](jeffpalm.com)
+More: [jeffpalm.com](http://jeffpalm.com)
