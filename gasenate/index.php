@@ -21,7 +21,7 @@
 
 </head>
 <body>
-	<div class="container">
+	<div>
 		<ul class="nav nav-pills">
 		  <li class="nav-item">
 			<a class="nav-link active" href="/gasenate/"><img src="/gasenate/bootstrap-icons-1.2.2/house-fill.svg"></img></a>
@@ -42,7 +42,7 @@
 		<div>
 			Reporting: <b>99%</b>
 			<br/>
-			Last update: <b>Tue Jan 12 08:25:55 EST 2021</b>
+			Last update: <b>Tue Jan 12 08:38:35 EST 2021</b>
 		</div>
 		<div>
 			
@@ -154,7 +154,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Tue Jan 12 08:25:55 EST 2021</em>
+		Last updated: <em>Tue Jan 12 08:38:35 EST 2021</em>
 		</div>
 	</div>
 </body>
