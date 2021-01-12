@@ -42,7 +42,7 @@
 		<div>
 			Reporting: <b>99%</b>
 			<br/>
-			Last update: <b>Tue Jan 12 08:12:33 EST 2021</b>
+			Last update: <b>Tue Jan 12 08:25:55 EST 2021</b>
 		</div>
 		<div>
 			
@@ -154,7 +154,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Tue Jan 12 08:12:33 EST 2021</em>
+		Last updated: <em>Tue Jan 12 08:25:55 EST 2021</em>
 		</div>
 	</div>
 </body>
