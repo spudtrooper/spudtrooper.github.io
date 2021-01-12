@@ -35,11 +35,14 @@
 		  <li class="nav-item">
 			<a class="nav-link" href="/gasenate/both.html">Both</a>
 		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/gasenate/senatejson/">Data</a>
+		  </li>
 		</ul>
 		<div>
 			Reporting: <b>99%</b>
 			<br/>
-			Last update: <b>Mon Jan 11 20:45:19 EST 2021</b>
+			Last update: <b>Tue Jan 12 06:59:26 EST 2021</b>
 		</div>
 		<div>
 			
@@ -151,7 +154,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Mon Jan 11 20:45:19 EST 2021</em>
+		Last updated: <em>Tue Jan 12 06:59:26 EST 2021</em>
 		</div>
 	</div>
 </body>
