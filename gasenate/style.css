@@ -40,3 +40,7 @@ div .date-div {
 .border-bottom {
     border-bottom: 1px solid black
 }
+
+.content-wrapper {
+    padding: 10px;
+}
