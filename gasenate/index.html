@@ -42,7 +42,7 @@
 		<div>
 			Reporting: <b>99%</b>
 			<br/>
-			Last update: <b>Thu Jan 14 11:56:37 EST 2021</b>
+			Last update: <b>Thu Jan 14 16:37:32 EST 2021</b>
 		</div>
 		<div>
 			
@@ -63,15 +63,15 @@
     <tbody>
 		<tr>
 			<td>%</td>
-			<td class="number" data-value="2.0895659542046303" style="text-align:right; color: #fff; background-color: #005900;">+2.1</td>
-			<td class="winner number" data-value="51.044782977102315" style="text-align:right; font-size: 1.0426832129704846em;">51.0</td>
-			<td class="loser number" data-value="48.955217022897685" style="text-align:right; font-size: 0.959064064291507em;">49.0</td>
+			<td class="number" data-value="2.0893339941216027" style="text-align:right; color: #fff; background-color: #005900;">+2.1</td>
+			<td class="winner number" data-value="51.0446669970608" style="text-align:right; font-size: 1.0426783736512661em;">51.0</td>
+			<td class="loser number" data-value="48.9553330029392" style="text-align:right; font-size: 0.9590685155367571em;">49.0</td>
 		</tr>
 		<tr>
 			<td>Abs</td>
-			<td class="number" data-value="93685" style="text-align:right; color: #000; background-color: #00ff00;">+93,685</td>
-			<td class="winner number" data-value="2288576" style="text-align:right; font-size: 1.0426832129704846em;">2,288,576</td>
-			<td class="loser number" data-value="2194891" style="text-align:right; font-size: 0.959064064291507em;">2,194,891</td>
+			<td class="number" data-value="93676" style="text-align:right; color: #000; background-color: #00ff00;">+93,676</td>
+			<td class="winner number" data-value="2288605" style="text-align:right; font-size: 1.0426783736512661em;">2,288,605</td>
+			<td class="loser number" data-value="2194929" style="text-align:right; font-size: 0.9590685155367571em;">2,194,929</td>
 		</tr>
     </tbody>
 </table>
@@ -105,15 +105,15 @@ $.bootstrapSortable({ applyLast: true })
     <tbody>
 		<tr>
 			<td>%</td>
-			<td class="number" data-value="1.2350855843337172" style="text-align:right; color: #fff; background-color: #005700;">+1.2</td>
-			<td class="winner number" data-value="50.61754279216686" style="text-align:right; font-size: 1.025010614176927em;">50.6</td>
-			<td class="loser number" data-value="49.38245720783314" style="text-align:right; font-size: 0.9755996534757737em;">49.4</td>
+			<td class="number" data-value="1.2347551455565764" style="text-align:right; color: #fff; background-color: #005700;">+1.2</td>
+			<td class="winner number" data-value="50.61737757277829" style="text-align:right; font-size: 1.025003839101018em;">50.6</td>
+			<td class="loser number" data-value="49.38262242722171" style="text-align:right; font-size: 0.9756061019996298em;">49.4</td>
 		</tr>
 		<tr>
 			<td>Abs</td>
-			<td class="number" data-value="55374" style="text-align:right; color: #000; background-color: #00ff00;">+55,374</td>
-			<td class="winner number" data-value="2269394" style="text-align:right; font-size: 1.025010614176927em;">2,269,394</td>
-			<td class="loser number" data-value="2214020" style="text-align:right; font-size: 0.9755996534757737em;">2,214,020</td>
+			<td class="number" data-value="55360" style="text-align:right; color: #000; background-color: #00ff00;">+55,360</td>
+			<td class="winner number" data-value="2269420" style="text-align:right; font-size: 1.025003839101018em;">2,269,420</td>
+			<td class="loser number" data-value="2214060" style="text-align:right; font-size: 0.9756061019996298em;">2,214,060</td>
 		</tr>
     </tbody>
 </table>
@@ -154,7 +154,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Thu Jan 14 11:56:37 EST 2021</em>
+		Last updated: <em>Thu Jan 14 16:37:32 EST 2021</em>
 		</div>
 	</div>
 </body>
