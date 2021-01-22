@@ -40,51 +40,9 @@
 		<div>
 			Reporting: <b>99%</b>
 			<br/>
-			Last update: <b>Fri Jan 22 10:35:35 EST 2021</b>
+			Last update: <b>Fri Jan 22 10:45:35 EST 2021</b>
 		</div>
 		<div>
-			
-				<div class="card" style="margin:10px">
-					<div class="card-body">
-						<h5>Warnock vs. Loeffler</h5>
-						<p>
-						<div>
-<table style="display:inline" class="table-sm">
-  <thead>
-	<tr>
-		<th>Stat</th>
-		<th>&Delta;</th>
-		<th>Raphael Warnock (RW)</th>
-		<th>Kelly Loeffler (KL)</th>
-	</tr>
-    </thead>
-    <tbody>
-		<tr>
-			<td>%</td>
-			<td class="number" data-value="2.0796645851886097" style="text-align:right; color: #fff; background-color: #005900;">+2.1</td>
-			<td class="winner number" data-value="51.039832292594305" style="text-align:right; font-size: 1.042476663838593em;">51.0</td>
-			<td class="loser number" data-value="48.960167707405695" style="text-align:right; font-size: 0.9592540866265667em;">49.0</td>
-		</tr>
-		<tr>
-			<td>Abs</td>
-			<td class="number" data-value="93272" style="text-align:right; color: #000; background-color: #00ff00;">+93,272</td>
-			<td class="winner number" data-value="2289113" style="text-align:right; font-size: 1.042476663838593em;">2,289,113</td>
-			<td class="loser number" data-value="2195841" style="text-align:right; font-size: 0.9592540866265667em;">2,195,841</td>
-		</tr>
-    </tbody>
-</table>
-<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/gasenate/img/Warnock.jpg"></img>
-</div>
-<script>
-$.bootstrapSortable({ applyLast: true })
-</script>
-						</p>
-						<a href="warnock-loeffler/index.html" class="card-link"><img src="bootstrap-icons-1.2.2/clock-fill.svg"></img></a>
-						<a href="warnock-loeffler/counties.html" class="card-link"><img src="bootstrap-icons-1.2.2/table.svg"></img></a>
-						<a href="warnock-loeffler/joined.html" class="card-link"><img src="bootstrap-icons-1.2.2/calculator.svg"></img></a>
-						<a href="warnock-loeffler/pies.html" class="card-link"><img src="bootstrap-icons-1.2.2/pie-chart-fill.svg"></img></a>
-					</div>
-				</div>
 			
 				<div class="card" style="margin:10px">
 					<div class="card-body">
@@ -128,6 +86,48 @@ $.bootstrapSortable({ applyLast: true })
 					</div>
 				</div>
 			
+				<div class="card" style="margin:10px">
+					<div class="card-body">
+						<h5>Warnock vs. Loeffler</h5>
+						<p>
+						<div>
+<table style="display:inline" class="table-sm">
+  <thead>
+	<tr>
+		<th>Stat</th>
+		<th>&Delta;</th>
+		<th>Raphael Warnock (RW)</th>
+		<th>Kelly Loeffler (KL)</th>
+	</tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td>%</td>
+			<td class="number" data-value="2.0796645851886097" style="text-align:right; color: #fff; background-color: #005900;">+2.1</td>
+			<td class="winner number" data-value="51.039832292594305" style="text-align:right; font-size: 1.042476663838593em;">51.0</td>
+			<td class="loser number" data-value="48.960167707405695" style="text-align:right; font-size: 0.9592540866265667em;">49.0</td>
+		</tr>
+		<tr>
+			<td>Abs</td>
+			<td class="number" data-value="93272" style="text-align:right; color: #000; background-color: #00ff00;">+93,272</td>
+			<td class="winner number" data-value="2289113" style="text-align:right; font-size: 1.042476663838593em;">2,289,113</td>
+			<td class="loser number" data-value="2195841" style="text-align:right; font-size: 0.9592540866265667em;">2,195,841</td>
+		</tr>
+    </tbody>
+</table>
+<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/gasenate/img/Warnock.jpg"></img>
+</div>
+<script>
+$.bootstrapSortable({ applyLast: true })
+</script>
+						</p>
+						<a href="warnock-loeffler/index.html" class="card-link"><img src="bootstrap-icons-1.2.2/clock-fill.svg"></img></a>
+						<a href="warnock-loeffler/counties.html" class="card-link"><img src="bootstrap-icons-1.2.2/table.svg"></img></a>
+						<a href="warnock-loeffler/joined.html" class="card-link"><img src="bootstrap-icons-1.2.2/calculator.svg"></img></a>
+						<a href="warnock-loeffler/pies.html" class="card-link"><img src="bootstrap-icons-1.2.2/pie-chart-fill.svg"></img></a>
+					</div>
+				</div>
+			
 			<div class="card" style="margin:10px">
 				<div class="card-body">
 					<h5>About</h5>
@@ -152,7 +152,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Fri Jan 22 10:35:35 EST 2021</em>
+		Last updated: <em>Fri Jan 22 10:45:35 EST 2021</em>
 		</div>
 	</div>
 </body>
