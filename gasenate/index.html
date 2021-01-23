@@ -40,51 +40,9 @@
 		<div>
 			Reporting: <b>99%</b>
 			<br/>
-			Last update: <b>Fri Jan 22 10:45:35 EST 2021</b>
+			Last update: <b>Fri Jan 22 20:25:26 EST 2021</b>
 		</div>
 		<div>
-			
-				<div class="card" style="margin:10px">
-					<div class="card-body">
-						<h5>Ossoff vs. Perdue</h5>
-						<p>
-						<div>
-<table style="display:inline" class="table-sm">
-  <thead>
-	<tr>
-		<th>Stat</th>
-		<th>&Delta;</th>
-		<th>Jon Ossoff (JO)</th>
-		<th>David Perdue (DP)</th>
-	</tr>
-    </thead>
-    <tbody>
-		<tr>
-			<td>%</td>
-			<td class="number" data-value="1.2250880844219125" style="text-align:right; color: #fff; background-color: #005700;">+1.2</td>
-			<td class="winner number" data-value="50.612544042210956" style="text-align:right; font-size: 1.02480565278497em;">50.6</td>
-			<td class="loser number" data-value="49.387455957789044" style="text-align:right; font-size: 0.9757947736553179em;">49.4</td>
-		</tr>
-		<tr>
-			<td>Abs</td>
-			<td class="number" data-value="54944" style="text-align:right; color: #000; background-color: #00ff00;">+54,944</td>
-			<td class="winner number" data-value="2269923" style="text-align:right; font-size: 1.02480565278497em;">2,269,923</td>
-			<td class="loser number" data-value="2214979" style="text-align:right; font-size: 0.9757947736553179em;">2,214,979</td>
-		</tr>
-    </tbody>
-</table>
-<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/gasenate/img/Ossoff.jpg"></img>
-</div>
-<script>
-$.bootstrapSortable({ applyLast: true })
-</script>
-						</p>
-						<a href="ossoff-perdue/index.html" class="card-link"><img src="bootstrap-icons-1.2.2/clock-fill.svg"></img></a>
-						<a href="ossoff-perdue/counties.html" class="card-link"><img src="bootstrap-icons-1.2.2/table.svg"></img></a>
-						<a href="ossoff-perdue/joined.html" class="card-link"><img src="bootstrap-icons-1.2.2/calculator.svg"></img></a>
-						<a href="ossoff-perdue/pies.html" class="card-link"><img src="bootstrap-icons-1.2.2/pie-chart-fill.svg"></img></a>
-					</div>
-				</div>
 			
 				<div class="card" style="margin:10px">
 					<div class="card-body">
@@ -128,6 +86,48 @@ $.bootstrapSortable({ applyLast: true })
 					</div>
 				</div>
 			
+				<div class="card" style="margin:10px">
+					<div class="card-body">
+						<h5>Ossoff vs. Perdue</h5>
+						<p>
+						<div>
+<table style="display:inline" class="table-sm">
+  <thead>
+	<tr>
+		<th>Stat</th>
+		<th>&Delta;</th>
+		<th>Jon Ossoff (JO)</th>
+		<th>David Perdue (DP)</th>
+	</tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td>%</td>
+			<td class="number" data-value="1.2250880844219125" style="text-align:right; color: #fff; background-color: #005700;">+1.2</td>
+			<td class="winner number" data-value="50.612544042210956" style="text-align:right; font-size: 1.02480565278497em;">50.6</td>
+			<td class="loser number" data-value="49.387455957789044" style="text-align:right; font-size: 0.9757947736553179em;">49.4</td>
+		</tr>
+		<tr>
+			<td>Abs</td>
+			<td class="number" data-value="54944" style="text-align:right; color: #000; background-color: #00ff00;">+54,944</td>
+			<td class="winner number" data-value="2269923" style="text-align:right; font-size: 1.02480565278497em;">2,269,923</td>
+			<td class="loser number" data-value="2214979" style="text-align:right; font-size: 0.9757947736553179em;">2,214,979</td>
+		</tr>
+    </tbody>
+</table>
+<img style="display:inline; width:50px; margin-top:50px; margin-left:20px" src="/gasenate/img/Ossoff.jpg"></img>
+</div>
+<script>
+$.bootstrapSortable({ applyLast: true })
+</script>
+						</p>
+						<a href="ossoff-perdue/index.html" class="card-link"><img src="bootstrap-icons-1.2.2/clock-fill.svg"></img></a>
+						<a href="ossoff-perdue/counties.html" class="card-link"><img src="bootstrap-icons-1.2.2/table.svg"></img></a>
+						<a href="ossoff-perdue/joined.html" class="card-link"><img src="bootstrap-icons-1.2.2/calculator.svg"></img></a>
+						<a href="ossoff-perdue/pies.html" class="card-link"><img src="bootstrap-icons-1.2.2/pie-chart-fill.svg"></img></a>
+					</div>
+				</div>
+			
 			<div class="card" style="margin:10px">
 				<div class="card-body">
 					<h5>About</h5>
@@ -152,7 +152,7 @@ $.bootstrapSortable({ applyLast: true })
 			</div>
 		</div>
 		<div class="date-div">
-		Last updated: <em>Fri Jan 22 10:45:35 EST 2021</em>
+		Last updated: <em>Fri Jan 22 20:25:26 EST 2021</em>
 		</div>
 	</div>
 </body>
