@@ -87,3 +87,33 @@ body {
     right: 10px;
     font-size: .8em;
 }
+
+.play {
+    background-image: url("media-play-8x.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #fff;
+    height: 64px;
+    width: 64px;
+}
+
+.pause {
+    background-image: url("media-pause-8x.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #fff;
+    height: 64px;
+    width: 64px;
+}
+
+.reset {
+    background-image: url("reload-8x.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #fff;
+    height: 64px;
+    width: 64px;
+}
+
+.button-wrapper {
+    clear: none;
+    float: right;
+    padding-right: 30px;
+}

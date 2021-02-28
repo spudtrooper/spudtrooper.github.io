@@ -60,13 +60,16 @@ Controller.prototype.reset = function() {
 
 Controller.prototype.render = function() {
   if (this.state_ == State.PAUSED) {
-    $('#toggle-btn').text('Resume');
+    //$('#toggle-btn').text('Resume');
+    $('#toggle-img').removeClass('pause').addClass('play');
     $('#state').text('paused');
   } else if (this.state_ == State.READY) {
-    $('#toggle-btn').text('Start');
+    //$('#toggle-btn').text('Start');
+    $('#toggle-img').removeClass('pause').addClass('play');
     $('#state').text('ready');
   } else if (this.state_ == State.RUNNING) {
-    $('#toggle-btn').text('Pause');
+    //$('#toggle-btn').text('Pause');
+    $('#toggle-img').removeClass('play').addClass('pause');
     $('#state').html('running');
   }
   let secs = this.millisLeft_ / 1000;
