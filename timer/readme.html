@@ -9,15 +9,12 @@
     <div id="container">
       <p>
         This is a very simple <a href="index.html">timer</a>.
-      </p>
-      <p>
-      <p>
-        Key shortcuts:
         <ul>
-          <li><b>space</b> - toggle</li>
-          <li><b>r</b> - reset</li>
+          <li>At 1 min the screen turns yellow</li>
+          <li>At 0 min the screen turns red</li>
+          <li>Time keeps running after hitting 0</li>
         </ul>
-        URL params
+        You can control some of these values with URL params:
         <ul>
           <li><b>durationSecs</b> - total length of the timer in
             seconds, defaults to 300 (5m)</li>
@@ -28,8 +25,14 @@
             faster decrease this number. The name is horrible, I know,
             because I'm a shitty namer.</li>
         </ul>
-        Try <a href="index.html?durationSecs=180&tickMillis=100&warningAtSecs=120">these</a>
-        out
+        Key shortcuts:
+        <ul>
+          <li><b>space</b> - toggle</li>
+          <li><b>r</b> - reset</li>
+        </ul>
+        Try
+        some <a href="index.html?durationSecs=180&tickMillis=100&warningAtSecs=120">custom
+          attributes</a>
       </p>
     </div>      
   </body>
