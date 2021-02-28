@@ -26,6 +26,10 @@ Controller.prototype.start = function() {
   if (params.get('tickMillis')) {
     this.tickMillis_ = parseInt(params.get('tickMillis'));
   }
+  if (params.get('progressBarHeight')) {
+    let progressBarHeight = parseInt(params.get('progressBarHeight'));
+    $('.progress-height').css('height', progressBarHeight + 'px');
+  }
   this.state_ = State.READY;
   $('#toggle-btn').click(this.toggle.bind(this));
   $('#reset-btn').click(this.reset.bind(this));

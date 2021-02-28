@@ -7,12 +7,19 @@
   </head>
   <body>
     <div id="container">
+      <div id="instructions">
       <p>
-        This is a very simple <a href="index.html">timer</a>.
+        This is a very simple <a href="index.html">timer</a> aimed at
+        using in meetings.
         <ul>
           <li>At 1 min the screen turns yellow</li>
           <li>At 0 min the screen turns red</li>
           <li>Time keeps running after hitting 0</li>
+          <li>The large display changes only every 15s to avoid
+            distracting the speaker. The full time is still shown
+            smaller in the lower left corner.</li>
+          <li>There is a progress bar at the top to visually let the
+            speaker know of their progress.</li>
         </ul>
         You can control some of these values with URL params:
         <ul>
@@ -24,6 +31,8 @@
             defaults to 1000 (1s). If you want to make the timer go
             faster decrease this number. The name is horrible, I know,
             because I'm a shitty namer.</li>
+          <li><b>progressBarHeight</b> - the height of the progress
+            bar in pixels.</li>
         </ul>
         Key shortcuts:
         <ul>
@@ -31,9 +40,10 @@
           <li><b>r</b> - reset</li>
         </ul>
         Try
-        some <a href="index.html?durationSecs=180&tickMillis=100&warningAtSecs=120">custom
+          some <a href="index.html?durationSecs=180&tickMillis=100&warningAtSecs=120">custom
           attributes</a>
       </p>
-    </div>      
+      </div>
+    </div>
   </body>
 </html>
