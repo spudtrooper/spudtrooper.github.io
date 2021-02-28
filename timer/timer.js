@@ -11,6 +11,8 @@ Controller = function() {
   this.millisLeft_ = 0;
   this.tickMillis_ = 1000;
   this.warningAtSecs_ = 60;
+  this.hasIssuedWarning_ = false;
+  this.hasIssuedFinished_ = false;
 };
 
 Controller.prototype.start = function() {
@@ -36,6 +38,8 @@ Controller.prototype.start = function() {
       this.reset();
     }
   }.bind(this));
+  this.hasIssuedWarning_ = true;
+  this.hasIssuedFinished_ = true;
   this.render();
   $('#container').show();
 };
@@ -55,20 +59,19 @@ Controller.prototype.reset = function() {
     }
     this.state_ = State.READY;    
   }
+  this.hasIssuedWarning_ = false;
+  this.hasIssuedFinished_ = false;
   this.render();
 };
 
 Controller.prototype.render = function() {
   if (this.state_ == State.PAUSED) {
-    //$('#toggle-btn').text('Resume');
     $('#toggle-img').removeClass('pause').addClass('play');
     $('#state').text('paused');
   } else if (this.state_ == State.READY) {
-    //$('#toggle-btn').text('Start');
     $('#toggle-img').removeClass('pause').addClass('play');
     $('#state').text('ready');
   } else if (this.state_ == State.RUNNING) {
-    //$('#toggle-btn').text('Pause');
     $('#toggle-img').removeClass('play').addClass('pause');
     $('#state').html('running');
   }
@@ -106,19 +109,36 @@ Controller.prototype.render = function() {
     let percentRemaining = 100*this.millisLeft_ / (1000*this.durationSecs_);
     $('#progress-remaining').css('width', percentRemaining + '%');
     if (secs <= this.warningAtSecs_) {
-      $('#container').removeClass('running');
-      $('#container').removeClass('negative');
-      $('#container').addClass('warning');
+      $('#container')
+        .removeClass('running')
+        .removeClass('negative')
+        .addClass('warning');
+      if (!this.hasIssuedWarning_) {
+        this.hasIssuedWarning_ = true;
+        $('#update-msg').text('Warning!').fadeIn();
+        setTimeout(function() {
+          $('#update-msg').fadeOut();
+        }, 2000);
+      }
     } else {
-      $('#container').removeClass('warning');
-      $('#container').removeClass('negative');
-      $('#container').addClass('running');
+      $('#container')
+        .removeClass('warning')
+        .removeClass('negative')
+        .addClass('running');
     }
   } else {
-    $('#container').removeClass('warning');
-    $('#container').removeClass('running');
-    $('#container').addClass('negative');
+    $('#container')
+      .removeClass('warning')
+      .removeClass('running')
+      .addClass('negative');
     $('#percent-remaining').css('width', '0%');
+    if (!this.hasIssuedFinished_) {
+      this.hasIssuedFinished_ = true;
+      $('#update-msg').text('Oh no!').fadeIn();
+      setTimeout(function() {
+        $('#update-msg').fadeOut();
+      }, 2000);
+    }
   }
 };
 

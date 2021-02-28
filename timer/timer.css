@@ -30,6 +30,10 @@ body {
     font-size: 34em;
 }
 
+#update-msg {
+    font-size: 10em;
+}
+
 #state {
     font-size: 7em;
 }
@@ -91,7 +95,6 @@ body {
 .play {
     background-image: url("media-play-8x.png");
     background-repeat: no-repeat, repeat;
-    background-color: #fff;
     height: 64px;
     width: 64px;
 }
@@ -99,7 +102,6 @@ body {
 .pause {
     background-image: url("media-pause-8x.png");
     background-repeat: no-repeat, repeat;
-    background-color: #fff;
     height: 64px;
     width: 64px;
 }
@@ -107,7 +109,6 @@ body {
 .reset {
     background-image: url("reload-8x.png");
     background-repeat: no-repeat, repeat;
-    background-color: #fff;
     height: 64px;
     width: 64px;
 }
