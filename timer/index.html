@@ -22,6 +22,26 @@
         <button id="reset-btn">Reset</button>
         <div id="state"></div>        
       </div>
+      <div class="instructions">
+        Key shortcuts:
+        <ul>
+          <li><b>space</b> - toggle</li>
+          <li><b>r</b> - reset</li>
+        </ul>
+        URL params
+        <ul>
+          <li><b>durationSecs</b> - total length of the timer in
+          seconds, defaults to 300 (5m)</li>
+          <li><b>warningAtSecs</b> - when to show the warning color
+          (yellow) in seconds, defaults to 60 (1m)</li>
+          <li><b>tickMillis</b> - the number of millis in a tick,
+          defaults to 1000 (1s). If you want to make the timer go
+          faster decrease this number. The name is horrible, I know,
+          because I'm a shitty namer.</li>
+        </ul>
+        Try <a href="?durationSecs=180&tickMillis=100&warningAtSecs=120">these</a>
+        out
+      </div>      
     </div>
   </body>
 </html>

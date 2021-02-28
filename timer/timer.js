@@ -92,7 +92,9 @@ Controller.prototype.render = function() {
   } else {
     $('#text').text('over');
   }
-  if (mins >= 0 && secs%60 != 0) {
+  if (this.state_ == State.RUNNING) {
+    $('#mins').text('<' + mins);
+  } else if (mins >= 0 && secs%60 != 0) {
     $('#mins').text('<' + (mins + 1));
   } else {
     $('#mins').text(mins);
