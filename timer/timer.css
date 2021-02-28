@@ -1,0 +1,80 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+.negative {
+    background-color: #C03221;
+}
+
+.warning {
+    background-color: #D6D84F;
+}
+
+.running {
+    /*    background-color: #0A8754; */
+}
+
+#large {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#large #mins {
+    font-weight: 700;
+    font-size: 45em;
+}
+
+#state {
+    font-size: 7em;
+}
+
+#large #m {
+    font-size: 10em;
+}
+
+#large #text {
+    font-size: 10em;
+    margin-left: 20px;
+}
+
+#small {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 7em;
+}
+
+#controls {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: right;
+}
+
+#controls button {
+    font-size: 3em;
+}
+
+#progress {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 36px;
+    background-color: red;
+}
+
+.grey {
+    background-color: #a0a0a0;
+}
+
+#progress-remaining {
+    background-color: green;
+}

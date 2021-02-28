@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="timer.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="timer.css">
+</head>
+  <body>
+    <div id="container" style="display:none">
+      <div id="progress">
+        <div id="progress-remaining" style="height:36px;width:25%"></div>
+      </div>      
+      <div id="display">
+        <div id="large">
+          <div>
+            <span id="mins">mins</span><span id="m">m</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="small">
+        small
+      </div> 
+      <div id="controls">
+        <button id="toggle-btn">...</button>
+        <button id="reset-btn">Reset</button>
+        <div id="state">state</div>        
+      </div>
+    </div>
+  </body>
+</html>

@@ -9,6 +9,10 @@ time-trended record of the votes coming in.
 Real-time tracking the last four states in the 2020 presidential
 election. Now it shows how votes came in during the last days.
 
+## [timer](/timer)
+
+A really simple timer, e.g. for meetings.
+
 ## More
     
 [jeffpalm.com](http://jeffpalm.com)
