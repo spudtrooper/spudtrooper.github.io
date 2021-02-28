@@ -110,6 +110,13 @@ body {
     width: 64px;
 }
 
+.info {
+    background-image: url("info-8x.png");
+    background-repeat: no-repeat, repeat;
+    height: 64px;
+    width: 64px;
+}
+
 .button-wrapper {
     clear: none;
     float: right;
