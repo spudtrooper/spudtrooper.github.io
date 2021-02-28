@@ -102,7 +102,6 @@ Controller.prototype.render = function() {
   };
   $('#small').text(formatTime(secs));
   let time = formatTimeParts(secs > 0 ? secs + 14 : secs);
-  $('#neg').text(time.neg ? '-' : '');
   $('#mins').text(time.mins);
   $('#secs').text(pad(Math.floor(time.secs / 15) * 15));
   if (secs >= 0) {

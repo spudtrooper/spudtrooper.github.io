@@ -32,6 +32,7 @@ body {
 
 #update-msg {
     font-size: 10em;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #state {
@@ -40,10 +41,6 @@ body {
 
 #large .m {
     font-size: 10em;
-}
-
-#large #neg {
-    font-size: 25em;
 }
 
 #large #text {
