@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="timer.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="timer.css">
+</head>
+  <body>
+    <div id="container" style="display:none">
+      <div class="instructions">
+        Key shortcuts:
+        <ul>
+          <li><b>space</b> - toggle</li>
+          <li><b>r</b> - reset</li>
+        </ul>
+        URL params
+        <ul>
+          <li><b>durationSecs</b> - total length of the timer in
+            seconds, defaults to 300 (5m)</li>
+          <li><b>warningAtSecs</b> - when to show the warning color
+            (yellow) in seconds, defaults to 60 (1m)</li>
+          <li><b>tickMillis</b> - the number of millis in a tick,
+            defaults to 1000 (1s). If you want to make the timer go
+            faster decrease this number. The name is horrible, I know,
+            because I'm a shitty namer.</li>
+        </ul>
+        Try <a href="?durationSecs=180&tickMillis=100&warningAtSecs=120">these</a>
+        out
+      </div>
+    </div>      
+  </body>
+</html>

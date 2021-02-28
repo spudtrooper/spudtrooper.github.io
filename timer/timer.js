@@ -23,7 +23,7 @@ Controller.prototype.start = function() {
   }
   if (params.get('tickMillis')) {
     this.tickMillis_ = parseInt(params.get('tickMillis'));
-  }  
+  }
   this.state_ = State.READY;
   $('#toggle-btn').click(this.toggle.bind(this));
   $('#reset-btn').click(this.reset.bind(this));
@@ -71,34 +71,34 @@ Controller.prototype.render = function() {
   }
   let secs = this.millisLeft_ / 1000;
   let pad = function(n) {
-    return n<10 ? ('0' + n) : String(n);
+    let sign = Math.abs(n)<0 ? '-' : '';
+    return sign + (Math.abs(n)<10 ? ('0' + n) : n);
   }
-  let formatTime = function(secs) {
+  let formatTimeParts = function(secs) {
     let neg = secs<0;
     secs = Math.abs(secs);
     let hours   = Math.floor(secs / 3600);
     let mins = Math.floor((secs - (hours * 3600)) / 60);
     let seconds = secs - (hours * 3600) - (mins * 60);
-    let time = [mins, pad(seconds)].join(':');
-    if (neg) {
+    return {
+      neg: neg,
+      mins: mins,
+      secs: seconds,
+    };
+  }
+  let formatTime = function(secs) {
+    let parts = formatTimeParts(secs);
+    let time = [parts.mins, pad(parts.secs)].join(':');
+    if (parts.neg) {
       time = '-' + time;
     }
     return time;
   };
   $('#small').text(formatTime(secs));
-  let mins = Math.floor(this.millisLeft_ / 1000 / 60);
-  if (this.millisLeft_ > 0) {
-    $('#text').text('left');
-  } else {
-    $('#text').text('over');
-  }
-  if (this.state_ == State.RUNNING) {
-    $('#mins').text('<' + mins);
-  } else if (mins >= 0 && secs%60 != 0) {
-    $('#mins').text('<' + (mins + 1));
-  } else {
-    $('#mins').text(mins);
-  }
+  let time = formatTimeParts(secs > 0 ? secs + 14 : secs);
+  $('#neg').text(time.neg ? '-' : '');
+  $('#mins').text(time.mins);
+  $('#secs').text(pad(Math.floor(time.secs / 15) * 15));
   if (secs >= 0) {
     let percentRemaining = 100*this.millisLeft_ / (1000*this.durationSecs_);
     $('#progress-remaining').css('width', percentRemaining + '%');

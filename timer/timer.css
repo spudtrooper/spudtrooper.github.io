@@ -22,21 +22,24 @@ body {
 #large {
     text-align: center;
     width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    font-family: 'B612 Mono', monospace;
 }
 
-#large #mins {
+#large .rounded-time {
     font-weight: 700;
-    font-size: 45em;
+    font-size: 34em;
 }
 
 #state {
     font-size: 7em;
 }
 
-#large #m {
+#large .m {
     font-size: 10em;
+}
+
+#large #neg {
+    font-size: 25em;
 }
 
 #large #text {
@@ -80,7 +83,7 @@ body {
     text-align: left;
     width: 270px;
     position: absolute;
-    top: 70px;
+    top: 170px;
     right: 10px;
     font-size: .8em;
 }
