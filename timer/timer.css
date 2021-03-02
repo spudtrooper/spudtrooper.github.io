@@ -1,0 +1,123 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+.negative {
+    background-color: #9A031E;
+}
+
+.warning {
+    background-color: #F5F749;
+}
+
+.running {
+    /*    background-color: #0A8754; */
+}
+
+#large {
+    text-align: center;
+    width: 100%;
+    font-family: 'B612 Mono', monospace;
+}
+
+#large .rounded-time {
+    font-weight: 700;
+    font-size: 34em;
+}
+
+#update-msg {
+    font-size: 10em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#state {
+    font-size: 7em;
+}
+
+#large .m {
+    font-size: 10em;
+}
+
+#large #text {
+    font-size: 10em;
+    margin-left: 20px;
+}
+
+#small {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 7em;
+}
+
+#controls {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: right;
+    width: 400px;
+}
+
+#controls button {
+    font-size: 3em;
+}
+
+#progress {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: red;
+}
+
+.progress-height {
+    height: 36px;
+}
+
+#progress-remaining {
+    background-color: green;
+}
+
+#instructions {
+    text-align: left;
+    width: 670px;
+}
+
+.play {
+    background-image: url("media-play-8x.png");
+    background-repeat: no-repeat, repeat;
+    height: 64px;
+    width: 64px;
+}
+
+.pause {
+    background-image: url("media-pause-8x.png");
+    background-repeat: no-repeat, repeat;
+    height: 64px;
+    width: 64px;
+}
+
+.reset {
+    background-image: url("reload-8x.png");
+    background-repeat: no-repeat, repeat;
+    height: 64px;
+    width: 64px;
+}
+
+.info {
+    background-image: url("info-8x.png");
+    background-repeat: no-repeat, repeat;
+    height: 64px;
+    width: 64px;
+}
+
+.button-wrapper {
+    clear: none;
+    float: right;
+    padding-right: 30px;
+}
