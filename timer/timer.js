@@ -63,7 +63,7 @@ Controller.prototype.start = function() {
         {
           minSecs: 0 * 60,
           maxSecs: 2 * 60,
-          message: 'Warning',
+          message: '2 mins',
           backgroundColor: '#F5F749',
         },
         {
@@ -89,7 +89,7 @@ Controller.prototype.start = function() {
         {
           minSecs: 0 * 60,
           maxSecs: 2 * 60,
-          message: 'Warning',
+          message: '2 mins',
           backgroundColor: '#F5F749',
         },
         {
@@ -193,19 +193,21 @@ Controller.prototype.render = function() {
       let percentRemaining = 100*this.millisLeft_ / (1000*this.durationSecs_);
       $('#progress-remaining').css('width', percentRemaining + '%');
     }
-    for (let i=0; i<this.config_.spans.length; i++) {
-      let span = this.config_.spans[i];
-      if (span.minSecs < secs && secs <= span.maxSecs) {
-        if (span.message) {
-          $('#update-msg').text(span.message).show();
+    if (this.config_.spans) {
+      for (let i=0; i<this.config_.spans.length; i++) {
+        let span = this.config_.spans[i];
+        if (span.minSecs < secs && secs <= span.maxSecs) {
+          if (span.message) {
+            $('#update-msg').text(span.message).show();
+          }
+          if (span.backgroundColor) {
+            $('#container').css('background-color', span.backgroundColor);
+          }
+          continue;
         }
-        if (span.backgroundColor) {
-          $('#container').css('background-color', span.backgroundColor);
-        }
-        continue;
       }
     }
-    if (this.config_.remaining) {
+    if (secs >= 0 && this.config_.remaining) {
       for (let i=0; i<this.config_.remaining.length; i++) {
         let rem = this.config_.remaining[i];
         if (rem.minSecs < secs && secs <= rem.maxSecs) {
