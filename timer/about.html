@@ -9,6 +9,7 @@
       <div id="instructions">
         <h1><a href="index.html">timer</a></h1>
 
+        <h2>General</h2>
         <p>
           This is a very simple <a href="index.html">timer</a> aimed at
           using in meetings.
@@ -22,6 +23,10 @@
             <li>There is a progress bar at the top to visually let the
               speaker know of their progress.</li>
           </ul>
+        </p>
+
+        <h2>URL Parameters</h2>
+        <p>  
           You can control some of these values with URL params:
           <ul>
             <li><b>durationSecs</b> - total length of the timer in
@@ -35,7 +40,10 @@
             <li><b>progressBarHeight</b> - the height of the progress
               bar in pixels.</li>
           </ul>
-          Key shortcuts:
+        </p>
+
+        <h2>Key shortcuts</h2>
+        <p>
           <ul>
             <li><b>space</b> - toggle</li>
             <li><b>r</b> - reset</li>
@@ -43,6 +51,30 @@
           Try
           some <a href="index.html?durationSecs=180&tickMillis=100&warningAtSecs=120">custom
             attributes</a>
+        </p>
+
+        <h2>Config</h2>
+        <p>
+          You can specify a custom config with the <code>config</code>
+          parameter to define custom notices and background colors for
+          spans of time. See the examples
+          in <a href="timer.js">timer.js</a>, search for <code>Example
+            config</code>
+        </p>
+        <p>
+          Examples:
+          <ul>
+            <li>
+              <a href="index.html?d">index.html?d</a> - 10min long
+              with title "Discussion", last 2m background yellow,
+              <0m background red.
+            </li>
+            <li>
+              <a href="index.html?r">index.html?r</a> - 10min long,
+              first 4 titled "Reading", last 6m titled "Discussion",
+              last 2m background yellow, <0m background red.
+            </li>
+          </ul>
         </p>
       </div>
     </div>

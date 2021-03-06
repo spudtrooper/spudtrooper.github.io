@@ -35,6 +35,11 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+#update-left {
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
 #state {
     font-size: 7em;
 }

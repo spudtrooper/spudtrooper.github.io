@@ -13,6 +13,7 @@ Controller = function() {
   this.warningAtSecs_ = 60;
   this.hasIssuedWarning_ = false;
   this.hasIssuedFinished_ = false;
+  this.config_ = null;
 };
 
 Controller.prototype.start = function() {
@@ -25,6 +26,85 @@ Controller.prototype.start = function() {
   }
   if (params.get('tickMillis')) {
     this.tickMillis_ = parseInt(params.get('tickMillis'));
+  }
+  if (params.get('config')) {
+    this.config_ = JSON.parse(params.get('config'));
+  }
+  // Example config:
+  // - 10min long
+  // - The first 4 for "Reading"
+  // - The second 6m for "Discussion"
+  if (params.get('r') != null) {
+    this.config_ = {
+      durationSecs: 10 * 60,
+      remaining: [
+        {
+          minSecs: 6 * 60,
+          maxSecs: 10 * 60,
+        },
+        {
+          minSecs: 0 * 60,
+          maxSecs: 6 * 60,
+        },
+      ],
+      spans: [
+        {
+          minSecs: 6 * 60,
+          maxSecs: 10 * 60,
+          message: 'Reading',
+          backgroundColor: '#dfbcac',
+        },
+        {
+          minSecs: 2 * 60,
+          maxSecs: 6 * 60,
+          message: 'Discussion',
+          backgroundColor: '#fff',
+        },
+        {
+          minSecs: 0 * 60,
+          maxSecs: 2 * 60,
+          message: 'Warning',
+          backgroundColor: '#F5F749',
+        },
+        {
+          minSecs: -Infinity,
+          maxSecs: 0 * 60,
+          message: 'Over time', 
+          backgroundColor: '#9A031E',
+        },        
+      ],
+    };    
+  }
+  // Example config: 10min long for "Discussion"  
+  if (params.get('d') != null) {
+    this.config_ = {
+      durationSecs: 10 * 60,
+      spans: [
+        {
+          minSecs: 2 * 60,
+          maxSecs: 10 * 60,
+          message: 'Discussion',
+          backgroundColor: '#fff',
+        },
+        {
+          minSecs: 0 * 60,
+          maxSecs: 2 * 60,
+          message: 'Warning',
+          backgroundColor: '#F5F749',
+        },
+        {
+          minSecs: -Infinity,
+          maxSecs: 0 * 60,
+          message: 'Over time', 
+          backgroundColor: '#9A031E',
+        },        
+      ],
+    };    
+  }  
+  if (this.config_) {
+    if (this.config_.durationSecs) {
+      this.durationSecs_ = this.config_.durationSecs;
+    }
   }
   if (params.get('progressBarHeight')) {
     let progressBarHeight = parseInt(params.get('progressBarHeight'));
@@ -108,39 +188,71 @@ Controller.prototype.render = function() {
   let time = formatTimeParts(secs > 0 ? secs + 14 : secs);
   $('#mins').text(time.mins);
   $('#secs').text(pad(Math.floor(time.secs / 15) * 15));
-  if (secs >= 0) {
-    let percentRemaining = 100*this.millisLeft_ / (1000*this.durationSecs_);
-    $('#progress-remaining').css('width', percentRemaining + '%');
-    if (secs <= this.warningAtSecs_) {
-      $('#container')
-        .removeClass('running')
-        .removeClass('negative')
-        .addClass('warning');
-      if (!this.hasIssuedWarning_) {
-        this.hasIssuedWarning_ = true;
-        $('#update-msg').text('Warning!').fadeIn();
-        setTimeout(function() {
-          $('#update-msg').fadeOut();
-        }, 2000);
+  if (this.config_) {
+    if (secs >= 0) {
+      let percentRemaining = 100*this.millisLeft_ / (1000*this.durationSecs_);
+      $('#progress-remaining').css('width', percentRemaining + '%');
+    }
+    for (let i=0; i<this.config_.spans.length; i++) {
+      let span = this.config_.spans[i];
+      if (span.minSecs < secs && secs <= span.maxSecs) {
+        if (span.message) {
+          $('#update-msg').text(span.message).show();
+        }
+        if (span.backgroundColor) {
+          $('#container').css('background-color', span.backgroundColor);
+        }
+        continue;
+      }
+    }
+    if (this.config_.remaining) {
+      for (let i=0; i<this.config_.remaining.length; i++) {
+        let rem = this.config_.remaining[i];
+        if (rem.minSecs < secs && secs <= rem.maxSecs) {
+          let secsLeft = secs - rem.minSecs        
+          let timeLeft = formatTimeParts(secsLeft > 0 ? secsLeft + 14 : secsLeft);
+          $('#update-left').html(
+            '(<b>' + timeLeft.mins + '</b>m <b>' +
+              pad(Math.floor(timeLeft.secs / 15) * 15) + '</b>s)').show();
+          continue;
+        }
+      }
+    }
+  } else { 
+    if (secs >= 0) {
+      let percentRemaining = 100*this.millisLeft_ / (1000*this.durationSecs_);
+      $('#progress-remaining').css('width', percentRemaining + '%');
+      if (secs <= this.warningAtSecs_) {
+        $('#container')
+          .removeClass('running')
+          .removeClass('negative')
+          .addClass('warning');
+        if (!this.hasIssuedWarning_) {
+          this.hasIssuedWarning_ = true;
+          $('#update-msg').text('Warning!').fadeIn();
+          setTimeout(function() {
+            $('#update-msg').fadeOut();
+          }, 2000);
+        }
+      } else {
+        $('#container')
+          .removeClass('warning')
+          .removeClass('negative')
+          .addClass('running');
       }
     } else {
       $('#container')
         .removeClass('warning')
-        .removeClass('negative')
-        .addClass('running');
-    }
-  } else {
-    $('#container')
-      .removeClass('warning')
-      .removeClass('running')
-      .addClass('negative');
-    $('#percent-remaining').css('width', '0%');
-    if (!this.hasIssuedFinished_) {
-      this.hasIssuedFinished_ = true;
-      $('#update-msg').text('Oh no!').fadeIn();
-      setTimeout(function() {
-        $('#update-msg').fadeOut();
-      }, 2000);
+        .removeClass('running')
+        .addClass('negative');
+      $('#percent-remaining').css('width', '0%');
+      if (!this.hasIssuedFinished_) {
+        this.hasIssuedFinished_ = true;
+        $('#update-msg').text('Oh no!').fadeIn();
+        setTimeout(function() {
+          $('#update-msg').fadeOut();
+        }, 2000);
+      }
     }
   }
 };
