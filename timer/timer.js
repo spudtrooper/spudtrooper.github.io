@@ -4,6 +4,11 @@ State = {
   RUNNING: 'RUNNING',
 };
 
+Alerts = {
+  LARGE: 'large',
+  SMALL: 'small',
+};
+
 Controller = function() {
   this.state_ = null;
   this.durationSecs_ = 5 * 60;
@@ -14,7 +19,14 @@ Controller = function() {
   this.hasIssuedWarning_ = false;
   this.hasIssuedFinished_ = false;
   this.config_ = null;
+  this.alertQueue_ = null;
+  this.silent_ = false;
 };
+
+function playAudio(file) {
+  let audio = new Audio(file);
+  audio.play(); 
+}
 
 Controller.prototype.start = function() {
   let params = new URLSearchParams(document.location.search);
@@ -29,6 +41,9 @@ Controller.prototype.start = function() {
   }
   if (params.get('config')) {
     this.config_ = JSON.parse(params.get('config'));
+  }
+  if (params.get('silent') != null) {
+    this.silent_ = true;
   }
   // Example config:
   // - 10min long
@@ -46,6 +61,10 @@ Controller.prototype.start = function() {
           minSecs: 0 * 60,
           maxSecs: 6 * 60,
         },
+      ],
+      alerts : [
+        2*60,
+        6*60,
       ],
       spans: [
         {
@@ -79,6 +98,17 @@ Controller.prototype.start = function() {
   if (params.get('d') != null) {
     this.config_ = {
       durationSecs: 10 * 60,
+      remaining: [
+        {
+          minSecs: 0 * 60,
+          maxSecs: 10 * 60,
+          sound: true,
+          noMessage: true,
+        },
+      ],  
+      alerts : [
+        2*60,
+      ],
       spans: [
         {
           minSecs: 2 * 60,
@@ -133,6 +163,26 @@ Controller.prototype.tick = function() {
     this.millisLeft_ -= 1000;
   }
   this.render();
+  this.maybeAlert();
+};
+
+Controller.prototype.maybeAlert = function() {
+  if (this.silent_) {
+    return;
+  }
+  let rem = this.millisLeft_ / 1000;
+  for (let secs in this.alertQueue_) {
+    if (secs >= rem) {
+      let alert = this.alertQueue_[secs];
+      if (alert == Alerts.SMALL) {
+        playAudio('small-bell-ring-01a.mp3');
+      } else {
+        playAudio('bell-ringing-04.mp3');
+      }
+      delete this.alertQueue_[secs];
+      break;
+    }
+  }
 };
 
 Controller.prototype.reset = function() {
@@ -145,6 +195,17 @@ Controller.prototype.reset = function() {
   }
   this.hasIssuedWarning_ = false;
   this.hasIssuedFinished_ = false;
+  this.alertQueue_ = {};
+  if (this.config_) {
+    if (this.config_.alerts) {
+      $(this.config_.alerts).each(function(i, secs) {
+        this.alertQueue_[secs] = Alerts.SMALL;
+      }.bind(this));
+    }
+  } else {
+    this.alertQueue_[this.warningAtSecs_] = Alerts.SMALL;
+  }
+  this.alertQueue_[0] = Alerts.LARGE;
   this.render();
 };
 
@@ -210,7 +271,7 @@ Controller.prototype.render = function() {
     if (secs >= 0 && this.config_.remaining) {
       for (let i=0; i<this.config_.remaining.length; i++) {
         let rem = this.config_.remaining[i];
-        if (rem.minSecs < secs && secs <= rem.maxSecs) {
+        if (rem.minSecs < secs && secs <= rem.maxSecs && !rem.noMessage) {
           let secsLeft = secs - rem.minSecs        
           let timeLeft = formatTimeParts(secsLeft > 0 ? secsLeft + 14 : secsLeft);
           $('#update-left').html(
@@ -278,6 +339,7 @@ Controller.prototype.toggle = function() {
 
 $(document).ready(() => {
   let c = new Controller();
+  window.$controller = c;
   c.start();
   c.reset();
 });
