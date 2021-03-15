@@ -3,6 +3,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="timer.css">
+    <style>
+      table.simple-config tr {
+          vertical-align: top;
+      }
+      table.simple-config td {
+          min-width: 100px;
+      }      
+    </style>
   </head>
   <body>
     <div id="container">
@@ -25,6 +33,54 @@
           </ul>
         </p>
 
+        <h2>Canned configs</h2>
+        <p>
+          <table class="simple-config">
+            <tr>
+              <td>
+                <a href="index.html?d">index.html?d</a>
+              </td>
+              <td>
+                10min long with title "Discussion", last 2m background
+                yellow, &lt;0m background red.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="index.html?r">index.html?r</a>
+              </td>
+              <td>
+                10min long, first 4 titled "Reading", last 6m titled
+                "Discussion", last 2m background yellow, &lt;0m
+                background red.
+              </td>
+            </tr>
+          </table>
+        </p>
+        
+        <h2>Simple config</h2>
+        <p>
+          <form action="index.html">
+            <label for="durationSecs">Duration (s)</label>
+            <input type="text" name="durationSecs" value="300">
+            <br/>
+            <label for="warningAtSecs">Warning at (s)</label>
+            <input type="text" name="warningAtSecs" value="60">
+            <br/>
+            <label for="tickMillis">Ticks/secton (ms)</label>
+            <input type="text" name="tickMillis" value="1000">
+            <br/>
+            <label for="config">Config (JSON)</label>
+            <input type="text" name="config" value="">
+            <br/>
+            <label for="progressBarHeight">Progress bar height
+            (px)</label>
+            <input type="text" name="progressBarHeight" value="36">
+            <br/> <br/>
+            <input type="submit" value="Start">
+          </form>
+        </p>
+
         <h2>URL Parameters</h2>
         <p>  
           You can control some of these values with URL params:
@@ -39,9 +95,14 @@
               because I'm a shitty namer.</li>
             <li><b>progressBarHeight</b> - the height of the progress
               bar in pixels.</li>
+            <li><b>config</b> - a custom config in JSON to define
+              custom notices and background colors for spans of
+              time. See the examples
+              in <a href="timer.js">timer.js</a>, search
+              for <code>Example config</code>.</li>
           </ul>
         </p>
-
+        
         <h2>Key shortcuts</h2>
         <p>
           <ul>
@@ -50,32 +111,9 @@
           </ul>
           Try
           some <a href="index.html?durationSecs=180&tickMillis=100&warningAtSecs=120">custom
-            attributes</a>
+          attributes</a>
         </p>
 
-        <h2>Config</h2>
-        <p>
-          You can specify a custom config with the <code>config</code>
-          parameter to define custom notices and background colors for
-          spans of time. See the examples
-          in <a href="timer.js">timer.js</a>, search for <code>Example
-            config</code>
-        </p>
-        <p>
-          Examples:
-          <ul>
-            <li>
-              <a href="index.html?d">index.html?d</a> - 10min long
-              with title "Discussion", last 2m background yellow,
-              <0m background red.
-            </li>
-            <li>
-              <a href="index.html?r">index.html?r</a> - 10min long,
-              first 4 titled "Reading", last 6m titled "Discussion",
-              last 2m background yellow, <0m background red.
-            </li>
-          </ul>
-        </p>
       </div>
     </div>
   </body>
