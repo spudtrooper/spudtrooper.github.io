@@ -17,6 +17,10 @@ A really simple timer, e.g. for meetings.
 
 This is an app to keep track of the number of times my wife and I fart.
 
+## [rokuremote](/rokuremote)
+
+Simple roku remote, since you can't seem to customize the home screen.
+
 ## More
     
 [jeffpalm.com](http://jeffpalm.com)
