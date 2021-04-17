@@ -4,6 +4,7 @@ function initFavs() {
     'HBO Max',
     'Netflix',
     'Hulu',
+    'YouTube',
   ];
   let params = new URLSearchParams(location.search);
   let addr;
@@ -23,8 +24,14 @@ function initFavs() {
     let link = $('<a>').attr('href', '#');
     $(link).click(function() {
       let id = app.id;
+      let name = app.name;
       return function() {
-        r.press('/launch/' + id);
+        r.send('/launch/' + id);
+        if (name == 'YouTube') {
+          setTimeout(function() {
+            r.send('/keypress/Select');
+          }, 3000);
+        }
       }
     }());
     $(div).append(link);

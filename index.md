@@ -19,7 +19,7 @@ This is an app to keep track of the number of times my wife and I fart.
 
 ## [rokuremote](/rokuremote)
 
-Simple roku remote, since you can't seem to customize the home screen.
+http://roku-remote.herokuapp.com
 
 ## More
     
