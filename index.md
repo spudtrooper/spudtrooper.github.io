@@ -21,6 +21,10 @@ This is an app to keep track of the number of times my wife and I fart.
 
 http://roku-remote.herokuapp.com
 
+## [bookmarklets](/bookmarklets)
+
+Some random bookmarklets.
+
 ## More
     
 [jeffpalm.com](http://jeffpalm.com)
