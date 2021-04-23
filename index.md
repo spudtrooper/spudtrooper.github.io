@@ -17,10 +17,6 @@ A really simple timer, e.g. for meetings.
 
 This is an app to keep track of the number of times my wife and I fart.
 
-## [rokuremote](/rokuremote)
-
-http://roku-remote.herokuapp.com
-
 ## [bookmarklets](/bookmarklets)
 
 Some random bookmarklets.
