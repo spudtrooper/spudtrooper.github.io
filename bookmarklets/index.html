@@ -31,6 +31,11 @@
 				</li>
 		
 				<li>
+					<a href="javascript:(function(){function a(){let a=document.getElementsByTagName('a'),b=[];for(let c=0;c<a.length;c++){let d=a[c];d.href&&d.href.match(/^https?:\/\/instagram.com\/[a-zA-Z0-9_]+$/)&&b.push(d.href)}return b}function b(){let b=a(),c=parseInt(window.prompt('Number of results',30));for(let a=0;a<c;a++){let d=b[a],e=d.split('/')[d.split('/').length-1];window.open(d,'_'+e)}}b()})()">Twimmage Open All</a> (<a target="_" href="https://github.com/spudtrooper/bookmarklets/blob/main/js/open-all-twimmage.js">src</a>) - Open links from twimmage auto output
+					
+				</li>
+		
+				<li>
 					<a href="javascript:(function(){let b=document.getElementsByTagName('div'),c=0;for(var a=0;a<b.length;a++){let d=b[a];d.getAttribute('aria-label')&&d.getAttribute('aria-label').match(/.*\. Like$/)&&(d.style.backgroundColor='#00ff00',d.click(),c++)}window.scrollTo(0,document.body.scrollHeight),console.log('Liked '+c+' tweets')})()">Twitter Like All</a> (<a target="_" href="https://github.com/spudtrooper/bookmarklets/blob/main/js/twitter-like-all.js">src</a>) - Likes all the tweets on a twitter page, then scrolls to the bottom so you can resume.
 					
 				</li>
