@@ -125,11 +125,11 @@ This picture will be the src attribute of every page load, e.g.
 
 As it turns out you can set this value to any string, including the following:
 
-    http://some-domain.com/some-image.png"><script>**alert('hello')**</script>
+    http://some-domain.com/some-image.png"><script>alert('hello')</script>
 
 So that your profile picture would become the following:
 
-    <img src=”http://some-domain.com/some-image.png">**<script>alert('hello')</script>**
+    <img src=”http://some-domain.com/some-image.png"><script>alert('hello')</script>
 
 And “hello” would be alerted on every page load.
 
