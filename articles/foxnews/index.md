@@ -24,7 +24,7 @@ This example shows how, if you link your foxnews.com account to Facebook, you co
 
 	[http://www.foxnews.com/static/v/all/html/xdcomm.html#top;**alert(localStorage.janrainCaptureToken)**:](http://www.foxnews.com/static/v/all/html/xdcomm.html#top;alert%28localStorage.janrainCaptureToken%29:)
 
-If you’re logged into foxnews.com you will see some series of letters and numbers — your ***token***, otherwise you’ll see *undefined*.
+	If you’re logged into foxnews.com you will see some series of letters and numbers — your ***token***, otherwise you’ll see *undefined*.
 
 2. Find your facebook credentials using this ***token*** without logging in — i.e. try incognito mode:
 
