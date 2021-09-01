@@ -1,8 +1,8 @@
 # foxnews.com vulnerabilities
 
-* [#1: Accessing visitors’ facebook profiles](#head-1)
-* [#2: Posting comments on behalf of users](#head-2)
-* [#3: Changing your profile picture](#head-3)
+* [#1: Accessing visitors’ facebook profiles](#1-accessing-visitors-facebook-profiles)
+* [#2: Posting comments on behalf of users](#2-posting-comments-on-behalf-of-users)
+* [#3: Changing your profile picture](#3-changing-your-profile-picture)
 
 This is a series of three articles detailing vulnerabilities in foxnews.com that are patched up now. Before patching they would’ve given attackers full access to visitors’ facebook accounts, posting comments on their behalf, and (worst of all) changed your profile picture.
 
@@ -10,7 +10,6 @@ I notified foxnews of each when it was discovered but never heard back.
 
 These are posted for educational purposes.
 
-[](#head-1)
 ## #1: Accessing visitors’ facebook profiles
 
 A lot of websites have JS injection vulnerabilities and will run code embedded in URLs. This means if the website stores your data in cookies or *localStorage* thinking only you can access it, now this code can access it.
@@ -39,7 +38,6 @@ This will return a blob of JSON, in particular it has your Facebook ***uid*** an
 
 ** I informed foxnews.com of this; they didn’t respond after multiple days.
 
-[](#head-2)
 ## #2: Posting comments on behalf of users
 
 In this article we’ll see how you could change your foxnews.com profile picture so it posts random comments to articles. In short the steps are:
@@ -161,7 +159,6 @@ Then you’d get something like this on every page load. Useful huh?
 
 *** I’ve notified foxnews.com about this and haven’t heard back.
 
-[](#head-3)
 ## #3: Changing your profile picture
 
 This is a follow-on to [t](https://medium.com/front-end-hacking/js-injection-example-e07ff4959db9)he above article about JS injection in foxnews.com. That article pointed out that foxnews.com has a couple vulnerabilities:
