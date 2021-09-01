@@ -13,10 +13,6 @@ election. Now it shows how votes came in during the last days.
 
 A really simple timer, e.g. for meetings.
 
-## [fartcounter](/fartcounter)
-
-This is an app to keep track of the number of times my wife and I fart.
-
 ## [bookmarklets](/bookmarklets)
 
 Some random bookmarklets.
