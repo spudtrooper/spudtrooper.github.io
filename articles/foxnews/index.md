@@ -34,7 +34,7 @@ This example shows how, if you link your foxnews.com account to Facebook, you co
 
 3. Use these credentials to post a message on your Facebook wall, e.g.
 
-    $ curl — data ‘access_token=accessToken' https://graph.facebook.com/uid/feed?message=YourMessage
+    ```$ curl — data ‘access_token=accessToken' https://graph.facebook.com/uid/feed?message=YourMessage```
 
 ** I informed foxnews.com of this; they didn’t respond after multiple days.
 
