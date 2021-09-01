@@ -1,3 +1,3 @@
 # Articles
 
-* [foxnews](foxnews)
+* [foxnews vulnerabilities](foxnews)
