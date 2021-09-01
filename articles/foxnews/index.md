@@ -1,10 +1,10 @@
 # foxnews.com vulnerabilities
 
+This is a series of three articles detailing vulnerabilities in foxnews.com that are patched up now. Before patching they would’ve given attackers full access to visitors’ facebook accounts, posting comments on their behalf, and (worst of all) changed your profile picture.
+
 * [#1: Accessing visitors’ facebook profiles](#1-accessing-visitors-facebook-profiles)
 * [#2: Posting comments on behalf of users](#2-posting-comments-on-behalf-of-users)
 * [#3: Changing your profile picture](#3-changing-your-profile-picture)
-
-This is a series of three articles detailing vulnerabilities in foxnews.com that are patched up now. Before patching they would’ve given attackers full access to visitors’ facebook accounts, posting comments on their behalf, and (worst of all) changed your profile picture.
 
 I notified foxnews of each when it was discovered but never heard back.
 
