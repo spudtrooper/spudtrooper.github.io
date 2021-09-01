@@ -123,7 +123,7 @@ foxnews.com has disabled setting your profile picture from their website, but we
 
 This picture will be the src attribute of every page load, e.g.
 
-    <img src=”**http://some-domain.com/some-image.png" />**
+    <img src=”http://some-domain.com/some-image.png" />
 
 ### 3. Add some JS to your profile picture and every time you load a page, that injected JS runs
 
