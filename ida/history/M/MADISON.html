@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>Percentages: MADISON</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630578392462), 0.015961484677773783],
+				
+					[new Date(1630574672401), 0.015961484677773783],
+				
+					[new Date(1630570952441), 0.015921531024012146],
+				
+					[new Date(1630567472669), 0.015901554197131327],
+				
+					[new Date(1630563752630), 0.015901554197131327],
+				
+					[new Date(1630560152572), 0.01929761476687043],
+				
+					[new Date(1630556552376), 0.01929761476687043],
+				
+					[new Date(1630552832402), 0.0239721922569819],
+				
+					[new Date(1630549232662), 0.046226377402213435],
+				
+					[new Date(1630545152298), 0.05697391026409365],
+				
+					[new Date(1630541432367), 0.06750169803028487],
+				
+					[new Date(1630541312817), 0.06752167485716569],
+				
+					[new Date(1630539632490), 0.06516440928522914],
+				
+					[new Date(1630535792540), 0.010567741419952854],
+				
+					[new Date(1630532312265), 7.9907307523273e-05],
+				
+					[new Date(1630528712782), 7.9907307523273e-05],
+				
+					[new Date(1630524872272), 7.9907307523273e-05],
+				
+					[new Date(1630522472408), 9.988413440409126e-05],
+				
+					[new Date(1630518752597), 3.99536537616365e-05],
+				
+					[new Date(1630515032307), 5.9930480642454755e-05],
+				
+					[new Date(1630511552305), 5.9930480642454755e-05],
+				
+					[new Date(1630507832199), 1.997682688081825e-05],
+				
+					[new Date(1630452152331), 5.9930480642454755e-05],
+				
+					[new Date(1630448553711), 0.0003396060569739103],
+				
+					[new Date(1630444952185), 0.0009988413440409126],
+				
+					[new Date(1630444832210), 0.0010188181709217309],
+				
+					[new Date(1630437752068), 0.0024971033601022814],
+				
+					[new Date(1630424672300), 0.00559351152662911],
+				
+					[new Date(1630412913584), 0.003875504414878741],
+				
+					[new Date(1630412073354), 0.003875504414878741],
+				
+					[new Date(1630411953503), 0.003875504414878741],
+				
+					[new Date(1630411833298), 0.003875504414878741],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

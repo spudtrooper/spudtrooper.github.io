@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title>Entery Power After Ida</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">        
+        <script>
+            const SLEEP = 300;
+            IMAGES = [
+                "../../etrviewoutagedata/data/screenshots/1630462258.png",
+                "../../etrviewoutagedata/data/screenshots/1630462223.png",
+                "../../etrviewoutagedata/data/screenshots/1630461949.png",
+                "../../etrviewoutagedata/data/screenshots/1630452185.png",
+                "../../etrviewoutagedata/data/screenshots/1630448560.png",
+                "../../etrviewoutagedata/data/screenshots/1630444936.png",
+                "../../etrviewoutagedata/data/screenshots/1630444871.png",
+                "../../etrviewoutagedata/data/screenshots/1630437789.png",
+                "../../etrviewoutagedata/data/screenshots/1630424699.png",
+                "../../etrviewoutagedata/data/screenshots/1630412961.png",
+                "../../etrviewoutagedata/data/screenshots/1630412117.png",
+                "../../etrviewoutagedata/data/screenshots/1630411953.png",
+            ];
+            
+            IMAGES = [
+                "../screenshots/1630465902.png",
+                "../screenshots/1630489506.png",
+                "../screenshots/1630493668.png",
+                "../screenshots/1630496945.png",
+                "../screenshots/1630500596.png",
+                "../screenshots/1630504245.png",
+                "../screenshots/1630507885.png",
+                "../screenshots/1630511533.png",
+                "../screenshots/1630515181.png",
+                "../screenshots/1630518829.png",
+                "../screenshots/1630522471.png",
+                "../screenshots/1630525045.png",
+                "../screenshots/1630528685.png",
+                "../screenshots/1630532329.png",
+                "../screenshots/1630535976.png",
+                "../screenshots/1630539623.png",
+                "../screenshots/1630541390.png",
+                "../screenshots/1630541582.png",
+                "../screenshots/1630545226.png",
+                "../screenshots/1630549275.png",
+                "../screenshots/1630552914.png",
+                "../screenshots/1630556550.png",
+                "../screenshots/1630560184.png",
+                "../screenshots/1630563820.png",
+                "../screenshots/1630567456.png",
+                "../screenshots/1630571097.png",
+                "../screenshots/1630574732.png",
+                "../screenshots/1630578367.png",
+                
+            ];
+            
+            let State = function(images) {
+                this.images_ = images;
+                this.cur_ = 0;
+            }
+            State.prototype.back = function() {
+                let cur = this.cur_;
+                if (this.cur_ > 0) {
+                    this.cur_--;
+                }
+                return this.img_ = this.images_[cur];
+            };
+            State.prototype.img = function() {
+                return this.images_[this.cur_];
+            }
+            State.prototype.next = function() {
+                let cur = this.cur_;
+                if (this.cur_ < this.images_.length - 1) {
+                    this.cur_++;
+                }
+                return this.images_[cur];
+            };
+            State.prototype.reset = function() {
+                this.cur_ = 0;
+            };
+            State.prototype.length = function() {
+                return this.images_.length;
+            };
+            State.prototype.current = function() {
+                return this.cur_;
+            };            
+            State.prototype.hasNext = function() {
+                return this.cur_ < this.images_.length - 1
+            };
+
+            let state = new State(IMAGES);
+            let stopRequested = false;
+            let isPlaying = false;
+
+            function render() {
+                let img = state.img();
+                $('#num').text(state.current());
+                $('#play-img').attr('src', img);
+                let millis = parseInt(img.split('/')[img.split('/').length-1].replace('.png', ''))*1000;
+                let date = new Date(millis);
+                $('#date').text(String(date));
+                let progress = 100 * (state.current() / state.length());
+                $( "#progressbar" ).progressbar({value: progress});
+                if (isPlaying) {
+                    $('#back-btn').prop('disabled', true);
+                    $('#next-btn').prop('disabled', true);
+                    $('#play-btn').hide();
+                    $('#stop-btn').show();
+                } else {
+                    $('#back-btn').prop('disabled', false);
+                    $('#next-btn').prop('disabled', false);
+                    $('#play-btn').show();
+                    $('#stop-btn').hide();
+                }
+            }
+            function play() {
+                isPlaying = true;
+                render();
+                let next = () => {
+                    if (stopRequested) {
+                        stopRequested = false;
+                        isPlaying = false;
+                        return false;
+                    } 
+                    if (!state.hasNext()) {
+                        isPlaying = false;
+                        return false;
+                    }
+                    state.next();
+                    return true;
+                };
+                let loop = () => {
+                    let recur = next();
+                    render();
+                    if (recur) setTimeout(loop, SLEEP);
+                };
+                loop();
+            }
+            function reset() {
+                state.reset();
+                $('#num').text(state.current() + 1);
+                $('#den').text(state.length());
+                $( "#progressbar" ).progressbar({value: 0});                
+            }
+            function back() {
+               state.back();
+               render();
+            }
+            function next() {
+               state.next();
+               render();
+            }
+            function stop() {
+                stopRequested = true;
+                $('#play-btn').show();
+                $('#stop-btn').hide();
+                $('#back-btn').prop('disabled', false);
+                $('#next-btn').prop('disabled', false);
+            }
+            function init() {
+                $('#reset-btn').click(reset);
+                $('#back-btn').click(back);
+                $('#next-btn').click(next);
+                $('#play-btn').click(play);
+                $('#stop-btn').click(stop);
+                $('#play-img').attr('src', IMAGES[0]);
+                $( "#progressbar" ).progressbar({value: 0});   
+                $('#num').text(0);
+                $('#den').text(IMAGES.length);
+            }
+            $(document).ready(init);
+        </script>   
+        <style>
+            #play-img {
+                width: 100%;
+                height: 100%;
+            }
+            #progressbar {
+                width: 400px;
+            }
+        </style> 
+    </head>
+    <body>
+        <div>
+            <button id="reset-btn">Reset</button> <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn" style="display:none">Stop</button><button id="next-btn">Next</button> (<span id="num"></span> / <span id="den"></span>)
+            <span id="date"></span>
+            <div id="progressbar"></div>
+        </div>
+        <div id="play-main">
+            <img id="play-img"></img>
+        </div>
+    </body>
+</html>

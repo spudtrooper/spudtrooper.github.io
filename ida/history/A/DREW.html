@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Percentages: DREW</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630560152572), 0.00013374348000534973],
+				
+					[new Date(1630556552376), 0.00013374348000534973],
+				
+					[new Date(1630552832402), 0.00013374348000534973],
+				
+					[new Date(1630549232662), 0.00013374348000534973],
+				
+					[new Date(1630545152298), 0.0006687174000267487],
+				
+					[new Date(1630444952185), 0.00013374348000534973],
+				
+					[new Date(1630444832210), 0.00013374348000534973],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

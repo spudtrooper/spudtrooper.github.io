@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>Percentages: CLARK</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630578392462), 0.005191434133679429],
+				
+					[new Date(1630574672401), 0.005191434133679429],
+				
+					[new Date(1630571072480), 0.005191434133679429],
+				
+					[new Date(1630567352604), 0.005191434133679429],
+				
+					[new Date(1630563632531), 0.005191434133679429],
+				
+					[new Date(1630560152572), 0.005191434133679429],
+				
+					[new Date(1630556552376), 0.005191434133679429],
+				
+					[new Date(1630552832402), 0.005191434133679429],
+				
+					[new Date(1630549232662), 0.005191434133679429],
+				
+					[new Date(1630545152298), 0.005191434133679429],
+				
+					[new Date(1630541552288), 0.005191434133679429],
+				
+					[new Date(1630541432367), 0.005191434133679429],
+				
+					[new Date(1630539632490), 0.005191434133679429],
+				
+					[new Date(1630535912415), 0.005191434133679429],
+				
+					[new Date(1630532312265), 0.002465931213497729],
+				
+					[new Date(1630515032307), 0.00025957170668397143],
+				
+					[new Date(1630507832199), 0.00012978585334198572],
+				
+					[new Date(1630504232307), 0.00012978585334198572],
+				
+					[new Date(1630500632205), 0.00012978585334198572],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

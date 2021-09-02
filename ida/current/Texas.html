@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>All Percentages: Texas</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'bar']});
+			google.charts.setOnLoadCallback(drawMultSeries);
+			
+			function drawMultSeries() {
+				var data = google.visualization.arrayToDataTable([
+					['Parish', 'Percentage Affected'],
+					
+						['ROBERTSON', 0.00028514399771884804],
+					
+						['TRINITY', 0.00016173378618793466],
+					
+						['OTHER', 1],
+					
+						['HARDIN', 3.849559225468684e-05],
+					
+						['JEFFERSON', 8.505932888189513e-06],
+					
+						['LIBERTY', 3.6060726263026935e-05],
+					
+						['SAN JACINTO', 0.0009832841691248771],
+					
+						['ORANGE', 0.00024308425300209052],
+					
+						['MADISON', 0.002363558229480017],
+					
+						['BURLESON', 0.18908748824082786],
+					
+						['CHAMBERS', 0.00025265285497726126],
+					
+						['GALVESTON', 0.00017406440382941688],
+					
+						['TYLER', 0.00014492753623188405],
+					
+						['MONTGOMERY', 6.0233706782315383e-05],
+					
+						['WALKER', 4.783315794508753e-05],
+					
+						['GRIMES', 0.00011412919424788861],
+					
+				]);
+			
+				var options = {
+					title: 'Population of Largest U.S. Cities',
+					chartArea: {width: '50%', height: '100%'},
+					hAxis: {
+					title: 'All Percentages: Texas',
+					minValue: 0
+					},
+					vAxis: {
+					title: 'City'
+					}
+				};
+			
+				var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

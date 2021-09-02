@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Percentages: INDEPENDENCE</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630578392462), 0.0002022346933616462],
+				
+					[new Date(1630574672401), 0.0002022346933616462],
+				
+					[new Date(1630571072480), 0.0002022346933616462],
+				
+					[new Date(1630524992781), 0.014004752515293999],
+				
+					[new Date(1630522472408), 0.014004752515293999],
+				
+					[new Date(1630518752597), 5.055867334041155e-05],
+				
+					[new Date(1630515032307), 5.055867334041155e-05],
+				
+					[new Date(1630452152331), 5.055867334041155e-05],
+				
+					[new Date(1630448432130), 0.0001011173466808231],
+				
+					[new Date(1630437752068), 5.055867334041155e-05],
+				
+					[new Date(1630424672300), 0.004196369887254158],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

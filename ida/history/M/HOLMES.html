@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title>Percentages: HOLMES</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630578392462), 0.08225641025641026],
+				
+					[new Date(1630574672401), 0.08225641025641026],
+				
+					[new Date(1630570952441), 0.08225641025641026],
+				
+					[new Date(1630567472669), 0.08225641025641026],
+				
+					[new Date(1630563752630), 0.08225641025641026],
+				
+					[new Date(1630560152572), 0.08225641025641026],
+				
+					[new Date(1630556552376), 0.10194871794871795],
+				
+					[new Date(1630552832402), 0.10194871794871795],
+				
+					[new Date(1630549232662), 0.1078974358974359],
+				
+					[new Date(1630545152298), 0.10625641025641025],
+				
+					[new Date(1630541432367), 0.10625641025641025],
+				
+					[new Date(1630541312817), 0.10625641025641025],
+				
+					[new Date(1630539632490), 0.10605128205128204],
+				
+					[new Date(1630535792540), 0.16738461538461538],
+				
+					[new Date(1630532312265), 0.0008205128205128205],
+				
+					[new Date(1630437752068), 0.006358974358974359],
+				
+					[new Date(1630424672300), 0.025025641025641025],
+				
+					[new Date(1630412913584), 0.02358974358974359],
+				
+					[new Date(1630412073354), 0.02358974358974359],
+				
+					[new Date(1630411953503), 0.02358974358974359],
+				
+					[new Date(1630411833298), 0.02358974358974359],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>
