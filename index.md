@@ -17,6 +17,10 @@ A really simple timer, e.g. for meetings.
 
 Some random bookmarklets.
 
+## [ida](/ida)
+
+Some information for people affected by Hurricane Ida.
+
 ## More
     
 [jeffpalm.com](http://jeffpalm.com)
