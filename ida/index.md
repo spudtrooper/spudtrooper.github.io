@@ -7,10 +7,10 @@ periodically updated time lapse of power being restored (click Play):
 And parish-by-parish time-trended graphs of percent affected, to see
 how quickly power is being restored in your area:
 
-	* [Louisiana](html/history/L/)
-    * [Mississippi](html/history/M/)
-    * [Texas](html/history/T/)
-	* [Alabama](html/history/A/)
+* [Louisiana](html/history/L/)
+* [Mississippi](html/history/M/)
+* [Texas](html/history/T/)
+* [Alabama](html/history/A/)
 
 Update frequency is contingent on Stella not kicking over my laptop,
 which is right next to her basket of balls.
