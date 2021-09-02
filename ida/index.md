@@ -1,5 +1,16 @@
-For those affected by Ida in New Orleans, here's a sort of periodically updated time lapse of power being restored (click Play): https://spudtrooper.github.io/ida/html/animate.html
+# Ida
 
-And parish-by-parish time-trended graphs of percent affected, to see how quickly power is being restored in your area: https://spudtrooper.github.io/ida/html/history/L/
+For those affected by Ida in New Orleans, here's a sort of
+periodically updated time lapse of power being restored (click Play):
+[animate](html/animate.html)
 
-Update frequency is contingent on Stella not kicking over my laptop, which is right next to her basket of balls.
+And parish-by-parish time-trended graphs of percent affected, to see
+how quickly power is being restored in your area:
+
+	* [Louisiana](html/history/L/)
+    * [Mississippi](html/history/M/)
+    * [Texas](html/history/T/)
+	* [Alabama](html/history/A/)
+
+Update frequency is contingent on Stella not kicking over my laptop,
+which is right next to her basket of balls.
