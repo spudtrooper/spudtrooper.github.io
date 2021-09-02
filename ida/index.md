@@ -11,6 +11,3 @@ how quickly power is being restored in your area:
 * [Mississippi](html/history/M/)
 * [Texas](html/history/T/)
 * [Alabama](html/history/A/)
-
-Update frequency is contingent on Stella not kicking over my laptop,
-which is right next to her basket of balls.
