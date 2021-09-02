@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Percentages: POLK</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630599512491), 0.0008230452674897119],
+				
+					[new Date(1630595912562), 0.0008230452674897119],
+				
+					[new Date(1630592312424), 0.0008230452674897119],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>
