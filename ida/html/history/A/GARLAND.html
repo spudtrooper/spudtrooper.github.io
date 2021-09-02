@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Percentages: GARLAND</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630587272491), 0.016762262658227847],
+				
+					[new Date(1630585472445), 0.016646888185654008],
+				
+					[new Date(1630581992531), 0.01517998417721519],
+				
+					[new Date(1630578392462), 0.015163502109704642],
+				
+					[new Date(1630574672401), 0.015163502109704642],
+				
+					[new Date(1630571072480), 0.015163502109704642],
+				
+					[new Date(1630567352604), 0.015130537974683545],
+				
+					[new Date(1630563632531), 0.015130537974683545],
+				
+					[new Date(1630560152572), 0.01485034282700422],
+				
+					[new Date(1630556552376), 0.014800896624472573],
+				
+					[new Date(1630552832402), 0.018262130801687763],
+				
+					[new Date(1630549232662), 0.018492879746835444],
+				
+					[new Date(1630545152298), 0.02109704641350211],
+				
+					[new Date(1630541552288), 0.026750395569620253],
+				
+					[new Date(1630541432367), 0.024591244725738398],
+				
+					[new Date(1630539632490), 0.030425896624472575],
+				
+					[new Date(1630535912415), 0.030524789029535863],
+				
+					[new Date(1630532312265), 0.01127373417721519],
+				
+					[new Date(1630528592297), 0.004532568565400844],
+				
+					[new Date(1630524992781), 0.0018954377637130802],
+				
+					[new Date(1630507832199), 3.2964135021097044e-05],
+				
+					[new Date(1630444952185), 1.6482067510548522e-05],
+				
+					[new Date(1630444832210), 1.6482067510548522e-05],
+				
+					[new Date(1630437752068), 0.00013185654008438817],
+				
+					[new Date(1630424672300), 0.0021261867088607595],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

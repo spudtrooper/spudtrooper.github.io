@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Percentages: WINN</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630587272491), 0.0008415737428992215],
+				
+					[new Date(1630587272491), 0.0008415737428992215],
+				
+					[new Date(1630585472445), 0.0008415737428992215],
+				
+					[new Date(1630585592507), 0.0008415737428992215],
+				
+					[new Date(1630581992531), 0.0008415737428992215],
+				
+					[new Date(1630581992531), 0.0008415737428992215],
+				
+					[new Date(1630578392462), 0.00021039343572480537],
+				
+					[new Date(1630578392462), 0.00021039343572480537],
+				
+					[new Date(1630524872272), 0.0018935409215232485],
+				
+					[new Date(1630524872272), 0.0018935409215232485],
+				
+					[new Date(1630465832400), 0.0006311803071744162],
+				
+					[new Date(1630465712452), 0.0006311803071744162],
+				
+					[new Date(1630462232129), 0.00021039343572480537],
+				
+					[new Date(1630462232129), 0.00021039343572480537],
+				
+					[new Date(1630462232129), 0.00021039343572480537],
+				
+					[new Date(1630462232129), 0.00021039343572480537],
+				
+					[new Date(1630461872207), 0.00021039343572480537],
+				
+					[new Date(1630461872207), 0.00021039343572480537],
+				
+					[new Date(1630437752068), 0.00021039343572480537],
+				
+					[new Date(1630437752068), 0.00021039343572480537],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

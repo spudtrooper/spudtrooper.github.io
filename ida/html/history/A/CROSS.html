@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Percentages: CROSS</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630587272491), 0.0006034092623321768],
+				
+					[new Date(1630585472445), 0.0006034092623321768],
+				
+					[new Date(1630581992531), 0.0001508523155830442],
+				
+					[new Date(1630571072480), 0.008900286619399608],
+				
+					[new Date(1630567352604), 0.008900286619399608],
+				
+					[new Date(1630535912415), 0.0001508523155830442],
+				
+					[new Date(1630532312265), 0.0001508523155830442],
+				
+					[new Date(1630507832199), 0.0012068185246643535],
+				
+					[new Date(1630504232307), 0.0001508523155830442],
+				
+					[new Date(1630424672300), 0.0004525569467491326],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

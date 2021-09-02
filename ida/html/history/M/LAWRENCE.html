@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Percentages: LAWRENCE</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630532312265), 0.002086230876216968],
+				
+					[new Date(1630528712782), 0.002086230876216968],
+				
+					[new Date(1630511552305), 0.0006954102920723226],
+				
+					[new Date(1630507832199), 0.0006954102920723226],
+				
+					[new Date(1630452152331), 0.0006954102920723226],
+				
+					[new Date(1630448553711), 0.01808066759388039],
+				
+					[new Date(1630444952185), 0.01808066759388039],
+				
+					[new Date(1630444832210), 0.01808066759388039],
+				
+					[new Date(1630437752068), 0.011126564673157162],
+				
+					[new Date(1630424672300), 0.009040333796940195],
+				
+					[new Date(1630412913584), 0.09248956884561892],
+				
+					[new Date(1630412073354), 0.09248956884561892],
+				
+					[new Date(1630411953503), 0.09248956884561892],
+				
+					[new Date(1630411833298), 0.09248956884561892],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

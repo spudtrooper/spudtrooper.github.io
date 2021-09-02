@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<title>All Percentages: Arkansas</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'bar']});
+			google.charts.setOnLoadCallback(drawMultSeries);
+			
+			function drawMultSeries() {
+				var data = google.visualization.arrayToDataTable([
+					['Parish', 'Percentage Affected'],
+					
+						['CRAIGHEAD', 0.0029239766081871343],
+					
+						['LONOKE', 6.622078008078935e-05],
+					
+						['CLARK', 0.00012978585334198572],
+					
+						['INDEPENDENCE', 0.004196369887254158],
+					
+						['WHITE', 0.000332025354663447],
+					
+						['CRITTENDEN', 0.0014866204162537165],
+					
+						['FULTON', 0.0011376564277588168],
+					
+						['MISSISSIPPI', 0.0018256812495773885],
+					
+						['SHARP', 0.0011665586519766689],
+					
+						['GARLAND', 0.0021261867088607595],
+					
+						['DREW', 0.00013374348000534973],
+					
+						['BOONE', 9.584052137243626e-05],
+					
+						['DALLAS', 0.00026925148088314486],
+					
+						['OUACHITA', 0.00010948105977665864],
+					
+						['CHICOT', 0.0006864595846919513],
+					
+						['BRADLEY', 0.00023391812865497077],
+					
+						['CONWAY', 0.0008511543781253325],
+					
+						['FAULKNER', 3.7837224261228196e-05],
+					
+						['HEMPSTEAD', 0.27547169811320754],
+					
+						['ST. FRANCIS', 0.0006016123210203345],
+					
+						['PRAIRIE', 0.0009573958831977022],
+					
+						['WOODRUFF', 0.0004510599909788002],
+					
+						['HOT SPRING', 6.245316012990258e-05],
+					
+						['STONE', 0.0007252508159071679],
+					
+						['PHILLIPS', 0.00021222410865874363],
+					
+						['POPE', 6.679580522343197e-05],
+					
+						['LAWRENCE', 0.00017962996227770793],
+					
+						['LINCOLN', 0.023952095808383235],
+					
+						['UNION', 4.215496163898491e-05],
+					
+						['IZARD', 0.00026925148088314486],
+					
+						['PULASKI', 6.5349653320089135e-06],
+					
+						['ARKANSAS', 0.0001867936863734006],
+					
+						['ASHLEY', 0.00011239743733842868],
+					
+						['MARION', 9.612611746611554e-05],
+					
+						['MONTGOMERY', 0.0029346003353828954],
+					
+						['NEVADA', 0.00042158516020236085],
+					
+						['COLUMBIA', 0.0008621365310761031],
+					
+						['CROSS', 0.0004525569467491326],
+					
+						['YELL', 0.00027102719306170385],
+					
+						['OTHER', 1],
+					
+						['POINSETT', 0.0001120699316373417],
+					
+						['GRANT', 0.00017307026652821047],
+					
+						['DESHA', 0.0009635458487233017],
+					
+						['LEE', 0.000297441998810232],
+					
+						['CLEVELAND', 0.0035971223021582736],
+					
+						['CARROLL', 0.0002477700693756194],
+					
+						['MONROE', 0.00023691068467187872],
+					
+						['SALINE', 0.008667836136621608],
+					
+						['CALHOUN', 0.2512998266897747],
+					
+						['JEFFERSON', 3.0453451898772727e-05],
+					
+				]);
+			
+				var options = {
+					title: 'Population of Largest U.S. Cities',
+					chartArea: {width: '50%', height: '100%'},
+					hAxis: {
+					title: 'All Percentages: Arkansas',
+					minValue: 0
+					},
+					vAxis: {
+					title: 'City'
+					}
+				};
+			
+				var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

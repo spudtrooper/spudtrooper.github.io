@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>All Percentages: Mississippi</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'bar']});
+			google.charts.setOnLoadCallback(drawMultSeries);
+			
+			function drawMultSeries() {
+				var data = google.visualization.arrayToDataTable([
+					['Parish', 'Percentage Affected'],
+					
+						['OTHER', 1],
+					
+						['WILKINSON', 0.513915857605178],
+					
+						['CARROLL', 0.028146989835809225],
+					
+						['CHOCTAW', 0.5735294117647058],
+					
+						['CLAIBORNE', 0.00546448087431694],
+					
+						['PANOLA', 0.048887859128822986],
+					
+						['COPIAH', 0.21375204296054168],
+					
+						['DESOTO', 1.8049238322142805e-05],
+					
+						['BOLIVAR', 0.008534633848967462],
+					
+						['LEFLORE', 0.0007564296520423601],
+					
+						['RANKIN', 0.01907368246465149],
+					
+						['JEFFERSON DAVIS', 0.10090361445783133],
+					
+						['WASHINGTON', 0.04966679240538162],
+					
+						['QUITMAN', 0.029791459781529295],
+					
+						['AMITE', 0.685921625544267],
+					
+						['ATTALA', 0.007009776793949456],
+					
+						['LAWRENCE', 0.09248956884561892],
+					
+						['COAHOMA', 0.011482607227288078],
+					
+						['MONTGOMERY', 0.0005374899220639613],
+					
+						['SCOTT', 0.14303482587064675],
+					
+						['MADISON', 0.003875504414878741],
+					
+						['TALLAHATCHIE', 0.008433734939759036],
+					
+						['YAZOO', 0.0015037593984962407],
+					
+						['SMITH', 0.23779385171790235],
+					
+						['FRANKLIN', 0.3206766917293233],
+					
+						['WARREN', 0.006228086362797564],
+					
+						['HINDS', 0.029709211499986298],
+					
+						['SIMPSON', 0.17829031667581915],
+					
+						['PIKE', 0.5802770986145069],
+					
+						['HUMPHREYS', 0.002680965147453083],
+					
+						['GRENADA', 0.0004664179104477612],
+					
+						['SUNFLOWER', 0.03810729910200322],
+					
+						['TUNICA', 0.000562271577171774],
+					
+						['ADAMS', 0.02700825010855406],
+					
+						['TATE', 0.003589375448671931],
+					
+						['JEFFERSON', 0.02389572773352643],
+					
+						['HOLMES', 0.02358974358974359],
+					
+						['LINCOLN', 0.25453922576224736],
+					
+						['WALTHALL', 0.32224770642201833],
+					
+						['SHARKEY', 0.0005089058524173028],
+					
+						['LEAKE', 0.07010931021485112],
+					
+				]);
+			
+				var options = {
+					title: 'Population of Largest U.S. Cities',
+					chartArea: {width: '50%', height: '100%'},
+					hAxis: {
+					title: 'All Percentages: Mississippi',
+					minValue: 0
+					},
+					vAxis: {
+					title: 'City'
+					}
+				};
+			
+				var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

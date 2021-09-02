@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>Percentages: JEFFERSON</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630585592507), 7.655339599370561e-05],
+				
+					[new Date(1630581992531), 7.655339599370561e-05],
+				
+					[new Date(1630578392462), 9.356526177008463e-05],
+				
+					[new Date(1630574672401), 1.7011865776379025e-05],
+				
+					[new Date(1630570952441), 0.0001360949262110322],
+				
+					[new Date(1630567352604), 0.0030196061753072767],
+				
+					[new Date(1630563752630), 0.0030196061753072767],
+				
+					[new Date(1630560152572), 0.003062135839748224],
+				
+					[new Date(1630556552376), 0.003062135839748224],
+				
+					[new Date(1630552832402), 0.00029770765108663293],
+				
+					[new Date(1630549232662), 1.7011865776379025e-05],
+				
+					[new Date(1630545152298), 8.505932888189513e-06],
+				
+					[new Date(1630541432367), 1.7011865776379025e-05],
+				
+					[new Date(1630541432367), 1.7011865776379025e-05],
+				
+					[new Date(1630539512366), 1.7011865776379025e-05],
+				
+					[new Date(1630532312265), 8.505932888189513e-06],
+				
+					[new Date(1630528592297), 4.252966444094756e-05],
+				
+					[new Date(1630524872272), 8.505932888189512e-05],
+				
+					[new Date(1630522472408), 0.003223748564623825],
+				
+					[new Date(1630518752597), 1.7011865776379025e-05],
+				
+					[new Date(1630515032307), 1.7011865776379025e-05],
+				
+					[new Date(1630511552305), 0.0007400161612724876],
+				
+					[new Date(1630507832199), 0.001097265342576447],
+				
+					[new Date(1630504232307), 0.0007995576914898142],
+				
+					[new Date(1630500632205), 0.0008335814230425722],
+				
+					[new Date(1630496912419), 0.0006634627652787819],
+				
+					[new Date(1630493691924), 0.0013269255305575639],
+				
+					[new Date(1630489472435), 0.006226342874154723],
+				
+					[new Date(1630465832400), 0.0004082847786330966],
+				
+					[new Date(1630462232129), 0.0009781822821417938],
+				
+					[new Date(1630462232129), 0.0009781822821417938],
+				
+					[new Date(1630461872207), 0.0009696763492536044],
+				
+					[new Date(1630452152331), 0.008208225237102879],
+				
+					[new Date(1630448432130), 0.010071024539616382],
+				
+					[new Date(1630444952185), 0.0021520010207119467],
+				
+					[new Date(1630444832210), 0.0017607281078552291],
+				
+					[new Date(1630437752068), 5.9541530217326585e-05],
+				
+					[new Date(1630424672300), 8.505932888189513e-06],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

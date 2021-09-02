@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Percentages: TRINITY</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630511552305), 0.0017790716480672812],
+				
+					[new Date(1630507832199), 0.0017790716480672812],
+				
+					[new Date(1630504232307), 0.0017790716480672812],
+				
+					[new Date(1630437752068), 0.0025877405790069546],
+				
+					[new Date(1630412913584), 0.00016173378618793466],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>

@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Percentages: CLEVELAND</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {
+		
+			  var data = new google.visualization.DataTable();
+			  data.addColumn('date', 'X');
+			  data.addColumn('number', 'Percentage Affected');
+		
+			  data.addRows([
+				
+					[new Date(1630587272491), 0.0035971223021582736],
+				
+					[new Date(1630585472445), 0.0035971223021582736],
+				
+					[new Date(1630581992531), 0.0035971223021582736],
+				
+					[new Date(1630578392462), 0.0035971223021582736],
+				
+					[new Date(1630574672401), 0.0035971223021582736],
+				
+					[new Date(1630571072480), 0.0035971223021582736],
+				
+					[new Date(1630567352604), 0.0035971223021582736],
+				
+					[new Date(1630563632531), 0.0035971223021582736],
+				
+					[new Date(1630560152572), 0.0035971223021582736],
+				
+					[new Date(1630556552376), 0.0035971223021582736],
+				
+					[new Date(1630552832402), 0.0035971223021582736],
+				
+					[new Date(1630549232662), 0.0035971223021582736],
+				
+					[new Date(1630545152298), 0.0035971223021582736],
+				
+					[new Date(1630541552288), 0.0035971223021582736],
+				
+					[new Date(1630541432367), 0.0035971223021582736],
+				
+			  ]);
+		
+			  var options = {
+				hAxis: {
+				  title: 'Time'
+				},
+				vAxis: {
+				  title: 'Percentage Affected'
+				}
+			  };
+		
+			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+		
+			  chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+	</body>
