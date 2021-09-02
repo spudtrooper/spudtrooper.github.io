@@ -6,82 +6,163 @@
 			google.charts.load('current', {packages: ['corechart', 'line']});
 			google.charts.setOnLoadCallback(drawBasic);
 			
-			function drawBasic() {
-		
-			  var data = new google.visualization.DataTable();
-			  data.addColumn('date', 'X');
-			  data.addColumn('number', 'Percentage Affected');
-		
-			  data.addRows([
-				
-					[new Date(1630603112351), 0.00015240417587441895],
-				
-					[new Date(1630599512491), 7.620208793720948e-05],
-				
-					[new Date(1630595912562), 0.00022860626381162843],
-				
-					[new Date(1630552832402), 7.620208793720948e-05],
-				
-					[new Date(1630549232662), 7.620208793720948e-05],
-				
-					[new Date(1630545152298), 7.620208793720948e-05],
-				
-					[new Date(1630535792540), 0.0009144250552465137],
-				
-					[new Date(1630532312265), 0.0009906271431837233],
-				
-					[new Date(1630528712782), 0.0010668292311209328],
-				
-					[new Date(1630524872272), 0.0009906271431837233],
-				
-					[new Date(1630522472408), 0.0010668292311209328],
-				
-					[new Date(1630518752597), 0.0011430313190581422],
-				
-					[new Date(1630515032307), 0.0010668292311209328],
-				
-					[new Date(1630511552305), 0.0009906271431837233],
-				
-					[new Date(1630507832199), 0.00015240417587441895],
-				
-					[new Date(1630504232307), 7.620208793720948e-05],
-				
-					[new Date(1630444952185), 0.004495923188295359],
-				
-					[new Date(1630444832210), 0.004495923188295359],
-				
-					[new Date(1630437752068), 0.004114912748609312],
-				
-					[new Date(1630424672300), 0.006019964947039549],
-				
-					[new Date(1630412913584), 0.008534633848967462],
-				
-					[new Date(1630412073354), 0.008534633848967462],
-				
-					[new Date(1630411953503), 0.008534633848967462],
-				
-					[new Date(1630411833298), 0.008534633848967462],
-				
-			  ]);
-		
-			  var options = {
-				hAxis: {
-				  title: 'Time'
-				},
-				vAxis: {
-				  title: 'Percentage Affected'
-				}
-			  };
-		
-			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-		
-			  chart.draw(data, options);
+			function drawBasic() {		
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Percentage Affected');
+			
+				data.addRows([
+					
+						[new Date(1630605512585), 0.00015240417587441895],
+					
+						[new Date(1630604912793), 0.00015240417587441895],
+					
+						[new Date(1630603112351), 0.00015240417587441895],
+					
+						[new Date(1630599512491), 7.620208793720948e-05],
+					
+						[new Date(1630595912562), 0.00022860626381162843],
+					
+						[new Date(1630552832402), 7.620208793720948e-05],
+					
+						[new Date(1630549232662), 7.620208793720948e-05],
+					
+						[new Date(1630545152298), 7.620208793720948e-05],
+					
+						[new Date(1630535792540), 0.0009144250552465137],
+					
+						[new Date(1630532312265), 0.0009906271431837233],
+					
+						[new Date(1630528712782), 0.0010668292311209328],
+					
+						[new Date(1630524872272), 0.0009906271431837233],
+					
+						[new Date(1630522472408), 0.0010668292311209328],
+					
+						[new Date(1630518752597), 0.0011430313190581422],
+					
+						[new Date(1630515032307), 0.0010668292311209328],
+					
+						[new Date(1630511552305), 0.0009906271431837233],
+					
+						[new Date(1630507832199), 0.00015240417587441895],
+					
+						[new Date(1630504232307), 7.620208793720948e-05],
+					
+						[new Date(1630444952185), 0.004495923188295359],
+					
+						[new Date(1630444832210), 0.004495923188295359],
+					
+						[new Date(1630437752068), 0.004114912748609312],
+					
+						[new Date(1630424672300), 0.006019964947039549],
+					
+						[new Date(1630412913584), 0.008534633848967462],
+					
+						[new Date(1630412073354), 0.008534633848967462],
+					
+						[new Date(1630411953503), 0.008534633848967462],
+					
+						[new Date(1630411833298), 0.008534633848967462],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Percentage Affected'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+			
+				chart.draw(data, options);
+			  }
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Affected');
+				data.addColumn('number', 'Total');
+			
+				data.addRows([
+					
+						[new Date(1630605512585), 2, 13123],
+					
+						[new Date(1630604912793), 2, 13123],
+					
+						[new Date(1630603112351), 2, 13123],
+					
+						[new Date(1630599512491), 1, 13123],
+					
+						[new Date(1630595912562), 3, 13123],
+					
+						[new Date(1630552832402), 1, 13123],
+					
+						[new Date(1630549232662), 1, 13123],
+					
+						[new Date(1630545152298), 1, 13123],
+					
+						[new Date(1630535792540), 12, 13123],
+					
+						[new Date(1630532312265), 13, 13123],
+					
+						[new Date(1630528712782), 14, 13123],
+					
+						[new Date(1630524872272), 13, 13123],
+					
+						[new Date(1630522472408), 14, 13123],
+					
+						[new Date(1630518752597), 15, 13123],
+					
+						[new Date(1630515032307), 14, 13123],
+					
+						[new Date(1630511552305), 13, 13123],
+					
+						[new Date(1630507832199), 2, 13123],
+					
+						[new Date(1630504232307), 1, 13123],
+					
+						[new Date(1630444952185), 59, 13123],
+					
+						[new Date(1630444832210), 59, 13123],
+					
+						[new Date(1630437752068), 54, 13123],
+					
+						[new Date(1630424672300), 79, 13123],
+					
+						[new Date(1630412913584), 112, 13123],
+					
+						[new Date(1630412073354), 112, 13123],
+					
+						[new Date(1630411953503), 112, 13123],
+					
+						[new Date(1630411833298), 112, 13123],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Population'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div_totals'));
+			
+				chart.draw(data, options);
+			  }
 			}
 		</script>
 	</head>
 	<body>
 		<div id="chart_div"></div>
+		<div id="chart_div_totals"></div>
 		<div>
-			Last updated: <em>2021-09-02 13:48:51</em>
+			Last updated: <em>2021-09-02 14:01:03</em>
 		</div>
 	</body>

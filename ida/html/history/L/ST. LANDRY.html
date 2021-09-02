@@ -6,74 +6,155 @@
 			google.charts.load('current', {packages: ['corechart', 'line']});
 			google.charts.setOnLoadCallback(drawBasic);
 			
-			function drawBasic() {
-		
-			  var data = new google.visualization.DataTable();
-			  data.addColumn('date', 'X');
-			  data.addColumn('number', 'Percentage Affected');
-		
-			  data.addRows([
-				
-					[new Date(1630603112351), 9.398496240601504e-05],
-				
-					[new Date(1630603112351), 9.398496240601504e-05],
-				
-					[new Date(1630599512491), 9.398496240601504e-05],
-				
-					[new Date(1630599512491), 9.398496240601504e-05],
-				
-					[new Date(1630595912562), 9.398496240601504e-05],
-				
-					[new Date(1630595912562), 9.398496240601504e-05],
-				
-					[new Date(1630535912415), 0.005827067669172932],
-				
-					[new Date(1630535912415), 0.005827067669172932],
-				
-					[new Date(1630532312265), 0.0059210526315789476],
-				
-					[new Date(1630532312265), 0.0059210526315789476],
-				
-					[new Date(1630528712782), 0.007894736842105263],
-				
-					[new Date(1630528592297), 0.007894736842105263],
-				
-					[new Date(1630524872272), 0.001973684210526316],
-				
-					[new Date(1630524872272), 0.001973684210526316],
-				
-					[new Date(1630522472408), 0.001973684210526316],
-				
-					[new Date(1630522472408), 0.001973684210526316],
-				
-					[new Date(1630452032077), 0.0009398496240601503],
-				
-					[new Date(1630452152331), 0.0009398496240601503],
-				
-					[new Date(1630448553711), 0.0008458646616541353],
-				
-					[new Date(1630448432130), 0.0008458646616541353],
-				
-			  ]);
-		
-			  var options = {
-				hAxis: {
-				  title: 'Time'
-				},
-				vAxis: {
-				  title: 'Percentage Affected'
-				}
-			  };
-		
-			  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-		
-			  chart.draw(data, options);
+			function drawBasic() {		
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Percentage Affected');
+			
+				data.addRows([
+					
+						[new Date(1630605512585), 9.398496240601504e-05],
+					
+						[new Date(1630605512585), 9.398496240601504e-05],
+					
+						[new Date(1630604792428), 9.398496240601504e-05],
+					
+						[new Date(1630604792428), 9.398496240601504e-05],
+					
+						[new Date(1630603112351), 9.398496240601504e-05],
+					
+						[new Date(1630603112351), 9.398496240601504e-05],
+					
+						[new Date(1630599512491), 9.398496240601504e-05],
+					
+						[new Date(1630599512491), 9.398496240601504e-05],
+					
+						[new Date(1630595912562), 9.398496240601504e-05],
+					
+						[new Date(1630595912562), 9.398496240601504e-05],
+					
+						[new Date(1630535912415), 0.005827067669172932],
+					
+						[new Date(1630535912415), 0.005827067669172932],
+					
+						[new Date(1630532312265), 0.0059210526315789476],
+					
+						[new Date(1630532312265), 0.0059210526315789476],
+					
+						[new Date(1630528712782), 0.007894736842105263],
+					
+						[new Date(1630528592297), 0.007894736842105263],
+					
+						[new Date(1630524872272), 0.001973684210526316],
+					
+						[new Date(1630524872272), 0.001973684210526316],
+					
+						[new Date(1630522472408), 0.001973684210526316],
+					
+						[new Date(1630522472408), 0.001973684210526316],
+					
+						[new Date(1630452032077), 0.0009398496240601503],
+					
+						[new Date(1630452152331), 0.0009398496240601503],
+					
+						[new Date(1630448553711), 0.0008458646616541353],
+					
+						[new Date(1630448432130), 0.0008458646616541353],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Percentage Affected'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+			
+				chart.draw(data, options);
+			  }
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Affected');
+				data.addColumn('number', 'Total');
+			
+				data.addRows([
+					
+						[new Date(1630605512585), 1, 10640],
+					
+						[new Date(1630605512585), 1, 10640],
+					
+						[new Date(1630604792428), 1, 10640],
+					
+						[new Date(1630604792428), 1, 10640],
+					
+						[new Date(1630603112351), 1, 10640],
+					
+						[new Date(1630603112351), 1, 10640],
+					
+						[new Date(1630599512491), 1, 10640],
+					
+						[new Date(1630599512491), 1, 10640],
+					
+						[new Date(1630595912562), 1, 10640],
+					
+						[new Date(1630595912562), 1, 10640],
+					
+						[new Date(1630535912415), 62, 10640],
+					
+						[new Date(1630535912415), 62, 10640],
+					
+						[new Date(1630532312265), 63, 10640],
+					
+						[new Date(1630532312265), 63, 10640],
+					
+						[new Date(1630528712782), 84, 10640],
+					
+						[new Date(1630528592297), 84, 10640],
+					
+						[new Date(1630524872272), 21, 10640],
+					
+						[new Date(1630524872272), 21, 10640],
+					
+						[new Date(1630522472408), 21, 10640],
+					
+						[new Date(1630522472408), 21, 10640],
+					
+						[new Date(1630452032077), 10, 10640],
+					
+						[new Date(1630452152331), 10, 10640],
+					
+						[new Date(1630448553711), 9, 10640],
+					
+						[new Date(1630448432130), 9, 10640],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Population'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div_totals'));
+			
+				chart.draw(data, options);
+			  }
 			}
 		</script>
 	</head>
 	<body>
 		<div id="chart_div"></div>
+		<div id="chart_div_totals"></div>
 		<div>
-			Last updated: <em>2021-09-02 13:48:51</em>
+			Last updated: <em>2021-09-02 14:01:03</em>
 		</div>
 	</body>
