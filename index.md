@@ -15,11 +15,15 @@ A really simple timer, e.g. for meetings.
 
 ## [bookmarklets](/bookmarklets)
 
-Some random bookmarklets.
+Collection of bookmarklets.
 
 ## [ida](/ida)
 
-Some information for people affected by Hurricane Ida.
+Information for people affected by Hurricane Ida.
+
+## [articles](/articles)
+
+Articles I've written.
 
 ## More
     
