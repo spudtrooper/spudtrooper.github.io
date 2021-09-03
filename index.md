@@ -21,6 +21,10 @@ Some random bookmarklets.
 
 Some information for people affected by Hurricane Ida.
 
+## [articles](/articles)
+
+Some articles I've written.
+
 ## More
     
 [jeffpalm.com](http://jeffpalm.com)
