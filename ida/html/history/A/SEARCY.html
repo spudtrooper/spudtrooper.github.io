@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Percentages: SEARCY</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {		
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Percentage Affected');
+			
+				data.addRows([
+					
+						[new Date(1630683032764), 0.000847816871555744],
+					
+						[new Date(1630679432754), 0.000847816871555744],
+					
+						[new Date(1630675712741), 0.000847816871555744],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Percentage Affected'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+			
+				chart.draw(data, options);
+			  }
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Affected');
+				data.addColumn('number', 'Total');
+			
+				data.addRows([
+					
+						[new Date(1630683032764), 2, 2359],
+					
+						[new Date(1630679432754), 2, 2359],
+					
+						[new Date(1630675712741), 2, 2359],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Population'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div_totals'));
+			
+				chart.draw(data, options);
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+		<div id="chart_div_totals"></div>
+		<div>
+			Last updated: <em>2021-09-03 12:30:14</em>
+		</div>
+	</body>
