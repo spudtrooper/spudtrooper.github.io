@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Percentages: LAFAYETTE</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {		
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Percentage Affected');
+			
+				data.addRows([
+					
+						[new Date(1630690232751), 0.0004170141784820684],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Percentage Affected'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+			
+				chart.draw(data, options);
+			  }
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Affected');
+				data.addColumn('number', 'Total');
+			
+				data.addRows([
+					
+						[new Date(1630690232751), 1, 2398],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Population'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div_totals'));
+			
+				chart.draw(data, options);
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+		<div id="chart_div_totals"></div>
+		<div>
+			Last updated: <em>2021-09-03 14:03:37</em>
+		</div>
+	</body>
