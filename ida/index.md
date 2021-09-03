@@ -1,6 +1,6 @@
 # Ida
 
-Some information from [entergy.com](https://www.entergy.com/) For those affected by Ida.
+Some information from [entergy.com](https://www.entergy.com/) for those affected by Ida.
 
 * An [animation](html/animate.html) showing power being restored in
   New Orleans... essentially a time lapse of this
