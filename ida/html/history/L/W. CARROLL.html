@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title>Percentages: W. CARROLL</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {		
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Percentage Affected');
+			
+				data.addRows([
+					
+						[new Date(1630773992742), 0.00039032006245121],
+					
+						[new Date(1630773992742), 0.00039032006245121],
+					
+						[new Date(1630775672800), 0.00039032006245121],
+					
+						[new Date(1630775792711), 0.00039032006245121],
+					
+						[new Date(1630777592660), 0.00039032006245121],
+					
+						[new Date(1630777712992), 0.00039032006245121],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Percentage Affected'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+			
+				chart.draw(data, options);
+			  }
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Affected');
+				data.addColumn('number', 'Total');
+			
+				data.addRows([
+					
+						[new Date(1630773992742), 1, 2562],
+					
+						[new Date(1630773992742), 1, 2562],
+					
+						[new Date(1630775672800), 1, 2562],
+					
+						[new Date(1630775792711), 1, 2562],
+					
+						[new Date(1630777592660), 1, 2562],
+					
+						[new Date(1630777712992), 1, 2562],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Population'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div_totals'));
+			
+				chart.draw(data, options);
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+		<div id="chart_div_totals"></div>
+		<div>
+			Last updated: <em>2021-09-04 17:55:26</em>
+		</div>
+	</body>
