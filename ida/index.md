@@ -11,4 +11,4 @@ Some information from [entergy.com](https://www.entergy.com/) for those affected
   * [Louisiana](html/history/L/)
   * [Mississippi](html/history/M/)
   * [Texas](html/history/T/)
-  * [Alabama](html/history/A/)
+  * [Arkansas](html/history/A/)
