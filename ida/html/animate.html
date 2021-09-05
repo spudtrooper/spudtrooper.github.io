@@ -121,6 +121,7 @@
                 "../screenshots/1630845675.png",
                 "../screenshots/1630847514.png",
                 "../screenshots/1630849219.png",
+                "../screenshots/1630851063.png",
                 
             ];
             
@@ -241,10 +242,51 @@
                 let hash = location.hash || '#';
                 let hashValues = hash.substring(1);
                 let params = new URLSearchParams(hashValues);
-                let speed = params.get('speed') || 200;
+                let speed = params.get('speed') || 300;
                 $('#speed').val(speed);
-            }            
+            }     
+            function preloadImages(images) {
+                $('#loaded-images').text(0);
+                $('#total-images').text(images.length);
+                let imageStates = {};
+                $(images).each((_, src) => {
+                    imageStates[src] = false;
+                });
+                let checkReady = () => {
+                    let numLoaded = 0;
+                    for (let src in imageStates) {
+                        if (imageStates[src]) {
+                            numLoaded++;
+                        } else {
+                            console.log('waiting ' + src);
+                        }
+                    }
+                    $('#loaded-images').text(numLoaded);
+                    if (numLoaded == images.length) {
+                        $('#play-btn').prop('disabled', false);
+                        $('#image-progress').fadeOut();
+                    }
+                };
+                $(images).each(function(i, src){
+                    let img = $('<img>');
+                    img.one('load', function() {
+                        console.log('loaded ' + src);
+                        imageStates[src] = true;
+                    }).each(function() {
+                        if(this.complete) {
+                            imageStates[src] = true;
+                            console.log('already loaded ' + src);
+                            checkReady();
+                        }
+                    });                    
+                    img.attr('src', this);
+                });
+            }                   
             function init() {
+                $('#next-btn').prop('disabled', true);                
+                $('#back-btn').prop('disabled', true);                
+                $('#play-btn').prop('disabled', true);                
+                preloadImages(IMAGES);
                 $('#reset-btn').click(reset);
                 $('#back-btn').click(back);
                 $('#next-btn').click(next);
@@ -272,7 +314,9 @@
     <body>
         <div>
             <button id="reset-btn">Reset</button>
-            <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn" style="display:none">Stop</button><button id="next-btn">Next</button><select id="speed"><option value="100">Fast</option><option value="200">Medium</option><option value="500">Slow</option></select>(<span id="num"></span> / <span id="den"></span>)
+            <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn" style="display:none">Stop</button><button id="next-btn">Next</button><select id="speed"><option value="200">Fast</option><option value="300">Medium</option><option value="500">Slow</option></select>
+            (<span id="num"></span> / <span id="den"></span>)
+            <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span> images</span>
             <span id="date"></span>
             <div id="progressbar"></div>
         </div>
