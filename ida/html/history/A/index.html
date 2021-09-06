@@ -1,605 +1,625 @@
 <html>
 			<head>
+				<link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+				<link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css">
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+				<script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>			
+				<script src="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"></script>
+				<style>
+					.headhead {
+						background: #003399;
+						color: #fff;
+					}				
+				</style>
+				<script>
+					$(document).ready(function () {
+						$('.sortable').bootstrapTable('refreshOptions', {
+							sortable: true,
+						});
+					});
+				</script>				
 			</head>
 			<body>
-				<h1>Arkansas</h1>
-				<div>
-					<a href="../../../">ida</a>
+				<div class="container-fluid">			
+					<h1>Arkansas</h1>
+					<div>
+						<a href="../../../">home</a>
+					</div>
+					<div style="margin-bottom: 10px">
+						Last updated: <em>2021-09-05 20:18:37</em>
+					</div>
+					<table border=0 style="border: none; width:100%; height:100%">
+						<tr>
+							<td style="vertical-align:top; width:600px; overflow:auto">
+								<table data-toggle="table" class="sortable table table-striped table-bordered table-sm">
+									<thead>
+										<tr class="headhead">
+											<th data-sortable="true">Parish</th>
+											<th data-sortable="true">Total</th>
+											<th data-sortable="true">Affected</th>
+											<th data-sortable="true">% Affected</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='ARKANSAS.html';void(0);">ARKANSAS</a>
+													<a href="ARKANSAS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">10731</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='ASHLEY.html';void(0);">ASHLEY</a>
+													<a href="ASHLEY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">8889</td>
+												<td scope="col">29</td>
+												<td scope="col">0.3%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='BAXTER.html';void(0);">BAXTER</a>
+													<a href="BAXTER.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">7570</td>
+												<td scope="col">5</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='BOONE.html';void(0);">BOONE</a>
+													<a href="BOONE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">20884</td>
+												<td scope="col">29</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='BRADLEY.html';void(0);">BRADLEY</a>
+													<a href="BRADLEY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">4281</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CALHOUN.html';void(0);">CALHOUN</a>
+													<a href="CALHOUN.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">578</td>
+												<td scope="col">121</td>
+												<td scope="col">20.9%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CARROLL.html';void(0);">CARROLL</a>
+													<a href="CARROLL.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">4041</td>
+												<td scope="col">3</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CHICOT.html';void(0);">CHICOT</a>
+													<a href="CHICOT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">5820</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CLARK.html';void(0);">CLARK</a>
+													<a href="CLARK.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">7707</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CLAY.html';void(0);">CLAY</a>
+													<a href="CLAY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">3115</td>
+												<td scope="col">9</td>
+												<td scope="col">0.3%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CLEBURNE.html';void(0);">CLEBURNE</a>
+													<a href="CLEBURNE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">4409</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CLEVELAND.html';void(0);">CLEVELAND</a>
+													<a href="CLEVELAND.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">1390</td>
+												<td scope="col">5</td>
+												<td scope="col">0.4%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='COLUMBIA.html';void(0);">COLUMBIA</a>
+													<a href="COLUMBIA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">12762</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CONWAY.html';void(0);">CONWAY</a>
+													<a href="CONWAY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">9408</td>
+												<td scope="col">38</td>
+												<td scope="col">0.4%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CRAIGHEAD.html';void(0);">CRAIGHEAD</a>
+													<a href="CRAIGHEAD.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">5472</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CRITTENDEN.html';void(0);">CRITTENDEN</a>
+													<a href="CRITTENDEN.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">12100</td>
+												<td scope="col">21</td>
+												<td scope="col">0.2%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='CROSS.html';void(0);">CROSS</a>
+													<a href="CROSS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">6643</td>
+												<td scope="col">51</td>
+												<td scope="col">0.8%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='DALLAS.html';void(0);">DALLAS</a>
+													<a href="DALLAS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">3720</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='DESHA.html';void(0);">DESHA</a>
+													<a href="DESHA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">6220</td>
+												<td scope="col">3</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='DREW.html';void(0);">DREW</a>
+													<a href="DREW.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">7483</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='FAULKNER.html';void(0);">FAULKNER</a>
+													<a href="FAULKNER.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">26442</td>
+												<td scope="col">2</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='FULTON.html';void(0);">FULTON</a>
+													<a href="FULTON.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">877</td>
+												<td scope="col">2</td>
+												<td scope="col">0.2%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='GARLAND.html';void(0);">GARLAND</a>
+													<a href="GARLAND.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">60698</td>
+												<td scope="col">44</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='GRANT.html';void(0);">GRANT</a>
+													<a href="GRANT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">5786</td>
+												<td scope="col">3</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='HEMPSTEAD.html';void(0);">HEMPSTEAD</a>
+													<a href="HEMPSTEAD.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">796</td>
+												<td scope="col">1</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='HOT SPRING.html';void(0);">HOT SPRING</a>
+													<a href="HOT SPRING.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">16021</td>
+												<td scope="col">2</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='INDEPENDENCE.html';void(0);">INDEPENDENCE</a>
+													<a href="INDEPENDENCE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">19829</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='IZARD.html';void(0);">IZARD</a>
+													<a href="IZARD.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">3714</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='JEFFERSON.html';void(0);">JEFFERSON</a>
+													<a href="JEFFERSON.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">32857</td>
+												<td scope="col">12</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='LAFAYETTE.html';void(0);">LAFAYETTE</a>
+													<a href="LAFAYETTE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">2398</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='LAWRENCE.html';void(0);">LAWRENCE</a>
+													<a href="LAWRENCE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">5567</td>
+												<td scope="col">6</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='LEE.html';void(0);">LEE</a>
+													<a href="LEE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">3351</td>
+												<td scope="col">12</td>
+												<td scope="col">0.4%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='LINCOLN.html';void(0);">LINCOLN</a>
+													<a href="LINCOLN.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">836</td>
+												<td scope="col">1</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='LONOKE.html';void(0);">LONOKE</a>
+													<a href="LONOKE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">15091</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='MARION.html';void(0);">MARION</a>
+													<a href="MARION.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">10409</td>
+												<td scope="col">17</td>
+												<td scope="col">0.2%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='MISSISSIPPI.html';void(0);">MISSISSIPPI</a>
+													<a href="MISSISSIPPI.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">14814</td>
+												<td scope="col">5</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='MONROE.html';void(0);">MONROE</a>
+													<a href="MONROE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">4217</td>
+												<td scope="col">3</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='MONTGOMERY.html';void(0);">MONTGOMERY</a>
+													<a href="MONTGOMERY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">7168</td>
+												<td scope="col">111</td>
+												<td scope="col">1.5%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='NEVADA.html';void(0);">NEVADA</a>
+													<a href="NEVADA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">2372</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='OTHER.html';void(0);">OTHER</a>
+													<a href="OTHER.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">14</td>
+												<td scope="col">14</td>
+												<td scope="col">100.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='OUACHITA.html';void(0);">OUACHITA</a>
+													<a href="OUACHITA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">9137</td>
+												<td scope="col">54</td>
+												<td scope="col">0.6%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='PHILLIPS.html';void(0);">PHILLIPS</a>
+													<a href="PHILLIPS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">9435</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='PIKE.html';void(0);">PIKE</a>
+													<a href="PIKE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">2481</td>
+												<td scope="col">7</td>
+												<td scope="col">0.3%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='POINSETT.html';void(0);">POINSETT</a>
+													<a href="POINSETT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">8923</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='POPE.html';void(0);">POPE</a>
+													<a href="POPE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">29954</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='PRAIRIE.html';void(0);">PRAIRIE</a>
+													<a href="PRAIRIE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">6261</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='PULASKI.html';void(0);">PULASKI</a>
+													<a href="PULASKI.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">153068</td>
+												<td scope="col">358</td>
+												<td scope="col">0.2%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='SALINE.html';void(0);">SALINE</a>
+													<a href="SALINE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">19375</td>
+												<td scope="col">384</td>
+												<td scope="col">2.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='SCOTT.html';void(0);">SCOTT</a>
+													<a href="SCOTT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">294</td>
+												<td scope="col">1</td>
+												<td scope="col">0.3%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='SEARCY.html';void(0);">SEARCY</a>
+													<a href="SEARCY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">2359</td>
+												<td scope="col">2</td>
+												<td scope="col">0.1%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='SHARP.html';void(0);">SHARP</a>
+													<a href="SHARP.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">7716</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='ST. FRANCIS.html';void(0);">ST. FRANCIS</a>
+													<a href="ST. FRANCIS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">8321</td>
+												<td scope="col">2</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='STONE.html';void(0);">STONE</a>
+													<a href="STONE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">8277</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='UNION.html';void(0);">UNION</a>
+													<a href="UNION.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">23732</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='WHITE.html';void(0);">WHITE</a>
+													<a href="WHITE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">33157</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='WOODRUFF.html';void(0);">WOODRUFF</a>
+													<a href="WOODRUFF.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">2217</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+											<tr> 
+												<td scope="col" style="width: 250px">
+													<a href="javascript:document.getElementById('main').src='YELL.html';void(0);">YELL</a>
+													<a href="YELL.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
+												</td>
+												<td scope="col">11072</td>
+												<td scope="col">1</td>
+												<td scope="col">0.0%</td>
+											</tr>
+										
+									</tbody>
+								</table>
+							</td>
+							<td style="vertical-align:top; overflow:auto">
+								<iframe id="main" src="" style="border: none; width:100%; height:100%"></iframe>
+							</td>
+						</tr>
+					</table>
 				</div>
-				<div>
-					Last updated: <em>2021-09-05 16:00:14</em> (Parish names open inline; <img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="> opens in a new window)
-				</div>
-				<table border=0 style="border: none; width:100%; height:100%">
-					<tr>
-						<td style="vertical-align:top; width:600px; overflow:auto">
-							<table>
-								<thead>
-									<tr>
-										<td>Parish</td>
-										<td>Total</td>
-										<td>Affected</td>
-										<td>% Affected</td>
-									</tr>
-								</thead>
-								<tbody>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='YELL.html';void(0);">YELL</a>
-												<a href="YELL.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>11072</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='WOODRUFF.html';void(0);">WOODRUFF</a>
-												<a href="WOODRUFF.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>2217</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='WHITE.html';void(0);">WHITE</a>
-												<a href="WHITE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>33157</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='UNION.html';void(0);">UNION</a>
-												<a href="UNION.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>23732</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='STONE.html';void(0);">STONE</a>
-												<a href="STONE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>8277</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='ST. FRANCIS.html';void(0);">ST. FRANCIS</a>
-												<a href="ST. FRANCIS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>8321</td>
-											<td>2</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='SHARP.html';void(0);">SHARP</a>
-												<a href="SHARP.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>7716</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='SEARCY.html';void(0);">SEARCY</a>
-												<a href="SEARCY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>2359</td>
-											<td>2</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='SCOTT.html';void(0);">SCOTT</a>
-												<a href="SCOTT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>294</td>
-											<td>1</td>
-											<td>0.3%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='SALINE.html';void(0);">SALINE</a>
-												<a href="SALINE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>19382</td>
-											<td>2</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='PULASKI.html';void(0);">PULASKI</a>
-												<a href="PULASKI.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>153068</td>
-											<td>47</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='PRAIRIE.html';void(0);">PRAIRIE</a>
-												<a href="PRAIRIE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>6261</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='POPE.html';void(0);">POPE</a>
-												<a href="POPE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>29954</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='POINSETT.html';void(0);">POINSETT</a>
-												<a href="POINSETT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>8923</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='PIKE.html';void(0);">PIKE</a>
-												<a href="PIKE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>2481</td>
-											<td>7</td>
-											<td>0.3%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='PHILLIPS.html';void(0);">PHILLIPS</a>
-												<a href="PHILLIPS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>9435</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='OUACHITA.html';void(0);">OUACHITA</a>
-												<a href="OUACHITA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>9137</td>
-											<td>54</td>
-											<td>0.6%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='OTHER.html';void(0);">OTHER</a>
-												<a href="OTHER.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>5</td>
-											<td>5</td>
-											<td>100.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='NEVADA.html';void(0);">NEVADA</a>
-												<a href="NEVADA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>2372</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='MONTGOMERY.html';void(0);">MONTGOMERY</a>
-												<a href="MONTGOMERY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>7168</td>
-											<td>84</td>
-											<td>1.2%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='MONROE.html';void(0);">MONROE</a>
-												<a href="MONROE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>4217</td>
-											<td>3</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='MISSISSIPPI.html';void(0);">MISSISSIPPI</a>
-												<a href="MISSISSIPPI.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>14814</td>
-											<td>6</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='MARION.html';void(0);">MARION</a>
-												<a href="MARION.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>10409</td>
-											<td>17</td>
-											<td>0.2%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='LONOKE.html';void(0);">LONOKE</a>
-												<a href="LONOKE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>15091</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='LINCOLN.html';void(0);">LINCOLN</a>
-												<a href="LINCOLN.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>836</td>
-											<td>4</td>
-											<td>0.5%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='LEE.html';void(0);">LEE</a>
-												<a href="LEE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>3351</td>
-											<td>12</td>
-											<td>0.4%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='LAWRENCE.html';void(0);">LAWRENCE</a>
-												<a href="LAWRENCE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>5567</td>
-											<td>6</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='LAFAYETTE.html';void(0);">LAFAYETTE</a>
-												<a href="LAFAYETTE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>2398</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='JEFFERSON.html';void(0);">JEFFERSON</a>
-												<a href="JEFFERSON.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>32857</td>
-											<td>17</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='IZARD.html';void(0);">IZARD</a>
-												<a href="IZARD.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>3714</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='INDEPENDENCE.html';void(0);">INDEPENDENCE</a>
-												<a href="INDEPENDENCE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>19829</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='HOT SPRING.html';void(0);">HOT SPRING</a>
-												<a href="HOT SPRING.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>16021</td>
-											<td>2</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='HEMPSTEAD.html';void(0);">HEMPSTEAD</a>
-												<a href="HEMPSTEAD.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>796</td>
-											<td>1</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='GRANT.html';void(0);">GRANT</a>
-												<a href="GRANT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>5786</td>
-											<td>3</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='GARLAND.html';void(0);">GARLAND</a>
-												<a href="GARLAND.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>60698</td>
-											<td>107</td>
-											<td>0.2%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='FULTON.html';void(0);">FULTON</a>
-												<a href="FULTON.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>877</td>
-											<td>2</td>
-											<td>0.2%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='FAULKNER.html';void(0);">FAULKNER</a>
-												<a href="FAULKNER.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>26442</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='DREW.html';void(0);">DREW</a>
-												<a href="DREW.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>7483</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='DESHA.html';void(0);">DESHA</a>
-												<a href="DESHA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>6220</td>
-											<td>3</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='DALLAS.html';void(0);">DALLAS</a>
-												<a href="DALLAS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>3720</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CROSS.html';void(0);">CROSS</a>
-												<a href="CROSS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>6643</td>
-											<td>51</td>
-											<td>0.8%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CRITTENDEN.html';void(0);">CRITTENDEN</a>
-												<a href="CRITTENDEN.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>12100</td>
-											<td>2</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CRAIGHEAD.html';void(0);">CRAIGHEAD</a>
-												<a href="CRAIGHEAD.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>5472</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CONWAY.html';void(0);">CONWAY</a>
-												<a href="CONWAY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>9408</td>
-											<td>38</td>
-											<td>0.4%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='COLUMBIA.html';void(0);">COLUMBIA</a>
-												<a href="COLUMBIA.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>12762</td>
-											<td>7</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CLEVELAND.html';void(0);">CLEVELAND</a>
-												<a href="CLEVELAND.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>1390</td>
-											<td>5</td>
-											<td>0.4%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CLEBURNE.html';void(0);">CLEBURNE</a>
-												<a href="CLEBURNE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>4409</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CLAY.html';void(0);">CLAY</a>
-												<a href="CLAY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>3115</td>
-											<td>9</td>
-											<td>0.3%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CLARK.html';void(0);">CLARK</a>
-												<a href="CLARK.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>7707</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CHICOT.html';void(0);">CHICOT</a>
-												<a href="CHICOT.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>5820</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CARROLL.html';void(0);">CARROLL</a>
-												<a href="CARROLL.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>4041</td>
-											<td>3</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='CALHOUN.html';void(0);">CALHOUN</a>
-												<a href="CALHOUN.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>578</td>
-											<td>121</td>
-											<td>20.9%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='BRADLEY.html';void(0);">BRADLEY</a>
-												<a href="BRADLEY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>4275</td>
-											<td>109</td>
-											<td>2.5%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='BOONE.html';void(0);">BOONE</a>
-												<a href="BOONE.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>20884</td>
-											<td>29</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='BAXTER.html';void(0);">BAXTER</a>
-												<a href="BAXTER.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>7570</td>
-											<td>5</td>
-											<td>0.1%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='ASHLEY.html';void(0);">ASHLEY</a>
-												<a href="ASHLEY.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>8897</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-										<tr>
-											<td style="width: 250px">
-												<a href="javascript:document.getElementById('main').src='ARKANSAS.html';void(0);">ARKANSAS</a>
-												<a href="ARKANSAS.html" target="_"><img style="width:20px; height:20px" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+MTc8L3RpdGxlPjxnIGRhdGEtbmFtZT0iR3JvdXAiPjxwYXRoIGRhdGEtbmFtZT0iUGF0aCIgZD0iTTgyLjEsMTMuMmgtMjF2OS4ySDcxTDQwLjEsNTMuNGw2LjUsNi41TDc3LjUsMjl2OS44aDkuMnYtMjFBNC42LDQuNiwwLDAsMCw4Mi4xLDEzLjJaIj48L3BhdGg+PHBhdGggZGF0YS1uYW1lPSJQYXRoIiBkPSJNNjguNiw3Ny41SDIyLjVWMzEuNEg1NC4xVjIyLjFIMTcuOWE0LjYsNC42LDAsMCwwLTQuNiw0LjZWODIuMWE0LjYsNC42LDAsMCwwLDQuNiw0LjZINzMuMmE0LjYsNC42LDAsMCwwLDQuNi00LjZWNDUuOUg2OC42WiI+PC9wYXRoPjwvZz48L3N2Zz4="></a>
-											</td>
-											<td>10731</td>
-											<td>1</td>
-											<td>0.0%</td>
-										</tr>
-									
-								</tbody>
-							</table>
-						</td>
-						<td style="vertical-align:top; overflow:auto">
-							<iframe id="main" src="" style="border: none; width:100%; height:100%"></iframe>
-						</td>
-					</tr>
-				</table>
 			</body>
 		</html>
