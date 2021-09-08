@@ -56,15 +56,16 @@
         }
 
         // https://pqina.nl/blog/cropping-images-to-an-aspect-ratio-with-javascript/
-        function cropImage(img) {
-            const image = new Image();
+      function cropImage(img) {
+	const image = new Image();
+
             image.onload = () => {
                 // let's store the width and height of our image
                 const inputWidth = image.naturalWidth;
                 const inputHeight = image.naturalHeight;
 
                 const outputWidth = $('#play-img').width();
-                const top = 230;
+                const top = 330;
                 const bottom = 250;
                 const outputHeight = $(window).height() - 90;
 
@@ -91,8 +92,10 @@
             $('#num').text(state.current());
             cropImage(img);
             let millis = parseInt(img.split('/')[img.split('/').length - 1].replace('.png', '')) * 1000;
-            let date = new Date(millis);
-            $('#date-link').text(String(date));
+          let date = new Date(millis);
+	  let d = String(date);
+	  d = d.replace(/\s*GMT.*/, '');
+          $('#date-link').text(d);
             $('#date-link').attr('href', img);
             let progress = 100 * (state.current() / state.length());
             $('#progressbar').progressbar({ value: progress });
@@ -262,14 +265,6 @@
             right: 10px;
         }
     </style>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-211R401Q1P"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-211R401Q1P');
-    </script>    
 </head>
 
 <body>
@@ -284,7 +279,13 @@
         (<span id="num"></span> / <span id="den"></span>)
         <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span>
             images</span>
-        <span><a href="" target="_" id="date-link"></a></span>
+        <span
+	  style="
+		 background-color: #fff;
+		 position:absolute; top:290px; left:590px;
+		 font-family: courier;
+ "
+	  ><a href="" target="_" id="date-link"></a></span>
         <div id="progressbar"></div>
     </div>
     <div id="play-img"></div>
