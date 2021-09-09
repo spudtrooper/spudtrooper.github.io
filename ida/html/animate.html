@@ -160,19 +160,27 @@
             $('#next-btn').prop('disabled', false);
         }
 
-        function updateHash() {
+        function urlParams() {
             let hash = location.hash || '#';
             let hashValues = hash.substring(1);
             let params = new URLSearchParams(hashValues);
+            return params;
+        }
+
+        function updateHash() {
+            let params = urlParams();
             let speed = $('#speed').val();
             params.set('speed', speed);
             location.hash = params.toString();
         }
 
+        function isAutoplay() {
+            let params = urlParams();
+            return !!params.get('autoplay');
+        }
+
         function setFromHash() {
-            let hash = location.hash || '#';
-            let hashValues = hash.substring(1);
-            let params = new URLSearchParams(hashValues);
+            let params = urlParams();
             let speed = params.get('speed') || 300;
             $('#speed').val(speed);
         }
@@ -197,6 +205,9 @@
                 if (numLoaded == images.length) {
                     $('#play-btn').prop('disabled', false);
                     $('#image-progress').fadeOut();
+                    if (isAutoplay()) {
+                        play();
+                    }                    
                 }
             };
             $(images).each(function (i, src) {
