@@ -1,327 +1,296 @@
 <html>
-    <head>
-        <title>Entergy Power After Ida</title>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">        
-        <script>
-            IMAGES = [
-                "../../etrviewoutagedata/data/screenshots/1630462258.png",
-                "../../etrviewoutagedata/data/screenshots/1630462223.png",
-                "../../etrviewoutagedata/data/screenshots/1630461949.png",
-                "../../etrviewoutagedata/data/screenshots/1630452185.png",
-                "../../etrviewoutagedata/data/screenshots/1630448560.png",
-                "../../etrviewoutagedata/data/screenshots/1630444936.png",
-                "../../etrviewoutagedata/data/screenshots/1630444871.png",
-                "../../etrviewoutagedata/data/screenshots/1630437789.png",
-                "../../etrviewoutagedata/data/screenshots/1630424699.png",
-                "../../etrviewoutagedata/data/screenshots/1630412961.png",
-                "../../etrviewoutagedata/data/screenshots/1630412117.png",
-                "../../etrviewoutagedata/data/screenshots/1630411953.png",
-            ];
-            
-            IMAGES = [
-                "../screenshots/1630465902.png",
-                "../screenshots/1630489506.png",
-                "../screenshots/1630493668.png",
-                "../screenshots/1630496945.png",
-                "../screenshots/1630500596.png",
-                "../screenshots/1630504245.png",
-                "../screenshots/1630507885.png",
-                "../screenshots/1630511533.png",
-                "../screenshots/1630515181.png",
-                "../screenshots/1630518829.png",
-                "../screenshots/1630522471.png",
-                "../screenshots/1630525045.png",
-                "../screenshots/1630528685.png",
-                "../screenshots/1630532329.png",
-                "../screenshots/1630535976.png",
-                "../screenshots/1630539623.png",
-                "../screenshots/1630541390.png",
-                "../screenshots/1630541582.png",
-                "../screenshots/1630545226.png",
-                "../screenshots/1630549275.png",
-                "../screenshots/1630552914.png",
-                "../screenshots/1630556550.png",
-                "../screenshots/1630560184.png",
-                "../screenshots/1630563820.png",
-                "../screenshots/1630567456.png",
-                "../screenshots/1630571097.png",
-                "../screenshots/1630574732.png",
-                "../screenshots/1630578367.png",
-                "../screenshots/1630582001.png",
-                "../screenshots/1630585557.png",
-                "../screenshots/1630587238.png",
-                "../screenshots/1630588641.png",
-                "../screenshots/1630592283.png",
-                "../screenshots/1630595918.png",
-                "../screenshots/1630599550.png",
-                "../screenshots/1630603182.png",
-                "../screenshots/1630604916.png",
-                "../screenshots/1630605578.png",
-                "../screenshots/1630673755.png",
-                "../screenshots/1630675791.png",
-                "../screenshots/1630679432.png",
-                "../screenshots/1630683067.png",
-                "../screenshots/1630686594.png",
-                "../screenshots/1630690235.png",
-                "../screenshots/1630694171.png",
-                "../screenshots/1630697810.png",
-                "../screenshots/1630701448.png",
-                "../screenshots/1630705087.png",
-                "../screenshots/1630708725.png",
-                "../screenshots/1630712359.png",
-                "../screenshots/1630760051.png",
-                "../screenshots/1630761893.png",
-                "../screenshots/1630763729.png",
-                "../screenshots/1630764834.png",
-                "../screenshots/1630766671.png",
-                "../screenshots/1630768508.png",
-                "../screenshots/1630770344.png",
-                "../screenshots/1630772179.png",
-                "../screenshots/1630774017.png",
-                "../screenshots/1630775856.png",
-                "../screenshots/1630777694.png",
-                "../screenshots/1630779534.png",
-                "../screenshots/1630781372.png",
-                "../screenshots/1630783211.png",
-                "../screenshots/1630785049.png",
-                "../screenshots/1630786889.png",
-                "../screenshots/1630788724.png",
-                "../screenshots/1630790561.png",
-                "../screenshots/1630792397.png",
-                "../screenshots/1630794234.png",
-                "../screenshots/1630796072.png",
-                "../screenshots/1630797907.png",
-                "../screenshots/1630799742.png",
-                "../screenshots/1630801579.png",
-                "../screenshots/1630803416.png",
-                "../screenshots/1630805252.png",
-                "../screenshots/1630807090.png",
-                "../screenshots/1630808926.png",
-                "../screenshots/1630810764.png",
-                "../screenshots/1630812599.png",
-                "../screenshots/1630814435.png",
-                "../screenshots/1630816275.png",
-                "../screenshots/1630818112.png",
-                "../screenshots/1630819949.png",
-                "../screenshots/1630821784.png",
-                "../screenshots/1630823620.png",
-                "../screenshots/1630825457.png",
-                "../screenshots/1630827294.png",
-                "../screenshots/1630829131.png",
-                "../screenshots/1630830968.png",
-                "../screenshots/1630832806.png",
-                "../screenshots/1630834646.png",
-                "../screenshots/1630836483.png",
-                "../screenshots/1630838322.png",
-                "../screenshots/1630840159.png",
-                "../screenshots/1630841998.png",
-                "../screenshots/1630843835.png",
-                "../screenshots/1630845675.png",
-                "../screenshots/1630847514.png",
-                "../screenshots/1630849219.png",
-                "../screenshots/1630851063.png",
-                
-            ];
-            
-            let State = function(images) {
-                this.images_ = images;
-                this.cur_ = 0;
-            }
-            State.prototype.back = function() {
-                let cur = this.cur_;
-                if (this.cur_ > 0) {
-                    this.cur_--;
-                }
-                return this.img_ = this.images_[cur];
-            };
-            State.prototype.img = function() {
-                return this.images_[this.cur_];
-            }
-            State.prototype.next = function() {
-                let cur = this.cur_;
-                if (this.cur_ < this.images_.length - 1) {
-                    this.cur_++;
-                }
-                return this.images_[cur];
-            };
-            State.prototype.reset = function() {
-                this.cur_ = 0;
-            };
-            State.prototype.length = function() {
-                return this.images_.length;
-            };
-            State.prototype.current = function() {
-                return this.cur_;
-            };            
-            State.prototype.hasNext = function() {
-                return this.cur_ < this.images_.length - 1
-            };
 
-            let state = new State(IMAGES);
-            let stopRequested = false;
-            let isPlaying = false;
+<head>
+    <title>Entergy Power After Ida</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script>
+        let State = function (images) {
+            this.images_ = images;
+            this.cur_ = 0;
+        }
+        State.prototype.back = function () {
+            let cur = this.cur_;
+            if (this.cur_ > 0) {
+                this.cur_--;
+            }
+            return this.img_ = this.images_[cur];
+        };
+        State.prototype.img = function () {
+            return this.images_[this.cur_];
+        }
+        State.prototype.images = function () {
+            return this.images_;
+        }        
+        State.prototype.next = function () {
+            let cur = this.cur_;
+            if (this.cur_ < this.images_.length - 1) {
+                this.cur_++;
+            }
+            return this.images_[cur];
+        };
+        State.prototype.reset = function () {
+            this.cur_ = 0;
+        };
+        State.prototype.length = function () {
+            return this.images_.length;
+        };
+        State.prototype.current = function () {
+            return this.cur_;
+        };
+        State.prototype.hasNext = function () {
+            return this.cur_ < this.images_.length - 1
+        };
 
-            function render() {
-                let img = state.img();
-                $('#num').text(state.current());
-                $('#play-img').attr('src', img);
-                let millis = parseInt(img.split('/')[img.split('/').length-1].replace('.png', ''))*1000;
-                let date = new Date(millis);
-                $('#date').text(String(date));
-                let progress = 100 * (state.current() / state.length());
-                $( "#progressbar" ).progressbar({value: progress});
-                if (isPlaying) {
-                    $('#back-btn').prop('disabled', true);
-                    $('#next-btn').prop('disabled', true);
-                    $('#play-btn').hide();
-                    $('#stop-btn').show();
-                } else {
-                    $('#back-btn').prop('disabled', false);
-                    $('#next-btn').prop('disabled', false);
-                    $('#play-btn').show();
-                    $('#stop-btn').hide();
-                }
-            }
-            function play() {
-                isPlaying = true;
-                render();
-                let next = () => {
-                    if (stopRequested) {
-                        stopRequested = false;
-                        isPlaying = false;
-                        return false;
-                    } 
-                    if (!state.hasNext()) {
-                        isPlaying = false;
-                        return false;
-                    }
-                    state.next();
-                    return true;
-                };
-                let loop = () => {
-                    let recur = next();
-                    render();
-                    let sleep = parseInt($('#speed').val());
-                    if (recur) setTimeout(loop, sleep);
-                };
-                loop();
-            }
-            function reset() {
-                state.reset();
-                $('#num').text(state.current() + 1);
-                $('#den').text(state.length());
-                $( "#progressbar" ).progressbar({value: 0});                
-                location.hash = '';
-            }
-            function back() {
-               state.back();
-               render();
-            }
-            function next() {
-               state.next();
-               render();
-            }
-            function stop() {
-                stopRequested = true;
-                $('#play-btn').show();
-                $('#stop-btn').hide();
+
+        let state = null;
+        let stopRequested = false;
+        let isPlaying = false;
+        function createState(allImages) {
+            // 1630894846 is blank
+            let images = allImages.filter((img) => { return !img.includes('1630894846.png') });
+            state = new State(images);
+            stopRequested = false;
+            isPlaying = false;
+        }
+
+        // https://pqina.nl/blog/cropping-images-to-an-aspect-ratio-with-javascript/
+        function cropImage(img) {
+            const image = new Image();
+            image.onload = () => {
+                // let's store the width and height of our image
+                const inputWidth = image.naturalWidth;
+                const inputHeight = image.naturalHeight;
+
+                const outputWidth = $('#play-img').width();
+                const top = 230;
+                const bottom = 250;
+                const outputHeight = $(window).height() - 90;
+
+                // create a canvas that will present the output image
+                const outputImage = document.createElement("canvas");
+
+                // set it to the same size as the image
+                outputImage.width = outputWidth;
+                outputImage.height = outputHeight;
+
+                // draw our image at position 0, 0 on the canvas
+                const ctx = outputImage.getContext("2d");
+                ctx.drawImage(image, 0, top, inputWidth, inputHeight - top - bottom, 0, 0, outputWidth, outputHeight);
+
+                // show both the image and the canvas
+                $('#play-img').empty();
+                $('#play-img').append($(outputImage));
+            };
+            image.src = img;
+        }
+        
+        function render() {
+            let img = state.img();
+            $('#num').text(state.current());
+            cropImage(img);
+            let millis = parseInt(img.split('/')[img.split('/').length - 1].replace('.png', '')) * 1000;
+            let date = new Date(millis);
+            $('#date-link').text(String(date));
+            $('#date-link').attr('href', img);
+            let progress = 100 * (state.current() / state.length());
+            $('#progressbar').progressbar({ value: progress });
+            if (isPlaying) {
+                $('#back-btn').prop('disabled', true);
+                $('#next-btn').prop('disabled', true);
+                $('#play-btn').hide();
+                $('#stop-btn').show();
+            } else {
                 $('#back-btn').prop('disabled', false);
                 $('#next-btn').prop('disabled', false);
+                $('#play-btn').show();
+                $('#stop-btn').hide();
             }
-            function updateHash() {
-                let hash = location.hash || '#';
-                let hashValues = hash.substring(1);
-                let params = new URLSearchParams(hashValues);
-                let speed = $('#speed').val();
-                params.set('speed', speed);
-                location.hash = params.toString();
-            }
-            function setFromHash() {
-                let hash = location.hash || '#';
-                let hashValues = hash.substring(1);
-                let params = new URLSearchParams(hashValues);
-                let speed = params.get('speed') || 300;
-                $('#speed').val(speed);
-            }     
-            function preloadImages(images) {
-                $('#loaded-images').text(0);
-                $('#total-images').text(images.length);
-                let imageStates = {};
-                $(images).each((_, src) => {
-                    imageStates[src] = false;
-                });
-                let checkReady = () => {
-                    let numLoaded = 0;
-                    for (let src in imageStates) {
-                        if (imageStates[src]) {
-                            numLoaded++;
-                        } else {
-                            console.log('waiting ' + src);
-                        }
+        }
+
+        function play() {
+            isPlaying = true;
+            render();
+            let next = () => {
+                if (stopRequested) {
+                    stopRequested = false;
+                    isPlaying = false;
+                    return false;
+                }
+                if (!state.hasNext()) {
+                    isPlaying = false;
+                    return false;
+                }
+                state.next();
+                return true;
+            };
+            let loop = () => {
+                let recur = next();
+                render();
+                let sleep = parseInt($('#speed').val());
+                if (recur) setTimeout(loop, sleep);
+            };
+            loop();
+        }
+
+        function reset() {
+            state.reset();
+            $('#num').text(state.current() + 1);
+            $('#den').text(state.length());
+            $("#progressbar").progressbar({ value: 0 });
+            location.hash = '';
+        }
+
+        function back() {
+            state.back();
+            render();
+        }
+
+        function next() {
+            state.next();
+            render();
+        }
+
+        function stop() {
+            stopRequested = true;
+            $('#play-btn').show();
+            $('#stop-btn').hide();
+            $('#back-btn').prop('disabled', false);
+            $('#next-btn').prop('disabled', false);
+        }
+
+        function updateHash() {
+            let hash = location.hash || '#';
+            let hashValues = hash.substring(1);
+            let params = new URLSearchParams(hashValues);
+            let speed = $('#speed').val();
+            params.set('speed', speed);
+            location.hash = params.toString();
+        }
+
+        function setFromHash() {
+            let hash = location.hash || '#';
+            let hashValues = hash.substring(1);
+            let params = new URLSearchParams(hashValues);
+            let speed = params.get('speed') || 300;
+            $('#speed').val(speed);
+        }
+
+        function preloadImages(images) {
+            $('#loaded-images').text(0);
+            $('#total-images').text(images.length);
+            let imageStates = {};
+            $(images).each((_, src) => {
+                imageStates[src] = false;
+            });
+            let checkReady = () => {
+                let numLoaded = 0;
+                for (let src in imageStates) {
+                    if (imageStates[src]) {
+                        numLoaded++;
+                    } else {
+                        console.log('waiting ' + src);
                     }
-                    $('#loaded-images').text(numLoaded);
-                    if (numLoaded == images.length) {
-                        $('#play-btn').prop('disabled', false);
-                        $('#image-progress').fadeOut();
+                }
+                $('#loaded-images').text(numLoaded);
+                if (numLoaded == images.length) {
+                    $('#play-btn').prop('disabled', false);
+                    $('#image-progress').fadeOut();
+                }
+            };
+            $(images).each(function (i, src) {
+                let img = $('<img>');
+                img.one('load', function () {
+                    console.log('loaded ' + src);
+                    imageStates[src] = true;
+                    checkReady();
+                }).each(function () {
+                    if (this.complete) {
+                        console.log('already loaded ' + src);
                     }
-                };
-                $(images).each(function(i, src){
-                    let img = $('<img>');
-                    img.one('load', function() {
-                        console.log('loaded ' + src);
-                        imageStates[src] = true;
-                    }).each(function() {
-                        if(this.complete) {
-                            imageStates[src] = true;
-                            console.log('already loaded ' + src);
-                            checkReady();
-                        }
-                    });                    
-                    img.attr('src', this);
                 });
-            }                   
-            function init() {
-                $('#next-btn').prop('disabled', true);                
-                $('#back-btn').prop('disabled', true);                
-                $('#play-btn').prop('disabled', true);                
-                preloadImages(IMAGES);
+                img.attr('src', this);
+            });
+        }
+        function init() {
+            let realInit = () => {
+                $('#next-btn').prop('disabled', true);
+                $('#back-btn').prop('disabled', true);
+                $('#play-btn').prop('disabled', true);
+                preloadImages(state.images());
                 $('#reset-btn').click(reset);
                 $('#back-btn').click(back);
                 $('#next-btn').click(next);
                 $('#play-btn').click(play);
                 $('#stop-btn').click(stop);
-                $('#play-img').attr('src', IMAGES[0]);
-                $( "#progressbar" ).progressbar({value: 0});   
+
+                cropImage(state.images()[0]);
+                $("#progressbar").progressbar({ value: 0 });
                 $('#num').text(0);
-                $('#den').text(IMAGES.length);
+                $('#den').text(state.images().length);
                 setFromHash();
                 $('#speed').change(updateHash);
-            }
-            $(document).ready(init);
-        </script>   
-        <style>
-            #play-img {
-                width: 100%;
-                height: 100%;
-            }
-            #progressbar {
-                width: 400px;
-            }
-        </style> 
-    </head>
-    <body>
-        <div>
-            <button id="reset-btn">Reset</button>
-            <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn" style="display:none">Stop</button><button id="next-btn">Next</button><select id="speed"><option value="200">Fast</option><option value="300">Medium</option><option value="500">Slow</option></select>
-            (<span id="num"></span> / <span id="den"></span>)
-            <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span> images</span>
-            <span id="date"></span>
-            <div id="progressbar"></div>
-        </div>
-        <div id="play-main">
-            <img id="play-img"></img>
-        </div>
-    </body>
+            };
+            $.ajax({
+                url: 'animate_images.json',
+                context: document.body
+            }).done(function (images) {
+                createState(images);
+                realInit();
+            });
+        }
+        $(document).ready(init);
+    </script>
+    <style>
+        #progressbar {
+            width: 400px;
+        }
+
+        #play-img {
+            padding-top: 10px;
+            width: 100%;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .home {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-211R401Q1P"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-211R401Q1P');
+    </script>    
+</head>
+
+<body>
+    <div>
+        <button id="reset-btn">Reset</button>
+        <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn"
+            style="display:none">Stop</button><button id="next-btn">Next</button><select id="speed">
+            <option value="200">Fast</option>
+            <option value="300">Medium</option>
+            <option value="500">Slow</option>
+        </select>
+        (<span id="num"></span> / <span id="den"></span>)
+        <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span>
+            images</span>
+        <span><a href="" target="_" id="date-link"></a></span>
+        <div id="progressbar"></div>
+    </div>
+    <div id="play-img"></div>
+    <div class="home">
+        <a href="../">home</a>
+    </div>
+</body>
+
 </html>
