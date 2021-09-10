@@ -2,4 +2,4 @@
 
 git add .
 git commit -m "update $(date)"
-git push -u
+open /Applications/GitHub\ Desktop.app
