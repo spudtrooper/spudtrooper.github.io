@@ -8,7 +8,7 @@ Some information from [entergy.com](https://www.entergy.com/) for those affected
   "Play" to start.
 * Parish-by-parish time-trended graphs of percent affected, to see
   how quickly power is being restored in your area:
-  * [Louisiana](html/history/L/)
-  * [Mississippi](html/history/M/)
-  * [Texas](html/history/T/)
-  * [Arkansas](html/history/A/)
+  * [Louisiana](html/history/L/) - [% Affected](html/history/L/percent_affected_bydate.html)
+  * [Mississippi](html/history/M/) - [% Affected](html/history/M/percent_affected_bydate.html)
+  * [Texas](html/history/T/) - [% Affected](html/history/T/percent_affected_bydate.html)
+  * [Arkansas](html/history/A/) - [% Affected](html/history/A/percent_affected_bydate.html)
