@@ -6,57 +6,110 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script>
-        let State = function (images) {
+        let ImagesState = function (images) {
             this.images_ = images;
             this.cur_ = 0;
         }
-        State.prototype.back = function () {
+        ImagesState.prototype.back = function () {
             let cur = this.cur_;
             if (this.cur_ > 0) {
                 this.cur_--;
             }
             return this.img_ = this.images_[cur];
         };
-        State.prototype.img = function () {
+        ImagesState.prototype.img = function () {
             return this.images_[this.cur_];
         }
-        State.prototype.images = function () {
+        ImagesState.prototype.images = function () {
             return this.images_;
         }        
-        State.prototype.next = function () {
+        ImagesState.prototype.next = function () {
             let cur = this.cur_;
             if (this.cur_ < this.images_.length - 1) {
                 this.cur_++;
             }
             return this.images_[cur];
         };
-        State.prototype.reset = function () {
+        ImagesState.prototype.reset = function () {
             this.cur_ = 0;
         };
-        State.prototype.length = function () {
+        ImagesState.prototype.length = function () {
             return this.images_.length;
         };
-        State.prototype.current = function () {
+        ImagesState.prototype.current = function () {
             return this.cur_;
         };
-        State.prototype.hasNext = function () {
+        ImagesState.prototype.hasNext = function () {
             return this.cur_ < this.images_.length - 1
         };
 
+        let ImageLoader = function(images, checkReady) {
+            this.images_=  images;
+            this.checkReady_ = checkReady;
+            this.imageStates_ = null;            
+        };
+
+        ImageLoader.prototype.loadImages = function() {
+            this.imageStates_ = {};
+            $(this.images_).each((_, src) => {
+                this.imageStates_[src] = false;
+            });         
+            let imageStates = this.imageStates_;
+            let checkReady = this.checkReady_.bind(null, this.images_);
+            let imgs = [];
+            $(this.images_).each(function (i, src) {
+                let img = $('<img>');
+                img.one('load', function () {
+                    console.log('loaded ' + src);
+                    imageStates[src] = true;
+                    checkReady.call(null);
+                }).each(function () {
+                    if (this.complete) {
+                        console.log('already loaded ' + src);
+                    }
+                });
+                imgs.push(img);
+            });            
+            $(this.images_).each(function (i, src) {
+                imgs[i].attr('src', this);
+            });            
+        };
+
+        ImageLoader.prototype.isReady = function(src) {
+            return !!this.imageStates_[src];
+        };
+
+        ImageLoader.prototype.getNumLoaded = function() {
+            let numLoaded = 0;
+            for (let src in this.imageStates_) {
+                if (this.imageStates_[src]) {
+                    numLoaded++;
+                } else {
+                    console.log('waiting ' + src);
+                }
+            }
+            return numLoaded;
+        };        
+
 
         let state = null;
+        let imageLoader = null;
         let stopRequested = false;
         let isPlaying = false;
         function createState(allImages) {
             // 1630894846 is blank
-            let images = allImages.filter((img) => { return !img.includes('1630894846.png') });
-            state = new State(images);
+            let images = allImages.filter((img) => { 
+                let base = img.split('/')[img.split('/').length-1];
+                return !['1630894846.png', '1631053677.png', '1631046189.png'].includes(base);
+            });
+            state = new ImagesState(images);
+            imageLoader = new ImageLoader(images, checkReady)
             stopRequested = false;
             isPlaying = false;
         }
 
         // https://pqina.nl/blog/cropping-images-to-an-aspect-ratio-with-javascript/
-        function cropImage(img) {
+        function cropImage(img, opt_f) {
             const image = new Image();
             image.onload = () => {
                 // let's store the width and height of our image
@@ -64,9 +117,9 @@
                 const inputHeight = image.naturalHeight;
 
                 const outputWidth = $('#play-img').width();
-                const top = 230;
-                const bottom = 250;
-                const outputHeight = $(window).height() - 90;
+                const top = 330
+                const bottom = 300;
+                const outputHeight = $(window).height() - 70;
 
                 // create a canvas that will present the output image
                 const outputImage = document.createElement("canvas");
@@ -82,17 +135,20 @@
                 // show both the image and the canvas
                 $('#play-img').empty();
                 $('#play-img').append($(outputImage));
+
+                if (opt_f) opt_f.call(null);
             };
             image.src = img;
         }
         
-        function render() {
+        function render(f) {
             let img = state.img();
             $('#num').text(state.current());
-            cropImage(img);
+            cropImage(img, f);
             let millis = parseInt(img.split('/')[img.split('/').length - 1].replace('.png', '')) * 1000;
             let date = new Date(millis);
-            $('#date-link').text(String(date));
+            let dateStr = String(date).replace(/GMT.*/, '');
+            $('#date-link').text(dateStr);
             $('#date-link').attr('href', img);
             let progress = 100 * (state.current() / state.length());
             $('#progressbar').progressbar({ value: progress });
@@ -127,9 +183,24 @@
             };
             let loop = () => {
                 let recur = next();
-                render();
                 let sleep = parseInt($('#speed').val());
-                if (recur) setTimeout(loop, sleep);
+                // We want to loop again after both the render occurs and the sleep.
+                let renderDone = false;
+                let sleepDone = false;
+                let afterRender = () => {
+                    if (!renderDone && sleepDone) {
+                        loop();
+                    }
+                    renderDone = true;
+                };
+                let tryLoop = () => {
+                    if (renderDone && !sleepDone) {
+                        loop();
+                    }
+                    sleepDone = true;
+                };
+                render(afterRender);
+                if (recur) setTimeout(tryLoop, sleep);
             };
             loop();
         }
@@ -183,46 +254,25 @@
             let params = urlParams();
             let speed = params.get('speed') || 300;
             $('#speed').val(speed);
-        }
+        }  
+        
+        function checkReady(images) {
+            let numLoaded = imageLoader.getNumLoaded();
+            $('#loaded-images').text(numLoaded);
+            if (numLoaded == 50) {
+                $('#play-btn').prop('disabled', false);
+                if (isAutoplay()) {
+                    play();
+                }                    
+            } else if (numLoaded == images.length) {
+                $('#image-progress').fadeOut();
+            }
+        }      
 
         function preloadImages(images) {
             $('#loaded-images').text(0);
             $('#total-images').text(images.length);
-            let imageStates = {};
-            $(images).each((_, src) => {
-                imageStates[src] = false;
-            });
-            let checkReady = () => {
-                let numLoaded = 0;
-                for (let src in imageStates) {
-                    if (imageStates[src]) {
-                        numLoaded++;
-                    } else {
-                        console.log('waiting ' + src);
-                    }
-                }
-                $('#loaded-images').text(numLoaded);
-                if (numLoaded == images.length) {
-                    $('#play-btn').prop('disabled', false);
-                    $('#image-progress').fadeOut();
-                    if (isAutoplay()) {
-                        play();
-                    }                    
-                }
-            };
-            $(images).each(function (i, src) {
-                let img = $('<img>');
-                img.one('load', function () {
-                    console.log('loaded ' + src);
-                    imageStates[src] = true;
-                    checkReady();
-                }).each(function () {
-                    if (this.complete) {
-                        console.log('already loaded ' + src);
-                    }
-                });
-                img.attr('src', this);
-            });
+            imageLoader.loadImages();
         }
         function init() {
             let realInit = () => {
@@ -256,6 +306,7 @@
     <style>
         #progressbar {
             width: 400px;
+            margin-right:20px;
         }
 
         #play-img {
@@ -272,6 +323,19 @@
             top: 10px;
             right: 10px;
         }
+        #date-link {
+            position: absolute;
+            bottom: 30px;
+            left: 25px;
+            background-color: #fff;
+            z-index: 1000;
+            font-family: courier;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 7px;
+        }
+        div.inline { float:left; }
+        .clearBoth { clear:both; }
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-211R401Q1P"></script>
     <script>
@@ -285,23 +349,28 @@
 
 <body>
     <div>
-        <button id="reset-btn">Reset</button>
-        <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn"
-            style="display:none">Stop</button><button id="next-btn">Next</button><select id="speed">
-            <option value="200">Fast</option>
-            <option value="300">Medium</option>
-            <option value="500">Slow</option>
-        </select>
-        (<span id="num"></span> / <span id="den"></span>)
-        <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span>
-            images</span>
-        <span><a href="" target="_" id="date-link"></a></span>
-        <div id="progressbar"></div>
+        <div class="inline">
+            <a href="../">home</a>
+        </div>        
+        <div class="inline" style="width: 20px">&nbsp;</div>
+        <div class="inline">
+            <button id="reset-btn">Reset</button>
+            <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn"
+                style="display:none">Stop</button><button id="next-btn">Next</button><select class="inline" id="speed">
+                <option value="100">Really Fast</option>
+                <option value="200">Fast</option>
+                <option value="300">Medium</option>
+                <option value="500">Slow</option>
+            </select>
+            (<span id="num"></span> / <span id="den"></span>)
+            <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span> images</span>
+        </div>
+        <div class="inline" style="width: 20px">&nbsp;</div>
+        <div class="inline" id="progressbar"></div>
+        <br class="clearBoth" />
     </div>
     <div id="play-img"></div>
-    <div class="home">
-        <a href="../">home</a>
-    </div>
+    <div><a href="" target="_" id="date-link"></a></div>
 </body>
 
 </html>
