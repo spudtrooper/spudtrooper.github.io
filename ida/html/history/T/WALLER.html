@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Percentages: WALLER</title>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script>
+			google.charts.load('current', {packages: ['corechart', 'line']});
+			google.charts.setOnLoadCallback(drawBasic);
+			
+			function drawBasic() {		
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Percentage Affected');
+			
+				data.addRows([
+					
+						[new Date(1631394872935), 0.002688172043010753],
+					
+						[new Date(1631392952738), 0.002688172043010753],
+					
+						[new Date(1631391152788), 0.002688172043010753],
+					
+						[new Date(1631389353558), 0.002688172043010753],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Percentage Affected'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+			
+				chart.draw(data, options);
+			  }
+			  {
+				var data = new google.visualization.DataTable();
+				data.addColumn('date', 'X');
+				data.addColumn('number', 'Affected');
+				data.addColumn('number', 'Total');
+			
+				data.addRows([
+					
+						[new Date(1631394872935), 1, 372],
+					
+						[new Date(1631392952738), 1, 372],
+					
+						[new Date(1631391152788), 1, 372],
+					
+						[new Date(1631389353558), 1, 372],
+					
+				]);
+			
+				var options = {
+					hAxis: {
+						title: 'Time'
+					},
+					vAxis: {
+						title: 'Population'
+					}
+				};
+			
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div_totals'));
+			
+				chart.draw(data, options);
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div"></div>
+		<div id="chart_div_totals"></div>
+		<div>
+			Last updated: <em>2021-09-12 06:50:28</em>
+		</div>
+	</body>
