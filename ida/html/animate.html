@@ -273,8 +273,13 @@
 
         function setFromHash() {
             let params = urlParams();
-            let speed = params.get('speed') || 300;
+            let speed = getSpeed();
             $('#speed').val(speed);
+        }  
+
+        function getSpeed() {
+            let params = urlParams();
+            return params.get('speed') || 300;
         }  
         
         function checkReady(images) {
@@ -359,6 +364,13 @@
         }
         div.inline { float:left; }
         .clearBoth { clear:both; }
+        .container {
+            padding: 5px;
+            padding-left: 10px;
+        }
+        .vertical-center {
+            margin-top: 7px;
+        }        
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-211R401Q1P"></script>
     <script>
@@ -371,12 +383,12 @@
 </head>
 
 <body>
-    <div>
-        <div class="inline">
+    <div class="container">
+        <div class="inline vertical-center">
             <a href="../">home</a>
         </div>        
-        <div class="inline" style="width: 20px">&nbsp;</div>
-        <div class="inline">
+        <div class="inline vertical-center" style="width: 20px">&nbsp;</div>
+        <div class="inline vertical-center">
             <button id="reset-btn">Reset</button>
             <button id="back-btn">Back</button><button id="play-btn">Play</button><button id="stop-btn"
                 style="display:none">Stop</button><button id="next-btn">Next</button><select class="inline" id="speed">
@@ -387,10 +399,10 @@
             </select>
             (<span id="num"></span> / <span id="den"></span>)
         </div>
-        <div class="inline" style="width: 20px">&nbsp;</div>
+        <div class="inline vertical-center" style="width: 20px">&nbsp;</div>
         <div class="inline" id="progressbar"></div>
-        <div class="inline" style="width: 20px">&nbsp;</div>
-        <div class="inline">
+        <div class="inline vertical-center" style="width: 20px">&nbsp;</div>
+        <div class="inline vertical-center">
             <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span> images</span>
         </div>
         <br class="clearBoth" />
