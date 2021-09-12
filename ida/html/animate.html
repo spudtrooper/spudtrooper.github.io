@@ -96,6 +96,7 @@
         let imageLoader = null;
         let stopRequested = false;
         let isPlaying = false;
+        let isStalled = false;
         function createState(allImages) {
             // 1630894846 is blank
             let images = allImages.filter((img) => { 
@@ -170,6 +171,13 @@
                 $('#play-btn').show();
                 $('#stop-btn').hide();
             }
+            if (isStalled) {
+                $('#playstate').text('Stalled');
+            } else if (isPlaying) {
+                $('#playstate').text('Playing');
+            } else {
+                $('#playstate').text('Stopped');
+            }
         }
 
         function play() {
@@ -196,19 +204,21 @@
                 let sleepDone = false;
                 let afterRender = () => {
                     if (!renderDone && sleepDone) {
+                        isStalled = false;
                         loop();
                     }
                     renderDone = true;
                 };
                 let tryLoop = () => {
                     if (renderDone && !sleepDone) {
+                        isStalled = false;
                         loop();
                     }
                     sleepDone = true;
                 };
                 let demandLoop = () => {
                     if (!renderDone && !sleepDone) {
-                        debugger;
+                        isStalled = true;
                         loop();
                     }
                 };                
@@ -398,6 +408,7 @@
                 <option value="500">Slow</option>
             </select>
             (<span id="num"></span> / <span id="den"></span>)
+            <span id="playstate">...</span>
         </div>
         <div class="inline vertical-center" style="width: 20px">&nbsp;</div>
         <div class="inline" id="progressbar"></div>
