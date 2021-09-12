@@ -100,8 +100,15 @@
             // 1630894846 is blank
             let images = allImages.filter((img) => { 
                 let base = img.split('/')[img.split('/').length-1];
-                return !['1630894846.png', '1631053677.png', '1631046189.png', '1631330454.png'].includes(base);
+                return !['1630894846.png', '1631053677.png', '1631046189.png', '1631330454.png', '1631083222.png'].includes(base);
             });
+            if (useRemoteImages()) {
+                let remoteImages = $(images).map((_, img) => {
+                    let base = img.split('/')[img.split('/').length-1];
+                    return 'https://spudtrooper.github.io/ida/screenshots/' + base;
+                });
+                images = remoteImages;
+            }
             state = new ImagesState(images);
             imageLoader = new ImageLoader(images, checkReady)
             stopRequested = false;
@@ -199,8 +206,17 @@
                     }
                     sleepDone = true;
                 };
+                let demandLoop = () => {
+                    if (!renderDone && !sleepDone) {
+                        debugger;
+                        loop();
+                    }
+                };                
                 render(afterRender);
-                if (recur) setTimeout(tryLoop, sleep);
+                if (recur) {
+                    setTimeout(tryLoop, sleep);
+                    setTimeout(demandLoop, 3000);
+                }
             };
             loop();
         }
@@ -250,6 +266,11 @@
             return !!params.get('autoplay');
         }
 
+        function useRemoteImages() {
+            let params = urlParams();
+            return !!params.get('remote');            
+        }
+
         function setFromHash() {
             let params = urlParams();
             let speed = params.get('speed') || 300;
@@ -264,7 +285,9 @@
                 if (isAutoplay()) {
                     play();
                 }                    
-            } else if (numLoaded == images.length) {
+
+            } else if (numLoaded == images.length - 1) {
+                // -1 because we probably won't get the last update and who gives a shit
                 $('#image-progress').fadeOut();
             }
         }      
@@ -363,10 +386,13 @@
                 <option value="500">Slow</option>
             </select>
             (<span id="num"></span> / <span id="den"></span>)
-            <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span> images</span>
         </div>
         <div class="inline" style="width: 20px">&nbsp;</div>
         <div class="inline" id="progressbar"></div>
+        <div class="inline" style="width: 20px">&nbsp;</div>
+        <div class="inline">
+            <span id="image-progress">Loaded <span id="loaded-images"></span> / <span id="total-images">0</span> images</span>
+        </div>
         <br class="clearBoth" />
     </div>
     <div id="play-img"></div>
