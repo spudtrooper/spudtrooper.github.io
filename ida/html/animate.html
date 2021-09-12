@@ -100,7 +100,7 @@
             // 1630894846 is blank
             let images = allImages.filter((img) => { 
                 let base = img.split('/')[img.split('/').length-1];
-                return !['1630894846.png', '1631053677.png', '1631046189.png'].includes(base);
+                return !['1630894846.png', '1631053677.png', '1631046189.png', '1631330454.png'].includes(base);
             });
             state = new ImagesState(images);
             imageLoader = new ImageLoader(images, checkReady)
