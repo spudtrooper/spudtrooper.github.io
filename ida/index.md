@@ -8,9 +8,14 @@ Some information from [entergy.com](https://www.entergy.com/) for those affected
   "Play" to start.
 * Parish-by-parish time-trended graphs of percent affected, to see how quickly power was being restored in your area:
 
-  | State (charts)                 | % Affected                                                | % Deltas                                               |
-  | ------------------------------ | --------------------------------------------------------- | ------------------------------------------------------ |
+  | State (charts)                 | % Affected                                                | % Deltas                                             |
+  | ------------------------------ | --------------------------------------------------------- | ---------------------------------------------------- |
   | [Louisiana](html/history/L/)   | [% Affected](html/history/L/percent_affected_bydate.html) | [% Deltas](html/history/L/percent_delta_bydate.html) |
   | [Mississippi](html/history/M/) | [% Affected](html/history/M/percent_affected_bydate.html) | [% Deltas](html/history/M/percent_delta_bydate.html) |
   | [Texas](html/history/T/)       | [% Affected](html/history/T/percent_affected_bydate.html) | [% Deltas](html/history/T/percent_delta_bydate.html) |
   | [Arkansas](html/history/A/)    | [% Affected](html/history/A/percent_affected_bydate.html) | [% Deltas](html/history/A/percent_delta_bydate.html) |
+
+
+  ## Code
+
+  https://github.com/spudtrooper/etrviewoutage
