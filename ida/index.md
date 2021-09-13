@@ -2,7 +2,7 @@
 
 Some information from [entergy.com](https://www.entergy.com/) for those affected by Ida.
 
-* An [animation](html/animate.html#autoplay=1) showing power being restored in
+* An [animation](html/animate.html#autoplay=1&speed=100) showing power being restored in
   New Orleans... essentially a time lapse of this
   [map](https://www.etrviewoutage.com/map?state=nola&_ga=2.56165483.1161628684.1630324617-313625520.1630324617). Click
   "Play" to start.
