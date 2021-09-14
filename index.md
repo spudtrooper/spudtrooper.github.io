@@ -1,5 +1,12 @@
 [//]: # (Title: spudtrooper)
 
+## [ida](/ida)
+
+Data collected from [entergy.com](http://entergy.com) following Hurricane Ida
+showing an [animation](https://spudtrooper.github.io/ida/html/animate.html#autoplay=1&speed=100) 
+of power coming back around New Orleans and in surround parishes and states.
+[[Code](https://github.com/spudtrooper/etrviewoutage)]
+
 ## [gasenate](/gasenate/both.html)
 
 Real time tracking for the GA senate run-off comparing to the initial
@@ -18,13 +25,6 @@ A really simple timer, e.g. for meetings.
 ## [bookmarklets](/bookmarklets)
 
 Collection of bookmarklets. [[Code](https://github.com/spudtrooper/bookmarklets)]
-
-## [ida](/ida)
-
-Data collected from [entergy.com](http://entergy.com) following Hurricane Ida
-showing an [animation](https://spudtrooper.github.io/ida/html/animate.html#autoplay=1&speed=100) 
-of power coming back around New Orleans and in surround parishes and states.
-[[Code](https://github.com/spudtrooper/etrviewoutage)]
 
 ## [articles](/articles)
 
