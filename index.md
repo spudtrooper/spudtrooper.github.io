@@ -21,8 +21,9 @@ Collection of bookmarklets. [[Code](https://github.com/spudtrooper/bookmarklets)
 
 ## [ida](/ida)
 
-Data collected from [entergy.com](http://entergy.com) showing an animation 
-of power coming back around New Orleans and how power came back parish-by-parish.
+Data collected from [entergy.com](http://entergy.com) following Hurricane Ida
+showing an [animation](html/animate.html#autoplay=1&speed=100) of power coming 
+back around New Orleans and in surround parishes and states.
 [[Code](https://github.com/spudtrooper/etrviewoutage)]
 
 ## [articles](/articles)
