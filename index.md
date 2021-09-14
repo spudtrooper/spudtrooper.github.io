@@ -17,11 +17,12 @@ A really simple timer, e.g. for meetings.
 
 ## [bookmarklets](/bookmarklets)
 
-Collection of bookmarklets.
+Collection of bookmarklets. [[Code](https://github.com/spudtrooper/bookmarklets)]
 
 ## [ida](/ida)
 
-Information for people affected by Hurricane Ida.
+Data collected from [entergy.com](http://entergy.com) showing an animation of power
+coming back around New Orleans and how power came back parish-by-parish. [[Code](https://github.com/spudtrooper/etrviewoutage)]
 
 ## [articles](/articles)
 
