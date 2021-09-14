@@ -1,3 +1,5 @@
+[//]: # (Title: spudtrooper)
+
 ## [gasenate](/gasenate/both.html)
 
 Real time tracking for the GA senate run-off comparing to the initial
