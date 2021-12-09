@@ -133,9 +133,12 @@ function fillUser(user, side) {
     link.attr('href', linkUrl);
     if (fake) {
         $(code).text(atob(cfg.fake));
+        hljs.highlightElement($(code)[0]);
+
     } else {
         $.get(url, function (data) {
             $(code).text(atob(data.content));
+            hljs.highlightElement($(code)[0]);
         });
     }
 }

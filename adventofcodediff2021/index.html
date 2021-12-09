@@ -8,6 +8,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js"></script>
@@ -55,19 +57,24 @@
             padding: 3px;
             border: 1px solid black;
         }
-        .code {
+
+        div.code {
             width: 100%;
             height: 100%;
-        }   
+            white-space: pre;
+        }
+
         #butter {
             margin-left: 50px;
             color: #fff;
-        }     
-         .fake {
+        }
+
+        .fake {
             background-color: green;
 
         }
-         .real {
+
+        .real {
             font-weight: bold;
             background-color: red;
         }
@@ -87,14 +94,14 @@
                     <ul class="nav nav-pills"></ul>
                     <a href="#" class="link" target="_"></a>
                     <div class="code-wrapper">
-                        <pre class="code"></pre>
+                        <pre><code class="code">...</code></pre>
                     </div>
                 </td>
                 <td class="cell" id="right">
                     <ul class="nav nav-pills"></ul>
                     <a href="#" class="link" target="_"></a>
                     <div class="code-wrapper">
-                        <pre class="code"></pre>
+                        <pre><code class="code">...</code></pre>
                     </div>
                 </td>
             </tr>
