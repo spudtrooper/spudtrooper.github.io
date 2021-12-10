@@ -1,5 +1,5 @@
-function isReal() {
-    return String(document.location).indexOf('real') != -1;
+function isFake() {
+    return String(document.location).indexOf('fake') != -1;
 }
 
 function updateAOCLink() {
@@ -11,15 +11,19 @@ function updateAOCLink() {
 function main() {
     $('#days').change(fill);
 
-    let msg;
-    if (isReal()) {
-        msg = 'This is real data. You may hit quota issues, if so remove the "real" from the URL';
-        $('#butter').addClass('real');
+    let butterMsg, butterCls, butterLink;
+    if (isFake()) {
+        butterMsg = 'This is fake data. To use real data, remove "?fake" from the URL';
+        butterCls = 'fake'
+        butterLink = document.location.protocol+'//'+document.location.pathname
     } else {
-        msg = 'This is fake data. To use real data, add a "?real" to the URL';
-        $('#butter').addClass('fake');
+        butterMsg = 'This is real data. You may hit quota issues. If so add "?fake" to the URL';
+        butterCls = 'real'
+        butterLink = document.location.protocol+'//'+document.location.pathname + '?fake'
     }
-    $('#butter').text(msg);
+    $('#butter').html(butterMsg);
+    $('#butter').addClass(butterCls);
+    $('#butter-link').attr('href', butterLink)
 
     let day = new Date().getDate();
     for (let i = 1; i <= day && i <= 25; i++) {
@@ -126,7 +130,6 @@ let configs = [
 
 function fillUser(user, side) {
     let day = $('#days').val();
-    let fake = !isReal();
     let cfg = configs.filter((c) => c.user == user)[0];
     let code = $('#' + side + ' .code');
     let repo = cfg.repo;
@@ -136,7 +139,7 @@ function fillUser(user, side) {
     let linkUrl = 'https://github.com/' + user + '/' + repo + '/blob/' + cfg.branch + '/' + path;
     link.text(linkUrl);
     link.attr('href', linkUrl);
-    if (fake) {
+    if (isFake()) {
         $(code).text(atob(cfg.fake));
         hljs.highlightElement($(code)[0]);
 
