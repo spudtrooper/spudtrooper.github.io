@@ -2,6 +2,12 @@ function isReal() {
     return String(document.location).indexOf('real') != -1;
 }
 
+function updateAOCLink() {
+    let day = $('#days').val();
+    let url = 'https://adventofcode.com/2021/day/' + day;
+    $('#aoc-link').attr('href', url).text('Link to day ' + day);
+}
+
 function main() {
     $('#days').change(fill);
 
@@ -16,14 +22,13 @@ function main() {
     $('#butter').text(msg);
 
     let day = new Date().getDate();
-    for (let i = 1; i <= 25; i++) {
+    for (let i = 1; i <= day && i <= 25; i++) {
         let opt = $('<option>').val(i).text('Day ' + i);
-        if (i == day) {
-            opt.attr('selected', true);
-            let linkUrl = 'https://github.com/davidmargolin/Advent-Of-Code/blob/2021/9/index.js';
-        }
         $('#days').append(opt);
     }
+    $('#days').change(updateAOCLink);
+    $('#days option[value=' + day + ']').attr('selected', 'selected');
+    updateAOCLink();
 
     configs.forEach((cfg, i) => {
         let user = cfg.user;
