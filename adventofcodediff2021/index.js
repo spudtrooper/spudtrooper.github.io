@@ -15,12 +15,13 @@ function main() {
     if (isFake()) {
         butterMsg = 'This is fake data. To use real data, remove "?fake" from the URL';
         butterCls = 'fake'
-        butterLink = document.location.protocol+'//'+document.location.pathname
+        butterLink = String(document.location).replace(/[\?#].*/g, '')
     } else {
         butterMsg = 'This is real data. You may hit quota issues. If so add "?fake" to the URL';
         butterCls = 'real'
-        butterLink = document.location.protocol+'//'+document.location.pathname + '?fake'
+        butterLink = String(document.location).replace(/[?#].*/g, '') + '?fake'
     }
+    console.log('butterLink',butterLink);
     $('#butter').html(butterMsg);
     $('#butter').addClass(butterCls);
     $('#butter-link').attr('href', butterLink)
