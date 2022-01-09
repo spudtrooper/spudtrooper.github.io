@@ -1,6 +1,6 @@
 # gettr.com followers
 
-[gettr.com](http://gettr.com) is Jason Miller's new slop bucket. If members have linked twitter accounts, the number of followers displayed is the number of *gettr* followers + the number of *twitter* followers. For example, [Matt Gaetz](https://gettr.com/user/repmattgaetz) has about **280k** (I found 279494) gettr followers and about **1.3M** twitter followers and gettr shows **1.6M**--almost 5x the reality. Suprisingly, this site doesn't accurately represent reality.
+[gettr.com](http://gettr.com) is Jason Miller's new slop bucket. If members have linked twitter accounts, the number of followers displayed is the number of *gettr* followers + the number of *twitter* followers. For example, [Matt Gaetz](https://gettr.com/user/repmattgaetz) has about **280k** (I found 279494) gettr followers and about **1.3M** twitter followers and gettr shows **1.6M**--almost 5x the reality. This is an interesting take on reality.
 
 To inspect this you can browse a dump of all Gaetz's followers[<sup>1</sup>](#footnote_1):
 
