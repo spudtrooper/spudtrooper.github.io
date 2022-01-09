@@ -1,7 +1,7 @@
 # gettr.com followers
 
 [gettr.com](http://gettr.com) is Jason Miller's new new slop bucket. The number of followers it displays is the number 
-of *gettr* followers + the number of *twitter* followers. For example, Matt Gaetz has about **280k** gettr followers and about **1.3M** twitter followers and gettr shows **1.6M**. This wasn't intuitive to me.
+of *gettr* followers + the number of *twitter* followers. For example, [https://gettr.com/user/repmattgaetz](Matt Gaetz) has about **280k** gettr followers and about **1.3M** twitter followers and gettr shows **1.6M**. This wasn't intuitive to me.
 
 The code that does this is here -- the `m` is the gettr followers and `g` is the twitter followers:
 
