@@ -10,6 +10,7 @@ The code that does this is here -- the `m` is the gettr followers and `g` is the
 To inspect this you can browse a dump of all Gaetz's followers:
 
 *   [repmattgaetz_desc_simple.html](repmattgaetz_desc_simple.html) - All Gaetz's followers as HTML (only includes those that have descriptions to avoid github's file limit of 100MB)
+*   [repmattgaetz_twitter_followers_simple.html](repmattgaetz_twitter_followers_simple.html) - All Gaetz's followers as HTML (only includes those that have twitter followers to avoid github's file limit of 100MB)
 *   [repmattgaetz.csv](repmattgaetz.csv) - All Gaetz's followers as HTML
 
 
