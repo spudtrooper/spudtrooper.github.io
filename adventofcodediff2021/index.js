@@ -26,13 +26,12 @@ function main() {
     $('#butter').addClass(butterCls);
     $('#butter-link').attr('href', butterLink)
 
-    let day = new Date().getDate();
-    for (let i = 1; i <= day && i <= 25; i++) {
+    for (let i = 1; i <= 25; i++) {
         let opt = $('<option>').val(i).text('Day ' + i);
         $('#days').append(opt);
     }
     $('#days').change(updateAOCLink);
-    $('#days option[value=' + day + ']').attr('selected', 'selected');
+    $('#days option[value=1]').attr('selected', 'selected');
     updateAOCLink();
 
     configs.forEach((cfg, i) => {
