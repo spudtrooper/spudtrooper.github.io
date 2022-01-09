@@ -4,8 +4,8 @@
 
 To inspect this you can browse a dump of all Gaetz's followers[<sup>1</sup>](#footnote_1):
 
-* All Gaetz's followers with linked twitter accounts ([simple](repmattgaetz_twitter_followers_simple.html) | [fancy](repmattgaetz_twitter_followers.html))
-* All Gaetz's followers with descriptions in their bios ([simple](repmattgaetz_desc_simple.html) | [fancy](repmattgaetz_desc.html))
+* All Gaetz's followers with linked twitter accounts ([fancy](repmattgaetz_twitter_followers.html) | [simple](repmattgaetz_twitter_followers_simple.html))
+* All Gaetz's followers with descriptions in their bios ([fancy](repmattgaetz_desc.html) | [simple](repmattgaetz_desc_simple.html))
 * All Gaetz's followers ([CSV](repmattgaetz.csv))
 
 Even better is [this guy](https://gettr.com/user/mcgreggorholm) who shows **70.1K** followers:
