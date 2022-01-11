@@ -1,5 +1,9 @@
 [//]: # (Title: spudtrooper)
 
+## [articles](/articles)
+
+Articles I've written.
+
 ## [ida](/ida)
 
 Data collected from [entergy.com](http://entergy.com) following Hurricane Ida
@@ -29,10 +33,6 @@ Collection of bookmarklets. [[Code](https://github.com/spudtrooper/bookmarklets)
 ## [adventofcodediff2021](/adventofcodediff2021)
 
 Advent of code 2021 solutions for some members of a private leaderboard.
-
-## [articles](/articles)
-
-Articles I've written.
 
 ## More
     
