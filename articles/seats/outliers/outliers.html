@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        #loading {
+            margin: 50px;
+        }
+        .intro {
+            width: 800px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="intro">
+        This shows some ticket prices across seatgeek, stubhub, and vividseats for the Knicks/Kings Game on Jan 23
+        sorted by volatility. All the data was gathered with <a
+            href="https://github.com/spudtrooper/seats">github.com/spudtrooper/seats</a>.
+    </div>
+    <div>
+        <div id="loading">Loading...</div>
+        <table id="tab" style="display:none"></table>
+    </div>
+    <script>
+        $('#loading').show();
+        $('#tab').hide();
+
+        function addLine(ticket, data, numDistinctValues, numChanges) {
+            // set the dimensions and margins of the graph
+            var margin = { top: 10, right: 30, bottom: 30, left: 60 },
+                width = 700 - margin.left - margin.right,
+                height = 180 - margin.top - margin.bottom;
+
+            // append the svg object to the body of the page
+
+            let tr = $('<tr>');
+            $('#tab').append(tr);
+
+            {
+                let td = $('<td>');
+                $(tr).append(td);
+                td.attr('id', ticket);
+            }
+
+            var svg = d3.select("#" + ticket)
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+            // Add X axis --> it is a date format
+            var x = d3.scaleTime()
+                .domain(d3.extent(data, function (d) { return d.date; }))
+                .range([0, width]);
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+
+            // Add Y axis
+            var y = d3.scaleLinear()
+                .domain([
+                    d3.min(data, function (d) { return +d.value; }) - 10,
+                    d3.max(data, function (d) { return +d.value; }) + 10,
+                ])
+                .range([height, 0]);
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            // Add the line
+            svg.append("path")
+                .datum(data)
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 1.5)
+                .attr("d", d3.line()
+                    .x(function (d) { return x(d.date) })
+                    .y(function (d) { return y(d.value) })
+                )
+
+            {
+                let d = data[0];
+                let url = d.url;
+                let row = d.row;
+                let section = d.section;
+                let site = d.site;
+                let min = d3.min(data, function (d) { return d.value; })
+                let max = d3.max(data, function (d) { return d.value; })
+                $('#tab').append(tr);
+                let td = $('<td>');
+                $(tr).append(td);
+                let tab = $('<table>');
+                $(td).append(tab);
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Site:')));
+                    $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Row:')));
+                    $(tr).append($('<td>').text(row));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Section:')));
+                    $(tr).append($('<td>').text(section));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Price range:')));
+                    $(tr).append($('<td>').text('$' + min + ' - ' + '$' + max));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('# distinct prices:')));
+                    $(tr).append($('<td>').text(numDistinctValues));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('# changes:')));
+                    $(tr).append($('<td>').text(numChanges));
+                }
+            }
+        }
+
+        function row(d) {
+            return {
+                activity: d.ticket,
+                time: new Date(Date.parse(d.date)),
+                date: new Date(Date.parse(d.date)),
+                price: +d.price,
+                value: +d.price,
+                ticket: d.ticket,
+                row: d.row,
+                section: d.section,
+                site: d.site,
+                url: d.url,
+            };
+        }
+
+        d3.csv('outliers.csv', row, function (error, dataAll) {
+            if (error) throw error;
+
+            // Find the keys.
+            let dataMap = {};
+
+            dataAll.forEach((d) => {
+                let key = d.ticket;
+                let values = dataMap[key] || [];
+                values.push(d);
+                dataMap[key] = values;
+            });
+
+            let distinctValues = (values) => {
+                let set = {};
+                values.forEach((v) => {
+                    set[v.price] = true;
+                });
+                return Object.keys(set).length;
+            };
+
+            let numChanges = (values) => {
+                let last = 0;
+                let changes = 0;
+                values.forEach((v, i) => {
+                    if (i > 0) {
+                        if (v.price != values[i - 1].price) {
+                            changes++;
+                        }
+                    }
+                });
+                return changes;
+            };
+
+            let data = [];
+            for (let ticket in dataMap) {
+                let values = dataMap[ticket];
+                let d = {
+                    ticket: ticket,
+                    values: values,
+                    numDistinctValues: distinctValues(values),
+                    numChanges: numChanges(values),
+                };
+                data.push(d);
+            }
+
+            // Sort by number of changes.
+            data.sort((a, b) => { return b.numChanges - a.numChanges; });
+
+            data.forEach((d) => {
+                addLine(d.ticket, d.values, d.numDistinctValues, d.numChanges);
+            });
+            $('#loading').hide();
+            $('#tab').show();
+        })
+
+    </script>
+</body>
+
+</html>
