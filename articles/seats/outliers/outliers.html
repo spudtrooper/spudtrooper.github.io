@@ -8,9 +8,11 @@
         body {
             font-family: sans-serif;
         }
+
         #loading {
             margin: 50px;
         }
+
         .intro {
             width: 800px;
             margin-bottom: 10px;
@@ -69,11 +71,10 @@
                 .call(d3.axisBottom(x));
 
             // Add Y axis
+            let min = d3.min(data, function (d) { return d.value; });
+            let max = d3.max(data, function (d) { return d.value; });
             var y = d3.scaleLinear()
-                .domain([
-                    d3.min(data, function (d) { return +d.value; }) - 10,
-                    d3.max(data, function (d) { return +d.value; }) + 10,
-                ])
+                .domain([min - (max - min) / 10, max + (max - min) / 10])
                 .range([height, 0]);
             svg.append("g")
                 .call(d3.axisLeft(y));
@@ -95,13 +96,18 @@
                 let row = d.row;
                 let section = d.section;
                 let site = d.site;
-                let min = d3.min(data, function (d) { return d.value; })
-                let max = d3.max(data, function (d) { return d.value; })
+                let min = d3.min(data, function (d) { return d.value; });
+                let max = d3.max(data, function (d) { return d.value; });
                 $('#tab').append(tr);
                 let td = $('<td>');
                 $(tr).append(td);
                 let tab = $('<table>');
                 $(td).append(tab);
+
+                // https://stackoverflow.com/questions/14968615/rounding-to-the-nearest-hundredth-of-a-decimal-in-javascript
+                function moneyRound(num) {
+                    return Math.ceil(num * 100) / 100;
+                }
                 {
                     let tr = $('<tr>');
                     $(tab).append(tr);
@@ -124,7 +130,7 @@
                     let tr = $('<tr>');
                     $(tab).append(tr);
                     $(tr).append($('<td>').append($('<b>').text('Price range:')));
-                    $(tr).append($('<td>').text('$' + min + ' - ' + '$' + max));
+                    $(tr).append($('<td>').html('$' + moneyRound(min) + ' ... ' + '$' + moneyRound(max) + ' - &Delta; $' + moneyRound(max - min)));
                 }
                 {
                     let tr = $('<tr>');
