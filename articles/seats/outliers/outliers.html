@@ -240,7 +240,7 @@
             $(tr).append($('<td>').addClass('currency').html(formatMoney(min)).attr('data-value', min));
             $(tr).append($('<td>').addClass('currency').html(formatMoney(max)).attr('data-value', max));
             $(tr).append($('<td>').addClass('currency').html(formatMoneyWithSign(max - min)).attr('data-value', max - min));
-            $(tr).append($('<td>').addClass('currency').html(formatPercent(100 * (max - min) / max)).addClass(diffClass).attr('data-value', 100 * (max - min) / max));
+            $(tr).append($('<td>').addClass('currency').html(formatPercent(100 * (max - min) / max)).attr('data-value', 100 * (max - min) / max));
             $(tr).append($('<td>').addClass('currency').html(formatMoney(start)).attr('data-value', start));
             $(tr).append($('<td>').addClass('currency').html(formatMoney(end)).attr('data-value', end));
             $(tr).append($('<td>').addClass('currency').html(formatMoneyWithSign(end - start)).addClass(diffClass).attr('data-value', end - start));
