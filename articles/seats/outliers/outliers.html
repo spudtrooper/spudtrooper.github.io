@@ -53,14 +53,14 @@
                 <tr>
                     <th class="th-sm">Timeline</th>
                     <th class="th-sm">Site</th>
-                    <th class="th-sm">Section</th>
+                    <th class="th-sm">Sec</th>
                     <th class="th-sm">Row</th>
                     <th class="th-sm">Low</th>
-                    <th class="th-sm">High</th>
-                    <th class="th-sm">&Delta;</th>
+                    <th class="th-sm">Hi</th>
+                    <th class="th-sm">Hi-Lo</th>
                     <th class="th-sm">Start</th>
                     <th class="th-sm">End</th>
-                    <th class="th-sm">Move</th>
+                    <th class="th-sm">End-Start</th>
                     <th class="th-sm"># Prices</th>
                     <th class="th-sm" data-field="numPriceChanges"># Moves</th>
                 </tr>
@@ -100,20 +100,27 @@
                 } catch (_) { }
                 return '$' + Math.ceil(num * 100) / 100;
             }
+            function percentFormat(num) {
+                return String(Math.ceil(num * 100) / 100);
+            }
             let min = d3.min(data, function (d) { return d.price; }),
                 max = d3.max(data, function (d) { return d.price; }),
-                first = data[0].price,
-                last = data[data.length - 1].price,
-                change = last - first;
-            let diff, diffClass;
-            if (last == first) {
-                diff = moneyFormat(Math.abs(first - last));
+                start = data[0].price,
+                end = data[data.length - 1].price,
+                change = end - start,
+                percDiff = percentFormat(100 * (end - start) / start);
+            let hiMinusLo, endMinusStart, diffClass;
+            if (end == start) {
+                endMinusStart = moneyFormat(Math.abs(start - end));
+                hiMinusLo = moneyFormat(Math.abs(max - min))
                 diffClass = '';
-            } else if (last < first) {
-                diff = '&darr;' + moneyFormat(Math.abs(first - last));
+            } else if (end < start) {
+                endMinusStart = '&darr;' + moneyFormat(Math.abs(start - end));
+                hiMinusLo = '&darr;' + moneyFormat(Math.abs(max - min))
                 diffClass = 'down';
             } else {
-                diff = '&uarr;' + moneyFormat(Math.abs(first - last));
+                endMinusStart = '&uarr;' + moneyFormat(Math.abs(start - end));
+                hiMinusLo = '&uarr;' + moneyFormat(Math.abs(max - min))
                 diffClass = 'up';
             }
 
@@ -194,19 +201,17 @@
                     invisibleRow = '<br/><span class="invisible">row:' + row + '</span>',
                     section = d.section,
                     invisibleSection = '<br/><span class="invisible">section:' + section + '</span>',
-                    site = d.site,
-                    min = d3.min(data, function (d) { return d.price; }),
-                    max = d3.max(data, function (d) { return d.price; });
+                    site = d.site;
 
                 $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
                 $(tr).append($('<td>').html(section + invisibleSection));
                 $(tr).append($('<td>').html(row + invisibleRow));
                 $(tr).append($('<td>').html(moneyFormat(min)));
                 $(tr).append($('<td>').html(moneyFormat(max)));
-                $(tr).append($('<td>').html(diff).addClass(diffClass));
-                $(tr).append($('<td>').html(moneyFormat(first)));
-                $(tr).append($('<td>').html(moneyFormat(last)));
-                $(tr).append($('<td>').html(moneyFormat(change)).addClass(diffClass));
+                $(tr).append($('<td>').html(hiMinusLo).addClass(diffClass));
+                $(tr).append($('<td>').html(moneyFormat(start)));
+                $(tr).append($('<td>').html(moneyFormat(end)));
+                $(tr).append($('<td>').html(endMinusStart).addClass(diffClass));
                 $(tr).append($('<td>').text(numDistinctValues));
                 $(tr).append($('<td>').text(numChanges));
             }
@@ -249,7 +254,7 @@
             };
 
             let changes = (values) => {
-                let last = 0;
+                let end = 0;
                 let changes = 0;
                 values.forEach((v, i) => {
                     if (i > 0) {
