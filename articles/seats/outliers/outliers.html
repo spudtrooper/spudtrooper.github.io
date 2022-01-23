@@ -3,6 +3,12 @@
 
 <head>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <style>
         body {
@@ -28,7 +34,23 @@
     </div>
     <div>
         <div id="loading">Loading...</div>
-        <table id="tab" style="display:none"></table>
+        <table id="tab" style="display:none" class="table table-bordered table-sm sortable-table"
+            data-sort-name="numPriceChanges" data-sort-order="desc" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th class="th-sm">Timeline</th>
+                    <th class="th-sm">Site</th>
+                    <th class="th-sm">Section</th>
+                    <th class="th-sm">Row</th>
+                    <th class="th-sm">Low Price</th>
+                    <th class="th-sm">High Price</th>
+                    <th class="th-sm">&Delta; Price</th>
+                    <th class="th-sm"># Dist. Prices</th>
+                    <th class="th-sm" data-field="numPriceChanges"># Price Changes</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
     </div>
     <script>
         $('#loading').show();
@@ -44,7 +66,7 @@
             // append the svg object to the body of the page
 
             let tr = $('<tr>');
-            $('#tab').append(tr);
+            $('#tab tbody').append(tr);
 
             {
                 let td = $('<td>');
@@ -98,52 +120,19 @@
                 let site = d.site;
                 let min = d3.min(data, function (d) { return d.value; });
                 let max = d3.max(data, function (d) { return d.value; });
-                $('#tab').append(tr);
-                let td = $('<td>');
-                $(tr).append(td);
-                let tab = $('<table>');
-                $(td).append(tab);
 
                 // https://stackoverflow.com/questions/14968615/rounding-to-the-nearest-hundredth-of-a-decimal-in-javascript
                 function moneyRound(num) {
                     return Math.ceil(num * 100) / 100;
                 }
-                {
-                    let tr = $('<tr>');
-                    $(tab).append(tr);
-                    $(tr).append($('<td>').append($('<b>').text('Site:')));
-                    $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
-                }
-                {
-                    let tr = $('<tr>');
-                    $(tab).append(tr);
-                    $(tr).append($('<td>').append($('<b>').text('Section:')));
-                    $(tr).append($('<td>').text(section));
-                }
-                {
-                    let tr = $('<tr>');
-                    $(tab).append(tr);
-                    $(tr).append($('<td>').append($('<b>').text('Row:')));
-                    $(tr).append($('<td>').text(row));
-                }
-                {
-                    let tr = $('<tr>');
-                    $(tab).append(tr);
-                    $(tr).append($('<td>').append($('<b>').text('Price range:')));
-                    $(tr).append($('<td>').html('$' + moneyRound(min) + ' ... ' + '$' + moneyRound(max) + ' - &Delta; $' + moneyRound(max - min)));
-                }
-                {
-                    let tr = $('<tr>');
-                    $(tab).append(tr);
-                    $(tr).append($('<td>').append($('<b>').text('# distinct prices:')));
-                    $(tr).append($('<td>').text(numDistinctValues));
-                }
-                {
-                    let tr = $('<tr>');
-                    $(tab).append(tr);
-                    $(tr).append($('<td>').append($('<b>').text('# changes:')));
-                    $(tr).append($('<td>').text(numChanges));
-                }
+                $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
+                $(tr).append($('<td>').text(section));
+                $(tr).append($('<td>').text(row));
+                $(tr).append($('<td>').html('$' + moneyRound(min)));
+                $(tr).append($('<td>').html('$' + moneyRound(max)));
+                $(tr).append($('<td>').html('$' + moneyRound(max - min)));
+                $(tr).append($('<td>').text(numDistinctValues));
+                $(tr).append($('<td>').text(numChanges));
             }
         }
 
@@ -216,6 +205,9 @@
             });
             $('#loading').hide();
             $('#tab').show();
+            $('.sortable-table').DataTable({ "order": [[8, "desc"]] });
+            $('.dataTables_length').addClass('bs-select');
+            $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
         })
 
     </script>
