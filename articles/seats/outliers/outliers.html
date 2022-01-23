@@ -2,71 +2,72 @@
 <html>
 
 <head>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
-    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
     <style>
-        body {
-            font-family: sans-serif;
+        svg {
+            display: block;
+            margin: 0 auto;
         }
 
-        #loading {
-            margin: 50px;
+        .axis .domain {
+            display: none;
         }
 
-        .intro {
-            width: 800px;
-            margin-bottom: 10px;
+        .axis--x text {
+            fill: #999;
+        }
+
+        .axis--x line {
+            stroke: #aaa;
+        }
+
+        .axis--activity .tick line {
+            display: none;
+        }
+
+        .axis--activity text {
+            font-size: 12px;
+            fill: #777;
+        }
+
+        .axis--activity .tick:nth-child(odd) text {
+            fill: #222;
+        }
+
+        .line {
+            fill: none;
+            stroke: #fff;
+        }
+
+        .area {
+            fill: #448cab;
+        }
+
+        .activity:nth-child(odd) .area {
+            fill: #5ca3c1;
         }
     </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
 
 <body>
-    <div class="intro">
-        This shows some ticket prices across seatgeek, stubhub, and vividseats for the Knicks/Kings Game on Jan 23
-        sorted by volatility. All the data was gathered with <a
-            href="https://github.com/spudtrooper/seats">github.com/spudtrooper/seats</a>.
-    </div>
-    <div>
-        <div id="loading">Loading...</div>
-        <table id="tab" style="display:none" class="table table-bordered table-sm sortable-table"
-            data-sort-name="numPriceChanges" data-sort-order="desc" cellspacing="0" width="100%">
-            <thead>
-                <tr>
-                    <th class="th-sm">Timeline</th>
-                    <th class="th-sm">Site</th>
-                    <th class="th-sm">Section</th>
-                    <th class="th-sm">Row</th>
-                    <th class="th-sm">Low Price</th>
-                    <th class="th-sm">High Price</th>
-                    <th class="th-sm">&Delta; Price</th>
-                    <th class="th-sm"># Dist. Prices</th>
-                    <th class="th-sm" data-field="numPriceChanges"># Price Changes</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
+    <div id="wrapper">
+        <table id="tab">
+
         </table>
     </div>
     <script>
-        $('#loading').show();
-        $('#tab').hide();
 
-        // Stolen from https://www.d3-graph-gallery.com/graph/line_basic.html
         function addLine(ticket, data, numDistinctValues, numChanges) {
             // set the dimensions and margins of the graph
             var margin = { top: 10, right: 30, bottom: 30, left: 60 },
-                width = 700 - margin.left - margin.right,
-                height = 180 - margin.top - margin.bottom;
+                width = 560 - margin.left - margin.right,
+                height = 200 - margin.top - margin.bottom;
 
             // append the svg object to the body of the page
 
             let tr = $('<tr>');
-            $('#tab tbody').append(tr);
+            $('#tab').append(tr);
 
             {
                 let td = $('<td>');
@@ -93,10 +94,11 @@
                 .call(d3.axisBottom(x));
 
             // Add Y axis
-            let min = d3.min(data, function (d) { return d.value; });
-            let max = d3.max(data, function (d) { return d.value; });
             var y = d3.scaleLinear()
-                .domain([min - (max - min) / 10, max + (max - min) / 10])
+                .domain([
+                    d3.min(data, function (d) { return +d.value; }) - 10,
+                    d3.max(data, function (d) { return +d.value; }) + 10,
+                ])
                 .range([height, 0]);
             svg.append("g")
                 .call(d3.axisLeft(y));
@@ -118,21 +120,49 @@
                 let row = d.row;
                 let section = d.section;
                 let site = d.site;
-                let min = d3.min(data, function (d) { return d.value; });
-                let max = d3.max(data, function (d) { return d.value; });
-
-                // https://stackoverflow.com/questions/14968615/rounding-to-the-nearest-hundredth-of-a-decimal-in-javascript
-                function moneyRound(num) {
-                    return Math.ceil(num * 100) / 100;
+                let min = d3.min(data, function (d) { return d.value; })
+                let max = d3.max(data, function (d) { return d.value; })
+                $('#tab').append(tr);
+                let td = $('<td>');
+                $(tr).append(td);
+                let tab = $('<table>');
+                $(td).append(tab);
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Site:')));
+                    $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
                 }
-                $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
-                $(tr).append($('<td>').text(section));
-                $(tr).append($('<td>').text(row));
-                $(tr).append($('<td>').html('$' + moneyRound(min)));
-                $(tr).append($('<td>').html('$' + moneyRound(max)));
-                $(tr).append($('<td>').html('$' + moneyRound(max - min)));
-                $(tr).append($('<td>').text(numDistinctValues));
-                $(tr).append($('<td>').text(numChanges));
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Row:')));
+                    $(tr).append($('<td>').text(row));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Section:')));
+                    $(tr).append($('<td>').text(section));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('Price range:')));
+                    $(tr).append($('<td>').text('$' + min + ' - ' + '$' + max));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('# distinct prices:')));
+                    $(tr).append($('<td>').text(numDistinctValues));
+                }
+                {
+                    let tr = $('<tr>');
+                    $(tab).append(tr);
+                    $(tr).append($('<td>').append($('<b>').text('# changes:')));
+                    $(tr).append($('<td>').text(numChanges));
+                }
             }
         }
 
@@ -203,11 +233,6 @@
             data.forEach((d) => {
                 addLine(d.ticket, d.values, d.numDistinctValues, d.numChanges);
             });
-            $('#loading').hide();
-            $('#tab').show();
-            $('.sortable-table').DataTable({ "order": [[8, "desc"]] });
-            $('.dataTables_length').addClass('bs-select');
-            $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
         })
 
     </script>
