@@ -47,20 +47,36 @@
     </div>
     <div>
         <div id="loading">Loading...</div>
+        <script>
+            function customSort(sortName, sortOrder, data) {
+                var order = sortOrder === 'desc' ? -1 : 1
+                data.sort(function (a, b) {
+                    var aa = +((a[sortName] + '').replace(/[^\d]/g, ''))
+                    var bb = +((b[sortName] + '').replace(/[^\d]/g, ''))
+                    if (aa < bb) {
+                        return order * -1
+                    }
+                    if (aa > bb) {
+                        return order
+                    }
+                    return 0
+                })
+            }
+        </script>
         <table id="tab" style="display:none" class="table table-bordered table-sm sortable-table"
             data-sort-name="numPriceChanges" data-sort-order="desc" cellspacing="0" width="100%">
             <thead>
                 <tr>
                     <th class="th-sm">Timeline</th>
                     <th class="th-sm">Site</th>
-                    <th class="th-sm">Sec</th>
-                    <th class="th-sm">Row</th>
-                    <th class="th-sm">Low</th>
-                    <th class="th-sm">Hi</th>
-                    <th class="th-sm">Hi-Lo</th>
-                    <th class="th-sm">Start</th>
-                    <th class="th-sm">End</th>
-                    <th class="th-sm">End-Start</th>
+                    <th class="th-sm" data-sorted="alphanum">Sec</th>
+                    <th class="th-sm" data-sorted="alphanum">Row</th>
+                    <th class="th-sm" data-sorted="numericonly">Lo</th>
+                    <th class="th-sm" data-sorted="numericonly">Hi</th>
+                    <th class="th-sm" data-sorted="numericonly">Hi-Lo</th>
+                    <th class="th-sm" data-sorted="numericonly">Start</th>
+                    <th class="th-sm" data-sorted="numericonly">End</th>
+                    <th class="th-sm" data-sorted="numericonly">End-Start</th>
                     <th class="th-sm"># Prices</th>
                     <th class="th-sm" data-field="numPriceChanges"># Moves</th>
                 </tr>
@@ -74,11 +90,10 @@
 
         // set the dimensions and margins of the graph
         var margin = { top: 10, right: 30, bottom: 30, left: 60 },
-            width = 700 - margin.left - margin.right,
+            width = 500 - margin.left - margin.right,
             height = 100 - margin.top - margin.bottom;
 
-
-        // Stolen from https://www.d3-graph-gallery.com/graph/line_basic.html
+        // https://www.d3-graph-gallery.com/graph/line_basic.html
         function addRow(ticket, data, numDistinctValues, numChanges) {
             let tr = $('<tr>');
             $('#tab tbody').append(tr);
@@ -107,20 +122,11 @@
                 max = d3.max(data, function (d) { return d.price; }),
                 start = data[0].price,
                 end = data[data.length - 1].price,
-                change = end - start,
                 percDiff = percentFormat(100 * (end - start) / start);
-            let hiMinusLo, endMinusStart, diffClass;
-            if (end == start) {
-                endMinusStart = moneyFormat(Math.abs(start - end));
-                hiMinusLo = moneyFormat(Math.abs(max - min))
-                diffClass = '';
-            } else if (end < start) {
-                endMinusStart = '&darr;' + moneyFormat(Math.abs(start - end));
-                hiMinusLo = '&darr;' + moneyFormat(Math.abs(max - min))
+            let diffClass;
+            if (end < start) {
                 diffClass = 'down';
             } else {
-                endMinusStart = '&uarr;' + moneyFormat(Math.abs(start - end));
-                hiMinusLo = '&uarr;' + moneyFormat(Math.abs(max - min))
                 diffClass = 'up';
             }
 
@@ -202,18 +208,17 @@
                     section = d.section,
                     invisibleSection = '<br/><span class="invisible">section:' + section + '</span>',
                     site = d.site;
-
                 $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
                 $(tr).append($('<td>').html(section + invisibleSection));
                 $(tr).append($('<td>').html(row + invisibleRow));
-                $(tr).append($('<td>').html(moneyFormat(min)));
-                $(tr).append($('<td>').html(moneyFormat(max)));
-                $(tr).append($('<td>').html(hiMinusLo).addClass(diffClass));
-                $(tr).append($('<td>').html(moneyFormat(start)));
-                $(tr).append($('<td>').html(moneyFormat(end)));
-                $(tr).append($('<td>').html(endMinusStart).addClass(diffClass));
-                $(tr).append($('<td>').text(numDistinctValues));
-                $(tr).append($('<td>').text(numChanges));
+                $(tr).append($('<td>').html(moneyFormat(min)).attr('data-value', min));
+                $(tr).append($('<td>').html(moneyFormat(max)).attr('data-value', max));
+                $(tr).append($('<td>').html(moneyFormat(max - min)).attr('data-value', max - min));
+                $(tr).append($('<td>').html(moneyFormat(start)).attr('data-value', start));
+                $(tr).append($('<td>').html(moneyFormat(end)).attr('data-value', end));
+                $(tr).append($('<td>').html(moneyFormat(end - start)).addClass(diffClass).attr('data-value', end - start));
+                $(tr).append($('<td>').text(numDistinctValues).attr('data-value', numDistinctValues));
+                $(tr).append($('<td>').text(numChanges).attr('data-value', numChanges));
             }
         }
 
