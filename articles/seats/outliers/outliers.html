@@ -21,6 +21,7 @@
 
         .intro {
             margin-bottom: 10px;
+            max-width: 1000px;
         }
 
         .down {
@@ -78,7 +79,7 @@
 
 
         // Stolen from https://www.d3-graph-gallery.com/graph/line_basic.html
-        function addLine(ticket, data, numDistinctValues, numChanges) {
+        function addRow(ticket, data, numDistinctValues, numChanges) {
             let tr = $('<tr>');
             $('#tab tbody').append(tr);
 
@@ -87,22 +88,6 @@
                 $(tr).append(td);
                 td.attr('id', ticket);
             }
-
-            var svg = d3.select("#" + ticket)
-                .append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform",
-                    "translate(" + margin.left + "," + margin.top + ")");
-
-            // Add X axis --> it is a date format
-            var x = d3.scaleTime()
-                .domain(d3.extent(data, function (d) { return d.date; }))
-                .range([0, width]);
-            svg.append("g")
-                .attr("transform", "translate(0," + height + ")")
-                .call(d3.axisBottom(x));
 
             // https://stackoverflow.com/questions/14968615/rounding-to-the-nearest-hundredth-of-a-decimal-in-javascript
             function moneyFormat(num) {
@@ -115,10 +100,8 @@
                 } catch (_) { }
                 return '$' + Math.ceil(num * 100) / 100;
             }
-
-            // Add Y axis
-            let min = d3.min(data, function (d) { return d.value; }),
-                max = d3.max(data, function (d) { return d.value; }),
+            let min = d3.min(data, function (d) { return d.price; }),
+                max = d3.max(data, function (d) { return d.price; }),
                 first = data[0].price,
                 last = data[data.length - 1].price,
                 change = last - first;
@@ -133,22 +116,76 @@
                 diff = '&uarr;' + moneyFormat(Math.abs(first - last));
                 diffClass = 'up';
             }
-            var y = d3.scaleLinear()
-                .domain([min - (max - min) / 10, max + (max - min) / 10])
-                .rangeRound([height, 0]);
-            svg.append("g")
-                .call(d3.axisLeft(y).ticks(3));
 
-            // Add the line
-            svg.append("path")
-                .datum(data)
-                .attr("fill", "none")
-                .attr("stroke", "steelblue")
-                .attr("stroke-width", 1.5)
-                .attr("d", d3.line()
-                    .x(function (d) { return x(d.date) })
-                    .y(function (d) { return y(d.value) })
-                )
+            var svg = d3.select("#" + ticket)
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+            const type = 'line';
+
+            if (type == 'line') {
+                // Add X axis --> it is a date format
+                var x = d3.scaleTime()
+                    .domain(d3.extent(data, function (d) { return d.date; }))
+                    .range([0, width]);
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x));
+
+                // Add Y axis
+                var y = d3.scaleLinear()
+                    .domain([min - (max - min) / 10, max + (max - min) / 10])
+                    .rangeRound([height, 0]);
+                svg.append("g")
+                    .call(d3.axisLeft(y).ticks(3));
+
+                // Add the line
+                svg.append("path")
+                    .datum(data)
+                    .attr("fill", "none")
+                    .attr("stroke", "steelblue")
+                    .attr("stroke-width", 1.5)
+                    .attr("d", d3.line()
+                        .x(function (d) { return x(d.date) })
+                        .y(function (d) { return y(d.price) })
+                    )
+            }
+
+            if (type == 'bar') {
+                // X axis
+                let dates = data.map((d) => d.date);
+                var x = d3.scaleBand()
+                    .range([0, width])
+                    .domain(dates);
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x).ticks(10))
+                    .selectAll("text")
+                    .attr("transform", "translate(-10,0)rotate(-45)")
+                    .style("text-anchor", "end");
+
+                // Add Y axis
+                var y = d3.scaleLinear()
+                    .domain([min - (max - min) / 10, max + (max - min) / 10])
+                    .rangeRound([height, 0]);
+                svg.append("g")
+                    .call(d3.axisLeft(y).ticks(3));
+
+                // Bars
+                svg.selectAll("mybar")
+                    .data(data)
+                    .enter()
+                    .append("rect")
+                    .attr("x", function (d) { return x(d.date); })
+                    .attr("y", function (d) { return y(d.price); })
+                    .attr("width", x.bandwidth())
+                    .attr("height", function (d) { return height - y(d.price); })
+                    .attr("fill", "#69b3a2");
+            }
 
             {
                 let d = data[0],
@@ -158,8 +195,8 @@
                     section = d.section,
                     invisibleSection = '<br/><span class="invisible">section:' + section + '</span>',
                     site = d.site,
-                    min = d3.min(data, function (d) { return d.value; }),
-                    max = d3.max(data, function (d) { return d.value; });
+                    min = d3.min(data, function (d) { return d.price; }),
+                    max = d3.max(data, function (d) { return d.price; });
 
                 $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
                 $(tr).append($('<td>').html(section + invisibleSection));
@@ -181,7 +218,6 @@
                 time: new Date(Date.parse(d.date)),
                 date: new Date(Date.parse(d.date)),
                 price: +d.price,
-                value: +d.price,
                 ticket: d.ticket,
                 row: d.row,
                 section: d.section,
@@ -244,7 +280,7 @@
             data.sort((a, b) => { return b.numChanges - a.numChanges; });
 
             data.forEach((d) => {
-                addLine(d.ticket, d.values, d.numDistinctValues, d.numChanges);
+                addRow(d.ticket, d.values, d.numDistinctValues, d.numChanges);
             });
             $('#loading').hide();
             $('#tab').show();
