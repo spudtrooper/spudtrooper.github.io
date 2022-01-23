@@ -23,6 +23,14 @@
             width: 800px;
             margin-bottom: 10px;
         }
+
+        .down {
+            color: #44af69;
+        }
+
+        .up {
+            color: #f8333c;
+        }
     </style>
 </head>
 
@@ -42,11 +50,14 @@
                     <th class="th-sm">Site</th>
                     <th class="th-sm">Section</th>
                     <th class="th-sm">Row</th>
-                    <th class="th-sm">Low Price</th>
-                    <th class="th-sm">High Price</th>
-                    <th class="th-sm">&Delta; Price</th>
-                    <th class="th-sm"># Dist. Prices</th>
-                    <th class="th-sm" data-field="numPriceChanges"># Price Changes</th>
+                    <th class="th-sm">Low</th>
+                    <th class="th-sm">High</th>
+                    <th class="th-sm">&Delta;</th>
+                    <th class="th-sm">Start</th>
+                    <th class="th-sm">End</th>
+                    <th class="th-sm">Move</th>
+                    <th class="th-sm"># Prices</th>
+                    <th class="th-sm" data-field="numPriceChanges"># Moves</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -61,7 +72,7 @@
             // set the dimensions and margins of the graph
             var margin = { top: 10, right: 30, bottom: 30, left: 60 },
                 width = 700 - margin.left - margin.right,
-                height = 180 - margin.top - margin.bottom;
+                height = 100 - margin.top - margin.bottom;
 
             // append the svg object to the body of the page
 
@@ -92,14 +103,40 @@
                 .attr("transform", "translate(0," + height + ")")
                 .call(d3.axisBottom(x));
 
+            // https://stackoverflow.com/questions/14968615/rounding-to-the-nearest-hundredth-of-a-decimal-in-javascript
+            function moneyFormat(num) {
+                try {
+                    let dollarUS = Intl.NumberFormat("en-US", {
+                        style: "currency",
+                        currency: "USD",
+                    });
+                    return dollarUS.format(num);
+                } catch (_) { }
+                return '$' + Math.ceil(num * 100) / 100;
+            }
+
             // Add Y axis
-            let min = d3.min(data, function (d) { return d.value; });
-            let max = d3.max(data, function (d) { return d.value; });
+            let min = d3.min(data, function (d) { return d.value; }),
+                max = d3.max(data, function (d) { return d.value; }),
+                first = data[0].price,
+                last = data[data.length - 1].price,
+                change = last - first;
+            let diff, diffClass;
+            if (last == first) {
+                diff = moneyFormat(Math.abs(first - last));
+                diffClass = '';
+            } else if (last < first) {
+                diff = '&darr;' + moneyFormat(Math.abs(first - last));
+                diffClass = 'down';
+            } else {
+                diff = '&uarr;' + moneyFormat(Math.abs(first - last));
+                diffClass = 'up';
+            }
             var y = d3.scaleLinear()
                 .domain([min - (max - min) / 10, max + (max - min) / 10])
-                .range([height, 0]);
+                .rangeRound([height, 0]);
             svg.append("g")
-                .call(d3.axisLeft(y));
+                .call(d3.axisLeft(y).ticks(3));
 
             // Add the line
             svg.append("path")
@@ -121,16 +158,15 @@
                 let min = d3.min(data, function (d) { return d.value; });
                 let max = d3.max(data, function (d) { return d.value; });
 
-                // https://stackoverflow.com/questions/14968615/rounding-to-the-nearest-hundredth-of-a-decimal-in-javascript
-                function moneyRound(num) {
-                    return Math.ceil(num * 100) / 100;
-                }
                 $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
                 $(tr).append($('<td>').text(section));
                 $(tr).append($('<td>').text(row));
-                $(tr).append($('<td>').html('$' + moneyRound(min)));
-                $(tr).append($('<td>').html('$' + moneyRound(max)));
-                $(tr).append($('<td>').html('$' + moneyRound(max - min)));
+                $(tr).append($('<td>').html(moneyFormat(min)));
+                $(tr).append($('<td>').html(moneyFormat(max)));
+                $(tr).append($('<td>').html(diff).addClass(diffClass));
+                $(tr).append($('<td>').html(moneyFormat(first)));
+                $(tr).append($('<td>').html(moneyFormat(last)));
+                $(tr).append($('<td>').html(moneyFormat(change)).addClass(diffClass));
                 $(tr).append($('<td>').text(numDistinctValues));
                 $(tr).append($('<td>').text(numChanges));
             }
@@ -205,7 +241,7 @@
             });
             $('#loading').hide();
             $('#tab').show();
-            $('.sortable-table').DataTable({ "order": [[8, "desc"]] });
+            $('.sortable-table').DataTable({ "order": [[11, "desc"]] });
             $('.dataTables_length').addClass('bs-select');
             $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
         })
