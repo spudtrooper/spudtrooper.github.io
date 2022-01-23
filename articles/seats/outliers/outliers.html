@@ -20,7 +20,6 @@
         }
 
         .intro {
-            width: 800px;
             margin-bottom: 10px;
         }
 
@@ -31,6 +30,10 @@
         .up {
             color: #f8333c;
         }
+
+        .invisible {
+            display: none;
+        }
     </style>
 </head>
 
@@ -38,7 +41,8 @@
     <div class="intro">
         This shows some ticket prices across seatgeek, stubhub, and vividseats for the Knicks/Kings Game on Jan 23
         sorted by volatility. All the data was gathered with <a
-            href="https://github.com/spudtrooper/seats">github.com/spudtrooper/seats</a>.
+            href="https://github.com/spudtrooper/seats">github.com/spudtrooper/seats</a>. You can search by row or
+        search with <code>row:22</code> and/or <code>section:227</code>.
     </div>
     <div>
         <div id="loading">Loading...</div>
@@ -67,15 +71,14 @@
         $('#loading').show();
         $('#tab').hide();
 
+        // set the dimensions and margins of the graph
+        var margin = { top: 10, right: 30, bottom: 30, left: 60 },
+            width = 700 - margin.left - margin.right,
+            height = 100 - margin.top - margin.bottom;
+
+
         // Stolen from https://www.d3-graph-gallery.com/graph/line_basic.html
         function addLine(ticket, data, numDistinctValues, numChanges) {
-            // set the dimensions and margins of the graph
-            var margin = { top: 10, right: 30, bottom: 30, left: 60 },
-                width = 700 - margin.left - margin.right,
-                height = 100 - margin.top - margin.bottom;
-
-            // append the svg object to the body of the page
-
             let tr = $('<tr>');
             $('#tab tbody').append(tr);
 
@@ -92,8 +95,6 @@
                 .append("g")
                 .attr("transform",
                     "translate(" + margin.left + "," + margin.top + ")");
-
-
 
             // Add X axis --> it is a date format
             var x = d3.scaleTime()
@@ -150,17 +151,19 @@
                 )
 
             {
-                let d = data[0];
-                let url = d.url;
-                let row = d.row;
-                let section = d.section;
-                let site = d.site;
-                let min = d3.min(data, function (d) { return d.value; });
-                let max = d3.max(data, function (d) { return d.value; });
+                let d = data[0],
+                    url = d.url,
+                    row = d.row,
+                    invisibleRow = '<br/><span class="invisible">row:' + row + '</span>',
+                    section = d.section,
+                    invisibleSection = '<br/><span class="invisible">section:' + section + '</span>',
+                    site = d.site,
+                    min = d3.min(data, function (d) { return d.value; }),
+                    max = d3.max(data, function (d) { return d.value; });
 
                 $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
-                $(tr).append($('<td>').text(section));
-                $(tr).append($('<td>').text(row));
+                $(tr).append($('<td>').html(section + invisibleSection));
+                $(tr).append($('<td>').html(row + invisibleRow));
                 $(tr).append($('<td>').html(moneyFormat(min)));
                 $(tr).append($('<td>').html(moneyFormat(max)));
                 $(tr).append($('<td>').html(diff).addClass(diffClass));
@@ -187,7 +190,8 @@
             };
         }
 
-        d3.csv('outliers.csv', row, function (error, dataAll) {
+        // Add a nonce to break the local cache.
+        d3.csv('outliers.csv?fake=' + (new Date()), row, function (error, dataAll) {
             if (error) throw error;
 
             // Find the keys.
@@ -208,7 +212,7 @@
                 return Object.keys(set).length;
             };
 
-            let numChanges = (values) => {
+            let changes = (values) => {
                 let last = 0;
                 let changes = 0;
                 values.forEach((v, i) => {
@@ -223,14 +227,17 @@
 
             let data = [];
             for (let ticket in dataMap) {
-                let values = dataMap[ticket];
+                let values = dataMap[ticket],
+                    numDistinctValues = distinctValues(values),
+                    numChanges = changes(values);
                 let d = {
                     ticket: ticket,
                     values: values,
-                    numDistinctValues: distinctValues(values),
-                    numChanges: numChanges(values),
+                    numDistinctValues: numDistinctValues,
+                    numChanges: numChanges,
                 };
                 data.push(d);
+
             }
 
             // Sort by number of changes.
