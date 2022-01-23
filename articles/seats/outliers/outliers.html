@@ -307,10 +307,10 @@
 
                 if (rowFilter || secFilter) {
                     dataAll = dataAll.filter((d) => {
-                        if (rowFilter && d.row != rowFilter) {
+                        if (rowFilter && metadataMap[d.ticket].row != rowFilter) {
                             return false;
                         }
-                        if (secFilter && d.section != secFilter) {
+                        if (secFilter && metadataMap[d.ticket].section != secFilter) {
                             return false;
                         }
                         return true;
@@ -319,7 +319,6 @@
 
                 // Find the keys.
                 let dataMap = {};
-
                 dataAll.forEach((d) => {
                     let key = d.ticket;
                     let values = dataMap[key] || [];
@@ -336,7 +335,6 @@
                 };
 
                 let changes = (values) => {
-                    let end = 0;
                     let changes = 0;
                     values.forEach((v, i) => {
                         if (i > 0) {
@@ -377,8 +375,8 @@
             });
         }
 
+        // TODO: Could probably do this without reloading the page, but I dont' really care...
         function reload() {
-            let loc = String(document.location).replace(/\?.*/, '');
             let params = new URLSearchParams();
             if (rowFilter) {
                 params.set('row', rowFilter);
@@ -386,6 +384,7 @@
             if (secFilter) {
                 params.set('section', secFilter);
             }
+            let loc = String(document.location).replace(/\?.*/, '').replace(/#.*/, '');
             if (params.toString()) {
                 loc += '?' + params.toString();
             }
