@@ -35,6 +35,10 @@
         .invisible {
             display: none;
         }
+
+        .currency {
+            text-align: end;
+        }
     </style>
 </head>
 
@@ -211,12 +215,12 @@
                 $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
                 $(tr).append($('<td>').html(section + invisibleSection));
                 $(tr).append($('<td>').html(row + invisibleRow));
-                $(tr).append($('<td>').html(moneyFormat(min)).attr('data-value', min));
-                $(tr).append($('<td>').html(moneyFormat(max)).attr('data-value', max));
-                $(tr).append($('<td>').html(moneyFormat(max - min)).attr('data-value', max - min));
-                $(tr).append($('<td>').html(moneyFormat(start)).attr('data-value', start));
-                $(tr).append($('<td>').html(moneyFormat(end)).attr('data-value', end));
-                $(tr).append($('<td>').html(moneyFormat(end - start)).addClass(diffClass).attr('data-value', end - start));
+                $(tr).append($('<td>').addClass('currency').html(moneyFormat(min)).attr('data-value', min));
+                $(tr).append($('<td>').addClass('currency').html(moneyFormat(max)).attr('data-value', max));
+                $(tr).append($('<td>').addClass('currency').html(moneyFormat(max - min)).attr('data-value', max - min));
+                $(tr).append($('<td>').addClass('currency').html(moneyFormat(start)).attr('data-value', start));
+                $(tr).append($('<td>').addClass('currency').html(moneyFormat(end)).attr('data-value', end));
+                $(tr).append($('<td>').addClass('currency').html(moneyFormat(end - start)).addClass(diffClass).attr('data-value', end - start));
                 $(tr).append($('<td>').text(numDistinctValues).attr('data-value', numDistinctValues));
                 $(tr).append($('<td>').text(numChanges).attr('data-value', numChanges));
             }
