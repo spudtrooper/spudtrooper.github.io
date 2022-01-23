@@ -143,7 +143,12 @@
             let min = d3.min(data, function (d) { return d.price; }),
                 max = d3.max(data, function (d) { return d.price; }),
                 start = data[0].price,
-                end = data[data.length - 1].price;
+                end = data[data.length - 1].price,
+                d = data[0],
+                url = d.url,
+                row = d.row,
+                section = d.section,
+                site = d.site;
             let diffClass;
             if (end < start) {
                 diffClass = 'down';
@@ -221,28 +226,21 @@
                     .attr("fill", "#69b3a2");
             }
 
-            {
-                let d = data[0],
-                    url = d.url,
-                    row = d.row,
-                    invisibleRow = '<br/><span class="invisible">row:' + row + '</span>',
-                    section = d.section,
-                    invisibleSection = '<br/><span class="invisible">section:' + section + '</span>',
-                    site = d.site;
-                $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
-                $(tr).append($('<td>').html(section + invisibleSection));
-                $(tr).append($('<td>').html(row + invisibleRow));
-                $(tr).append($('<td>').addClass('currency').html(formatMoney(min)).attr('data-value', min));
-                $(tr).append($('<td>').addClass('currency').html(formatMoney(max)).attr('data-value', max));
-                $(tr).append($('<td>').addClass('currency').html(formatMoneyWithSign(max - min)).attr('data-value', max - min));
-                $(tr).append($('<td>').addClass('currency').html(formatPercent(100 * (max - min) / max)).addClass(diffClass).attr('data-value', 100 * (max - min) / max));
-                $(tr).append($('<td>').addClass('currency').html(formatMoney(start)).attr('data-value', start));
-                $(tr).append($('<td>').addClass('currency').html(formatMoney(end)).attr('data-value', end));
-                $(tr).append($('<td>').addClass('currency').html(formatMoneyWithSign(end - start)).addClass(diffClass).attr('data-value', end - start));
-                $(tr).append($('<td>').addClass('currency').html(formatPercent(100 * (end - start) / start)).addClass(diffClass).attr('data-value', 100 * (end - start) / start));
-                $(tr).append($('<td>').text(numDistinctValues).attr('data-value', numDistinctValues));
-                $(tr).append($('<td>').text(numChanges).attr('data-value', numChanges));
-            }
+            let invisibleRow = '<br/><span class="invisible">row:' + row + '</span>',
+                invisibleSection = '<br/><span class="invisible">section:' + section + '</span>';
+            $(tr).append($('<td>').append($('<a>').text(site).attr('target', '_').attr('href', url)));
+            $(tr).append($('<td>').html(section + invisibleSection));
+            $(tr).append($('<td>').html(row + invisibleRow));
+            $(tr).append($('<td>').addClass('currency').html(formatMoney(min)).attr('data-value', min));
+            $(tr).append($('<td>').addClass('currency').html(formatMoney(max)).attr('data-value', max));
+            $(tr).append($('<td>').addClass('currency').html(formatMoneyWithSign(max - min)).attr('data-value', max - min));
+            $(tr).append($('<td>').addClass('currency').html(formatPercent(100 * (max - min) / max)).addClass(diffClass).attr('data-value', 100 * (max - min) / max));
+            $(tr).append($('<td>').addClass('currency').html(formatMoney(start)).attr('data-value', start));
+            $(tr).append($('<td>').addClass('currency').html(formatMoney(end)).attr('data-value', end));
+            $(tr).append($('<td>').addClass('currency').html(formatMoneyWithSign(end - start)).addClass(diffClass).attr('data-value', end - start));
+            $(tr).append($('<td>').addClass('currency').html(formatPercent(100 * (end - start) / start)).addClass(diffClass).attr('data-value', 100 * (end - start) / start));
+            $(tr).append($('<td>').text(numDistinctValues).attr('data-value', numDistinctValues));
+            $(tr).append($('<td>').text(numChanges).attr('data-value', numChanges));
         }
 
         function row(d) {
