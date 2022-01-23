@@ -33,6 +33,10 @@
             color: #f8333c;
         }
 
+        .nochange {
+            color: #118ab2;
+        }
+
         .invisible {
             display: none;
         }
@@ -153,10 +157,10 @@
                 row = d.row,
                 section = d.section,
                 site = d.site;
-            let diffClass;
+            let diffClass = 'nochange';
             if (end < start) {
                 diffClass = 'down';
-            } else {
+            } else if (end > start) {
                 diffClass = 'up';
             }
 
@@ -242,7 +246,7 @@
             $(tr).append($('<td>').html(row + invisibleRow));
             $(tr).append($('<td>').addClass('currency').html(formatMoney(min)).attr('data-value', min));
             $(tr).append($('<td>').addClass('currency').html(formatMoney(max)).attr('data-value', max));
-            $(tr).append($('<td>').addClass('currency').html(formatMoneyWithSign(max - min)).attr('data-value', max - min));
+            $(tr).append($('<td>').addClass('currency').html(formatMoney(max - min)).attr('data-value', max - min));
             $(tr).append($('<td>').addClass('currency').html(formatPercent(100 * (max - min) / max)).attr('data-value', 100 * (max - min) / max));
             $(tr).append($('<td>').addClass('currency').html(formatMoney(start)).attr('data-value', start));
             $(tr).append($('<td>').addClass('currency').html(formatMoney(end)).attr('data-value', end));
