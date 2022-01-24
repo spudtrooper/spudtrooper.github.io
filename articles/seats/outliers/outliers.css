@@ -56,3 +56,8 @@ td {
 .filter {
     padding: 10px;
 }
+
+td.row-col,
+td.section-col {
+    text-align: center;
+}

@@ -156,29 +156,43 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
         $('<a>').attr('target', '_').attr('href', url).append($('<img>').addClass('site-background').attr('src', images[site]))));
 
     {
-        let td = $('<td>').append(section);
+        let td = $('<td>').append(section).addClass('section-col');
         if (!secFilter) {
-            td.append('<br/>')
-                .append('(')
-                .append($('<a>').attr('href', '#').text('filter').click(function (section, e) {
+            td
+                .append('<br/>')
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('filter')
+                    .click(function (section, e) {
                         secFilter = section;
                         reload();
                     }.bind(null, section))
-                    .append(')'));
+                );
         }
         $(tr).append(td);
     }
 
     {
-        let td = $('<td>').append(row);
+        let td = $('<td>').append(row).addClass('row-col');
         if (!rowFilter) {
-            td.append('<br/>')
-                .append('(')
-                .append($('<a>').attr('href', '#').text('filter').click(function (row, e) {
+            td
+                .append('<br/>')
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('filter')
+                    .click(function (row, e) {
                         rowFilter = row;
                         reload();
                     }.bind(null, row))
-                    .append(')'));
+                );
         }
         $(tr).append(td);
     }
@@ -218,28 +232,38 @@ function load() {
     secFilter = params.get('section') || null;
 
     if (rowFilter || secFilter) {
-        let ul = $('.filter ul')
+        let filtersContainer = $('.filter .filters')
         if (rowFilter) {
-            ul.append($('<li>')
-                .append($('<b>').append('Row:'))
+            filtersContainer
                 .append(' ')
-                .append(rowFilter)
-                .append(' (')
-                .append($('<a>').attr('href', '#').text('remove').click(function (e) {
-                    rowFilter = null;
-                    reload();
-                }).append(')')));
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('Row: ' + rowFilter)
+                    .click(function (e) {
+                        rowFilter = null;
+                        reload();
+                    })
+                );
         }
         if (secFilter) {
-            ul.append($('<li>')
-                .append($('<b>').append('Section:'))
+            filtersContainer
                 .append(' ')
-                .append(secFilter)
-                .append(' (')
-                .append($('<a>').attr('href', '#').text('remove').click(function (e) {
-                    secFilter = null;
-                    reload();
-                }).append(')')));
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('Section: ' + secFilter)
+                    .click(function (e) {
+                        secFilter = null;
+                        reload();
+                    })
+                );
         }
         $('.filter').show();
     }
