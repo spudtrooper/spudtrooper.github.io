@@ -350,7 +350,7 @@ function loadData(metadataMap) {
         data.forEach((d) => {
             addRow(d.ticket, d.values, d.numDistinctValues, d.numChanges, metadataMap);
         });
-        $('.loading').hide();
+        $('.loading').remove();
         $('#tab').show();
         $('.sortable-table').DataTable({
             "order": [

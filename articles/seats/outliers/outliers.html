@@ -17,7 +17,6 @@
     <script>
         $(document).ready(load);
     </script>
-</head>
 
 <body>
     <div class="intro">
@@ -30,31 +29,33 @@
     <div class="filter" style="display:none">
         Filtering by: <span class="filters"></span>
     </div>
-    <div>
-        <div class="loading">Loading...</div>
-        <table id="tab" style="display:none" class="table table-bordered table-sm sortable-table"
-            data-sort-name="numPriceChanges" data-sort-order="desc" cellspacing="0" width="100%">
-            <thead>
-                <tr>
-                    <th scope="col" class="th-sm">Timeline</th>
-                    <th scope="col" class="th-sm">Site</th>
-                    <th scope="col" class="th-sm" data-sorted="alphanum">Sec</th>
-                    <th scope="col" class="th-sm" data-sorted="alphanum">Row</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">Lo</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">Hi</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">Hi-Lo</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">Hi-Lo%</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">Start</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">End</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">End-Start</th>
-                    <th scope="col" class="th-sm" data-sorted="numericonly">End-Start%</th>
-                    <th scope="col" class="th-sm">#Prices</th>
-                    <th scope="col" class="th-sm" data-field="numPriceChanges">#Moves</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+    <div class="d-flex justify-content-center loading" style="margin-top:30px">
+        <div class="spinner-border text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
     </div>
+    <table id="tab" style="display:none" class="table table-bordered table-sm sortable-table"
+        data-sort-name="numPriceChanges" data-sort-order="desc" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th scope="col" class="th-sm">Timeline</th>
+                <th scope="col" class="th-sm">Site</th>
+                <th scope="col" class="th-sm" data-sorted="alphanum">Sec</th>
+                <th scope="col" class="th-sm" data-sorted="alphanum">Row</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">Lo</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">Hi</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">Hi-Lo</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">Hi-Lo%</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">Start</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">End</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">End-Start</th>
+                <th scope="col" class="th-sm" data-sorted="numericonly">End-Start%</th>
+                <th scope="col" class="th-sm">#Prices</th>
+                <th scope="col" class="th-sm" data-field="numPriceChanges">#Moves</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 </body>
 
 </html>
