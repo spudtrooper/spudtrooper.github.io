@@ -355,7 +355,11 @@ function loadData(metadataMap) {
         $('.sortable-table').DataTable({
             "order": [
                 [13, "desc"]
-            ]
+            ],
+            "columnDefs": [{
+                "targets": 0,
+                "orderable": false
+            }]
         });
         $('.dataTables_length').addClass('bs-select');
         $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
