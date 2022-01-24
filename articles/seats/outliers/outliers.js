@@ -243,7 +243,7 @@ function load() {
                     reload();
                 }).append(')')));
         }
-
+        $('.filter').show();
     }
 
     console.log('loading metadata...');
