@@ -210,7 +210,7 @@ function row(d) {
 
 
 function load() {
-    $('#loading').show();
+    $('.loading').show();
     $('#tab').hide();
 
     let params = new URLSearchParams(document.location.search);
@@ -218,16 +218,14 @@ function load() {
     secFilter = params.get('section') || null;
 
     if (rowFilter || secFilter) {
-        $('.filter').append('Filtering by:');
-        let ul = $('<ul>');
-        $('.filter').append(ul);
+        let ul = $('.filter ul')
         if (rowFilter) {
             ul.append($('<li>')
                 .append($('<b>').append('Row:'))
                 .append(' ')
                 .append(rowFilter)
                 .append(' (')
-                .append($('<a>').attr('href', '#').text('unfilter').click(function (e) {
+                .append($('<a>').attr('href', '#').text('remove').click(function (e) {
                     rowFilter = null;
                     reload();
                 }).append(')')));
@@ -238,7 +236,7 @@ function load() {
                 .append(' ')
                 .append(secFilter)
                 .append(' (')
-                .append($('<a>').attr('href', '#').text('unfilter').click(function (e) {
+                .append($('<a>').attr('href', '#').text('remove').click(function (e) {
                     secFilter = null;
                     reload();
                 }).append(')')));
@@ -328,7 +326,7 @@ function loadData(metadataMap) {
         data.forEach((d) => {
             addRow(d.ticket, d.values, d.numDistinctValues, d.numChanges, metadataMap);
         });
-        $('#loading').hide();
+        $('.loading').hide();
         $('#tab').show();
         $('.sortable-table').DataTable({
             "order": [
