@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+#loading {
+    margin: 50px;
+}
+
+.intro {
+    margin-bottom: 10px;
+    max-width: 1000px;
+}
+
+.down {
+    color: #44af69;
+}
+
+.up {
+    color: #f8333c;
+}
+
+.nochange {
+    color: #118ab2;
+}
+
+.invisible {
+    display: none;
+}
+
+.currency {
+    text-align: end;
+}
+
+.number {
+    text-align: end;
+}
+
+td,
+th {
+    min-width: 0px;
+}
+
+.site-background {
+    width: 90px;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.logo-container {
+    text-align: center !important;
+}
+
+.filter {
+    padding: 10px;
+}
