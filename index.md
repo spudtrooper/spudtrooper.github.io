@@ -34,6 +34,10 @@ Collection of bookmarklets. [[Code](https://github.com/spudtrooper/bookmarklets)
 
 Advent of code 2021 solutions for some members of a private leaderboard.
 
+## [seats](/seats)
+
+A look at ticket prices across time and ticket sites for a Knick game.
+
 ## More
     
 [jeffpalm.com](http://jeffpalm.com)

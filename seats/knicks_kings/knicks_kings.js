@@ -266,7 +266,7 @@ function load() {
     lastMinuteFilter = params.get('lastMinute') != null;
     lastDayFilter = params.get('lastDay') != null;
 
-    if (rowFilter || sectionFilter || lastMinuteFilter) {
+    if (rowFilter || sectionFilter || lastMinuteFilter || lastDayFilter) {
         let filtersContainer = $('.filter .filters')
         if (rowFilter) {
             filtersContainer
