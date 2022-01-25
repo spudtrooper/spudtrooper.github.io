@@ -7,6 +7,7 @@ Articles I've written.
 ## [seats](/seats)
 
 A look at ticket prices across time and ticket sites for a Knick game.
+[[Code](https://github.com/spudtrooper/seats)]
 
 ## [ida](/ida)
 
