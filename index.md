@@ -4,6 +4,10 @@
 
 Articles I've written.
 
+## [seats](/seats)
+
+A look at ticket prices across time and ticket sites for a Knick game.
+
 ## [ida](/ida)
 
 Data collected from [entergy.com](http://entergy.com) following Hurricane Ida
@@ -33,10 +37,6 @@ Collection of bookmarklets. [[Code](https://github.com/spudtrooper/bookmarklets)
 ## [adventofcodediff2021](/adventofcodediff2021)
 
 Advent of code 2021 solutions for some members of a private leaderboard.
-
-## [seats](/seats)
-
-A look at ticket prices across time and ticket sites for a Knick game.
 
 ## More
     
