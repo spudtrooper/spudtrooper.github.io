@@ -8,7 +8,7 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
             bottom: 30,
             left: 60
         },
-        width = 700 - margin.left - margin.right,
+        width = 800 - margin.left - margin.right,
         height = 100 - margin.top - margin.bottom;
 
     let tr = $('<tr>');
@@ -71,17 +71,18 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
         diffClass = 'up';
     }
 
-    var svg = d3.select("#" + ticket)
-        .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-        .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
 
     const type = 'line';
 
     if (type == 'line') {
+        var svg = d3.select("#" + ticket)
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
         // Add X axis --> it is a date format
         var x = d3.scaleTime()
             .domain(d3.extent(data, function (d) {
@@ -105,17 +106,27 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
             .attr("fill", "none")
             .attr("stroke", "steelblue")
             .attr("stroke-width", 1.5)
-            .attr("d", d3.line()
+            .attr("d",
+                d3.line()
                 .x(function (d) {
                     return x(d.date)
                 })
                 .y(function (d) {
                     return y(d.price)
                 })
+                .curve(d3.curveStepAfter)
             )
     }
 
     if (type == 'bar') {
+        var svg = d3.select("#" + ticket)
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
         // X axis
         let dates = data.map((d) => d.date);
         var x = d3.scaleBand()
@@ -152,6 +163,29 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
             })
             .attr("fill", "#69b3a2");
     }
+
+    if (type == 'steppedArea') {
+        var data = google.visualization.arrayToDataTable([
+            ['Director (Year)', 'Rotten Tomatoes', 'IMDB'],
+            ['Alfred Hitchcock (1935)', 8.4, 7.9],
+            ['Ralph Thomas (1959)', 6.9, 6.5],
+            ['Don Sharp (1978)', 6.5, 6.4],
+            ['James Hawes (2008)', 4.4, 6.2]
+        ]);
+
+        var options = {
+            title: 'The decline of \'The 39 Steps\'',
+            vAxis: {
+                title: 'Accumulated Rating'
+            },
+            isStacked: true
+        };
+
+        var chart = new google.visualization.SteppedAreaChart(document.getElementById(ticket));
+
+        chart.draw(data, options);
+    }
+
     $(tr).append($('<td>').addClass('logo-container').append(
         $('<a>').attr('target', '_').attr('href', url).append($('<img>').addClass('site-background').attr('src', images[site]))));
 
@@ -230,8 +264,9 @@ function load() {
     let params = new URLSearchParams(document.location.search);
     rowFilter = params.get('row') || null;
     secFilter = params.get('section') || null;
+    lastMinuteFilter = params.get('lastMinute') || false;
 
-    if (rowFilter || secFilter) {
+    if (rowFilter || secFilter || lastMinuteFilter) {
         let filtersContainer = $('.filter .filters')
         if (rowFilter) {
             filtersContainer
@@ -265,6 +300,22 @@ function load() {
                     })
                 );
         }
+        if (lastMinuteFilter) {
+            filtersContainer
+                .append(' ')
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('Last minute changes')
+                    .click(function (e) {
+                        lastMinuteFilter = false;
+                        reload();
+                    })
+                );
+        }
         $('.filter').show();
     }
 
@@ -286,27 +337,6 @@ function loadData(metadataMap) {
     d3.csv('outliers.csv?fake=' + (new Date()), row, function (error, dataAll) {
         if (error) throw error;
 
-        if (rowFilter || secFilter) {
-            dataAll = dataAll.filter((d) => {
-                if (rowFilter && metadataMap[d.ticket].row != rowFilter) {
-                    return false;
-                }
-                if (secFilter && metadataMap[d.ticket].section != secFilter) {
-                    return false;
-                }
-                return true;
-            });
-        }
-
-        // Find the keys.
-        let dataMap = {};
-        dataAll.forEach((d) => {
-            let key = d.ticket;
-            let values = dataMap[key] || [];
-            values.push(d);
-            dataMap[key] = values;
-        });
-
         let distinctValues = (values) => {
             let set = {};
             values.forEach((v) => {
@@ -327,6 +357,50 @@ function loadData(metadataMap) {
             return changes;
         };
 
+        let numChangesMap = {};
+        let dataMap = {};
+        if (lastMinuteFilter) {
+            dataAll.forEach((d) => {
+                let key = d.ticket;
+                let values = dataMap[key] || [];
+                values.push(d);
+                dataMap[key] = values;
+            });
+            for (let ticket in dataMap) {
+                numChangesMap[ticket] = changes(dataMap[ticket]);
+            }
+        }
+
+        if (rowFilter || secFilter || lastMinuteFilter) {
+            dataAll = dataAll.filter((d) => {
+                if (rowFilter && metadataMap[d.ticket].row != rowFilter) {
+                    return false;
+                }
+                if (secFilter && metadataMap[d.ticket].section != secFilter) {
+                    return false;
+                }
+                if (lastMinuteFilter) {
+                    if (numChangesMap[d.ticket] != 1) {
+                        return false;
+                    }
+                    let lastMinute = new Date(1643061609236); // 5pm
+                    if (d.time < lastMinute) {
+                        return false;
+                    }
+                }
+                return true;
+            });
+        }
+
+        // Find the keys.
+        dataMap = {};
+        dataAll.forEach((d) => {
+            let key = d.ticket;
+            let values = dataMap[key] || [];
+            values.push(d);
+            dataMap[key] = values;
+        });
+
         let data = [];
         for (let ticket in dataMap) {
             let values = dataMap[ticket],
@@ -339,7 +413,6 @@ function loadData(metadataMap) {
                 numChanges: numChanges,
             };
             data.push(d);
-
         }
 
         // Sort by number of changes.
@@ -348,6 +421,10 @@ function loadData(metadataMap) {
         });
 
         data.forEach((d) => {
+            // XXXX
+            if (lastMinuteFilter && d.numChanges != 1) {
+                return;
+            }
             addRow(d.ticket, d.values, d.numDistinctValues, d.numChanges, metadataMap);
         });
         $('.loading').remove();
@@ -374,6 +451,9 @@ function reload() {
     }
     if (secFilter) {
         params.set('section', secFilter);
+    }
+    if (lastMinuteFilter) {
+        params.set('lastMinute');
     }
     let loc = String(document.location).replace(/\?.*/, '').replace(/#.*/, '');
     if (params.toString()) {
