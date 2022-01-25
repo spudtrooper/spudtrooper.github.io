@@ -256,6 +256,10 @@ function row(d) {
     };
 }
 
+function isTesting() {
+    return document.location.host.match(/localhost/);
+}
+
 
 function load() {
     $('.loading').show();
@@ -322,7 +326,11 @@ function load() {
     console.log('loading metadata...');
     // Map tickets to metadata objects.
     let metadataMap = {};
-    d3.csv('outliersmetadata.csv?fake=' + (new Date()), row, function (error, data) {
+    let file = 'knicks_kings_metadata.csv';
+    if (isTesting()) {
+        file += '?fake=' + (new Date()).getTime();
+    }
+    d3.csv(file, row, function (error, data) {
         if (error) throw error;
         data.forEach((d) => {
             metadataMap[d.ticket] = d;
@@ -333,8 +341,11 @@ function load() {
 
 function loadData(metadataMap) {
     console.log('loading data...');
-    // Add a nonce to break the local cache.
-    d3.csv('outliers.csv?fake=' + (new Date()), row, function (error, dataAll) {
+    let file = 'knicks_kings.csv';
+    if (isTesting()) {
+        file += '?fake=' + (new Date()).getTime();
+    }
+    d3.csv(file, row, function (error, dataAll) {
         if (error) throw error;
 
         let distinctValues = (values) => {
@@ -428,7 +439,6 @@ function loadData(metadataMap) {
             addRow(d.ticket, d.values, d.numDistinctValues, d.numChanges, metadataMap);
         });
         $('.loading').remove();
-        $('#tab').show();
         $('.sortable-table').DataTable({
             "order": [
                 [13, "desc"]
@@ -440,6 +450,19 @@ function loadData(metadataMap) {
         });
         $('.dataTables_length').addClass('bs-select');
         $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
+        $('#tab').show();
+    });
+}
+
+function finish() {
+    $('.sortable-table').DataTable({
+        "order": [
+            [13, "desc"]
+        ],
+        "columnDefs": [{
+            "targets": 0,
+            "orderable": false
+        }]
     });
 }
 
