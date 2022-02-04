@@ -1,6 +1,6 @@
 # seats
 
-[github.com/spudtrooper/seats](https://github.com/spudtrooper/seats) is a tool to search across various ticket sites (e.g. vividseats, stubhub, seatgeek) for a single event. I used it at first to search at a given point in time for how ticket prices for a particular seat varied ([example](./Knicks-Kings.html)); then how all the tickets varied over time ([example](knicks_kings/knicks_kings.html)). Both of these examples are from the Knick/Kings game on Jan 24 at 7:30pm EST, e.g.
+[github.com/spudtrooper/seats](https://github.com/spudtrooper/seats) is a tool to search across various ticket sites (e.g. vividseats, stubhub, seatgeek) for a single event. I used it at first to search at a given point in time for how ticket prices for a particular seat varied ([example](./Knicks-Kings.html)); then how all the tickets varied over time ([example](knicks_kings/)). Both of these examples are from the Knick/Kings game on Jan 24 at 7:30pm EST, e.g.
 
 ![ss](./knicks_kings.png)
 
@@ -8,5 +8,5 @@ I went to the Knick/Pelicans game on Jan 20 at the last minute and noticed that 
 
 Conslusions???:
 
-- You can see all the tickets whose prices changed in the [last day](knicks_kings/knicks_kings.html?lastDay) and in the [last 2 hours](knicks_kings/knicks_kings.html?lastMinute). Maybe there are patterns?
+- You can see all the tickets whose prices changed in the [last day](knicks_kings/?lastDay) and in the [last 2 hours](knicks_kings/?lastMinute). Maybe there are patterns?
 - You could probably also use this data to identify the big ticket brokers, since they probably move ticket prices similarly across sites and similarly across times.
