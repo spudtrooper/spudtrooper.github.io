@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script>
+        $(document).ready(load.bind(null, 'super_bowl_lvi_metadata.csv', 'super_bowl_lvi.csv'));
+    </script>
+</head>
+
+<body>
+    <div class="intro">
+        Ticket prices across seatgeek, stubhub, and vividseats for Super Bowl LVI
+        <b>changed
+            price at least once</b> initially sorted by volatility. All the data was gathered with <a
+            href="https://github.com/spudtrooper/seats">github.com/spudtrooper/seats</a>.
+        You can filter by changes
+        <!-- in the <a href="knicks_kings.html?lastDay">last day</a>, <a
+            href="knicks_kings.html?lastMinute">last 2 hours</a>, or
+        -->
+        by row/section by clicking "filter".
+        <div class="filter" style="display:none">
+            Filtering by: <span class="filters"></span>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center loading" style="margin-top:30px">
+        <div class="spinner-border text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <div id="results" style="display:none">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="timelines-tab" data-bs-toggle="tab" data-bs-target="#timelines-pane"
+                    type="button" role="tab" aria-controls="timelines-pane" aria-selected="true">Timelines</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="histograms-tab" data-bs-toggle="tab" data-bs-target="#histograms-pane"
+                    type="button" role="tab" aria-controls="histograms-pane" aria-selected="false">Histograms</button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane show active" id="timelines-pane" role="tabpanel" aria-labelledby="timelines-tab">
+                <table id="tab" class="table table-bordered table-sm sortable-table" data-sort-name="numPriceChanges"
+                    data-sort-order="desc" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="th-sm">Timeline</th>
+                            <th scope="col" class="th-sm">Site</th>
+                            <th scope="col" class="th-sm" data-sorted="alphanum">Sec</th>
+                            <th scope="col" class="th-sm" data-sorted="alphanum">Row</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">Lo</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">Hi</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">Hi-Lo</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">Hi-Lo%</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">Start</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">End</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">End-Start</th>
+                            <th scope="col" class="th-sm" data-sorted="numericonly">End-Start%</th>
+                            <th scope="col" class="th-sm" data-sorted="alphanum">Final 2hr?</th>
+                            <th scope="col" class="th-sm" data-sorted="alphanum">Final Day?</th>
+                            <th scope="col" class="th-sm">#Prices</th>
+                            <th scope="col" class="th-sm" data-field="numPriceChanges">#Moves</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="tab-pane" id="histograms-pane" role="tabpanel" aria-labelledby="histograms-tab">
+                <style>
+                    /* https://stackoverflow.com/questions/6865194/fluid-width-with-equally-spaced-divs */
+                    .box,
+                    .histogram {
+                        height: 100%;
+                        vertical-align: top;
+                        display: inline-block;
+                        *display: inline;
+                        zoom: 1
+                    }
+
+                    .histogram {
+                        width: 33%;
+                    }
+
+                    .scatter-slider {
+                        width: 80%;
+                        margin: 10px;
+                    }
+
+                    .play {
+                        background-image: url("media-play-8x.png");
+                        background-repeat: no-repeat, repeat;
+                        height: 32px;
+                        width: 32px;
+                    }
+
+                    .pause {
+                        background-image: url("media-pause-8x.png");
+                        background-repeat: no-repeat, repeat;
+                        height: 32px;
+                        width: 32px;
+                    }
+
+                    .reset {
+                        background-image: url("reload-8x.png");
+                        background-repeat: no-repeat, repeat;
+                        height: 32px;
+                        width: 32px;
+                    }
+
+                    .button-wrapper {
+                        clear: none;
+                        float: right;
+                        padding-right: 10px;
+                    }
+
+                    .scatter {
+                        padding: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    .slider {
+                        margin-bottom: 10px;
+                    }
+                </style>
+                <div id="scatter" class="scatter">
+                    <div class="slider"></div>
+                    <div>
+                        <div class="date box">
+                            <div class="min"><b>Min: </b><span class="val"></span></div>
+                            <div class="cur"><b>Cur: </b><span class="val"></span></div>
+                            <div class="max"><b>Max: </b><span class="val"></span></div>
+                        </div>
+                        <div class="controls box">
+                            <div class="state box"></div>
+                            <div class="box">
+                                <a href="#" id="reset-btn" class="button-wrapper">
+                                    <div class="reset"></div>
+                                </a>
+                                <a href="#" id="toggle-btn" class="button-wrapper">
+                                    <div class="toggle-img"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="histograms">
+                        <div class="stubhub histogram"></div>
+                        <div class="seatgeek histogram"></div>
+                        <div class="vividseats histogram"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
