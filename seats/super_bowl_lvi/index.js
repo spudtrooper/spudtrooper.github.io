@@ -448,7 +448,7 @@ HistogramController.prototype.render = function (opt_done) {
 };
 
 
-let scatterData = null;
+scatterData = null;
 
 // https://www.d3-graph-gallery.com/graph/histogram_double.html
 function loadDataScatter(metadataMap, data) {
@@ -610,8 +610,8 @@ function loadDataForTable(metadataMap, dataAll) {
             changes.push(d);
         }
 
-        const lastMinuteThreshold = new Date(1643065209236); // 6pm
-        const lastDayThreshold = new Date(1643000409236); // 12am
+        const lastMinuteThreshold = new Date(Date.parse('Sun Feb 13 2022 18:30:00 GMT-0500 (Eastern Standard Time)'));
+        const lastDayThreshold = new Date(Date.parse('Sun Feb 13 2022 00:00:00 GMT-0500 (Eastern Standard Time)'));
         let filteredKeySet = [];
         changes.forEach((d) => {
             if (rowFilter && metadataMap[d.ticket].row != rowFilter) {
