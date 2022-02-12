@@ -1,4 +1,8 @@
-let rowFilter, sectionFilter, lastMinuteFilter, lastDayFilter, allFilter;
+window.rowFilter = null;
+window.sectionFilter = null;
+window.lastMinuteFilter = null;
+window.lastDayFilter = null;
+window.allFilter = null;
 
 // https://www.d3-graph-gallery.com/graph/line_basic.html
 function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
@@ -243,6 +247,7 @@ function load(metadataCsvFile, csvFile) {
     sectionFilter = params.get('section') || null;
     lastMinuteFilter = params.get('lastMinute') != null;
     lastDayFilter = params.get('lastDay') != null;
+    allFilter = params.get('all') != null;
 
     if (rowFilter || sectionFilter || lastMinuteFilter || lastDayFilter || allFilter) {
         let filtersContainer = $('.filter .filters')
