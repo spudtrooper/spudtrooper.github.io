@@ -1,4 +1,4 @@
-let rowFilter, sectionFilter, lastMinuteFilter, lastDayFilter;
+let rowFilter, sectionFilter, lastMinuteFilter, lastDayFilter, allFilter;
 
 // https://www.d3-graph-gallery.com/graph/line_basic.html
 function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
@@ -244,7 +244,7 @@ function load(metadataCsvFile, csvFile) {
     lastMinuteFilter = params.get('lastMinute') != null;
     lastDayFilter = params.get('lastDay') != null;
 
-    if (rowFilter || sectionFilter || lastMinuteFilter || lastDayFilter) {
+    if (rowFilter || sectionFilter || lastMinuteFilter || lastDayFilter || allFilter) {
         let filtersContainer = $('.filter .filters')
         if (rowFilter) {
             filtersContainer
@@ -310,6 +310,22 @@ function load(metadataCsvFile, csvFile) {
                     })
                 );
         }
+        if (allFilter) {
+            filtersContainer
+                .append(' ')
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('all')
+                    .click(function (e) {
+                        allFilter = false;
+                        reload();
+                    })
+                );
+        }
         $('.filter').show();
     }
 
@@ -359,12 +375,6 @@ function load(metadataCsvFile, csvFile) {
     });
 }
 
-let State = {
-    PAUSED: 'paused',
-    READY: 'ready',
-    RUNNING: 'RUNNING',
-};
-
 HistogramController = function () {
     this.state_ = null;
     this.interval_ = null;
@@ -373,8 +383,14 @@ HistogramController = function () {
     this.skipThisChange_ = false;
 };
 
+HistogramController.State = {
+    PAUSED: 'paused',
+    READY: 'ready',
+    RUNNING: 'RUNNING',
+};
+
 HistogramController.prototype.start = function () {
-    this.state_ = State.READY;
+    this.state_ = HistogramController.State.READY;
     $('#toggle-btn').click(this.toggle.bind(this));
     $('#reset-btn').click(this.reset.bind(this));
     this.render();
@@ -386,7 +402,7 @@ HistogramController.prototype.setDate = function (date) {
 };
 
 HistogramController.prototype.tick = function () {
-    if (this.state_ != State.RUNNING) {
+    if (this.state_ != HistogramController.State.RUNNING) {
         return;
     }
     let dates = $('#scatter .slider').val(),
@@ -394,7 +410,7 @@ HistogramController.prototype.tick = function () {
         max = dates.length;
     index++;
     if (index >= max) {
-        this.state_ != State.PAUSED;
+        this.state_ != HistogramController.State.PAUSED;
         this.reset();
         return;
     }
@@ -405,8 +421,8 @@ HistogramController.prototype.tick = function () {
 };
 
 HistogramController.prototype.reset = function () {
-    if (this.state_ != State.RUNNING) {
-        this.state_ = State.READY;
+    if (this.state_ != HistogramController.State.RUNNING) {
+        this.state_ = HistogramController.State.READY;
     }
     let dates = $('#scatter .slider').val();
     this.date_ = dates[0];
@@ -415,28 +431,28 @@ HistogramController.prototype.reset = function () {
 };
 
 HistogramController.prototype.toggle = function () {
-    if (this.state_ == State.PAUSED) {
-        this.state_ = State.RUNNING;
+    if (this.state_ == HistogramController.State.PAUSED) {
+        this.state_ = HistogramController.State.RUNNING;
         this.tick();
-    } else if (this.state_ == State.READY) {
-        this.state_ = State.RUNNING;
+    } else if (this.state_ == HistogramController.State.READY) {
+        this.state_ = HistogramController.State.RUNNING;
         this.millisLeft_ = this.durationSecs_ * 1000;
         this.tick();
-    } else if (this.state_ == State.RUNNING) {
-        this.state_ = State.PAUSED;
+    } else if (this.state_ == HistogramController.State.RUNNING) {
+        this.state_ = HistogramController.State.PAUSED;
         this.render();
     }
     return false;
 };
 
 HistogramController.prototype.render = function (opt_done) {
-    if (this.state_ == State.PAUSED) {
+    if (this.state_ == HistogramController.State.PAUSED) {
         $('#scatter .controls .toggle-img').removeClass('pause').addClass('play');
         $('#scatter .controls .state').text('paused');
-    } else if (this.state_ == State.READY) {
+    } else if (this.state_ == HistogramController.State.READY) {
         $('#scatter .controls .toggle-img').removeClass('pause').addClass('play');
         $('#scatter .controls .state').text('ready');
-    } else if (this.state_ == State.RUNNING) {
+    } else if (this.state_ == HistogramController.State.RUNNING) {
         $('#scatter .controls .toggle-img').removeClass('play').addClass('pause');
         $('#scatter .controls .state').html('running');
     }
@@ -632,7 +648,8 @@ function loadDataForTable(metadataMap, dataAll) {
                 }
             }
             if ((!lastMinuteFilter || (lastMinuteFilter && isLastMinute)) &&
-                (!lastDayFilter || (lastDayFilter && isLastDay))) {
+                (!lastDayFilter || (lastDayFilter && isLastDay)) &&
+                (allFilter || d.changes.length > 5)) {
                 filteredKeySet[d.ticket] = true;
             }
             metadataMap[d.ticket].isLastMinute = isLastMinute;
@@ -749,6 +766,9 @@ function reload() {
     }
     if (lastMinuteFilter) {
         params.set('lastMinute');
+    }
+    if (allFilter) {
+        params.set('allFilter');
     }
     let loc = String(document.location).replace(/\?.*/, '').replace(/#.*/, '');
     if (params.toString()) {
