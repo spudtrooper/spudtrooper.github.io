@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <script>
-        $(document).ready(load.bind(null, 'super_bowl_lvi_metadata.csv', 'super_bowl_lvi.csv'));
+        $(document).ready(load.bind(null,
+            'super_bowl_lvi_metadata.csv',
+            'super_bowl_lvi.csv',
+            'super_bowl_lvi_inventory.csv'));
     </script>
 </head>
 
@@ -31,6 +34,7 @@
                 or by row/section by clicking "filter"</li>
             <li>You can show <a href="?all">all</a> of the tickets, though the page could hang. If you're prompted to
                 kill or continue to page, choose continue.</li>
+            <li>Other filters: <a href="?sold">sold</a>, <a href="?unsold">unsold</a>.</li>
         </ul>
         <div class="filter" style="display:none">
             Filtering by: <span class="filters"></span>
@@ -53,6 +57,10 @@
                 <button class="nav-link" id="histograms-tab" data-bs-toggle="tab" data-bs-target="#histograms-pane"
                     type="button" role="tab" aria-controls="histograms-pane" aria-selected="false">Histograms</button>
             </li>
+            <!-- <li class="nav-item" role="presentation">
+                <button class="nav-link" id="inventory-tab" data-bs-toggle="tab" data-bs-target="#inventory-pane"
+                    type="button" role="tab" aria-controls="inventory-pane" aria-selected="false">Inventory</button>
+            </li> -->
         </ul>
         <div class="tab-content">
             <div class="tab-pane show active" id="timelines-pane" role="tabpanel" aria-labelledby="timelines-tab">
@@ -64,6 +72,7 @@
                             <th scope="col" class="th-sm">Site</th>
                             <th scope="col" class="th-sm" data-sorted="alphanum">Sec</th>
                             <th scope="col" class="th-sm" data-sorted="alphanum">Row</th>
+                            <th scope="col" class="th-sm" data-sorted="alphanum">Sold?</th>
                             <th scope="col" class="th-sm" data-sorted="numericonly">Lo</th>
                             <th scope="col" class="th-sm" data-sorted="numericonly">Hi</th>
                             <th scope="col" class="th-sm" data-sorted="numericonly">Hi-Lo</th>
@@ -165,6 +174,13 @@
                     </div>
                 </div>
             </div>
+            <!-- <div class="tab-pane" id="inventory-pane" role="tabpanel" aria-labelledby="inventory-tab">
+                <div class="inventories">
+                    <div class="stubhub inventory"></div>
+                    <div class="seatgeek inventory"></div>
+                    <div class="vividseats inventory"></div>
+                </div>
+            </div> -->
         </div>
     </div>
 </body>

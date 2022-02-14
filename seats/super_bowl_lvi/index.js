@@ -1,9 +1,3 @@
-window.rowFilter = null;
-window.sectionFilter = null;
-window.lastMinuteFilter = null;
-window.lastDayFilter = null;
-window.allFilter = null;
-
 // https://www.d3-graph-gallery.com/graph/line_basic.html
 function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
     let margin = {
@@ -15,36 +9,35 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
         width = 800 - margin.left - margin.right,
         height = 100 - margin.top - margin.bottom;
 
-    let tr = $('<tr>');
-    $('#tab tbody').append(tr);
-
-    {
-        let td = $('<td>');
-        $(tr).append(td);
-        td.attr('id', ticket);
-    }
-
     let min = d3.min(data, function (d) {
             return d.price;
         }),
         max = d3.max(data, function (d) {
             return d.price;
         }),
-        start = data[0].price,
-        end = data[data.length - 1].price,
+        firstData = data[0],
+        lastData = data[data.length - 1],
+        start = firstData.price,
+        end = lastData.price,
         metadata = metadataMap[ticket],
         url = metadata.url,
         row = metadata.row,
         section = metadata.section,
         site = metadata.site,
         isLastMinute = metadata.isLastMinute,
-        isLastDay = metadata.isLastDay;
+        isLastDay = metadata.isLastDay,
+        isSold = metadata.isSold;
     let diffClass = 'nochange';
     if (end < start) {
         diffClass = 'down';
     } else if (end > start) {
         diffClass = 'up';
     }
+
+    let tr = $('<tr>');
+    $('#tab tbody').append(tr);
+
+    $(tr).append($('<td>').attr('id', ticket));
 
 
     const type = 'line';
@@ -139,51 +132,7 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
             .attr('fill', '#69b3a2');
     }
 
-    $(tr).append($('<td>').addClass('logo-container').append(
-        $('<a>').attr('target', '_').attr('href', url).append($('<img>')
-            .addClass('site-background').attr('src', IMAGES[site]))));
 
-    {
-        let td = $('<td>').append(section).addClass('section-col');
-        if (!sectionFilter) {
-            td
-                .append('<br/>')
-                .append(
-                    $('<button>')
-                    .attr('type', 'button')
-                    .addClass('btn')
-                    .addClass('badge-info')
-                    .addClass('badge')
-                    .text('filter')
-                    .click(function (section, e) {
-                        sectionFilter = section;
-                        reload();
-                    }.bind(null, section))
-                );
-        }
-        $(tr).append(td);
-    }
-
-    {
-        let td = $('<td>').append(row).addClass('row-col');
-        if (!rowFilter) {
-            td
-                .append('<br/>')
-                .append(
-                    $('<button>')
-                    .attr('type', 'button')
-                    .addClass('btn')
-                    .addClass('badge-info')
-                    .addClass('badge')
-                    .text('filter')
-                    .click(function (row, e) {
-                        rowFilter = row;
-                        reload();
-                    }.bind(null, row))
-                );
-        }
-        $(tr).append(td);
-    }
 
     // https://stackoverflow.com/questions/14968615/rounding-to-the-nearest-hundredth-of-a-decimal-in-javascript
     function formatMoney(num) {
@@ -221,6 +170,56 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
         return b ? '<span class="yes">YES</span>' : '<span class="no">NO</span>';
     }
 
+    $(tr).append($('<td>').addClass('logo-container').append(
+        $('<a>').attr('target', '_').attr('href', url).append($('<img>')
+            .addClass('site-background').attr('src', IMAGES[site]))));
+
+    {
+        let td = $('<td>').append(section).addClass('section-col');
+        if (!filters.sectionFilter) {
+            td
+                .append('<br/>')
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('filter')
+                    .click(function (section, e) {
+                        filters.sectionFilter = section;
+                        reload();
+                    }.bind(null, section))
+                );
+        }
+        $(tr).append(td);
+    }
+
+    {
+        let td = $('<td>').append(row).addClass('row-col');
+        if (!filters.rowFilter) {
+            td
+                .append('<br/>')
+                .append(
+                    $('<button>')
+                    .attr('type', 'button')
+                    .addClass('btn')
+                    .addClass('badge-info')
+                    .addClass('badge')
+                    .text('filter')
+                    .click(function (row, e) {
+                        filters.rowFilter = row;
+                        reload();
+                    }.bind(null, row))
+                );
+        }
+        $(tr).append(td);
+    }
+    let soldTd = $('<td>').addClass('bool').html(formatBool(isSold))
+    if (isSold) {
+        soldTd.attr('title', 'Sold on ' + lastData.date);
+    }
+    $(tr).append(soldTd);
     $(tr).append($('<td>').addClass('currency').html(formatMoney(min)).attr('data-value', min));
     $(tr).append($('<td>').addClass('currency').html(formatMoney(max)).attr('data-value', max));
     $(tr).append($('<td>').addClass('currency').html(formatMoney(max - min)).attr('data-value', max - min));
@@ -238,98 +237,100 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
     $(tr).append($('<td>').addClass('number').text(numChanges).attr('data-value', numChanges));
 }
 
-function load(metadataCsvFile, csvFile) {
+function load(metadataCsvFile, csvFile, inventoryCsvFile) {
     $('.loading').show();
     $('#results').hide();
+    try {
+        doLoad(metadataCsvFile, csvFile, inventoryCsvFile);
+    } catch (e) {
+        $('.loading').hide();
+        $('#results').show();
+        alert(e);
+    }
+}
 
-    let params = new URLSearchParams(document.location.search);
-    rowFilter = params.get('row') || null;
-    sectionFilter = params.get('section') || null;
-    lastMinuteFilter = params.get('lastMinute') != null;
-    lastDayFilter = params.get('lastDay') != null;
-    allFilter = params.get('all') != null;
+function Filters(params) {
+    this.rowFilter = params.get('row') || null;
+    this.sectionFilter = params.get('section') || null;
+    this.lastMinuteFilter = params.get('lastMinute') != null;
+    this.lastDayFilter = params.get('lastDay') != null;
+    this.allFilter = params.get('all') != null;
+    this.unsoldFilter = params.get('unsold') != null;
+    this.soldFilter = params.get('sold') != null;
+}
 
-    if (rowFilter || sectionFilter || lastMinuteFilter || lastDayFilter || allFilter) {
-        let filtersContainer = $('.filter .filters')
-        if (rowFilter) {
-            filtersContainer
-                .append(' ')
+Filters.prototype.hasSome = () => {
+    return this.rowFilter || this.sectionFilter || this.lastMinuteFilter || this.lastDayFilter ||
+        this.allFilter || this.unsoldFilter || this.soldFilter;
+};
+
+Filters.prototype.reload = () => {
+    if (this.rowFilter) {
+        params.set('row', this.rowFilter);
+    }
+    if (this.sectionFilter) {
+        params.set('section', this.sectionFilter);
+    }
+    if (this.lastMinuteFilter) {
+        params.set('lastMinute');
+    }
+    if (this.allFilter) {
+        params.set('all');
+    }
+    if (this.unsoldFilter) {
+        params.set('unsold');
+    }
+    if (this.soldFilter) {
+        params.set('sold');
+    }
+};
+
+// Global
+filters = null;
+
+function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
+
+    filters = new Filters(new URLSearchParams(document.location.search));
+
+    let f = filters;
+
+    if (f.hasSome()) {
+        let addFilter = (text, fn) => {
+            $('.filter .filters')
+                .append('   ')
                 .append(
                     $('<button>')
                     .attr('type', 'button')
                     .addClass('btn')
                     .addClass('badge-info')
                     .addClass('badge')
-                    .text('Row: ' + rowFilter)
+                    .text(text)
                     .click(function (e) {
-                        rowFilter = null;
+                        fn.call(null);
                         reload();
                     })
                 );
         }
-        if (sectionFilter) {
-            filtersContainer
-                .append(' ')
-                .append(
-                    $('<button>')
-                    .attr('type', 'button')
-                    .addClass('btn')
-                    .addClass('badge-info')
-                    .addClass('badge')
-                    .text('Section: ' + sectionFilter)
-                    .click(function (e) {
-                        sectionFilter = null;
-                        reload();
-                    })
-                );
+        if (f.rowFilter) {
+            addFilter('Row: ' + f.rowFilter, () => f.rowFilter = null);
         }
-        if (lastMinuteFilter) {
-            filtersContainer
-                .append(' ')
-                .append(
-                    $('<button>')
-                    .attr('type', 'button')
-                    .addClass('btn')
-                    .addClass('badge-info')
-                    .addClass('badge')
-                    .text('Last minute changes')
-                    .click(function (e) {
-                        lastMinuteFilter = false;
-                        reload();
-                    })
-                );
+        if (f.sectionFilter) {
+            addFilter('Section: ' + f.sectionFilter, () => f.sectionFilter = null);
         }
-        if (lastDayFilter) {
-            filtersContainer
-                .append(' ')
-                .append(
-                    $('<button>')
-                    .attr('type', 'button')
-                    .addClass('btn')
-                    .addClass('badge-info')
-                    .addClass('badge')
-                    .text('last day changes')
-                    .click(function (e) {
-                        lastDayFilter = false;
-                        reload();
-                    })
-                );
+        if (f.lastMinuteFilter) {
+            addFilter('Last minute changes', () => f.lastMinuteFilter = false);
         }
-        if (allFilter) {
-            filtersContainer
-                .append(' ')
-                .append(
-                    $('<button>')
-                    .attr('type', 'button')
-                    .addClass('btn')
-                    .addClass('badge-info')
-                    .addClass('badge')
-                    .text('all')
-                    .click(function (e) {
-                        allFilter = false;
-                        reload();
-                    })
-                );
+        if (f.lastDayFilter) {
+            addFilter('Last day changes', () => f.lastDayFilter = false);
+        }
+        if (f.allFilter) {
+            addFilter('All', () => f.allFilter = false);
+        }
+        if (f.unsoldFilter) {
+            addFilter('Unsold', () => f.unsoldFilter = false);
+        }
+        if (f.soldFilter) {
+            addFilter('Sold', () => f.soldFilter = false);
         }
         $('.filter').show();
     }
@@ -356,25 +357,40 @@ function load(metadataCsvFile, csvFile) {
     }
     d3.csv(metadataCsvFile, row, function (error, data) {
         if (error) throw error;
+        let row = (d) => {
+            return {
+                data: new Date(+d.timestampmillis),
+                roundedMaxTS: +d.roundedMaxTS,
+                roundedMaxDate: d.roundedMaxDate,
+                site: d.site,
+                sold: +d.sold,
+                soldAccum: +d.soldAccum,
+                unsold: +d.unsold,
+                inventory: +d.inventory,
+            };
+        }
+        d3.csv(inventoryCsvFile, row, function (error, inventoryData) {
+            if (error) throw error;
 
-        let metadataMap = {};
-        data.forEach((d) => {
-            metadataMap[d.ticket] = d;
-        });
-        loadData(csvFile, metadataMap, function () {
-            $('.loading').hide();
-            $('#results').show();
-            // TODO: Tabs aren't working, so manually:
-            // - show the trigger
-            // - hide all panes and show the target pane
-            Array.from(document.querySelectorAll('#results .nav-tabs button')).forEach(el => {
-                let tabTrigger = new bootstrap.Tab(el);
-                $(el).click(e => {
-                    tabTrigger.show();
-                    $('.tab-pane').hide();
-                    $($(el).attr('data-bs-target')).show();
-                    return false;
+            let metadataMap = {};
+            data.forEach((d) => {
+                metadataMap[d.ticket] = d;
+            });
+            loadData(csvFile, metadataMap, inventoryData, function () {
+                // TODO: Tabs aren't working, so manually:
+                // - show the trigger
+                // - hide all panes and show the target pane
+                Array.from(document.querySelectorAll('#results .nav-tabs button')).forEach(el => {
+                    let tabTrigger = new bootstrap.Tab(el);
+                    $(el).click(e => {
+                        tabTrigger.show();
+                        $('.tab-pane').hide();
+                        $($(el).attr('data-bs-target')).show();
+                        return false;
+                    });
                 });
+                $('.loading').hide();
+                $('#results').show();
             });
         });
     });
@@ -597,6 +613,99 @@ function redrawHistograms(date, opt_done) {
     }
 }
 
+function loadDataInventory(metadataMap, data) {
+
+    // TODO: not working
+    return;
+
+    function drawTag(tag) {
+        $('.inventories .' + tag).empty();
+
+        // set the dimensions and margins of the graph
+        var margin = {
+                top: 10,
+                right: 30,
+                bottom: 20,
+                left: 50
+            },
+            width = 460 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
+
+        // append the svg object to the body of the page
+        let svg = d3.select('.inventories .' + tag)
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        // List of subgroups = header of the csv files = soil condition here
+        var subgroups = data.columns.slice(1)
+
+        // List of groups = species here = value of the first column called group -> I show them on the X axis
+        var groups = d3.map(data, function (d) {
+            return (d.group)
+        }).keys()
+
+        // Add X axis
+        var x = d3.scaleBand()
+            .domain(groups)
+            .range([0, width])
+            .padding([0.2])
+        svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x).tickSizeOuter(0));
+
+        // Add Y axis
+        var y = d3.scaleLinear()
+            .domain([0, 60])
+            .range([height, 0]);
+        svg.append("g")
+            .call(d3.axisLeft(y));
+
+        // color palette = one color per subgroup
+        var color = d3.scaleOrdinal()
+            .domain(subgroups)
+            .range(['#e41a1c', '#377eb8', '#4daf4a'])
+
+        //stack the data? --> stack per subgroup
+        var stackedData = d3.stack()
+            .keys(subgroups)
+            (data)
+
+        // Show the bars
+        svg.append("g")
+            .selectAll("g")
+            // Enter in the stack data = loop key per key = group per group
+            .data(stackedData)
+            .enter().append("g")
+            .attr("fill", function (d) {
+                return color(d.key);
+            })
+            .selectAll("rect")
+            // enter a second time = loop subgroup per subgroup to add all rectangles
+            .data(function (d) {
+                return d;
+            })
+            .enter().append("rect")
+            .attr("x", function (d) {
+                return x(d.data.group);
+            })
+            .attr("y", function (d) {
+                return y(d[1]);
+            })
+            .attr("height", function (d) {
+                return y(d[0]) - y(d[1]);
+            })
+            .attr("width", x.bandwidth())
+    }
+
+    drawTag('stubhub');
+    drawTag('seatgeek');
+    drawTag('vividseats');
+}
+
 function loadDataForTable(metadataMap, dataAll) {
     let keySet = {};
     Object.keys(metadataMap).forEach((k) => keySet[k] = true);
@@ -631,18 +740,24 @@ function loadDataForTable(metadataMap, dataAll) {
             changes.push(d);
         }
 
+        const maxDate = d3.max(dataAll, d => d.date);
+
         const lastMinuteThreshold = new Date(Date.parse('Sun Feb 13 2022 18:30:00 GMT-0500 (Eastern Standard Time)'));
         const lastDayThreshold = new Date(Date.parse('Sun Feb 13 2022 00:00:00 GMT-0500 (Eastern Standard Time)'));
         let filteredKeySet = [];
         changes.forEach((d) => {
-            if (rowFilter && metadataMap[d.ticket].row != rowFilter) {
+            if (+metadataMap[d.ticket].distinctPricesCount == 1) {
+                return;
+            }
+            if (filters.rowFilter && metadataMap[d.ticket].row != filters.rowFilter) {
                 return
             }
-            if (sectionFilter && metadataMap[d.ticket].section != sectionFilter) {
+            if (filters.sectionFilter && metadataMap[d.ticket].section != filters.sectionFilter) {
                 return
             }
             let isLastMinute = false,
-                isLastDay = false;
+                isLastDay = false,
+                isSold = true;
             if (d.changes.length) {
                 let last = d.changes[d.changes.length - 1];
                 if (last >= lastMinuteThreshold) {
@@ -651,14 +766,22 @@ function loadDataForTable(metadataMap, dataAll) {
                 if (last >= lastDayThreshold) {
                     isLastDay = true;
                 }
+                if (last == maxDate) {
+                    isSold = false;
+                }
             }
-            if ((!lastMinuteFilter || (lastMinuteFilter && isLastMinute)) &&
-                (!lastDayFilter || (lastDayFilter && isLastDay)) &&
-                (allFilter || d.changes.length > 5)) {
+            if (
+                (!filters.lastMinuteFilter || (filters.lastMinuteFilter && isLastMinute)) &&
+                (!filters.lastDayFilter || (filters.lastDayFilter && isLastDay)) &&
+                (filters.allFilter || d.changes.length > 5) &&
+                (!filters.soldFilter || !isSold) &&
+                (!filters.unsoldFilter || isSold)
+            ) {
                 filteredKeySet[d.ticket] = true;
             }
             metadataMap[d.ticket].isLastMinute = isLastMinute;
             metadataMap[d.ticket].isLastDay = isLastDay;
+            metadataMap[d.ticket].isSold = isSold;
         });
         keySet = filteredKeySet;
     }
@@ -712,10 +835,10 @@ function loadDataForTable(metadataMap, dataAll) {
         addRow(d.ticket, d.values, d.numDistinctValues, d.numChanges, metadataMap);
     });
     $('.loading').remove();
-    let sortCol = 15,
+    let sortCol = 16,
         sortDir = 'desc'; // # Moves
-    if (lastMinuteFilter || lastDayFilter) {
-        sortCol = 13; // End-Start%
+    if (filters.lastMinuteFilter || filters.lastDayFilter) {
+        sortCol = 14; // End-Start%
         sortDir = 'asc';
     }
     $('.sortable-table').DataTable({
@@ -731,12 +854,12 @@ function loadDataForTable(metadataMap, dataAll) {
     $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
 }
 
-function loadData(csvFile, metadataMap, done) {
+function loadData(csvFile, metadataMap, inventoryData, done) {
     console.log('loading data from ' + csvFile + '...');
     let row = (d) => {
         return {
             ticket: d.ticket,
-            date: new Date(Date.parse(d.date)),
+            date: new Date(+d.timestampmillis),
             price: +d.price,
         };
     }
@@ -744,14 +867,16 @@ function loadData(csvFile, metadataMap, done) {
         if (error) throw error;
         loadDataScatter(metadataMap, data);
         loadDataForTable(metadataMap, data);
+        loadDataInventory(metadataMap, inventoryData);
         done.call(null);
     });
 }
 
 function finish() {
+    // TODO: Compute the index of the "# Moves" column instead of hard-coding, since everything will break if this is wrong.
     $('.sortable-table').DataTable({
         'order': [
-            [13, 'desc']
+            [14, 'desc']
         ],
         'columnDefs': [{
             'targets': 0,
@@ -763,18 +888,7 @@ function finish() {
 // TODO: Could probably do this without reloading the page, but I dont' really care...
 function reload() {
     let params = new URLSearchParams();
-    if (rowFilter) {
-        params.set('row', rowFilter);
-    }
-    if (sectionFilter) {
-        params.set('section', sectionFilter);
-    }
-    if (lastMinuteFilter) {
-        params.set('lastMinute');
-    }
-    if (allFilter) {
-        params.set('allFilter');
-    }
+    filters.reload(params);
     let loc = String(document.location).replace(/\?.*/, '').replace(/#.*/, '');
     if (params.toString()) {
         loc += '?' + params.toString();
