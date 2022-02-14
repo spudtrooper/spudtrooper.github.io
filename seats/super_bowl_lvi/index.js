@@ -773,7 +773,7 @@ function loadDataForTable(metadataMap, dataAll) {
             if (
                 (!filters.lastMinuteFilter || (filters.lastMinuteFilter && isLastMinute)) &&
                 (!filters.lastDayFilter || (filters.lastDayFilter && isLastDay)) &&
-                (filters.allFilter || d.changes.length > 5) &&
+                (filters.allFilter || !filters.lastMinuteFilter || !filters.lastDayFilter || !filters.soldFilter || !filters.unsoldFilter || d.changes.length > 5) &&
                 (!filters.soldFilter || !isSold) &&
                 (!filters.unsoldFilter || isSold)
             ) {
@@ -837,10 +837,10 @@ function loadDataForTable(metadataMap, dataAll) {
     $('.loading').remove();
     let sortCol = 16,
         sortDir = 'desc'; // # Moves
-    if (filters.lastMinuteFilter || filters.lastDayFilter) {
-        sortCol = 14; // End-Start%
-        sortDir = 'asc';
-    }
+    // if (filters.lastMinuteFilter || filters.lastDayFilter) {
+    //     sortCol = 14; // End-Start%
+    //     sortDir = 'asc';
+    // }
     $('.sortable-table').DataTable({
         'order': [
             [sortCol, sortDir]
