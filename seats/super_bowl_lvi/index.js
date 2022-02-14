@@ -554,7 +554,7 @@ function redrawHistograms(date, opt_done) {
             d3.max(bins3, d => d.length)
         ),
         // TODO: Lazy
-        maxY = 55,
+        maxY = 75,
         y = d3.scaleLinear().range([height, 0]).domain([0, maxY]);
 
     function drawTag(tag) {
