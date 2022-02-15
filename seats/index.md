@@ -4,6 +4,8 @@
 
 ![ss](./knicks_kings.png)
 
+See people [dump superbowl tickets](https://spudtrooper.github.io/seats/super_bowl_lvi/?lastDay) on the last day.
+
 I went to the Knick/Pelicans game on Jan 20 at the last minute and noticed that the price for some floor tickets had dropped dramatically, and I was wondering whether this was a fluke or the norm. It appears like this maybe, kind of, sort of is the norm? I don't know?
 
 Conslusions???:
