@@ -41,7 +41,7 @@ I've found an easier way to go from curl to Go is to convert the curl command di
 So, instead of pasting the curl command [[example](#example-curl-request)] into a terminal, paste it into a file (say `curl.txt`). Then, after you've installed `goutil` with `go install https://github.com/spudtrooper/goutil`, run the following:
 
 ```bash
-goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
+$ goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
 ```
 
 to produce `playground.go` with a `main()` function that makes the exact curl request in Go [[example](#example-goutil-output)].
@@ -107,7 +107,7 @@ curl 'https://rumble.com/service.php?name=user.rumbles&included_js_libs=main%2Cw
 The file `playground.go` would contain after running:
 
 ```bash
-goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
+$ goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
 ```
 
 ```go
