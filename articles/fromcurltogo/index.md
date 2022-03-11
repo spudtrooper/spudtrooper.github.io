@@ -4,9 +4,9 @@
 
 Creating an RPC API to a service you don't own often involves some reverse engineering of the other system. In particular figuring out the shape of the requests to send and what goes in them. This article covers a method of rapidly iterating on this part that leaves you with working code from the start.
 
-Typically, to figure out the requests to make, you will start with a working request (e.g. from the Chrome dev console) and iterate to figure out the values that you really need o send and how to get these values. At some point you'll translate this request into code.
+Typically, to figure out the requests to make, you will start with a working request (e.g. from the Chrome dev console) and iterate to figure out the values that you really need to send and how to get these values. At some point you'll translate this request into code.
 
-This process automates the translation process so that you go directly from prototypical request to working code and iterate on the working code. The benifit is that, at the end, you have have working code you can plop into your new API.
+This process automates the translation process so that you go directly from prototypical request to working code and iterate on the working code. The benifit is that, at the end, you have have working code you can plop into your new API. Granted, this code is heavily dependent on [github.com/spudtrooper/goutil](https://github.com/spudtrooper/goutil), which you may not want. But, even if you don't ultimately use the generated code, I would argue that iterating on the go code is easier that a raw curl command.
 
 ## Problem
 
@@ -46,26 +46,30 @@ goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
 
 to produce `playground.go` with a `main()` function that makes the exact curl request in Go [[example](#example-goutil-output)].
 
-So intead of iterating on the curl command as text, you can iterate on it as structured data in the `// Data` section of the generated code. Some benefits:
+Instead of iterating on the curl command as text, you can iterate on it as structured data in the `// Data` section of the generated code. Some benefits:
 
 * URL encoded values are decoded and placed inside `url.QueryEscape()` calls, so you can edit the decoded value
-* Headers, URL params, and body values are typed
+* Headers, URL params, and body values are typed rather than all strings
 * Cookies are pulled out explicitly
-* If the body of the request is JSON insteaded of URL encoded params, you can pass `--curl_body_struct` to `goutil` and we will generate a struct and instead of the struct, and serlialize this into the body string. So, instead of editing a serialized string of JSON, you edit the Go object. e.g.
+* If the body of the request is JSON insteaded of URL encoded params, you can pass `--curl_body_struct` to `goutil` and we will generate a struct and instead of the struct, and serlialize this into the body string. So, instead of editing a serialized string of JSON, you edit the Go object. e.g. instead of:
+    
+    ```go
+    body := `{"query":"some string","num":3}`
+    ```
+          
+  we would generate:
 
-    Instead of `body := '{"query":"some string","num":3}'` we would generate:
-
-      type Body struct {
-        Query string `json:"query"`
-        Num   int    `json:"num"`
-      }
-      bodyObject := Body{
-        Query: "some string",
-        Num:   3,
-      }
-      j, err := request.JSONMarshal(bodyObject)
-      check.Err(err)
-      body = string(j)
+    ```go
+    type Body struct {
+      Query string `json:"query"`
+      Num   int    `json:"num"`
+    }
+    bodyObject := Body{
+      Query: "some string",
+      Num:   3,
+    }
+    body := string(request.MustJSONMarshal(bodyObject))
+    ```
 
     and you would edit `bodyObject` directly.
 
