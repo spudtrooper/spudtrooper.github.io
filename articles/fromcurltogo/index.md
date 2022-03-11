@@ -12,15 +12,15 @@ This process automates the translation process so that you go directly from prot
 
 You want to create a Go RPC API to someone else's REST API or website--here are a couple examples: [github.com/spudtrooper/gettr](https://github.com/spudtrooper/gettr) & [github.com/spudtrooper/scplanner](https://github.com/spudtrooper/scplanner).
 
-For every endpoint you'll create a function that performs one or more HTTP requests. You'll ultimately like to expose the smallest interface possible to your function and you need to figure out what this interface is. This interface will contain (1) values that control how the function behaves (e.g. `debug bool` to control whether you output debugging information) and (2) values that go directly go into the remote request (e.g. if the endpoint requires you to suppply an `id int` URL parameter, you'll probably want `id int` on the function interface).
+For every endpoint you'll create a function that performs one or more HTTP requests. You'll ultimately like to expose the smallest interface possible to your function and you need to figure out what this interface is. This interface will contain (1) values that control how the function behaves (e.g. `debug bool` to control whether you output debugging information) and (2) values that go directly go into the remote request (e.g. if the endpoint requires you to supply an `id int` URL parameter, you'll probably want `id int` on the function interface).
 
 (1) is up to you and not dependent on the remote site. To figure out (2) you'll need to figure out how to construct the RPC, including:
 
-* The path of the URL to request (this is easy)
-* The parameters to set on the URL
-* The headers of thq request
+* Path of the URL to request (this is easy)
+* Parameters to set on the URL
+* Headers
     * in particular, cookies
-* The request body
+* Request body
 
 The solution presented below aims to ease the pain of (2).
 
@@ -31,12 +31,14 @@ One of way accomplishing this to:
 1. Find the request you want in the Chrome dev console
 2. Copy it as a *curl* command
 3. Paste the curl command into the terminal, and
-4. Iterate to figure out the canonical values to send
+4. Iterate to figure out the canonical shape of the request
 5. Once you've arrived at a canonical request, translate that into code
   
-This works, but (4) can be annoying to iterate and deal with tihngs like URL encoding and potentially big blobs of text.
+This works, but (4) can be annoying to iterate and deal with things like URL encoding, string quoting, and potentially big blobs of text.
 
 I've found an easier way to go from curl to Go is to convert the curl command directly into Go code, with all the bits that you need to edit exposed for easy editing, and iterate on this working Go code from the start.
+
+[github.com/spudtrooper/goutil](https://github.com/spudtrooper/goutil) provides a means to do this.
 
 So, instead of pasting the curl command [[example](#example-curl-request)] into a terminal, paste it into a file (say `curl.txt`). Then, after you've installed `goutil` with `go install https://github.com/spudtrooper/goutil`, run the following:
 
@@ -46,9 +48,12 @@ $ goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
 
 to produce `playground.go` with a `main()` function that makes the exact curl request in Go [[example](#example-goutil-output)].
 
-Instead of iterating on the curl command as text, you can iterate on it as structured data in the `// Data` section of the generated code. Some benefits:
+Instead of iterating on the curl command as text, you can iterate on it as structured data in the `// Data` section of the generated code.
+
+Some benefits of this approach:
 
 * URL encoded values are decoded and placed inside `url.QueryEscape()` calls, so you can edit the decoded value
+* Avoid the multi-level string quoting, e.g. in headers
 * Headers, URL params, and body values are typed rather than all strings
 * Cookies are pulled out explicitly
 * If the body of the request is JSON insteaded of URL encoded params, you can pass `--curl_body_struct` to `goutil` and we will generate a struct and instead of the struct, and serlialize this into the body string. So, instead of editing a serialized string of JSON, you edit the Go object. e.g. instead of:
