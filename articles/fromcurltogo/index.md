@@ -1,32 +1,79 @@
 # from curl to go
 
-**Problem**: You want to create a Go API to someone else's website; a couple examples: https://github.com/spudtrooper/gettr & https://github.com/spudtrooper/scplanner.
+## Overview
 
-For a particular RPC, you need to figure out the interface to give this function, so you first need to figure out the request you're going to make, including:
+Creating an RPC API to a service you don't own often involves some reverse engineering of the other system. In particular figuring out the shape of the requests to send and what goes in them. This article covers a method of rapidly iterating on this part that leaves you with working code from the start.
 
-* The path of the URL to request
+Typically, to figure out the requests to make, you will start with a working request (e.g. from the Chrome dev console) and iterate to figure out the values that you really need o send and how to get these values. At some point you'll translate this request into code.
+
+This process automates the translation process so that you go directly from prototypical request to working code and iterate on the working code. The benifit is that, at the end, you have have working code you can plop into your new API.
+
+## Problem
+
+You want to create a Go RPC API to someone else's REST API or website--here are a couple examples: [github.com/spudtrooper/gettr](https://github.com/spudtrooper/gettr) & [github.com/spudtrooper/scplanner](https://github.com/spudtrooper/scplanner).
+
+For every endpoint you'll create a function that performs one or more HTTP requests. You'll ultimately like to expose the smallest interface possible to your function and you need to figure out what this interface is. This interface will contain (1) values that control how the function behaves (e.g. `debug bool` to control whether you output debugging information) and (2) values that go directly go into the remote request (e.g. if the endpoint requires you to suppply an `id int` URL parameter, you'll probably want `id int` on the function interface).
+
+(1) is up to you and not dependent on the remote site. To figure out (2) you'll need to figure out how to construct the RPC, including:
+
+* The path of the URL to request (this is easy)
 * The parameters to set on the URL
-* The headers of thq request (in particular, the cookies to send)
+* The headers of thq request
+    * in particular, cookies
 * The request body
+
+The solution presented below aims to ease the pain of (2).
+
+## Solution
 
 One of way accomplishing this to:
 
 1. Find the request you want in the Chrome dev console
 2. Copy it as a *curl* command
 3. Paste the curl command into the terminal, and
-4. Tinker
+4. Iterate to figure out the canonical values to send
+5. Once you've arrived at a canonical request, translate that into code
   
 This works, but (4) can be annoying to iterate and deal with tihngs like URL encoding and potentially big blobs of text.
 
-I've found an easier way to go from curl to Go is to use the binary from https://github.com/spudtrooper/goutil to convert the curl command directly into Go code, with all the bits that you need to edit exposed for easy editing.
+I've found an easier way to go from curl to Go is to convert the curl command directly into Go code, with all the bits that you need to edit exposed for easy editing, and iterate on this working Go code from the start.
 
-So, instead of pasting the curl command into a terminal, paste it into a file (say `curl.txt`). Then, after you've installed `goutil` with `go install https://github.com/spudtrooper/goutil`, run the following:
+So, instead of pasting the curl command [[example](#example-curl-request)] into a terminal, paste it into a file (say `curl.txt`). Then, after you've installed `goutil` with `go install https://github.com/spudtrooper/goutil`, run the following:
 
 ```bash
-goutil CurlImport --curl_file path/to/curl.txt --curl_outfile playground.go
+goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
 ```
 
-then if your curl command was:
+to produce `playground.go` with a `main()` function that makes the exact curl request in Go [[example](#example-goutil-output)].
+
+So intead of iterating on the curl command as text, you can iterate on it as structured data in the `// Data` section of the generated code. Some benefits:
+
+* URL encoded values are decoded and placed inside `url.QueryEscape()` calls, so you can edit the decoded value
+* Headers, URL params, and body values are typed
+* Cookies are pulled out explicitly
+* If the body of the request is JSON insteaded of URL encoded params, you can pass `--curl_body_struct` to `goutil` and we will generate a struct and instead of the struct, and serlialize this into the body string. So, instead of editing a serialized string of JSON, you edit the Go object. e.g.
+
+    Instead of `body := '{"query":"some string","num":3}'` we would generate:
+
+      type Body struct {
+        Query string `json:"query"`
+        Num   int    `json:"num"`
+      }
+      bodyObject := Body{
+        Query: "some string",
+        Num:   3,
+      }
+      j, err := request.JSONMarshal(bodyObject)
+      check.Err(err)
+      body = string(j)
+
+    and you would edit `bodyObject` directly.
+
+## Appendix
+
+### Example curl request
+
+Add this to `curl.txt`.
 
 ```
 curl 'https://rumble.com/service.php?name=user.rumbles&included_js_libs=main%2Cweb_services%2Cevents%2Cerror%2Cui_header%2Cui%2Cads-north%2Cevent_handler%2Cui_overlay&included_css_libs=ui_overlay%2Cglobal' \
@@ -51,7 +98,13 @@ curl 'https://rumble.com/service.php?name=user.rumbles&included_js_libs=main%2Cw
   --compressed
 ```
 
-The file `playground.go` would contain:
+### Example `goutil` output
+
+The file `playground.go` would contain after running:
+
+```bash
+goutil CurlImport --curl_file curl.txt --curl_outfile playground.go
+```
 
 ```go
 package main
