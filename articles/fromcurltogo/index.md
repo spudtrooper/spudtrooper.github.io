@@ -77,7 +77,7 @@ Instead of iterating on the curl command as text, you can iterate on it as struc
 
 ### Example curl request
 
-Add this to `curl.txt`.
+Add this to `curl.txt`. (*** No, that's not the real session ID)
 
 ```
 curl 'https://rumble.com/service.php?name=user.rumbles&included_js_libs=main%2Cweb_services%2Cevents%2Cerror%2Cui_header%2Cui%2Cads-north%2Cevent_handler%2Cui_overlay&included_css_libs=ui_overlay%2Cglobal' \
