@@ -12,7 +12,11 @@ This process automates the translation process so that you go directly from prot
 
 ## Problem
 
-You want to create a Go RPC API to someone else's REST API or website--here are a couple examples: [github.com/spudtrooper/seats](https://github.com/spudtrooper/seats), [github.com/spudtrooper/gettr](https://github.com/spudtrooper/gettr) & [github.com/spudtrooper/scplanner](https://github.com/spudtrooper/scplanner).
+You want to create a Go RPC API to someone else's REST API or website--here are a couple examples:
+
+* [github.com/spudtrooper/seats](https://github.com/spudtrooper/seats) - Go API for seatgeek, stubhub, vividseats REST APIs and login systems
+* [github.com/spudtrooper/gettr](https://github.com/spudtrooper/gettr) - Go API for gettr.com
+* [github.com/spudtrooper/scplanner](https://github.com/spudtrooper/scplanner) - Go API for scplanner.net
 
 For every endpoint you'll create a function that performs one or more HTTP requests. You'll ultimately like to expose the smallest interface possible to your function and you need to figure out what this interface is. This interface will contain (1) values that control how the function behaves (e.g. `debug bool` to control whether you output debugging information) and (2) values that go directly go into the remote request (e.g. if the endpoint requires you to supply an `id int` URL parameter, you'll probably want `id int` on the function interface).
 
