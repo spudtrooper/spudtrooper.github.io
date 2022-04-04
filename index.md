@@ -21,5 +21,5 @@
 
 ## More
     
-[jeffpalm.com](http://jeffpalm.com)
-[github](https://github.com/spudtrooper)
+* [jeffpalm.com](http://jeffpalm.com)
+* [github](https://github.com/spudtrooper)
