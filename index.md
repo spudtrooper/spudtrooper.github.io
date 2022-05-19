@@ -15,12 +15,12 @@
 
 ## [articles](/articles)
 
-* [foxnews vulnerabilities](articles/foxnews)
-* [getter followers](articles/gettrfollowers)
-* [from curl to go](articles/fromcurltogo)
-* [seats](seats) - A look at ticket prices across time and ticket sites for a Knick game.
+* [foxnews vulnerabilities](articles/foxnews) - 3 vulnerabilities found on foxnews.com.
+* [getter followers](articles/gettrfollowers) - The odd way gettr.com counted followers.
+* [from curl to go](articles/fromcurltogo) - A pattern for golang clients for web APIs
+* [seats](seats) - A look at ticket prices across time and ticket sites for a Knick game
 
-## More
+## more
     
 * [jeffpalm.com](http://jeffpalm.com)
 * [github](https://github.com/spudtrooper)
