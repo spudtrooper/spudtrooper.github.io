@@ -12,7 +12,7 @@
 * [gasenate](/gasenate/both.html) - Real time tracking for the Georgia Senate run-off in 2020.
 * [fourlongyearsisalmostover](/fourlongyearsisalmostover) - Real-time tracking the last four states in the 2020 US Presidential election.
 * [timer](/timer) - A really simple timer, e.g. for meetings.
-* [wordpath](/wordpath) - A stupid word game ([source](https://github.com/spudtrooper/wordpath)).
+* [wordpath](https://jeffpalm.com/wordpath) - A stupid word game ([source](https://github.com/spudtrooper/wordpath)).
 
 ## [articles](/articles)
 
@@ -23,5 +23,5 @@
 
 ## more
     
-* [jeffpalm.com](http://jeffpalm.com)
+* [jeffpalm.com](https://jeffpalm.com)
 * [github](https://github.com/spudtrooper)
