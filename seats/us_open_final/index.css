@@ -1,75 +1,75 @@
 body {
-    font-family: sans-serif;
-    padding: 5px;
+  font-family: sans-serif;
+  padding: 5px;
 }
 
 #loading {
-    margin: 50px;
+  margin: 50px;
 }
 
 .intro {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .down {
-    color: #44af69;
+  color: #44af69;
 }
 
 .up {
-    color: #f8333c;
+  color: #f8333c;
 }
 
 .yes {
-    color: #619b8a;
+  color: #619b8a;
 }
 
 .no {
-    color: #fe7f2d;
+  color: #fe7f2d;
 }
 
 .nochange {
-    color: #118ab2;
+  color: #118ab2;
 }
 
 .invisible {
-    display: none;
+  display: none;
 }
 
 .currency {
-    text-align: end;
+  text-align: end;
 }
 
 .number {
-    text-align: end;
+  text-align: end;
 }
 
 .bool {
-    text-align: center;
+  text-align: center;
 }
 
 td,
 th {
-    min-width: 0px;
+  min-width: 0px;
 }
 
 .site-background {
-    width: 90px;
+  width: 90px;
 }
 
 td {
-    vertical-align: middle !important;
+  vertical-align: middle !important;
 }
 
 .logo-container {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .filter {
-    padding: 10px;
-    margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 td.row-col,
 td.section-col {
-    text-align: center;
+  text-align: center;
 }
