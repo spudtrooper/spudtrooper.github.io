@@ -732,19 +732,22 @@ function loadDataForTable(metadataMap, dataAll) {
       return res;
     };
 
+    let findLastDate = (values) => values[values.length - 1].date;
+
     let changes = [];
     for (let ticket in dataMap) {
       let d = {
         ticket: ticket,
         changes: findChanges(dataMap[ticket]),
+        lastDate: findLastDate(dataMap[ticket]),
       };
       changes.push(d);
     }
 
     const maxDate = d3.max(dataAll, d => d.date);
 
-    const lastMinuteThreshold = new Date(Date.parse('Sun Feb 13 2022 18:30:00 GMT-0500 (Eastern Standard Time)'));
-    const lastDayThreshold = new Date(Date.parse('Sun Feb 13 2022 00:00:00 GMT-0500 (Eastern Standard Time)'));
+    const lastMinuteThreshold = new Date(Date.parse('Sun Sep 10 2022 11:30:00 GMT-0500 (Eastern Standard Time)'));
+    const lastDayThreshold = new Date(Date.parse('Sun Sep 10 2022 00:00:00 GMT-0500 (Eastern Standard Time)'));
     let filteredKeySet = [];
     changes.forEach((d) => {
       if (+metadataMap[d.ticket].distinctPricesCount == 1) {
@@ -760,14 +763,14 @@ function loadDataForTable(metadataMap, dataAll) {
         isLastDay = false,
         isSold = true;
       if (d.changes.length) {
-        let last = d.changes[d.changes.length - 1];
+        const last = d.lastDate;
         if (last >= lastMinuteThreshold) {
           isLastMinute = true;
         }
         if (last >= lastDayThreshold) {
           isLastDay = true;
         }
-        if (last == maxDate) {
+        if (maxDate - last == 0) {
           isSold = false;
         }
       }
