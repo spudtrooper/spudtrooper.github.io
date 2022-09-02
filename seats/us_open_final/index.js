@@ -290,9 +290,9 @@ filters = null;
 
 function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
 
-  filters = new Filters(new URLSearchParams(document.location.search));
+  window.filters = new Filters(new URLSearchParams(document.location.search));
 
-  let f = filters;
+  let f = window.filters;
 
   if (f.hasSome()) {
     let addFilter = (text, fn) => {
@@ -348,6 +348,8 @@ function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
       ticket: d.ticket,
       row: d.row,
       section: d.section,
+      title: d.title,
+      note: d.note,
       site: d.site,
       url: d.url,
       min: d.min,
@@ -370,6 +372,44 @@ function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
         inventory: +d.inventory,
       };
     }
+
+    let rowMap = {};
+    data.forEach((d) => {
+      rowMap[d.row] = true;
+    });
+    Object.keys(rowMap).sort().forEach(row => {
+      if (!row) return;
+      const opt = $('<option>').val(row).text(row);
+      $('#rowFilter').append(opt);
+    })
+    $('#rowFilter').change(function (e) {
+      let row = $('#rowFilter').val();
+      if (row && row != 'None') {
+        filters.rowFilter = row;
+        reload();
+      }
+    });
+    $('#rowFilterWrapper').show();
+
+    let sectionMap = {};
+    data.forEach((d) => {
+      sectionMap[d.section] = true;
+    });
+    Object.keys(sectionMap).sort().forEach(row => {
+      if (!row) return;
+      const opt = $('<option>').val(row).text(row);
+      $('#sectionFilter').append(opt);
+    })
+    $('#sectionFilter').change(function (e) {
+      let section = $('#sectionFilter').val();
+      if (section && section != 'None') {
+        filters.sectionFilter = section;
+        reload();
+      }
+    });
+    $('#sectionFilterWrapper').show();
+
+
     d3.csv(inventoryCsvFile, row, function (error, inventoryData) {
       if (error) throw error;
 

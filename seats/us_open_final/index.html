@@ -24,16 +24,30 @@
 
 <body>
   <div class="intro">
-    Ticket prices across seatgeek, stubhub, and vividseats for the US Open Final
-    <b>changed
-      price at least five times</b> initially sorted by volatility. All the data was gathered with <a
-      href="https://github.com/spudtrooper/seats">github.com/spudtrooper/seats</a>.
+    Ticket prices across seatgeek, stubhub, and vividseats for the US Open Final initially sorted by volatility.
     <ul style="margin-bottom: 0px">
-      <li>Filters: <a href="?lastDay">last day</a>, <a href="?sold">sold</a>, <a href="?unsold">unsold</a>, <a
-          href="?lastMinute">last 2
-          hours</a>, or by row/section by clicking "filter"</li>
-      <li>You can show <a href="?all">all</a> of the tickets, though the page could hang. If you're prompted to
-        kill or continue to page, choose continue.</li>
+      <li>
+        Filters: <a href="?lastDay">last day</a>, <a href="?sold">sold</a>, <a href="?unsold">unsold</a>, <a
+          href="?lastMinute">last 2 hours</a> <span style="display:inline">
+          <span style="width: 5rem; display:none" id="rowFilterWrapper">
+            Row:
+            <select id="rowFilter" name="rowFilter" aria-controls="tab" style="display:inline" class="custom-select-sm">
+              <option value="None"></option>
+            </select>
+          </span>
+          <span style="width: 5rem; display:none" id="sectionFilterWrapper">
+            Section:
+            <select id="sectionFilter" name="sectionFilter" aria-controls="tab" style="display:inline"
+              class="custom-select-sm">
+              <option value="None"></option>
+            </select>
+          </span>
+        </span>, or by row/section by clicking "filter"
+      </li>
+      <li>
+        You can show <a href="?all">all</a> of the tickets, though the page could hang. If you're prompted to kill or
+        continue to page, choose continue.
+      </li>
     </ul>
     <div class="filter" style="display:none">
       Filtering by: <span class="filters"></span>
