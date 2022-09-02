@@ -23,6 +23,8 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
     url = metadata.url,
     row = metadata.row,
     section = metadata.section,
+    title = metadata.title,
+    note = metadata.note,
     site = metadata.site,
     isLastMinute = metadata.isLastMinute,
     isLastDay = metadata.isLastDay,
@@ -171,8 +173,9 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
   }
 
   $(tr).append($('<td>').addClass('logo-container').append(
-    $('<a>').attr('target', '_').attr('href', url).append($('<img>')
-      .addClass('site-background').attr('src', IMAGES[site]))));
+    $('<a>').attr('target', '_').attr('href', url).append(
+      $('<img>').addClass('site-background').attr('src', IMAGES[site]).attr('title', 'Title: ' + title + ' Note: ' + note)
+    )))
 
   {
     let td = $('<td>').append(section).addClass('section-col');
