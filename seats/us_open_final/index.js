@@ -237,7 +237,24 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
   $(tr).append($('<td>').addClass('bool').html(formatBool(isLastDay)));
 
   $(tr).append($('<td>').addClass('number').text(numDistinctValues).attr('data-value', numDistinctValues));
-  $(tr).append($('<td>').addClass('number').text(numChanges).attr('data-value', numChanges));
+  {
+    let td = $('<td>').addClass('number').text(numChanges).attr('data-value', numChanges);
+    td
+      .append('<br/>')
+      .append(
+        $('<button>')
+          .attr('type', 'button')
+          .addClass('btn')
+          .addClass('badge-info')
+          .addClass('badge')
+          .text('filter')
+          .click(function (moves, e) {
+            filters.movesFilter = moves;
+            reload();
+          }.bind(null, numChanges))
+      );
+    $(tr).append(td);
+  }
 }
 
 function load(metadataCsvFile, csvFile, inventoryCsvFile) {
@@ -255,6 +272,8 @@ function load(metadataCsvFile, csvFile, inventoryCsvFile) {
 function Filters(params) {
   this.rowFilter = params.get('row') || null;
   this.sectionFilter = params.get('section') || null;
+  this.movesFilter = params.get('moves') || null;
+  this.movesFilter = params.get('moves') || null;
   this.lastMinuteFilter = params.get('lastMinute') != null;
   this.lastDayFilter = params.get('lastDay') != null;
   this.allFilter = params.get('all') != null;
@@ -263,8 +282,26 @@ function Filters(params) {
 }
 
 Filters.prototype.hasSome = function () {
-  return this.rowFilter || this.sectionFilter || this.lastMinuteFilter || this.lastDayFilter ||
-    this.allFilter || this.unsoldFilter || this.soldFilter;
+  return this.rowFilter ||
+    this.sectionFilter ||
+    this.movesFilter ||
+    this.lastMinuteFilter ||
+    this.lastDayFilter ||
+    this.allFilter ||
+    this.unsoldFilter ||
+    this.soldFilter;
+}
+
+Filters.prototype.clear = function () {
+  this.rowFilter = null;
+  this.sectionFilter = null;
+  this.movesFilter = null;
+  this.movesFilter = null;
+  this.lastMinuteFilter = null;
+  this.lastDayFilter = null;
+  this.allFilter = null;
+  this.unsoldFilter = null;
+  this.soldFilter = null;
 }
 
 Filters.prototype.reload = function (params) {
@@ -273,6 +310,9 @@ Filters.prototype.reload = function (params) {
   }
   if (this.sectionFilter) {
     params.set('section', this.sectionFilter);
+  }
+  if (this.movesFilter) {
+    params.set('moves', this.movesFilter);
   }
   if (this.lastMinuteFilter) {
     params.set('lastMinute');
@@ -320,6 +360,9 @@ function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
     if (f.sectionFilter) {
       addFilter('Section: ' + f.sectionFilter, () => f.sectionFilter = null);
     }
+    if (f.movesFilter) {
+      addFilter('#Moves >= ' + f.movesFilter, () => f.movesFilter = null);
+    }
     if (f.lastMinuteFilter) {
       addFilter('Last minute changes', () => f.lastMinuteFilter = false);
     }
@@ -335,6 +378,20 @@ function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
     if (f.soldFilter) {
       addFilter('Sold', () => f.soldFilter = false);
     }
+    $('.filter .filters')
+      .append('   ')
+      .append(
+        $('<button>')
+          .attr('type', 'button')
+          .addClass('btn')
+          .addClass('badge-danger')
+          .addClass('badge')
+          .text('clear')
+          .click(function (e) {
+            filters.clear();
+            reload();
+          })
+      );
     $('.filter').show();
   }
 
@@ -800,6 +857,9 @@ function loadDataForTable(metadataMap, dataAll) {
         return
       }
       if (filters.sectionFilter && metadataMap[d.ticket].section != filters.sectionFilter) {
+        return
+      }
+      if (filters.movesFilter && d.changes.length < filters.movesFilter) {
         return
       }
       let isLastMinute = false,
