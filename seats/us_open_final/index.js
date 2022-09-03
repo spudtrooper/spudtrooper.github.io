@@ -190,7 +190,7 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
             .addClass('badge')
             .text('filter')
             .click(function (section, e) {
-              filters.sectionFilter = section;
+              filters.addSectionFilter(section);
               reload();
             }.bind(null, section))
         );
@@ -211,7 +211,7 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
             .addClass('badge')
             .text('filter')
             .click(function (row, e) {
-              filters.rowFilter = row;
+              filters.addRowFilter(row);
               reload();
             }.bind(null, row))
         );
@@ -269,9 +269,13 @@ function load(metadataCsvFile, csvFile, inventoryCsvFile) {
   }
 }
 
+function parseList(s) {
+  return !s ? null : s.split('|');
+}
+
 function Filters(params) {
-  this.rowFilter = params.get('row') || null;
-  this.sectionFilter = params.get('section') || null;
+  this.rowFilter = parseList(params.get('row') || null);
+  this.sectionFilter = parseList(params.get('section') || null);
   this.movesFilter = params.get('moves') || null;
   this.movesFilter = params.get('moves') || null;
   this.lastMinuteFilter = params.get('lastMinute') != null;
@@ -279,7 +283,7 @@ function Filters(params) {
   this.allFilter = params.get('all') != null;
   this.unsoldFilter = params.get('unsold') != null;
   this.soldFilter = params.get('sold') != null;
-}
+};
 
 Filters.prototype.hasSome = function () {
   return this.rowFilter ||
@@ -290,7 +294,7 @@ Filters.prototype.hasSome = function () {
     this.allFilter ||
     this.unsoldFilter ||
     this.soldFilter;
-}
+};
 
 Filters.prototype.clear = function () {
   this.rowFilter = null;
@@ -302,14 +306,46 @@ Filters.prototype.clear = function () {
   this.allFilter = null;
   this.unsoldFilter = null;
   this.soldFilter = null;
+};
+
+function removeDups(arr) {
+  if (!arr) return arr;
+  let m = {};
+  arr.forEach(x => m[x] = true);
+  return Object.keys(m);
 }
+
+Filters.prototype.addRowFilter = function (row) {
+  this.rowFilter.push(row);
+  this.rowFilter = removeDups(this.rowFilter);
+};
+
+Filters.prototype.removeRowFilter = function (row) {
+  this.rowFilter = this.rowFilter.filter(x => x != row);
+  if (!this.rowFilter.length) {
+    this.rowFilter = null;
+  }
+};
+
+Filters.prototype.addSectionFilter = function (section) {
+  this.sectionFilter.push(section);
+  this.sectionFilter = removeDups(this.sectionFilter);
+};
+
+Filters.prototype.removeSectionFilter = function (section) {
+  this.sectionFilter = this.sectionFilter.filter(x => x != section);
+  if (!this.sectionFilter.length) {
+    this.sectionFilter = null;
+  }
+};
+
 
 Filters.prototype.reload = function (params) {
   if (this.rowFilter) {
-    params.set('row', this.rowFilter);
+    params.set('row', this.rowFilter.join('|'));
   }
   if (this.sectionFilter) {
-    params.set('section', this.sectionFilter);
+    params.set('section', this.sectionFilter.join('|'));
   }
   if (this.movesFilter) {
     params.set('moves', this.movesFilter);
@@ -355,28 +391,32 @@ function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
         );
     }
     if (f.rowFilter) {
-      addFilter('Row: ' + f.rowFilter, () => f.rowFilter = null);
+      f.rowFilter.forEach(row => {
+        addFilter('row: ' + row, () => f.removeRowFilter(row));
+      });
     }
     if (f.sectionFilter) {
-      addFilter('Section: ' + f.sectionFilter, () => f.sectionFilter = null);
+      f.sectionFilter.forEach(section => {
+        addFilter('section: ' + section, () => f.removeSectionFilter(section));
+      });
     }
     if (f.movesFilter) {
-      addFilter('#Moves >= ' + f.movesFilter, () => f.movesFilter = null);
+      addFilter('#moves >= ' + f.movesFilter, () => f.movesFilter = null);
     }
     if (f.lastMinuteFilter) {
-      addFilter('Last minute changes', () => f.lastMinuteFilter = false);
+      addFilter('last minute changes', () => f.lastMinuteFilter = false);
     }
     if (f.lastDayFilter) {
-      addFilter('Last day changes', () => f.lastDayFilter = false);
+      addFilter('last day changes', () => f.lastDayFilter = false);
     }
     if (f.allFilter) {
-      addFilter('All', () => f.allFilter = false);
+      addFilter('all', () => f.allFilter = false);
     }
     if (f.unsoldFilter) {
-      addFilter('Unsold', () => f.unsoldFilter = false);
+      addFilter('unsold', () => f.unsoldFilter = false);
     }
     if (f.soldFilter) {
-      addFilter('Sold', () => f.soldFilter = false);
+      addFilter('sold', () => f.soldFilter = false);
     }
     $('.filter .filters')
       .append('   ')
@@ -445,7 +485,7 @@ function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
     $('#rowFilter').change(function (e) {
       let row = $('#rowFilter').val();
       if (row && row != 'None') {
-        filters.rowFilter = row;
+        filters.rowFilter = [row];
         reload();
       }
     });
@@ -463,7 +503,7 @@ function doLoad(metadataCsvFile, csvFile, inventoryCsvFile) {
     $('#sectionFilter').change(function (e) {
       let section = $('#sectionFilter').val();
       if (section && section != 'None') {
-        filters.sectionFilter = section;
+        filters.sectionFilter = [section];
         reload();
       }
     });
@@ -853,10 +893,10 @@ function loadDataForTable(metadataMap, dataAll) {
       if (+metadataMap[d.ticket].distinctPricesCount == 1) {
         return;
       }
-      if (filters.rowFilter && metadataMap[d.ticket].row != filters.rowFilter) {
+      if (filters.rowFilter && !filters.rowFilter.includes(metadataMap[d.ticket].row)) {
         return
       }
-      if (filters.sectionFilter && metadataMap[d.ticket].section != filters.sectionFilter) {
+      if (filters.sectionFilter && !filters.sectionFilter.includes(metadataMap[d.ticket].section)) {
         return
       }
       if (filters.movesFilter && d.changes.length < filters.movesFilter) {
