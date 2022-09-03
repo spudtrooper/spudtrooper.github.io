@@ -237,9 +237,8 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
   $(tr).append($('<td>').addClass('bool').html(formatBool(isLastDay)));
 
   $(tr).append($('<td>').addClass('number').text(numDistinctValues).attr('data-value', numDistinctValues));
-  {
-    let td = $('<td>').addClass('number').text(numChanges).attr('data-value', numChanges);
-    td
+  $(tr).append(
+    $('<td>').addClass('number').text(numChanges).attr('data-value', numChanges)
       .append('<br/>')
       .append(
         $('<button>')
@@ -252,9 +251,7 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
             filters.movesFilter = moves;
             reload();
           }.bind(null, numChanges))
-      );
-    $(tr).append(td);
-  }
+      ));
 }
 
 function load(metadataCsvFile, csvFile, inventoryCsvFile) {
