@@ -237,21 +237,20 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
   $(tr).append($('<td>').addClass('bool').html(formatBool(isLastDay)));
 
   $(tr).append($('<td>').addClass('number').text(numDistinctValues).attr('data-value', numDistinctValues));
-  $(tr).append(
-    $('<td>').addClass('number').text(numChanges).attr('data-value', numChanges)
-      .append('<br/>')
-      .append(
-        $('<button>')
-          .attr('type', 'button')
-          .addClass('btn')
-          .addClass('badge-info')
-          .addClass('badge')
-          .text('filter')
-          .click(function (moves, e) {
-            filters.movesFilter = moves;
-            reload();
-          }.bind(null, numChanges))
-      ));
+  $(tr).append($('<td>').addClass('number').text(numChanges).attr('data-value', numChanges));
+    // .append('<br/>')
+    // .append(
+    //   $('<button>')
+    //     .attr('type', 'button')
+    //     .addClass('btn')
+    //     .addClass('badge-info')
+    //     .addClass('badge')
+    //     .text('filter')
+    //     .click(function (moves, e) {
+    //       filters.movesFilter = moves;
+    //       reload();
+    //     }.bind(null, numChanges))
+    // ));
 }
 
 function load(metadataCsvFile, csvFile, inventoryCsvFile) {
