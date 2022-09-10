@@ -995,6 +995,9 @@ function loadDataForTable(metadataMap, dataAll) {
   });
   $('.dataTables_length').addClass('bs-select');
   $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
+
+  // Add a sentinel element to mark the end of rendering.
+  $('body').append($('<div>').addClass('done-with-work'));
 }
 
 function loadData(csvFile, metadataMap, inventoryData, done) {
