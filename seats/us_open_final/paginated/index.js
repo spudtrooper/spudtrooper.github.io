@@ -996,6 +996,7 @@ function loadDataForTable(metadataMap, dataAll) {
   $('.sortable-table').DataTable(dataTableOptions);
   if (params.get('pageLength')) {
     $('.dataTables_length').hide();
+    $('.paginated').hide();
   } else {
     $('.dataTables_length').addClass('bs-select');
     $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));

@@ -23,7 +23,7 @@
   <div class="intro">
     Ticket prices across seatgeek, stubhub, and vividseats for the <b>US Open Final</b> initially sorted by volatility.
     See <a href="..">more</a>. You can see the <a href="paginated/">paginated version</a>, which takes longer to load.
-    <ul style="margin-bottom: 0px">
+    <ul style="margin-bottom: 0px" class="paginated">
       <li>
         Filters: <a href="?lastDay">last day</a>, <a href="?sold">sold</a>, <a href="?unsold">unsold</a>, <a href="?lastMinute">last 2 hours</a> <span style="display:inline">
           <span style="width: 5rem; display:none" id="rowFilterWrapper">
@@ -64,10 +64,6 @@
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="histograms-tab" data-bs-toggle="tab" data-bs-target="#histograms-pane" type="button" role="tab" aria-controls="histograms-pane" aria-selected="false">Histograms</button>
       </li>
-      <!-- <li class="nav-item" role="presentation">
-                <button class="nav-link" id="inventory-tab" data-bs-toggle="tab" data-bs-target="#inventory-pane"
-                    type="button" role="tab" aria-controls="inventory-pane" aria-selected="false">Inventory</button>
-            </li> -->
     </ul>
     <div class="tab-content">
       <div class="tab-pane show active" id="timelines-pane" role="tabpanel" aria-labelledby="timelines-tab">
