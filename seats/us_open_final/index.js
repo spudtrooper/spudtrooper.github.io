@@ -238,19 +238,19 @@ function addRow(ticket, data, numDistinctValues, numChanges, metadataMap) {
 
   $(tr).append($('<td>').addClass('number').text(numDistinctValues).attr('data-value', numDistinctValues));
   $(tr).append($('<td>').addClass('number').text(numChanges).attr('data-value', numChanges));
-    // .append('<br/>')
-    // .append(
-    //   $('<button>')
-    //     .attr('type', 'button')
-    //     .addClass('btn')
-    //     .addClass('badge-info')
-    //     .addClass('badge')
-    //     .text('filter')
-    //     .click(function (moves, e) {
-    //       filters.movesFilter = moves;
-    //       reload();
-    //     }.bind(null, numChanges))
-    // ));
+  // .append('<br/>')
+  // .append(
+  //   $('<button>')
+  //     .attr('type', 'button')
+  //     .addClass('btn')
+  //     .addClass('badge-info')
+  //     .addClass('badge')
+  //     .text('filter')
+  //     .click(function (moves, e) {
+  //       filters.movesFilter = moves;
+  //       reload();
+  //     }.bind(null, numChanges))
+  // ));
 }
 
 function load(metadataCsvFile, csvFile, inventoryCsvFile) {
@@ -979,20 +979,21 @@ function loadDataForTable(metadataMap, dataAll) {
   });
   $('.loading').remove();
   let sortCol = 16,
-    sortDir = 'desc'; // # Moves
-  // if (filters.lastMinuteFilter || filters.lastDayFilter) {
-  //     sortCol = 14; // End-Start%
-  //     sortDir = 'asc';
-  // }
-  $('.sortable-table').DataTable({
-    'order': [
-      [sortCol, sortDir]
-    ],
-    'columnDefs': [{
-      'targets': 0,
-      'orderable': false
-    }]
-  });
+    sortDir = 'desc', // # Moves
+    dataTableOptions = {
+      'order': [
+        [sortCol, sortDir]
+      ],
+      'columnDefs': [{
+        'targets': 0,
+        'orderable': false
+      }],
+    };
+  let params = new URLSearchParams(document.location.search);
+  if (params.get('pageLength')) {
+    dataTableOptions['pageLength'] = Number.parseInt(params.get('pageLength'));
+  }
+  $('.sortable-table').DataTable(dataTableOptions);
   $('.dataTables_length').addClass('bs-select');
   $('select[name="tab_length"]').append($('<option>').attr('value', 9999999999999).text('All'));
 
