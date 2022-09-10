@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -25,11 +22,10 @@
 <body>
   <div class="intro">
     Ticket prices across seatgeek, stubhub, and vividseats for the <b>US Open Final</b> initially sorted by volatility.
-    See <a href="/seats">more</a>. You can see the <a href="paginated/">paginated version</a>, which takes longer to load.
+    See <a href="..">more</a>. You can see the <a href="paginated/">paginated version</a>, which takes longer to load.
     <ul style="margin-bottom: 0px" class="paginated">
       <li>
-        Filters: <a href="?lastDay">last day</a>, <a href="?sold">sold</a>, <a href="?unsold">unsold</a>, <a
-          href="?lastMinute">last 2 hours</a> <span style="display:inline">
+        Filters: <a href="?lastDay">last day</a>, <a href="?sold">sold</a>, <a href="?unsold">unsold</a>, <a href="?lastMinute">last 2 hours</a> <span style="display:inline">
           <span style="width: 5rem; display:none" id="rowFilterWrapper">
             Row:
             <select id="rowFilter" name="rowFilter" aria-controls="tab" style="display:inline" class="custom-select-sm">
@@ -38,8 +34,7 @@
           </span>
           <span style="width: 5rem; display:none" id="sectionFilterWrapper">
             Section:
-            <select id="sectionFilter" name="sectionFilter" aria-controls="tab" style="display:inline"
-              class="custom-select-sm">
+            <select id="sectionFilter" name="sectionFilter" aria-controls="tab" style="display:inline" class="custom-select-sm">
               <option value="None"></option>
             </select>
           </span>
@@ -64,18 +59,15 @@
   <div id="results" style="display:none">
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="timelines-tab" data-bs-toggle="tab" data-bs-target="#timelines-pane"
-          type="button" role="tab" aria-controls="timelines-pane" aria-selected="true">Timelines</button>
+        <button class="nav-link active" id="timelines-tab" data-bs-toggle="tab" data-bs-target="#timelines-pane" type="button" role="tab" aria-controls="timelines-pane" aria-selected="true">Timelines</button>
       </li>
-      <li class="nav-item" role="presentation" class="paginated">
-        <button class="nav-link" id="histograms-tab" data-bs-toggle="tab" data-bs-target="#histograms-pane"
-          type="button" role="tab" aria-controls="histograms-pane" aria-selected="false">Histograms</button>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="histograms-tab" data-bs-toggle="tab" data-bs-target="#histograms-pane" type="button" role="tab" aria-controls="histograms-pane" aria-selected="false">Histograms</button>
       </li>
     </ul>
     <div class="tab-content">
       <div class="tab-pane show active" id="timelines-pane" role="tabpanel" aria-labelledby="timelines-tab">
-        <table id="tab" class="table table-bordered table-sm sortable-table" data-sort-name="numPriceChanges"
-          data-sort-order="desc" cellspacing="0" width="100%">
+        <table id="tab" class="table table-bordered table-sm sortable-table" data-sort-name="numPriceChanges" data-sort-order="desc" cellspacing="0" width="100%">
           <thead>
             <tr>
               <th scope="col" class="th-sm">Timeline</th>
@@ -193,6 +185,6 @@
             </div> -->
     </div>
   </div>
-</body>
 
-</html>
+
+</body>
