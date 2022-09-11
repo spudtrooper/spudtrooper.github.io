@@ -353,10 +353,10 @@ Filters.prototype.reload = function (params) {
     params.set('all');
   }
   if (this.unsoldFilter) {
-    params.set('unsold');
+    params.set('sold');
   }
   if (this.soldFilter) {
-    params.set('sold');
+    params.set('unsold');
   }
 };
 
@@ -917,8 +917,8 @@ function loadDataForTable(metadataMap, dataAll) {
         (!filters.lastMinuteFilter || (filters.lastMinuteFilter && isLastMinute)) &&
         (!filters.lastDayFilter || (filters.lastDayFilter && isLastDay)) &&
         (filters.allFilter || !filters.lastMinuteFilter || !filters.lastDayFilter || !filters.soldFilter || !filters.unsoldFilter || d.changes.length > 5) &&
-        (!filters.soldFilter || !isSold) &&
-        (!filters.unsoldFilter || isSold)
+        (!filters.soldFilter || isSold) &&
+        (!filters.unsoldFilter || !isSold)
       ) {
         filteredKeySet[d.ticket] = true;
       }
