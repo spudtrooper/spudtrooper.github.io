@@ -8,6 +8,7 @@ I like to look at ticket prices and have a couple play projects around that:
 I've also used this to track prices over time, e.g.
 
 * [2022 US Open Final](us_open_final) - 2022 US Open Final
+* [2022 US Open Men's Final](us_open_mens_final) - 2022 US Open Men's Final
 * [Super Bowl LVI](super_bowl_lvi) - see people [dump superbowl tickets](https://spudtrooper.github.io/seats/super_bowl_lvi/?lastDay) on the last day.
 * [A Knicks/Kings game](knicks_kings) - also see this [version](./Knicks-Kings.html)
 
