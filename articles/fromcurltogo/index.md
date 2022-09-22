@@ -2,6 +2,10 @@
 
 Last updated: *2022-03-11*
 
+## tl;dr
+
+To build a golang RPC client, start with a curl command, convert it to Go, and iterate.
+
 ## Overview
 
 Creating an RPC API to a service you don't own often involves some reverse engineering of the other system. In particular figuring out the shape of the requests to send and what goes in them. This article covers a method of rapidly iterating on this part that leaves you with working code from the start.
