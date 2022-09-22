@@ -13,13 +13,14 @@
 * [fourlongyearsisalmostover](/fourlongyearsisalmostover) - Real-time tracking the last four states in the 2020 US Presidential election.
 * [timer](/timer) - A really simple timer, e.g. for meetings.
 * [wordpath](https://jeffpalm.com/wordpath) - A stupid word game ([source](https://github.com/spudtrooper/wordpath)).
+* [seats](seats) - A look at ticket prices across time and ticket sites for a Knick game
+* [opentable](opentable) - Data collected from opentable.
 
 ## [articles](/articles)
 
 * [foxnews vulnerabilities](articles/foxnews) - 3 vulnerabilities found on foxnews.com.
 * [getter followers](articles/gettrfollowers) - The odd way gettr.com counted followers.
 * [from curl to go](articles/fromcurltogo) - A pattern for golang clients for web APIs
-* [seats](seats) - A look at ticket prices across time and ticket sites for a Knick game
 
 ## more
     
