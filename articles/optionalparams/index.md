@@ -77,7 +77,7 @@ func Search(query string, optss...SearchOption) {
 }
 ```
 
-then calls to `Search` look like
+then calls to `Search` look like this and don't require boilerplate defaults:
 
 ```go
 Search("some query")
