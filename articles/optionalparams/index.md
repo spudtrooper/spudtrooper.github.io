@@ -101,3 +101,5 @@ func Search(query string, optss...SearchOption) {
   ... process `query`, `limit`, `sort`, `debug`, and `verbose` ...
 }
 ```
+
+You can see some [real examples](https://github.com/search?q=%22go%3Agenerate+genopts%22&type=code).
