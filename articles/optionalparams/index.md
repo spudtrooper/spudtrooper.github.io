@@ -86,7 +86,7 @@ Search("some query", SearchSort("DESC"))
 Search("some query", SearchLimit(100), SearchSort("DESC"))
 ```
 
-and when you add `debug` and `verbose`, they would be unchanged. You would expand the function a little:
+and when you add `debug` and `verbose`, they would be unchanged. You would just expand the function a little to handle the new optional params:
 
 ```go
 //go:generate --function Search "limit:int" "sort:string" debug verbose
