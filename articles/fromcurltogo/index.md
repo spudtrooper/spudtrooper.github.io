@@ -14,6 +14,7 @@ This process automates the translation process so that you go directly from prot
 
 You want to create a Go RPC API to someone else's REST API or website--here are a couple examples:
 
+* [github.com/spudtrooper/opentable](https://github.com/spudtrooper/opentable) - Go API for opentable
 * [github.com/spudtrooper/seats](https://github.com/spudtrooper/seats) - Go API for seatgeek, stubhub, vividseats REST APIs and login systems
 * [github.com/spudtrooper/gettr](https://github.com/spudtrooper/gettr) - Go API for gettr.com
 * [github.com/spudtrooper/scplanner](https://github.com/spudtrooper/scplanner) - Go API for scplanner.net
