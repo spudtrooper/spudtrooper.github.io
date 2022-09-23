@@ -1,4 +1,4 @@
-# Articles
+# articles
 
 * [foxnews vulnerabilities](foxnews)
 * [optional params](articles/optionalparams)
