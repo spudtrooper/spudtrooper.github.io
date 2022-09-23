@@ -19,9 +19,9 @@
 ## [articles](/articles)
 
 * [foxnews vulnerabilities](articles/foxnews) - 3 vulnerabilities found on foxnews.com.
-* [getter followers](articles/gettrfollowers) - The odd way gettr.com counted followers.
-* [from curl to go](articles/fromcurltogo) - A pattern for building golang API clients for third party sites.
 * [optional params](articles/optionalparams) - A pattern for optional parameters in go.
+* [from curl to go](articles/fromcurltogo) - A pattern for building golang API clients for third party sites.
+* [getter followers](articles/gettrfollowers) - The odd way gettr.com counted followers.
 ## more
     
 * [jeffpalm.com](https://jeffpalm.com)
