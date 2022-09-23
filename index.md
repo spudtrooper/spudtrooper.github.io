@@ -1,6 +1,6 @@
 [//]: # (Title: spudtrooper)
 
-## [fun projects](/projects)
+## [fun](/projects)
 
 * [ticketloob](https://ticketloob.com) - Mobile app to compare ticket prices across ticket sites
 * [ticketmixer](https://ticketmixer.app) - Web app to compare ticket prices across ticket sites
