@@ -1,6 +1,6 @@
 [//]: # (Title: spudtrooper)
 
-## [fun](/projects)
+## fun
 
 * [ticketloob](https://ticketloob.com) - Mobile app to compare ticket prices across ticket sites
 * [ticketmixer](https://ticketmixer.app) - Web app to compare ticket prices across ticket sites
@@ -16,12 +16,13 @@
 * [seats](seats) - A look at ticket prices across time and ticket sites for a Knick game
 * [opentable](opentable) - Data collected from opentable.
 
-## [articles](/articles)
+## articles
 
 * [foxnews vulnerabilities](articles/foxnews) - 3 vulnerabilities found on foxnews.com.
 * [optional params](articles/optionalparams) - A pattern for optional parameters in go.
 * [from curl to go](articles/fromcurltogo) - A pattern for building golang API clients for third party sites.
 * [getter followers](articles/gettrfollowers) - The odd way gettr.com counted followers.
+
 ## more
     
 * [jeffpalm.com](https://jeffpalm.com)
