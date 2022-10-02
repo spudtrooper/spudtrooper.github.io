@@ -1,4 +1,5 @@
 The most frequently-mentioned open table menu items in NYC.
+
 | #     | Menu Item                                                          | Count |
 | ----- | ------------------------------------------------------------------ | ----- |
 | 1     | Caesar Salad                                                       | 677   |
