@@ -2,9 +2,9 @@
 
 ## fun
 
-* [ticketloob](https://ticketloob.com) - Mobile app to compare ticket prices across ticket sites
-* [ticketmixer](https://ticketmixer.app) - Web app to compare ticket prices across ticket sites
-* [twimmage](https://twimmage.com) - Mobile app to create images from tweets for sharing on other social networks.
+* [ticketloob](https://www.youtube.com/watch?v=W6O6n3VJ5vs) - Mobile app to compare ticket prices across ticket sites
+* [ticketmixer](https://www.youtube.com/watch?v=dWuh5RmTBTk) - Web app to compare ticket prices across ticket sites
+* [twimmage](https://instagram.com/twimmage) - Mobile app to create images from tweets for sharing on other social networks.
 * [toooodoooos](http://toooodoooos.appspot.com/) - Yet another TODO list
 * [bookmarklets](/bookmarklets) - Collection of bookmarklets.
 * [adventofcodediff2021](/adventofcodediff2021) - Advent of code 2021 solutions for some members of a private leaderboard.
