@@ -15,7 +15,7 @@
 * [wordpath](https://jeffpalm.com/wordpath) - A stupid word game ([source](https://github.com/spudtrooper/wordpath)).
 * [seats](seats) - A look at ticket prices across time and ticket sites for a Knick game
 * [opentable](opentable) - Data collected from opentable.
-* [food-preservation-game](food-preservation-game) - A addicting internet website food game.
+* [food cover game](food-cover-game) - A addicting internet website food game.
 
 ## articles
 
