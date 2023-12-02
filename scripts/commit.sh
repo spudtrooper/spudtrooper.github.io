@@ -1,5 +1,6 @@
 #!/bin/sh
 
+msg=${@:-update $(date)}
+
 git add .
-git commit -m "update $(date)"
-git push
+git commit -am "$msg" --allow-empty
