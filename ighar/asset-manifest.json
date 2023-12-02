@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://spudtrooper.github.io/ighar/static/css/main.b47fbcf1.css",
-    "main.js": "https://spudtrooper.github.io/ighar/static/js/main.b31f99e4.js",
-    "static/js/787.4579d5e8.chunk.js": "https://spudtrooper.github.io/ighar/static/js/787.4579d5e8.chunk.js",
-    "index.html": "https://spudtrooper.github.io/ighar/index.html",
-    "main.b47fbcf1.css.map": "https://spudtrooper.github.io/ighar/static/css/main.b47fbcf1.css.map",
-    "main.b31f99e4.js.map": "https://spudtrooper.github.io/ighar/static/js/main.b31f99e4.js.map",
-    "787.4579d5e8.chunk.js.map": "https://spudtrooper.github.io/ighar/static/js/787.4579d5e8.chunk.js.map"
+    "main.css": "/static/css/main.b47fbcf1.css",
+    "main.js": "/static/js/main.813acd8a.js",
+    "static/js/787.4579d5e8.chunk.js": "/static/js/787.4579d5e8.chunk.js",
+    "index.html": "/index.html",
+    "main.b47fbcf1.css.map": "/static/css/main.b47fbcf1.css.map",
+    "main.813acd8a.js.map": "/static/js/main.813acd8a.js.map",
+    "787.4579d5e8.chunk.js.map": "/static/js/787.4579d5e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b47fbcf1.css",
-    "static/js/main.b31f99e4.js"
+    "static/js/main.813acd8a.js"
   ]
 }
