@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ighar/static/css/main.b47fbcf1.css",
-    "main.js": "/ighar/static/js/main.00bd209c.js",
+    "main.css": "/ighar/static/css/main.e5126de6.css",
+    "main.js": "/ighar/static/js/main.0b1c011f.js",
     "static/js/787.4579d5e8.chunk.js": "/ighar/static/js/787.4579d5e8.chunk.js",
     "index.html": "/ighar/index.html",
-    "main.b47fbcf1.css.map": "/ighar/static/css/main.b47fbcf1.css.map",
-    "main.00bd209c.js.map": "/ighar/static/js/main.00bd209c.js.map",
+    "main.e5126de6.css.map": "/ighar/static/css/main.e5126de6.css.map",
+    "main.0b1c011f.js.map": "/ighar/static/js/main.0b1c011f.js.map",
     "787.4579d5e8.chunk.js.map": "/ighar/static/js/787.4579d5e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b47fbcf1.css",
-    "static/js/main.00bd209c.js"
+    "static/css/main.e5126de6.css",
+    "static/js/main.0b1c011f.js"
   ]
 }
