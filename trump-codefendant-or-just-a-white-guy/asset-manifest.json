@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/trump-cofendendant-or-just-a-white-guy/static/css/main.b7a9a7a6.css",
-    "main.js": "/trump-cofendendant-or-just-a-white-guy/static/js/main.fe337b1c.js",
-    "static/js/787.7caff9e7.chunk.js": "/trump-cofendendant-or-just-a-white-guy/static/js/787.7caff9e7.chunk.js",
-    "index.html": "/trump-cofendendant-or-just-a-white-guy/index.html",
-    "main.b7a9a7a6.css.map": "/trump-cofendendant-or-just-a-white-guy/static/css/main.b7a9a7a6.css.map",
-    "main.fe337b1c.js.map": "/trump-cofendendant-or-just-a-white-guy/static/js/main.fe337b1c.js.map",
-    "787.7caff9e7.chunk.js.map": "/trump-cofendendant-or-just-a-white-guy/static/js/787.7caff9e7.chunk.js.map"
+    "main.css": "/trump-codefendant-or-just-a-white-guy/static/css/main.b7a9a7a6.css",
+    "main.js": "/trump-codefendant-or-just-a-white-guy/static/js/main.3fe8e27e.js",
+    "static/js/787.7caff9e7.chunk.js": "/trump-codefendant-or-just-a-white-guy/static/js/787.7caff9e7.chunk.js",
+    "index.html": "/trump-codefendant-or-just-a-white-guy/index.html",
+    "main.b7a9a7a6.css.map": "/trump-codefendant-or-just-a-white-guy/static/css/main.b7a9a7a6.css.map",
+    "main.3fe8e27e.js.map": "/trump-codefendant-or-just-a-white-guy/static/js/main.3fe8e27e.js.map",
+    "787.7caff9e7.chunk.js.map": "/trump-codefendant-or-just-a-white-guy/static/js/787.7caff9e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7a9a7a6.css",
-    "static/js/main.fe337b1c.js"
+    "static/js/main.3fe8e27e.js"
   ]
 }
