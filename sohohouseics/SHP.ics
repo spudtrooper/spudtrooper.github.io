@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:7Zj6m97HhEmcaQTS6VAFT
+UID:8h5pmjVKnvDt0zkkDJL1o
 SUMMARY:Only Clits Club
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231211T230000Z
 DTEND:20231212T010000Z
 DESCRIPTION:Camille Aumont Carnel is the founder of @jemenbatsleclito\, a f
@@ -19,9 +19,9 @@ DESCRIPTION:Camille Aumont Carnel is the founder of @jemenbatsleclito\, a f
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:8rcx03uGztgV0jE2uaZHa
+UID:LT33k-_AYumoBhv8YEbFR
 SUMMARY:One Night Only: Julien Sebbag 
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T230000Z
 DTEND:20231213T020000Z
 DESCRIPTION:One Night Only is our signature evening for the foodies where w
@@ -38,6 +38,255 @@ DESCRIPTION:One Night Only is our signature evening for the foodies where w
 	b chops\n\nVeg : \nRoasted pumpkin\, cauliflower tabbouleh\, parsnip cream
 	\, marinated feta\n\nDessert\nHomemade apple strudel & cinnamon chantilly\
 	n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:18gO4YcPebdOH_kWLN2Z7
+SUMMARY:Tribune La Bruyère: Borussia Dortmund VS PSG 
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T004500Z
+DTEND:20231214T020000Z
+DESCRIPTION:Head to our Cabaret\, take a spot in Tribune La Bruyère and enj
+	oy watching tonight’s Champions League game on the big screen with a speci
+	al menu of burgers and drinks. For this kick-off edition\, we watch Kylian
+	 Mbappé & Co play against Borussia Dortmund to qualifiy for the next stage
+	 in the Champions League. \n\nThis evening is hosted by Super Vision Offic
+	e co-founder and ex-Manchester United football player David Bellion.  
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:0ddRHnuNTzjhQfegUW4x3
+SUMMARY:Winter House Party : Gospel Night 
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T000000Z
+DTEND:20231215T003000Z
+DESCRIPTION:Tonight\, come to the Club\, light up your night and enjoy a sp
+	ecial gospel performance courtesy of Heredia Samuel Koffi and his singers.
+	 Koffi is the lead singer for French gospel groups Family One and Diamond 
+	Gospel\, who sang at Pharrell Williams' Pont Neuf fashion show. 
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:LwsuuyaXw6721htnPqTXw
+SUMMARY:Winter House Party : Corine & Dorion 
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T013000Z
+DTEND:20231215T060000Z
+DESCRIPTION:Welcome to our end of the year Winter House Party. Tonight\, ge
+	ar up for a special one as we welcome the French artist Corine and her sig
+	nature disco-pop live performance\, followed by Dorion\, French DJ and mas
+	termind of the iconic "Je t'aime" party in Paris. \n\nJoin us on the dance
+	floor and get ready for a high-energy\, sweet & sour disco night. 
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:SzRNmTPge2witJRC48IcV
+SUMMARY:Etat de la Culture #6 by Moriba Koné 
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T000000Z
+DTEND:20231216T020000Z
+DESCRIPTION:All for the sake of Culture\, sacrificing creativity? A look ba
+	ck at 2023's biggest moments with Sarah Tesnieres\, journalist at YARD. \n
+	\n2023 has been a year of key moments. Kim Kardashian's comm\, the hegemon
+	y of melo in French rap\, the prime of a new gen of female artists and the
+	 rise of London's creative epicenter. Tonight\, Moriba Koné sits down with
+	 Sarah Tesnieres and discuss about some of this year's highlights. \n\nThi
+	s is Etat de la Culture\, Gamberge powered by Moriba Koné.\n\nThis talk is
+	 held in French and open on first-come-first served basis. Come early if y
+	ou whish to attend. \n\nMoriba Koné is a multi-disciplinary creative speci
+	alizing in the support and development of brands such as Daily Paper and 3
+	.Paradis. He is one of the fashion industry's sharpest observers. In 2022\
+	, he co-directed the documentary "Les Titulaires" on the resellers hussler
+	s produced by Yard\, and is behind two brands\, the most recent of which w
+	as Applecore.
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:8B7HIfx7sJYtBEE7lGsIG
+SUMMARY:In da club : OG. D
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T030000Z
+DTEND:20231216T060000Z
+DESCRIPTION:Tonight\, Parisian DJ & producer OG.D\, Gazo's DJ\, is taking c
+	ontrol of the Cabaret for a night of Afrohouse\, Baile and RnB. Get ready 
+	to dance. 
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:N-Rzfeelk4RgJjgY1joUD
+SUMMARY:Unexpected Cabaret Club!
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T020000Z
+DTEND:20231217T033000Z
+DESCRIPTION:This Saturday\, join us for the last 2023 night of our burlesqu
+	e show series: Unexpected Cabaret Club! \n\nAdding a modern twist to cabar
+	et and burlesque\, the Unexpected Cabaret Club invites on stage an eccentr
+	ic cast of performers\, dancers and artists from different horizons. \n\nG
+	et ready for a special night of burlesque extravaganza with music by Anton
+	in Courant and special cocktails\, courtesy of Glenfiddich. \n\nPlease not
+	e the show is 10€ per person and includes a complimentary cocktail. The sh
+	ow is followed by a party with a high-energy DJ set by Antonin Courant. \n
+	\nThis event is non-refundable.\n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:Bcwq5uytt0IXr1XgKwv94
+SUMMARY:Unexpected Cabaret Club After-Party 
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T033000Z
+DTEND:20231217T054500Z
+DESCRIPTION:Join the second part of our Unexpected Cabaret Club night with 
+	a high-energy DJ set by Antonin Courant\, burlesque performances with a mo
+	dern twist and special cocktails\, courtesy of Glenfiddich.  
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:q9n7IbxCwB-TN4BQDx8oi
+SUMMARY:House Tonic: Winter Classic 
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T233000Z
+DTEND:20231219T010000Z
+DESCRIPTION:Tonight\, come downstairs in our Cabaret as our Barman Andy sha
+	res his expert tips on how to make the perfect winter and easy to drink co
+	cktail.\n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:JgD1DcIyd9Ga0YvTxxP36
+SUMMARY:Member Mixer: film industry edition 
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T233000Z
+DTEND:20231220T013000Z
+DESCRIPTION:We welcome you to this new edition of Member Mixer – our regula
+	r networking event hosted by our Membership Team where you get the opportu
+	nity to meet fellow members over drinks and bites. This edition is intende
+	d for all our members working in the film industry\, or those who want to 
+	discover members of this industry.
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:ReDvldpVYPcPA47esMKMQ
+SUMMARY:Drag Bingo\, Winter Edition 
+DTSTAMP:20231211T115637Z
+DTSTART:20231222T000000Z
+DTEND:20231222T020000Z
+DESCRIPTION:Minima Gesté\, the self-proclaimed queen of bingo\, hosts this 
+	fun night at the House that'll make you wish you’d discovered this game mu
+	ch earlier. This event is on a first come-first serve basis\, please come 
+	early if you wish to attend.
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:q2H_JFYZ_ve0w92fux4KM
+SUMMARY:Bitch Party Paris is back ! 
+DTSTAMP:20231211T115637Z
+DTSTART:20231223T023000Z
+DTEND:20231223T060000Z
+DESCRIPTION:BITCH PARTY PARIS is the Parisian LGBTQIA+ Pop party\, and one 
+	of our last party before 2024. \n\nFor the past 13 years\, the Bitch has b
+	een bringing together over 1\,000 people a month around some of Pop Cultur
+	e's biggest stars. For this second edition at Soho House Paris\, Madonna i
+	s an obvious choice. \n\nThe concept is simple: one Madonna hit every 3 po
+	p/rnb tracks from the last 25 years. Get ready to sing and sweat.\n\n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:uQLTIUHaeO5EhI78CWwbq
+SUMMARY:New Year’s Eve Party : Bubbles (members tickets)
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T020000Z
+DTEND:20240101T070000Z
+DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
+	aded by bubbles with a glamorous party to bid farewell to 2023. Enjoy a hi
+	gh-energy program of DJ sets courtesy of Agathe Mougin\, Guido (Acid Arab)
+	\, Cezaire and Mr Boo\, cabaret acts by Unexpected Cabaret and more surpri
+	ses while you enjoy this sparkling night. Dress to impress and count down 
+	the final moments of 2023 with us.\n\nMembers tickets are 30€ (incl. one g
+	lass of champagne & bites). Each member can bring up to 3 guests. \n\nEarl
+	y-bird guest tickets are 40€ (incl. one glass of champagne) until December
+	 15. After December 15\, regular guest tickets are 50€ (incl. one glass of
+	 champagne).\n\nPlease note that tickets are non-refundable. We expect our
+	 members and their guests to adhere to the core Soho House values of inclu
+	sivity and respect when attending our events – this also extends to the wa
+	y that you choose to dress and interact with others.\n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:omZ2FOVgU-qA8Nwj6cfnd
+SUMMARY:New Year’s Eve Party: Bubbles (early-bird guests tickets)
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T020000Z
+DTEND:20240101T070000Z
+DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
+	aded by bubbles with a glamorous party to bid farewell to 2023. Enjoy a hi
+	gh-energy program of performances\, DJ set\, cabaret acts\, and more surpr
+	ises while you enjoy this sparkling nigh. Dress to impress and count down 
+	the final moments of 2023 with us.\n\nMembers tickets are 30€ (incl. one g
+	lass of champagne & bites). Each member can bring up to 3 guests.\n\nEarly
+	-bird guest tickets are 40€ (incl. one glass of champagne) until December 
+	15. After December 15\, regular guest tickets are 50€ (incl. one glass of 
+	champagne).\n\nPlease note that tickets are non-refundable. We expect our 
+	members and their guests to adhere to the core Soho House values of inclus
+	ivity and respect when attending our events – this also extends to the way
+	 that you choose to dress and interact with others.\n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:xUIIegEdB51ra_SJLjLia
+SUMMARY:Introduction to Astrology: Sun\, Moon\, Beyond
+DTSTAMP:20231211T115637Z
+DTSTART:20240102T113000Z
+DTEND:20240102T130000Z
+DESCRIPTION:There has been an explosion of all things astrological in the p
+	ast couple years. So what is astrology? What are its basic principles? Can
+	 it predict your future? \n\nThis talk teaches you how to start understand
+	ing your birth chart\, so you can better prepare for our always changing A
+	strological weather. \n\nJoin Clarisse Monahan\, Soho House’s Astrology Co
+	lumnist\, for her Introductory talk July 24th. You can check out your curr
+	ent horoscopes for the month by Clarisse in the Health section on the Soho
+	 House app.
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:kCsZqEqdW_Zk3PNyunzUk
+SUMMARY:House Comedy
+DTSTAMP:20231211T115637Z
+DTSTART:20240105T003000Z
+DTEND:20240105T020000Z
+DESCRIPTION:Head to the Cabaret Room as we host a new edition of our monthl
+	y stand-up comedy evening. Every month\, we introduce six talents from the
+	 Parisian stand-up scene\, who take turns on stage for a fun night of laug
+	hter. \n\nThis event is held in French. Doors open at 8.30pm and the show 
+	starts at 9pm.\n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:HZqPXhUWQLHjOuzLxHPIi
+SUMMARY:Only Clits Club
+DTSTAMP:20231211T115637Z
+DTSTART:20240108T110000Z
+DTEND:20240108T130000Z
+DESCRIPTION:Camille Aumont Carnel is the founder of @jemenbatsleclito\, a f
+	eminist IG account that challenges sexual stereotypes while celebrating se
+	xual empowerment for women. \n\nShe invites you to this talk for women and
+	 intersex people only. From orgasms to menstruation\, hair and solo pleasu
+	res\, the Only Clits Club is a safe zone to discuss sexuality free of judg
+	ement\, embarrassment\, and taboos. \n\nThis event is held in french.
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:tnRhHrr9a2zT3bcj1qJgD
+SUMMARY:Critical Fashion: has menswear taken over fashion? 
+DTSTAMP:20231211T115637Z
+DTSTART:20240109T113000Z
+DTEND:20240109T130000Z
+DESCRIPTION:Fashion journalist Melody Thomas is the author of the remarkabl
+	e essay ‘La Mode Est Politique’ and the mastermind behind our new fashion 
+	talk series entitled Critical Fashion\, where she offers socio-cultural an
+	alysis of current fashion trends and hot topics. \n\nFor this kick-off edi
+	tion\, Melody Thomas discusses what lies behind the current revolution in 
+	men’s fashion\, symbolised by the ever-growing importance and influence of
+	 Menswear Fashion Week\, set to open next week. 
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 END:VCALENDAR

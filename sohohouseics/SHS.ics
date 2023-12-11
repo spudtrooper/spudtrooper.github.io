@@ -1,0 +1,244 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:OG8KjNxxQbGg0dzfK4vh4
+SUMMARY:Truffle Dinner with Tryffelkranen 
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T230000Z
+DTEND:20231214T010000Z
+DESCRIPTION:Join us in Little Cecconi's for an exclusive 6-course truffle-t
+	hemed dinner with our head chef Håkan Carlsson and his friends at Tryffelk
+	ranen. Wine pairings are optional. \n\n**Price for 6 courses is 695 kr\, w
+	ith drinks added to your bill. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:460AwI9u-rTVhJSYl4wp6
+SUMMARY:Individual Tarot Readings: Clarisse Monahan
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T220000Z
+DTEND:20231215T010000Z
+DESCRIPTION:Join Clarisse Monahan\, Soho House's Astrology columnist\, for 
+	an evening of individual mini Tarot Readings. Tarot is the art of making t
+	he possible probable through the power of intention. Now is the perfect ti
+	me for a session\, as we approach the end of the year. Set a course for 20
+	24 and get some clarity around romance\, work\, family\, and friends. Read
+	ings last ten minutes each\, are limited and are available on a first-come
+	\, first-served basis\, so be sure to arrive early to sign-up.\n\n**If you
+	 already got a reading last month\, we ask that you make space for others’
+	 during this session. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:NFXPxmMKHyK-HFNGjFEos
+SUMMARY:Soho Visionaries: The art of buying art 
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T120000Z
+DTEND:20231215T133000Z
+DESCRIPTION:PANEL 1: THE GALLERY: A GUIDE TO ART ACQUISITION\n\nNavigating 
+	the contemporary commercial gallery scene can be exciting\, and slightly o
+	verwhelming. This panel aims to demystify the process of buying art in a g
+	allery setting\, offering valuable insights on where to start\, how to inc
+	rease your knowledge\, and how to stay connected with an ever-evolving art
+	 market. Panelists Saskia Neuman\, Ben Loveless\, Alpha Sow\, and Carl Lar
+	sson will provide tips for prospective art buyers and answer questions abo
+	ut the acquisition process.\n\nSaskia Neuman - Celebrating her 1 year anni
+	versary as gallerist this fall\, but has been working in contemporary art 
+	for the past 20 years.\n\nBen Loveless - Running one of the most establish
+	ed and international gallery's in town — with locations in Berlin and Mexi
+	co City. \n\nEbba Von Betzeen - Former Gallery director at Andrehén-Schipt
+	henko now art advisor specializing in building maintaining and exhibition 
+	art collections. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:39BGar32a90h06V0culb6
+SUMMARY:Soho Visionaries: Future-thinking collage workshop 
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T140000Z
+DTEND:20231215T160000Z
+DESCRIPTION:It is so important to actively shape the future we want\, but i
+	sn’t it true that we can’t create what we do not see? Through learning the
+	 basics of art collage\, unleash your creativity and connect to your intui
+	tion through this future-thinking collage workshop\, hosted by Berenice Ro
+	gablia\, founder of Soul Canvas. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:L29-IxlkQGjQWJSW5Gfy_
+SUMMARY:Soho Visionaries: Lunch & learn with Andrea Pippins - Art as storyt
+	elling
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T160000Z
+DTEND:20231215T173000Z
+DESCRIPTION:Grab a seat in Little Cecconi's for this lunch and learn with r
+	enowned author & illustrator Andrea Pippins for a lunch & learn on how to 
+	harness art as a tool for storytelling and social dialogue. She’ll present
+	 some of her sketches and published works as she walks you through her cre
+	ative process of turning an image or idea into a fictionalized object for 
+	understanding.\n
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:t9mKytrdRMmnomyYTYZFI
+SUMMARY:Soho Visionaries: Paper flower class with Charlotte Bernett 
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T180000Z
+DTEND:20231215T193000Z
+DESCRIPTION:Join paper artist Charlotte Bernett in a paper flower class. Tr
+	y the craft and make your own big\, never-withering flower. All materials 
+	and tools are provided. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:oJSWZEHYGX1Vd4Vu0qGJj
+SUMMARY:Soho Visionaries: Still life painting with Marta Leyva
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T200000Z
+DTEND:20231215T210000Z
+DESCRIPTION:Spanish designer Marta Leyva is known for her playful and color
+	ful paintings - join her in the mezzanine for a hands-on still life painti
+	ng class. All materials will be provided\, with wine and bar snacks served
+	 throughout. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:hGg216kxeLa3ZcHkLtYby
+SUMMARY:Soho Visionaries: Art and Interior - Finding Balance
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T210000Z
+DTEND:20231215T223000Z
+DESCRIPTION:Is the integration of art and interior design taboo? Explore th
+	e dynamics between art and interior design\, delve into the question of wh
+	ether we should be adjusting our art collection in relation to the new sof
+	a\, or vice versa? Our esteemed panelists share their experiences and know
+	ledge on striking the perfect balance between these two creative spheres.\
+	n\nQuestion to consider: Are you allowed to talk about these two subjects 
+	in one sentence? Is it OK to adjust the art in your home in relation to th
+	e sofa? Or should the sofa’s position be changed to suit the installation?
+	  Does the gallerist get annoyed when you ask for something beige? Should 
+	we just keep this separate?\n\nAnna Mårselius - Interior designer\, Founde
+	r of Studio Milde \nMarina Schiptjenko - Founder of the gallery Andrehén-S
+	chipthenko
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:t1qqanW5yhLq1AdEYAqOG
+SUMMARY:Soho Visionaries: Art and Interior - Finding Balance
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T210000Z
+DTEND:20231215T223000Z
+DESCRIPTION:Is the integration of art and interior design taboo? Explore th
+	e dynamics between art and interior design\, delve into the question of wh
+	ether we should be adjusting our art collection in relation to the new sof
+	a\, or vice versa? Our esteemed panelists share their experiences and know
+	ledge on striking the perfect balance between these two creative spheres.\
+	n\nQuestion to consider: Are you allowed to talk about these two subjects 
+	in one sentence? Is it OK to adjust the art in your home in relation to th
+	e sofa? Or should the sofa’s position be changed to suit the installation?
+	  Does the gallerist get annoyed when you ask for something beige? Should 
+	we just keep this separate?\n\nAnna Mårselius - Interior designer\, Founde
+	r of Studio Milde \nMarina Schiptjenko - Founder of the gallery Andrehén-S
+	chipthenko
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:6ZigopfMceSeRTcgmIif9
+SUMMARY:Soho Visionaries: House Party with Bella Sarris
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T020000Z
+DTEND:20231216T060000Z
+DESCRIPTION:Soho Visionaries is ending with a bang: a house party with Bell
+	a Sarris. Bella wants to make you feel good. Whether she’s playing you a t
+	rack\, pouring you natural wine or cooking you pasta\, it’s always a uniqu
+	e sensual experience. She is a complex soul and true visionary who loves e
+	xploring her taste\, and after living in Berlin and touring the world rele
+	ntlessly at a very young age\, she settled in Stockholm to do exactly that
+	. Find music\, play music\, make music\, pour wine\, throw a party…repeat.
+	 She is always finding new ways to inject fun and play into peoples lives 
+	and tonight she is taking the Church Floor by storm.  
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:dhkE6eaObRYOwHL04q7g2
+SUMMARY:West Winter
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T000000Z
+DTEND:20231217T060000Z
+DESCRIPTION:A vibrant holiday-themed day party where Swedish artist from We
+	st Stockholm come together with our members in a unique constellation to e
+	nd the year with a magical touch. Performances by R&B artist Anna Rällsjö 
+	and Siméon\, DJ Oumo and Etti.
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:cw7wsfcuXXcK7VuyMaeEN
+SUMMARY:1st Birthday Celebration 
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T190000Z
+DTEND:20231217T230000Z
+DESCRIPTION:Soho House Stockholm turns one! Join us for a wholesome afterno
+	on celebrating our incredible house and the community within it - with liv
+	e gospel music\, holiday drinks from our friends at Bacardi\, mistletoe ma
+	king & much more! 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:3Uvb-OViJlT-CDTnu2CHl
+SUMMARY:NYE Dinner: Starry Night 
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T000000Z
+DTEND:20240101T020000Z
+DESCRIPTION:Tonight\, we kick off our end of the year party with a magical 
+	dinner in Cecconi's\, designed by Chef Håkan. \n\n**Please note that the t
+	icket price of 500 kr confirms your and your guests seats at the dinner an
+	d will be deducted from the total menu price of 1095 kr\, which covers the
+	 full meal and a glass of welcome bubbles. \n\nJoin us for this incredible
+	 last supper of 2023\, followed by our special NYE edition of our Secret S
+	ounds series in partnership with Patrón. On this occasion\, we welcome one
+	 of the most highly-regarded DJs in the scene. A regular at the cult Panor
+	ama Bar in Berghain\, our special guest often plays headlining slots at ma
+	jor dance music festivals like Dekmantel or Sonar. Get ready for a memorab
+	le night of food\, followed by dance music with special cocktails\, courte
+	sy of our friends from Patròn - ticket for party bookable in other event t
+	ab. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:UW_pRXN184HX_j9OfH75_
+SUMMARY:Secret Sounds: NYE Special 
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T010000Z
+DTEND:20240101T060000Z
+DESCRIPTION:Tonight\, we end the year in spectacular fashion as we host a s
+	pecial NYE edition of our Secret Sounds series. Secret Sounds is a series 
+	of surprise performances from musical greats – coming to the Houses global
+	ly in partnership with Patrón. \n\nOn this occasion\, we welcome one of th
+	e most highly-regarded DJs in the scene. A regular at the cult Panorama Ba
+	r in Berghain\, our special guest often plays headlining slots at major da
+	nce music festivals like Dekmantel or Sonar. Celebrated for spinning super
+	 eclectic\, genre-blending sets beyond convention and ‘all-nighters’ sets\
+	, our secret guest is often described as your ‘favourite DJ’s favourite DJ
+	’. \n\nGet ready for a memorable night of dance music with special cocktai
+	ls\, courtesy of our friends from Patròn.
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+END:VCALENDAR

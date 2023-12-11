@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:odLtvPBimxm_BketnWMfz
+UID:AkxafWXopkimPSknTIPpq
 SUMMARY:Smash the blues: Bootcamp
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231211T183000Z
 DTEND:20231211T193000Z
 DESCRIPTION:This is a bodyweight bootcamp conducted by Avinash Mansukhani\,
@@ -20,13 +20,359 @@ LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
 	 400049\, India
 END:VEVENT
 BEGIN:VEVENT
-UID:XdFbtttehxr46_3cQCJnw
+UID:hh7_2VkvyEE-uLpEXJM-9
 SUMMARY:Founders' night
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T210000Z
 DTEND:20231213T003000Z
 DESCRIPTION:Join us for an evening of conversations\, food and music before
 	 we close the year.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:Dz0LLusX3IwhX1etOVj6n
+SUMMARY:Breaking stereotypes- Bharat through the lens of Bhanu Athaiya
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T183000Z
+DTEND:20231213T193000Z
+DESCRIPTION:The following conversation looks at Bhanu Athaiya\, India’s fir
+	st Oscar winner\, and Zeenat Aman as two leading ladies who are not only b
+	reaking stereotypes with their creative contributions but also being the o
+	riginal influencers well before social media came into being. Sujata Assom
+	ull discusses design trends of the time and how costume design has evolved
+	 and changed over the years in cinema. \n\nThis talk is a part of the Prin
+	seps exhibition\, ‘Bharat through the lens of Bhanu Athaiya’.
+LOCATION:Aguada Fort\, Fort Aguada Rd\, Aguada Fort Area\, Candolim\, Goa 4
+	03515\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:VcoTRj66x4W_tXAAa6Y9s
+SUMMARY:Games night
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T193000Z
+DTEND:20231213T203000Z
+DESCRIPTION:Gear up for another game night hosted by Membership Manager Ama
+	r Arsiwalla and Jihaan Advani.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:c26i88GeRcB4CDMNCVa1f
+SUMMARY:Cookhouse: gingerbread cookie
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T163000Z
+DTEND:20231214T183000Z
+DESCRIPTION:Join Chef AN Anand for a hands-on classic Christmas gingerbread
+	 cookie masterclass.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:Vu8TFRoaWAIrRCiZLSZ6x
+SUMMARY:Christmas bakery with Le 15
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T113000Z
+DTEND:20231215T193000Z
+DESCRIPTION:Step into the world of Christmas delights at the Le 15 bakery p
+	op-up\, where the spirit of the season comes alive through a symphony of f
+	estive treats.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:F-cvtdY54vSFjAkMhVreG
+SUMMARY:Self-care pop-up market with Way Well
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T113000Z
+DTEND:20231216T193000Z
+DESCRIPTION:This time\, our market is inspired by the importance of self-ca
+	re. This is significant to us because by prioritising and maintaining a he
+	althy relationship with ourselves\, we can transmit those good vibes and e
+	nergy to others.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:QCBYBErjc-vdag_61f-f6
+SUMMARY:Emergent Influences of the 1930s and 40s in Art Cinema and Design: 
+	the Making of Bhanu Athaiya
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T153000Z
+DTEND:20231216T163000Z
+DESCRIPTION:Art critic\, Gayatri Sinha will speak on Bombay as a backdrop f
+	or Bhanu Athaiya\, India’s first Oscar winner\, and the rich confluence of
+	 design\, cinema and art which flourished in the decades of the 30s and 40
+	s\, and from which her very individualistic practice emerged.\n\nAs part o
+	f the Prinseps exhibition\, ‘Bharat through the lens of Bhanu Athaiya’
+LOCATION:Aguada Fort\, Fort Aguada Rd\, Aguada Fort Area\, Candolim\, Goa 4
+	03515\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:GCW5g1WEvgsGMavp-CvXg
+SUMMARY:Soho Saturday with Raji Rags 
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T210000Z
+DTEND:20231217T013000Z
+DESCRIPTION:Raj Chaudhuri (aka Raji Rags) is considered one of the key tast
+	emakers in his hometown both behind the scenes and in front of the decks. 
+	A no-genre-barred night\, making him one of the most trusted DJs in skills
+	 and selection.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:djX7IWAhisfEGq_OLzHKR
+SUMMARY:Self-care pop-up market with Way Well
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T113000Z
+DTEND:20231217T193000Z
+DESCRIPTION:This time\, our market is inspired by the importance of self-ca
+	re. This is significant to us because by prioritising and maintaining a he
+	althy relationship with ourselves\, we can transmit those good vibes and e
+	nergy to others.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:tQyoucfEW-3P1wID6gFHA
+SUMMARY:Sunset Sessions with Aperol
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T170000Z
+DTEND:20231218T003000Z
+DESCRIPTION:To celebrate the end of the week\, we are hosting 'Sunset Sessi
+	ons with\nAperol'. Members can watch the beautiful orange sun go down on o
+	ur rooftop terraces with an Aperol Spritz in hand.\nMusic by Framed- an im
+	mersive audio-visual pop up experience hosted by Mumbai based DJ’s Blurry 
+	Slur and Orbs & Zen! \nTonight is mostly focused on bringing groovy house 
+	music to the forefront.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:Ej9_Thnq8GXw4AJr55hoI
+SUMMARY:Rooftop Reels: Elf 
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T180000Z
+DTEND:20231218T193600Z
+DESCRIPTION:We're back after a hiatus for a holiday special edition of Roof
+	top Reels! Catch an early sunset on the roof and cozy up to this christmas
+	 classic. \n\nSynopsis: Buddy\, a human\, is raised amongst elves at the N
+	orth Pole. When he discovers that he is not an elf\, he travels to New Yor
+	k to search for his biological father.\nDirector: Jon Favreau\nDuration: 9
+	6 mins \nLanguage: English \nCast: Will Ferrell\, James Caan\, Zooey Desch
+	anel
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:xkmLpkpMaGNar7oGXl-ZI
+SUMMARY:Smash the blues: Bootcamp
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T183000Z
+DTEND:20231218T193000Z
+DESCRIPTION:This is a bodyweight bootcamp conducted by Avinash Mansukhani\,
+	 founder of Fight the Sunrise Fitness. This is a fun community workout whe
+	re we burn off some of those massive extra weekend calories. We are doing 
+	a mix of bodyweight and weighted conditioning\, to work on strength and mu
+	scle endurance. Come have fun\, sweat a whole lot\, make some new friends 
+	and learn some new skills.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:5heOSjEChzYv5FLEK3nWB
+SUMMARY:Cookhouse: Christmas plum cake
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T163000Z
+DTEND:20231219T183000Z
+DESCRIPTION:Join Chef AN Anand for a hands-on classic Christmas plum cake m
+	ade with macerated fruits and seeds.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:HVOV7OYZtJSmAhjj1DWxs
+SUMMARY:House comedy: Nitinn R Miranni 
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T193000Z
+DTEND:20231219T213000Z
+DESCRIPTION:We bring our House favourite Nitinn R Miranni for the last Hous
+	e Comedy of 2023. Let’s end the year with lots of laughs. 
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:sUPD5fGnmRolPu6NXXhnz
+SUMMARY:Holiday cocktail masterclass
+DTSTAMP:20231211T115637Z
+DTSTART:20231220T183000Z
+DTEND:20231220T193000Z
+DESCRIPTION:Enjoy an evening indulging in a cocktail masterclass creating c
+	ocktails that combine the flavours of the season. Bacardi Brand Ambassador
+	 \, Pearl Fernandes is hosting the masterclass\, teaching you holiday cock
+	tails you can create to keep your spirits high this festive season.\n\n 
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:wVA_ca6IJiawPZg0YKhoZ
+SUMMARY:Games night
+DTSTAMP:20231211T115637Z
+DTSTART:20231220T203000Z
+DTEND:20231220T213000Z
+DESCRIPTION:Gear up for another game night hosted by Membership Manager Ama
+	r Arsiwalla and Jihaan Advani.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:MAXDhdiuaU1ZRJeVMLeU2
+SUMMARY:Cacao ceremony and Shamanic sound healing
+DTSTAMP:20231211T115637Z
+DTSTART:20231221T163000Z
+DTEND:20231221T180000Z
+DESCRIPTION:Engage in a serene Cacao Ceremony paired with Shamanic sound he
+	aling to experience a profound feeling of spirit awakening. The unique ble
+	nd of sacred cacao and the sonic waves of shamanic drums with other sound 
+	instruments\, takes you on a beautiful journey\, cleansing your spirit and
+	 leading you to inner peace and tranquility.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:Md3u-X6jF_AHSF5-2R2Mg
+SUMMARY:Hip Hop Friday with Yung Maddy
+DTSTAMP:20231211T115637Z
+DTSTART:20231222T210000Z
+DTEND:20231223T003000Z
+DESCRIPTION:Yung Maddy brings a unique and signature hip hop sound that com
+	bines Rnb\, old school\, reggaeton and dancehall to spin a truly unique an
+	d diverse sound guaranteed to have the party grooving and moving.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:otA_zvZx2mywg1uSvvqLS
+SUMMARY:Soho Saturday with resident 
+DTSTAMP:20231211T115637Z
+DTSTART:20231223T210000Z
+DTEND:20231224T003000Z
+DESCRIPTION:The resident of our dance floor\, takes center stage for an ele
+	ctrifying night with their house favourite tunes.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:Qmk2oQp6yjiasc6xS8aA0
+SUMMARY:Jingle bell rock: Christmas eve
+DTSTAMP:20231211T115637Z
+DTSTART:20231224T210000Z
+DTEND:20231225T003000Z
+DESCRIPTION:Welcome to the most electrifying Christmas party of the year! G
+	et ready to rock around the Christmas tree where Farhan Rahman and Stalvar
+	t John will be spinning the hottest beats to keep you grooving all night l
+	ong. Ouinich Ouinich Collective showcasing their unique and vibrant queer 
+	dance moves that will dazzle and delight. And Maharana dishing out some ol
+	d time retro and rock n roll.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:9Eom0IK6M2wiN7fqGkOVD
+SUMMARY:Teeny house: Gingerbread ornament decoration
+DTSTAMP:20231211T115637Z
+DTSTART:20231225T163000Z
+DTEND:20231225T173000Z
+DESCRIPTION:This Christmas have a merry time by painting and decorating you
+	r own gingerbread man ornament and hanging it on your Christmas tree.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:_0QOXWpEeCt_ielvH9DVc
+SUMMARY:Computational Audiovisual Synthesis
+DTSTAMP:20231211T115637Z
+DTSTART:20231226T173000Z
+DTEND:20231226T183000Z
+DESCRIPTION:A talk with Parag K. MITAL\, Ph.D.\, an internationally exhibit
+	ed artist and interdisciplinary researcher working between computational a
+	rts and machine learning practices for nearly 20 years. His work examines 
+	the nature of perception in both humans and computers\, often exploring th
+	e disjunct between the two\, through mediums such as generative film\, aug
+	mented reality\, and large-scale archival interpretations. The balance bet
+	ween his scientific and arts practice allows both to reflect on each other
+	: the science driving the theories\, and the artwork re-defining the quest
+	ions asked within the research.\n
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:NT5aDA0GEI17naiz2Xrh-
+SUMMARY:The real 'Mad' man
+DTSTAMP:20231211T115637Z
+DTSTART:20231227T183000Z
+DTEND:20231227T193000Z
+DESCRIPTION:This panel discussion explores the journey of Anselmo Ramos\, a
+	 copywriter from Brazil who went on to create the most awarded advertising
+	 agency in the world. Advertising honchos Raj Kamble\, Kainaaz Karmakar\, 
+	Abhijit Awasthi and Arun Iyer throw Ramos fun\, challenging and revealing 
+	questions\, decoding what it's like to be a creative person\, a businessma
+	n and a global personality all in one. From the quirkiest sources of inspi
+	ration to the most bizarre challenge\, discover what drives a creative per
+	son to his best with these OG 'Mad' men and women. 
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:wBWZQIXFKz4ApfIsj0o36
+SUMMARY:Cultural Automation with Machine Learning
+DTSTAMP:20231211T115637Z
+DTSTART:20231228T173000Z
+DTEND:20231228T203000Z
+DESCRIPTION:This workshop with Parag K Mital explores the past\, present\, 
+	and future of how artists engage with digital media through its remix and 
+	adaptation of increasingly more automated algorithms. Starting from early 
+	collage and montage practices\, explore how artists have used cultural fra
+	gments as their medium to explore meaning through juxtaposition\, appropri
+	ation\, and détournement. 
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:QYgfIIeuUSPmymAz-QyrA
+SUMMARY:Hip hop friday
+DTSTAMP:20231211T115637Z
+DTSTART:20231229T210000Z
+DTEND:20231230T003000Z
+DESCRIPTION:The resident of our dance floor\, takes center stage for an ele
+	ctrifying night with their favourite hip hop tunes.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:QH68RHNH2hW4F92pDFZ7z
+SUMMARY:Soho Saturday with resident 
+DTSTAMP:20231211T115637Z
+DTSTART:20231230T210000Z
+DTEND:20231231T013000Z
+DESCRIPTION:The resident of our dance floor\, takes center stage for an ele
+	ctrifying night with their house favourite tunes.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:Q13dVkvVvJe8yqmJviSLo
+SUMMARY:Into the wild: New years eve
+DTSTAMP:20231211T115637Z
+DTSTART:20231231T210000Z
+DTEND:20240101T003000Z
+DESCRIPTION:Step into the wild this New Year's Eve celebration!\nExpect lus
+	h greenery\, and an atmosphere teeming with the energy of the wild. Roar i
+	nto the new year surrounded by wonder of the natural world and dressed in 
+	your favourite animal print or just any print. Music by Vishal Shetty and 
+	residents!\n\n\nPlease note: The ticket price is 2500/- which includes tax
+	\, a welcome drink and every guest will need a ticket for access. \n\n
 LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
 	 400049\, India
 END:VEVENT

@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:O2aBntT8Bb21y3N7E9tt0
+UID:rYVy6Iuxp0YkOuI3Amg18
 SUMMARY:Slow Flow Yoga
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231211T221500Z
 DTEND:20231211T231500Z
 DESCRIPTION:A slower paced class with time for you to absorb each posture. 
@@ -18,9 +18,9 @@ LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
 	 CA 90265\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:X2yhb5zr4B3XwCdNY-A6X
+UID:T_XgfG07ZqF2ZZUfOvXZV
 SUMMARY:Meditation
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231211T233000Z
 DTEND:20231212T000000Z
 DESCRIPTION:Stick around after today’s yoga flow to realign your mind with 
@@ -29,9 +29,9 @@ LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
 	 CA 90265\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:pnNNiEKXnLp2UH-h7ePXE
+UID:SjgbBcr2tPbDfIT9KjY4i
 SUMMARY:New moon tarot reading
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T040000Z
 DTEND:20231212T080000Z
 DESCRIPTION:Enjoy a complimentary tarot reading by clairvoyant Sophia Knapp
@@ -42,9 +42,9 @@ LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
 	 CA 90265\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:h1mDLhCKjR9cXVIUUe-ix
+UID:TT41FIUlPKyqPTIBszW8h
 SUMMARY:Ashtanga Yoga Flow
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T221500Z
 DTEND:20231212T233000Z
 DESCRIPTION:This 75-minute practice is a led class through the primary seri
@@ -55,9 +55,9 @@ LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
 	 CA 90265\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:GOMMY-vDmxAyQ_5F1LbSU
+UID:yHjnf3lk7Q0aVKyYHtYUL
 SUMMARY:House Boxing
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T233000Z
 DTEND:20231213T003000Z
 DESCRIPTION:Join owner and trainer of BRAWLR\, Shane for a 50 minute boxing
@@ -67,9 +67,9 @@ LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
 	 CA 90265\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:RLInodyo7qyy1TWuDwDyY
+UID:5Ids7RsgKCSCOmTV9Ooa4
 SUMMARY:Wreath workshop with Maximum Bloomage
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231213T050000Z
 DTEND:20231213T070000Z
 DESCRIPTION:Wreather Madness\, taught by Selena Gooch\, Los Angeles native 
@@ -77,6 +77,336 @@ DESCRIPTION:Wreather Madness\, taught by Selena Gooch\, Los Angeles native
 	of the season. Wreaths provided with unique accoutrements for a festive pe
 	rsonally designed wreath\, taught with tips and tricks to sprinkle some ma
 	gic on your holiday.\n\nConfirmation is required for attendance.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:MQlUaw5hKT-dD9iYNg3Ij
+SUMMARY:Yoga Flow with Eben Britton
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T221500Z
+DTEND:20231213T231500Z
+DESCRIPTION:Get your morning started with former NFL player Eben Britton’s 
+	yoga class\, which is designed to connect you deeper to your breath and bo
+	dy. Challenge yourself with a combination of flow and holds. Yogis of all 
+	levels are welcome. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:oX4y8CL-Rai2mogCtlfIn
+SUMMARY:Sound bath nourishment with Anna Owsian
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T233000Z
+DTEND:20231214T003000Z
+DESCRIPTION:Join Anna Owsian for a sound bath nourishment event. Enjoy a de
+	eply meditative and relaxing experience to nourish your mind\, body\, and 
+	soul. Owsian takes you on an immersive journey through sound using quartz 
+	crystal singing bowls and healing instruments that help to destress the bo
+	dy and make you feel calm and at peace.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:QJ3H4wzD1fQf1F5yTS3ZK
+SUMMARY:Vinyasa Flow
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T221500Z
+DTEND:20231214T231500Z
+DESCRIPTION:Challenge your balance\, strength and flexibility in a class th
+	at takes you through a variety of poses and flows. Please note: yogis of a
+	ll levels are welcome. Space is limited\, so please reserve your spot. We 
+	also ask that you cancel if you can’t attend\, in order to leave room for 
+	the next guest. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:zNr2NH6eXS2Hqb33Gd75I
+SUMMARY:Meditation
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T233000Z
+DTEND:20231215T000000Z
+DESCRIPTION:Stick around after today’s yoga flow to realign your mind with 
+	this 30-minute meditation session. All levels welcome.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:0FxICYKuf4HX8v99MQzly
+SUMMARY:Kundalini Yoga
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T221500Z
+DTEND:20231215T231500Z
+DESCRIPTION:Move through Kriya's or "sets of movement" like breathing techn
+	iques\, mindfulness\, and sound/mantra designed to bring the mind into its
+	 intuitive meditative state. Space is limited\, so please reserve your spo
+	t. We also ask that you cancel if you can’t attend\, in order to leave roo
+	m for the next guest. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:VOyOMvGhqaeCd8ZWetzOa
+SUMMARY:House Boxing
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T233000Z
+DTEND:20231216T003000Z
+DESCRIPTION:Join owner and trainer of BRAWLR\, Shane for a 50 minute boxing
+	 class. Get a great sweat in\, while learning a professional level of tech
+	nique and fundamentals on how to punch and defend yourself.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:_i79vUC4J5ANwIuKTX6ss
+SUMMARY:Teeny House Kids' Club
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T230000Z
+DTEND:20231217T040000Z
+DESCRIPTION:Join Curated Care for Teeny House x Little Beach House Malibu. 
+	Available on Saturdays and Sundays\, members can bring their little ones f
+	or games and arts and crafts under the supervision of two caregivers. Plea
+	se note that children must be three years old and above (and toilet traine
+	d) to participate. Parents may not leave the club while their child is at 
+	Teeny House. 
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:nP5FQfL9P6b0DcWQojgZf
+SUMMARY:Teeny House Kids' Club
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T230000Z
+DTEND:20231218T040000Z
+DESCRIPTION:Join Curated Care for Teeny House x Little Beach House Malibu. 
+	Available on Saturdays and Sundays\, members can bring their little ones f
+	or games and arts and crafts under the supervision of two caregivers. Plea
+	se note that children must be three years old and above (and toilet traine
+	d) to participate. Parents may not leave the club while their child is at 
+	Teeny House. 
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:Eag4YjCJTkOfvZsaLFJOj
+SUMMARY:Sunday Feast
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T003000Z
+DTEND:20231218T050000Z
+DESCRIPTION:Come enjoy a robust spread at Feast every third Sunday of the m
+	onth. Book a table in the app or reach out to our reception team via phone
+	 or reception.malibu@sohohouse.com. Feast is $95 per person.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:8wpmtdphEQtJXYwh1hudm
+SUMMARY:Slow Flow Yoga
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T221500Z
+DTEND:20231218T231500Z
+DESCRIPTION:A slower paced class with time for you to absorb each posture. 
+	This class takes you through fewer flows and longer holds to challenge you
+	r balance and calm your mind. Yogis of all levels are welcome. Members are
+	 encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:Icc1_wRE-S5qZeJiAzvAS
+SUMMARY:Meditation
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T233000Z
+DTEND:20231219T000000Z
+DESCRIPTION:Stick around after today’s yoga flow to realign your mind with 
+	this 30-minute meditation session. All levels welcome.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:Rct94Wb2GoHbc3QTeVQdD
+SUMMARY:Venice backgammon club 
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T080000Z
+DTEND:20231219T110000Z
+DESCRIPTION:The Venice Backgammon Club is hosting a round robin backgammon 
+	meetup in the Sitting Room.  All skill levels are welcome to join.  Direct
+	 message the club instagram if you don’t know how to play and you would li
+	ke someone to be available to teach you.  It takes just 20 minutes to lear
+	n\, and you will be able to roll with the best of them!  Come grab some dr
+	inks and roll some dice with the Venice Backgammon Club!
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:GkGK0x23RnS5CC5RJioca
+SUMMARY:Ashtanga Yoga Flow
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T221500Z
+DTEND:20231219T233000Z
+DESCRIPTION:This 75-minute practice is a led class through the primary seri
+	es of Ashtanga. Expect to work hard and learn a valuable practice. Todays 
+	class will be lead by Angel. Members are encouraged to bring their own mat
+	.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:kGf4UkQHshUeFvcDst8_r
+SUMMARY:House Boxing
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T233000Z
+DTEND:20231220T003000Z
+DESCRIPTION:Join owner and trainer of BRAWLR\, Shane for a 50 minute boxing
+	 class. Get a great sweat in\, while learning a professional level of tech
+	nique and fundamentals on how to punch and defend yourself.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:_39LuvJRz1cYoZ7gKR6Oc
+SUMMARY:Yoga Flow with Eben Britton
+DTSTAMP:20231211T115637Z
+DTSTART:20231220T221500Z
+DTEND:20231220T231500Z
+DESCRIPTION:Get your morning started with former NFL player Eben Britton’s 
+	yoga class\, which is designed to connect you deeper to your breath and bo
+	dy. Challenge yourself with a combination of flow and holds. Yogis of all 
+	levels are welcome. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:gqwScsC7NouSVi2vvT8b5
+SUMMARY:Vinyasa Flow
+DTSTAMP:20231211T115637Z
+DTSTART:20231221T221500Z
+DTEND:20231221T231500Z
+DESCRIPTION:Challenge your balance\, strength and flexibility in a class th
+	at takes you through a variety of poses and flows. Please note: yogis of a
+	ll levels are welcome. Space is limited\, so please reserve your spot. We 
+	also ask that you cancel if you can’t attend\, in order to leave room for 
+	the next guest. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:u8OlKgIA2FijIrxghNIRS
+SUMMARY:Meditation
+DTSTAMP:20231211T115637Z
+DTSTART:20231221T233000Z
+DTEND:20231222T000000Z
+DESCRIPTION:Stick around after today’s yoga flow to realign your mind with 
+	this 30-minute meditation session. All levels welcome.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:J6HYcLcorlrQuXHgW0E0s
+SUMMARY:Kundalini Yoga
+DTSTAMP:20231211T115637Z
+DTSTART:20231222T221500Z
+DTEND:20231222T231500Z
+DESCRIPTION:Move through Kriya's or "sets of movement" like breathing techn
+	iques\, mindfulness\, and sound/mantra designed to bring the mind into its
+	 intuitive meditative state. Space is limited\, so please reserve your spo
+	t. We also ask that you cancel if you can’t attend\, in order to leave roo
+	m for the next guest. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:hda42oPBo_fULboNvNbLy
+SUMMARY:House Boxing
+DTSTAMP:20231211T115637Z
+DTSTART:20231222T233000Z
+DTEND:20231223T003000Z
+DESCRIPTION:Join owner and trainer of BRAWLR\, Shane for a 50 minute boxing
+	 class. Get a great sweat in\, while learning a professional level of tech
+	nique and fundamentals on how to punch and defend yourself.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:zOqKfnbEGn6SnTQHPyl68
+SUMMARY:Yoga Flow with Eben Britton
+DTSTAMP:20231211T115637Z
+DTSTART:20231227T221500Z
+DTEND:20231227T231500Z
+DESCRIPTION:Get your morning started with former NFL player Eben Britton’s 
+	yoga class\, which is designed to connect you deeper to your breath and bo
+	dy. Challenge yourself with a combination of flow and holds. Yogis of all 
+	levels are welcome. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:eacR_CSBiY4FGZv1KUDRu
+SUMMARY:Vinyasa Flow
+DTSTAMP:20231211T115637Z
+DTSTART:20231228T221500Z
+DTEND:20231228T231500Z
+DESCRIPTION:Challenge your balance\, strength and flexibility in a class th
+	at takes you through a variety of poses and flows. Please note: yogis of a
+	ll levels are welcome. Space is limited\, so please reserve your spot. We 
+	also ask that you cancel if you can’t attend\, in order to leave room for 
+	the next guest. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:IrpFHQJHoy80W2vq-q8Zi
+SUMMARY:Meditation
+DTSTAMP:20231211T115637Z
+DTSTART:20231228T233000Z
+DTEND:20231229T000000Z
+DESCRIPTION:Stick around after today’s yoga flow to realign your mind with 
+	this 30-minute meditation session. All levels welcome.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:7F9a4kdOx4PK7XyNTLeSI
+SUMMARY:Kundalini Yoga
+DTSTAMP:20231211T115637Z
+DTSTART:20231229T221500Z
+DTEND:20231229T231500Z
+DESCRIPTION:Move through Kriya's or "sets of movement" like breathing techn
+	iques\, mindfulness\, and sound/mantra designed to bring the mind into its
+	 intuitive meditative state. Space is limited\, so please reserve your spo
+	t. We also ask that you cancel if you can’t attend\, in order to leave roo
+	m for the next guest. Members are encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:v-gsdEoqsK8wbM-dv6s8W
+SUMMARY:House Boxing
+DTSTAMP:20231211T115637Z
+DTSTART:20231229T233000Z
+DTEND:20231230T003000Z
+DESCRIPTION:Join owner and trainer of BRAWLR\, Shane for a 50 minute boxing
+	 class. Get a great sweat in\, while learning a professional level of tech
+	nique and fundamentals on how to punch and defend yourself.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:6Y-gEt4FCcHfGymZaYl8k
+SUMMARY:NYE 2024: Moonlight Magic
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T090000Z
+DTEND:20240101T150000Z
+DESCRIPTION:Set saiI into 2024 as we raise a glass to the new year ahead.  
+	Dance under the starry skies as Little Beach House Malibu is transformed i
+	nto an evening cruise ship.  Enjoy passed hors d’oeuvres\, live music and 
+	a glass of Moët & Chandon Champagne at midnight.\n\nTickets are $125 until
+	 December 6.\n\n$175 from December 7 to December 30.\n\n$250 on December 3
+	1 with limited tickets available at the door.\n\nAll pricing is exclusive 
+	of tax\, gratuity\, and Tock processing fees.  Tickets are non-refundable 
+	and non-transferable. 21+ only. Please email nyelbh@sohohouse.com with any
+	 questions.
 LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
 	 CA 90265\, United States
 END:VEVENT

@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:TovMUOqF33xjEl2SNnBHL
+SUMMARY:Snowflake Pendant Workshop
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T230000Z
+DTEND:20231214T010000Z
+DESCRIPTION:Create your own winter wonderland at the snowflake pendant work
+	shop. Run by Tilayo\, you will learn to construct your own festive decorat
+	ions sustainably\, making pendants that can be hung from the ceiling. Come
+	 along and start your Festive celebrations early!
+LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
+	nited Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:uEeHrYf4szXWmdjhOG1JP
+SUMMARY:Carol Singing
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T210000Z
+DTEND:20231216T220000Z
+DESCRIPTION:Tis the season to be jolly so enjoy some of your favourite caro
+	ls here at High Road House!\n
+LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
+	nited Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:O9PYKLR2aGY_wVNS6OKUK
+SUMMARY:Live Music at High Road House with Louise Golbey
+DTSTAMP:20231211T115637Z
+DTSTART:20231223T000000Z
+DTEND:20231223T030000Z
+DESCRIPTION:Enjoy an evening of signature cocktails and feel-good music fro
+	m our resident band. \n\nLouise is a talented singer-songwriter whose musi
+	c has been featured on BBC Radio 1\, 1Xtra\, and 6 Music. As a live artist
+	\, she has supported world-renowned acts including Roberta Flack\, The Sty
+	listics\, and Roy Ayers.\n\nIf you would like to guarantee a table to eat 
+	and drink\, please book via the SH.APP. 
+LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
+	nited Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:x2X9Ec8EBJ2Hdt_8TOd6O
+SUMMARY:New Years Eve at High Road House 
+DTSTAMP:20231211T115637Z
+DTSTART:20231231T230000Z
+DTEND:20240101T073000Z
+DESCRIPTION:Join us for a night of live music and celebrations as we bring 
+	in the New Year at High Road House. Rock up and join us for just drinks. \
+	n\nFor food book your table by phone or via the SH.APP to enjoy a Set menu
+	 of £80. Table bookings will open Dec 1st
+LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
+	nited Kingdom
+END:VEVENT
+END:VCALENDAR

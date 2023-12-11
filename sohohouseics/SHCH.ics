@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:SbZGcTE3C8l5DF1CADuSV
+UID:2B_tQ4ns_FCQLK-NkrQuS
 SUMMARY:Barrys Class: Arms & Abs
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231211T230000Z
 DTEND:20231212T000000Z
 DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
@@ -19,9 +19,9 @@ DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
 LOCATION:Barry’s\, Christian IX's Gade 3\, 1111 København\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:MvcHUoHQrGLcVAFBo6ttM
+UID:tMi6zS8FmWcJ0mMLlujeq
 SUMMARY:MC: Movie Screening of Home Alone
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T000000Z
 DTEND:20231212T020000Z
 DESCRIPTION:Join us in the Harbour room for a cosy evening watching Home Al
@@ -30,13 +30,311 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:KsN7QoAAM2wRV64C4U3zb
+UID:7i-IR7glFy1bossqEzwo7
 SUMMARY:Champions League Screening: FCK - Galatasaray
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231213T010000Z
 DTEND:20231213T023000Z
 DESCRIPTION:Come and watch as FC København (FCK) goes head-to-head with Gal
 	atasaray in the Champions League.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:aqHQ3R9G-j0MxJCU1J61R
+SUMMARY:Santa Lucia Parade in Kayaks
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T210000Z
+DTEND:20231214T010000Z
+DESCRIPTION:Santa Lucia Parade is passing by the house\, and we invite you 
+	to join us in this festive moment. The community tradition in full swing\,
+	 with beautifully decorated kayaks illuminating the night with their vibra
+	nt lights. We are serving gløgg and æbleskiver to enhance the joyous atmos
+	phere. 
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:KrFvxXD8qOJn240S6ytzf
+SUMMARY:Holiday Prep: Handling the festive season 
+DTSTAMP:20231211T115637Z
+DTSTART:20231213T220000Z
+DTEND:20231213T233000Z
+DESCRIPTION:Join us in this nurturing workshop where we explore creating ba
+	lance during the festive season. As the days grow shorter and colder\, man
+	y tend to indulge in heavier meals\, more alcohol\, and sweets\, sacrifici
+	ng sleep. The compounded stress of the holidays can deeply affect our phys
+	ical and mental health. \n\nDiscover strategies to maintain equilibrium in
+	 mind and body. Attend our empowering workshop led by @onethirtylabs to na
+	vigate the darker winter months and holiday season while safeguarding your
+	 well-being.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:KVPeRZ7AOgmamLgAqXhAG
+SUMMARY:Barrys Class: Abs & Ass
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T160000Z
+DTEND:20231214T170000Z
+DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
+	. The workout includes 25min strength work on the floor where we focus on 
+	a burn for your Abs & Ass\, along with 25min interval training on the trea
+	dmill. We bring you the night club vibe into our Red Room\, with carefully
+	 curated playlists that inspire you to run faster and lift heavier – every
+	 time.
+LOCATION:Barry’s\, Christian IX's Gade 3\, 1111 København\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:FXWTIACbW9y2BzuW5XGC9
+SUMMARY:Sip & Paint: Festive Edition 
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T230000Z
+DTEND:20231215T010000Z
+DESCRIPTION:Are you struggling with Christmas gift ideas? Join us for a nig
+	ht of festive creativity! Create personalized gifts while you sip gløgg an
+	d soak in the holiday cheer. Our Christmas Sip & Paint\, hosted by Committ
+	ee Members Krissie Garland & Joy M’Batha\, offers merry painting sessions 
+	with complimentary gløgg and delightful selections from our cocktail menu.
+	 Experience the fun as you switch seats with a fellow participant every 10
+	 minutes!
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:aDLuTZuUfJr8GGUfbFyJO
+SUMMARY:Friday Bar
+DTSTAMP:20231211T115637Z
+DTSTART:20231215T210000Z
+DTEND:20231215T230000Z
+DESCRIPTION:Our 'Fredags bar' is an opportunity to unwind with a drink\, co
+	nnect with fellow colleagues\, and broaden your professional network.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:c74NUxIi-sqTpbwroj-HC
+SUMMARY:Soho x Blonde House: Festive Party
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T000000Z
+DTEND:20231216T060000Z
+DESCRIPTION:Blonde’s Christmas celebration\, enjoy welcome drinks with DJ’s
+	 on both floors\, sets by Adidaddi\, Ulax\, Mads HB\, Tina Misaghi\, Entre
+	e & Anker. As well as a live performance from Coco O. A house party to cel
+	ebrate that Christmas is here.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:Xaj9cWDQdphWlmiPPYLJw
+SUMMARY:Soho Presents: CoCo O
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T000000Z
+DTEND:20231216T023000Z
+DESCRIPTION:Danish musician CoCo O is ready to captivate the house with her
+	 unique blend of soulful vocals and innovative sound. Renowned for her gen
+	re-defying approach\, she is a prominent figure in Denmark’s music scene\,
+	 consistently pushing boundaries and delivering compelling performances th
+	at resonate globally. Powered by Bacardi.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:4Z5vyJYPiB8L2Cf04v6i5
+SUMMARY:Viscose Journal: Issue 05 Launch 
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T220000Z
+DTEND:20231217T000000Z
+DESCRIPTION:Join us for the launch of the new issue of Viscose\, the cult j
+	ournal for fashion criticism with roots in Copenhagen. Marking the new iss
+	ue theme "RETAIL\," the editorial team will nourish guests with original G
+	AP playlists from the 1990s and glögg to match the season. Issues will be 
+	for sale at a special launch price.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:dXFysf0qQ5jxSKKqalUvn
+SUMMARY:Behind the decks: Anker & Gunstone
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T010000Z
+DTEND:20231217T060000Z
+DESCRIPTION:Join us this Saturday night with Member Events Manager Anker & 
+	Gunstone behind the decks. With their extensive experience in Copenhagen's
+	 party scene\, they will skillfully blend house\, deep house\, R&B\, and H
+	ipHop\, ensuring an electrifying atmosphere.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:PwFZUsbxaShHAyed6Fnvr
+SUMMARY:SOFT SEASON x 7 Days Active Walking Club
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T150000Z
+DTEND:20231217T170000Z
+DESCRIPTION:Join us for the Soho House monthly walking club with SOFT SEASO
+	N\, supported by 7 Days Active.\n \nOur host\, Hattie Turner\, will take y
+	ou on a decompressing social walk\, starting and ending at the House. The 
+	route will be 8-10km and should take 2 hours with House Press juices provi
+	ded. \n \nWhat should you bring? Water\, extra snacks if you would like an
+	d good walking shoes. This activity is not weather dependent so will go ah
+	ead in rain or shine\, bring a waterproof jacket if the weather looks unce
+	rtain. \n \nKit yourself out in 7 Days Active for the occasion using the m
+	ember only 40% discount code supplied at the event. 
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:ySh4Rbdji6gMjfeuFM51A
+SUMMARY:Barrys Class: Arms & Abs
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T230000Z
+DTEND:20231219T000000Z
+DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
+	. The workout includes 25min strength work on the floor\, where we focus o
+	n a burn for your Arms & Abs\, along with 25min interval training on the t
+	readmill. We bring you the night club vibe into our Red Room\, with carefu
+	lly curated playlists that inspire you to sprint faster and lift heavier –
+	 every time.
+LOCATION:Barry’s\, Christian IX's Gade 3\, 1111 København\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:-jMXcQUhI2p0XgR4WFs_F
+SUMMARY:Monday Club: Festive Supper
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T000000Z
+DTEND:20231219T030000Z
+DESCRIPTION:We welcome you to our U27 Supper Club: Christmas edition\, our 
+	signature networking dinner that celebrates our Under 27 community. Get th
+	e chance to meet your fellow members during an intimate dinner and drinks 
+	with a special menu prepared by our head chef for the occasion. This time 
+	will be a christmas special. Dinner is €30 and the wine is on us. Music by
+	 Anker. 
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:rXrs2bskSYEusNp_cXzJF
+SUMMARY:Full Moon\, Individual Mini Tarot Readings
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T220000Z
+DTEND:20231220T000000Z
+DESCRIPTION:Join Clarisse Monahan\, Soho House’s astrology columnist\, for 
+	a night of individual mini tarot readings. Tarot is the art of making the 
+	possible probable through the power of intention. Set a course for 2024 an
+	d get some clarity around romance\, work\, family\, and friends. Readings 
+	are available on a first-come\, first-served basis. You can check out your
+	 current horoscopes for the month by Monahan in the Health section on the 
+	Soho House app.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:YqGFhlunHZZVodKT3Bg8I
+SUMMARY:Behind the decks: Emil AT
+DTSTAMP:20231211T115637Z
+DTSTART:20231223T010000Z
+DTEND:20231223T060000Z
+DESCRIPTION:Introducing a young DJ who's already made a name for himself in
+	 the club scene - Emil AT. He's a master of house\, electronic\, and dance
+	 music and is known for creating a lively atmosphere on the dance floor. N
+	ot just a DJ\, Emil is a performer who loves engaging with the audience an
+	d has a unique ability to read the energy of the room and create a sonic l
+	andscape that keeps people dancing all night long.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:rRTluEvxDwPbIeZgxombw
+SUMMARY:NYE: Silver Dinner
+DTSTAMP:20231211T115637Z
+DTSTART:20231231T214500Z
+DTEND:20240101T080000Z
+DESCRIPTION:As an addition to our Silver Party\, we are offering a special 
+	menu for the night to be enjoyed at Cecconi’s. Join us in the Drawing Room
+	 at 6pm for Champagne\, oysters\, and Dronningens Nytårstale. Following th
+	is\, we welcome you to Cecconi’s for our New Year’s dinner. \n\nNew Year’s
+	 Eve dinner menu: \n\nPre-dinner:\nJosephine Oyster \nChampagne Thierry Fo
+	urnier\, Brut Reserve\, NV \n\nSmalls:\nPotato Pave\, Spicy Cured Tomato\,
+	 Oscietra Caviar \nChargrilled Carrots\, Smoked Olives\, Confit Lemon (v) 
+	\nCrab and Zucchini Cannelloni\, Cioppino Mayo\, Roasted Cheese \n\nStarte
+	rs:\nBeef Tartare\, Pickled Onion\, Harissa\, Havgus 48\, Crumpet \nGrille
+	d Scallops\, Zucchini\, Fingerlime\, Butter Sauce\, Coffee Oil \nBaked Bee
+	troots\, Ricotta\, Wild Mushroom\, Honey \n\nMains:\nCotolette Di Manzo\, 
+	Lovage\, Caramelised Shallots\, Balsamic Glaze\, Black Truffle \nServed wi
+	th creamed cavolo nero and roasted winter vegetables \n\nCheese:\nChef’s c
+	heese selection \n\nDessert:\nBlonde Chocolate Brownie\, Passionfruit Meri
+	ngue\, Champagne Sorbet \n\nAfter-dinner cocktail:\nLimoncello \n\nThe tic
+	kets include access to the party. Please note that the tickets are non-ref
+	undable. We confirm your reservation via email and ask for any allergies o
+	r dietary requirements since our dishes are made here and may contain trac
+	e ingredients.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:_eCm3SAKzSUf7DqhSQTNt
+SUMMARY:NYE: Silver Party
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T010000Z
+DTEND:20240101T080000Z
+DESCRIPTION:Step into the shimmering world of our silver-themed New Year’s 
+	Eve celebration. Experience chic decor\, bespoke cocktails\, DJs on both f
+	loors\, and surprise acts as we usher in 2024. Let’s welcome the New Year 
+	together in an atmosphere of elegance and excitement.\n\nTickets includes 
+	bubbles and chocolate at midnight. Tickets are non-refundable.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:UxCsFk0puqxie71O_4NSY
+SUMMARY:AIRE Ancient Baths Copenhagen
+DTSTAMP:20231211T115637Z
+DTSTART:20240102T120000Z
+DTEND:20240102T140000Z
+DESCRIPTION:Members can sign up for a two-hour session (normal entry is 90 
+	minutes) and receive a 30-minute massage within the two-hour session (norm
+	al price is 1200dkr - Soho price: 650dkr). Please note that only the 30-Mi
+	nute Relaxing Massage is complimentary. To book a slot\, please email fron
+	tdesk.copenhagen@beaire.com (with mstorm@beaire.com in cc) who will share 
+	a booking link as well as a payment link that will allow you to pay your e
+	ntrance for the Thermal Baths (650\,00 dkk). Booking through the app does 
+	not guarantee you a slot. Due to limited availability\, this offer only ap
+	plies to Soho House members + 1 guest.\n\nAIRE Ancient Baths Copenhagen is
+	 in the vibrant Carlsberg Byen district\, where the former Carlsberg brewe
+	ry has a new lease of life as Copenhagen's benchmark relaxation oasis. The
+	 iconic building\, dating back to 1881\, has been returned to its former g
+	lory\, with its original features restored and now part of the magical AIR
+	E atmosphere. You can also find AIRE in London\, New York\, Barcelona\, Ch
+	icago\, and more top cities around the world. It's a place where time does
+	 not exist\, where you can live a unique experience of total disconnection
+	 for the body and mind.
+LOCATION:Aire\, Ny Carlsberg Vej 101\, 1799 København\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:ZAZoXFhQ6ZyzCyNtih1K-
+SUMMARY:Start the Year with the Skincare Refresh
+DTSTAMP:20231211T115637Z
+DTSTART:20240107T150000Z
+DTEND:20240107T163000Z
+DESCRIPTION:Nuori Skincare introduces two unique events in January to eleva
+	te your skin. Join us for this skincare experience where we introduce you 
+	to the world of self-care and wellness. Unwind at our event with an introd
+	uction to the Nuori brand and a full skincare routine workshop led by the 
+	expert therapist\, Blerta Bunjaku. At this event\, you receive complimenta
+	ry goodie bags\, refreshing beverages\, and healthy snacks. Relax\, refres
+	h\, and explore self-care with us.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:Q9725dYIxeJp_MhMtLuF9
+SUMMARY: Movie Screening: Boogie Nights
+DTSTAMP:20231211T115637Z
+DTSTART:20240109T000000Z
+DTEND:20240109T020000Z
+DESCRIPTION:Join us in the Harbour Room for a cosy evening watching ‘Boogie
+	 Nights’ with popcorn and sodas to immerse yourself in the new year.
 LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT

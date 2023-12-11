@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:j1o114jgyZEsEk2olNDCt
+UID:E4Y1UwTiGBOfU0ij3kuaM
 SUMMARY:Members only at TREMBLE
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T021500Z
 DTEND:20231212T033000Z
 DESCRIPTION:TREMBLE is a high-intensity\, low-impact\, 50-minute full-body 
@@ -19,5 +19,81 @@ DESCRIPTION:TREMBLE is a high-intensity\, low-impact\, 50-minute full-body
 	rly to class start to get set up. Due to a limited number of reformers\, t
 	his event is RSVP only\, with no off-waitlist accommodations. 
 LOCATION:131 NE 34th St\, Miami\, FL 33137\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:fat9JV8uZWWCpxX3wbmq7
+SUMMARY:P.I.T Session at LEGACY
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T063000Z
+DTEND:20231214T073000Z
+DESCRIPTION:One of Miami's hottest fitness destinations\, LEGACY\, welcomes
+	 Soho Pool House members to its Wynwood location for an hour-long Partner 
+	Interval Training (P.I.T) workout session. LEGACY's proprietary P.I.T comb
+	ines HIIT and resistance training\, activating opposing muscle groups and 
+	helping increase speed\, power\, endurance and metabolic rate. The intensi
+	ty and format of the workout helps burn fat faster and results in addition
+	al calories being burned for up to 21 hours post exercise.\n\nPlease arriv
+	e 10 minutes before class starts in order to get set up. Members are encou
+	raged to bring a sweat towel and water\; both items are also available for
+	 purchase at the gym. You may bring one guest with you to this event. 
+LOCATION:2243 N Miami Ave #110\, Miami\, FL 33127\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:MOurjAwD0D_8JeelI71Tx
+SUMMARY:Members only at TREMBLE
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T021500Z
+DTEND:20231219T033000Z
+DESCRIPTION:TREMBLE is a high-intensity\, low-impact\, 50-minute full-body 
+	workout that combines the best of strength training\, cardio and pilates-i
+	nspired movements\, all in one session on reformers. We’re booking out the
+	 Midtown studio for an exclusive members-only session with one of their ma
+	ster trainers\, so come ready to sweat. \n\nGrip socks are required and al
+	so available to purchase in studio. Please arrive at least five minutes ea
+	rly to class start to get set up. Due to a limited number of reformers\, t
+	his event is RSVP only\, with no off-waitlist accommodations. 
+LOCATION:131 NE 34th St\, Miami\, FL 33137\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:GDoWlnkmaWHOoYS7TM9AL
+SUMMARY:P.I.T Session at LEGACY
+DTSTAMP:20231211T115637Z
+DTSTART:20231221T063000Z
+DTEND:20231221T073000Z
+DESCRIPTION:One of Miami's hottest fitness destinations\, LEGACY\, welcomes
+	 Soho Pool House members to its Wynwood location for an hour-long Partner 
+	Interval Training (P.I.T) workout session. LEGACY's proprietary P.I.T comb
+	ines HIIT and resistance training\, activating opposing muscle groups and 
+	helping increase speed\, power\, endurance and metabolic rate. The intensi
+	ty and format of the workout helps burn fat faster and results in addition
+	al calories being burned for up to 21 hours post exercise.\n\nPlease arriv
+	e 10 minutes before class starts in order to get set up. Members are encou
+	raged to bring a sweat towel and water\; both items are also available for
+	 purchase at the gym. You may bring one guest with you to this event. 
+LOCATION:2243 N Miami Ave #110\, Miami\, FL 33127\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:xaR-Zf1D-d_GLbkgsx8q3
+SUMMARY:NYE 2024: Surreal 
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T070000Z
+DTEND:20240101T095900Z
+DESCRIPTION:This New Year’s Eve leave the physical world behind to enter ou
+	r realm of dreams at Bayshore Club.\n\nExpect a night of fantastical perfo
+	rmances and exploration of the unconscious mind inspired by the works of t
+	he Surrealist masters.\n \nEmbrace the strange and unbelievable as we coun
+	t down to 2024 and raise a toast to the new year with a glass of Moët & Ch
+	andon Champagne at midnight.\n\nTicket Schedule & Pricing:\nStandard $195 
+	12/1 to 12/23\nFinal $300 12/24 to 12/29\nLast Minute $375 12/30 (subject 
+	to availability)\n\nImportant to note that all attendees must be 21 and ov
+	er. Tickets and tables can exclusively be purchased by Soho House members.
+	 Members can purchase up to four tickets in total. Members and their guest
+	s require an entry ticket\, even if a table is being purchased. Tickets ar
+	e non-refundable and non-transferable. \n\nWe expect our members and their
+	 guests to adhere to the core Soho House values of inclusivity and respect
+	 when attending our events – this also extends to the way that you choose 
+	to dress and interact with others.  \n\nPlease note that this event is off
+	-site and purchase of an entry ticket is required.
+LOCATION:Bayshore Club\, 3391 Pan American Dr\, Miami\, FL 33133\, USA
 END:VEVENT
 END:VCALENDAR

@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:6fPYDwn-p8jP6oGZPsnzu
+UID:YcsALJEmqCvAjU2Bb902P
 SUMMARY:Food and Drink Club presents Wegmans’ cheese and charcuterie 
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T043000Z
 DTEND:20231212T060000Z
 DESCRIPTION:Chef Edy Massih from Edy’s Grocer hosts Food and Drink Club. Fo
@@ -23,10 +23,10 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:pRT3KDpQJGd3yCU3QKxZO
+UID:MJMrWkYTjKa1DVmwURfY2
 SUMMARY:The Future of Fashion: Sustainability in Footwear & Investment in C
 	limate Solutions 
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231212T050000Z
 DTEND:20231212T080000Z
 DESCRIPTION:Expert panelists from Steve Madden\, SuperCircle & more discuss
@@ -36,9 +36,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:F5cwsVewbKMmwKNTwi2-n
+UID:wPqZ-FexduL2n8VvA2i61
 SUMMARY:Backgammon Club
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231213T053000Z
 DTEND:20231213T073000Z
 DESCRIPTION:Backgammon is one of the oldest board games in the world. The E
@@ -47,6 +47,155 @@ DESCRIPTION:Backgammon is one of the oldest board games in the world. The E
 	r moves at the Backgammon Game Night. All levels are welcome with opportun
 	ities to learn and make new friends. Join us in the Parlor Room and feel f
 	ree to BYOB ('Bring Your Own Board').
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:VNlcZdHnhffS8LEGEAFwq
+SUMMARY:Feel-Good Stretch with S3 YOGA
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T193000Z
+DTEND:20231214T203000Z
+DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
+	ertified) leads a feel-good yoga flow open to all levels\, from beginners 
+	to well-seasoned yogis. This class focues on meditation\, breathing techni
+	ques\, dynamic mobility\, and body alignment to stretch and strengthen the
+	 body. Leave feeling relaxed\, energized\, and ready to take on whatever t
+	he world has in store for you. \n\nPlease note: yoga mats are limited\, so
+	 please bring your own if you have one.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:75ry7S4veb0U8qdbVol_K
+SUMMARY:Dimepiece and Foundwell vintage watch pop-up
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T030000Z
+DTEND:20231216T050000Z
+DESCRIPTION:Brynn Wallner (Ludlow House member and founder of Dimepiece\, a
+	 platform dedicated to all things women and watches) and Alan Bedwell (aka
+	 Foundwell\, the antiques and vintage watch dealer) have come together in 
+	the Garden to curate a selection of special vintage watches for everyone t
+	o explore and admire.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:iZOU0mCYB8cEQoireZk2P
+SUMMARY:Canouan Calling: Members’ Ultimate Caribbean Escapade
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T043000Z
+DTEND:20231216T053000Z
+DESCRIPTION:The Caribbean’s warmth meets New York’s heart. Join us for an e
+	vening imbued with the spirit and flavours of the Eastern Caribbean. Indul
+	ge in Canouan-inspired drinks\, offering a taste of our only House in the 
+	Caribbean. Listen as Batu\, our Canouan Beach House manager\, unveils the 
+	Canouan Experience\, bringing the essence of our tropical paradise to the 
+	Ludlow House. But that's not all – we have a surprise for attending member
+	s. Curious? You'll have to join us to find out! 
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:i8JYE8_Jay5xRWDb3tnM9
+SUMMARY:Art Walks with Marina Press Granger 
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T220000Z
+DTEND:20231217T000000Z
+DESCRIPTION:Embark on a guided tour of local Lower East Side galleries with
+	 The Artist Advisory founder\, Marina Press Granger. Meet us in the Garden
+	 for a coffee and a review of the itinerary before heading out for the tou
+	r."
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:ObGKrhsKLhbTwGqHsb9El
+SUMMARY:MAJR and friends
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T080000Z
+DTEND:20231217T120000Z
+DESCRIPTION:BMAJR’s iconic dance party series is back. BMAJR’s friends join
+	 him on the decks to spin a mix of hip-hop\, R&B\, house\, and funk. Past 
+	attendees include Chance The Rapper\, and Shaun Ross\, among others. 
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:upBJAo1Y33VHCYY_yGI7A
+SUMMARY:NFL Sundays at Ludlow House 
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T230000Z
+DTEND:20231218T093000Z
+DESCRIPTION:\nCatch all the NFL Sunday action in the comfort of the Velvet 
+	Room at Ludlow House. Games start at 1pm and last until the final whistle 
+	of NBC’s Sunday Night Football. \n\nEnjoy a special game day food and drin
+	k menu with beer + bar snacks to get you through a day of hooting and holl
+	ering to the biggest plays of the week. \n\nPlease note the channel will b
+	e set to NFL RedZone unless there’s a general democratic consensus among m
+	embers in attendance to view a specific game at the 1pm and 4pm screenings
+	.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:FSwdJmm4mW76-uTH9ERuA
+SUMMARY:Sound Session: Jamesy
+DTSTAMP:20231211T115637Z
+DTSTART:20231223T080000Z
+DTEND:20231223T120000Z
+DESCRIPTION:NYC's own Jamesy returns to Ludlow House for a night of past an
+	d present Hip Hop and R&B with dashes of Afrobeats\, Amapiano\, Dancehall\
+	, Reggaeton\, Baile Funk\, House\, edits & remixes\, and whatever else fee
+	ls right. Vibe out\, sing along\, and dance. 
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:qBe9bTJJt6d1j_3SmSDyv
+SUMMARY:Sound Session: Museum of Love featuring Pat Mahoney of LCD Soundsys
+	tem
+DTSTAMP:20231211T115637Z
+DTSTART:20231229T070000Z
+DTEND:20231229T090000Z
+DESCRIPTION:\nMuseum Of Love is Pat Mahoney and Dennis McNany. Mahoney is b
+	est known as the drummer in all-conquering NYC band LCD Soundsystem\, whil
+	e Dennis got his studio chops as an intern and assistant engineer at Plant
+	ain Studios in the West Village at a time when DFA’s Tim Goldsworthy was i
+	n permanent residence and a whole scene was emerging from Manhattan. Tonig
+	ht\, catch a live DJ set in the Velvet Room.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:I0iJDRC5_6yarBfuCcCne
+SUMMARY:Teeny House 
+DTSTAMP:20231211T115637Z
+DTSTART:20240106T210000Z
+DTEND:20240107T020000Z
+DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
+	r little ones to the Velvet Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. \n\nAtten
+	dance is first come\, first served.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:Cesjl3Wju9V6j2VVK0IFK
+SUMMARY:NFL Sundays at Ludlow House 
+DTSTAMP:20231211T115637Z
+DTSTART:20240107T230000Z
+DTEND:20240108T093000Z
+DESCRIPTION:\nCatch all the NFL Sunday action in the comfort of the Velvet 
+	Room at Ludlow House. Games start at 1pm and last until the final whistle 
+	of NBC’s Sunday Night Football. \n\nEnjoy a special game day food and drin
+	k menu with beer + bar snacks to get you through a day of hooting and holl
+	ering to the biggest plays of the week. \n\nPlease note the channel will b
+	e set to NFL RedZone unless there’s a general democratic consensus among m
+	embers in attendance to view a specific game at the 1pm and 4pm screenings
+	.
 LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT

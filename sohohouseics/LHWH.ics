@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:680r-xlzCVKuFKlD0eB3W
+UID:5Xt1EUCVC8IUQFlaaGZ5E
 SUMMARY:Cookhouse: Gingerbread Decorating 
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231213T060000Z
 DTEND:20231213T073000Z
 DESCRIPTION:Cookhouse: Gingerbread Decorating:\nWhat’s better than art you 
@@ -18,9 +18,9 @@ LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
 	069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:nulb4XatmToYJDjDWqQyS
+UID:8kya0iTt0kzMQO7UWEBW-
 SUMMARY:New moon sound healing experience 
-DTSTAMP:20231211T115500Z
+DTSTAMP:20231211T115637Z
 DTSTART:20231213T083000Z
 DTEND:20231213T093000Z
 DESCRIPTION:Put on something cozy and join Michelle Vezilj (Victim to Victo
@@ -29,6 +29,163 @@ DESCRIPTION:Put on something cozy and join Michelle Vezilj (Victim to Victo
 	nance with your mind\, body\, and spirit. Tap into your heart and align yo
 	urself with your highest timeline and greatest potential. End the evening 
 	feeling refreshed and ready for a restful night's sleep. 
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:I97H2g3dcrPEHeznQbjBi
+SUMMARY:Breaking Bread: Castle & Key
+DTSTAMP:20231211T115637Z
+DTSTART:20231214T080000Z
+DTEND:20231214T110000Z
+DESCRIPTION:Now that Castle & Key has brought their spirits to California\,
+	  join Val Colella\, National Brand Ambassador with Castle & Key Distiller
+	y\, for a curated cocktail dinner at Soho House Holloway. This four-course
+	 culinary experience pairs the spirits of Castle & Key with cocktails craf
+	ted to compliment the creations of Chef Jose.\n\nPlease note this event is
+	 strictly 21+\, tickets are priced at $85 + tax and gratuity and must be p
+	urchased to attend. Please click the link to purchase. Discounts do not ap
+	ply. 
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:1hhmABoxKnXi98xAiSI_X
+SUMMARY:House Party: Borderless Beats
+DTSTAMP:20231211T115637Z
+DTSTART:20231216T090000Z
+DTEND:20231216T130000Z
+DESCRIPTION:Embark on a diverse musical journey with Borderless Beats\, whe
+	re rhythms and melodies transcend boundaries. From the vibrant beats of Pu
+	njabi bhangra to the legendary rhymes of Tupac\, from the enchanting melod
+	ies of Persian music to the pulsating rhythms of Afrobeat\, and the mesmer
+	izing allure of Middle Eastern tunes. Embrace the spirit of unity and cele
+	bration as we blur the lines between continents and cultures.
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:pI0aQ2EExAJ5GMb9Xp6V4
+SUMMARY:Run Club
+DTSTAMP:20231211T115637Z
+DTSTART:20231217T214500Z
+DTEND:20231217T230000Z
+DESCRIPTION:Join Raymond Braun for a weekly run club\, followed by refreshm
+	ents in the Soho House Holloway Library. All abilities are welcome and enc
+	ouraged.\n\nArrive at 8:45 am to stretch\, meet and mingle with fellow Run
+	 Club members. The run will begin promptly at 9 am\, with 1\, 3\, and 5 mi
+	le options depending on your preferred distance.\n\nPlease note that refre
+	shments are available on a first come\, first served basis.
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:uuk-oxxRq4x7V8sBgai4-
+SUMMARY:House Tonic: Eggnog
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T050000Z
+DTEND:20231218T060000Z
+DESCRIPTION:House Tonic: Eggnog\nLearn to make this holiday staple like a p
+	ro with the guidance of one of Soho House Holloway’s bartenders. Guarantee
+	d to bring you good will and cheer. 
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:Ig6wZeg4lbmqgjwSwSK5j
+SUMMARY:Wreather Madness 
+DTSTAMP:20231211T115637Z
+DTSTART:20231218T060000Z
+DTEND:20231218T073000Z
+DESCRIPTION:Wreather Madness\nSelena Gooch\, owner of Maximum Bloomage\, us
+	hers you into the spirit of the season with wreath making. Adorn a wreath 
+	with unique baubles and bits for a festively personal piece\, taught with 
+	tips and tricks to sprinkle some magic on your holiday.
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:rNHqWbIFVMp9ggx6yfmzT
+SUMMARY:Quiz Night with TJ and Plus1
+DTSTAMP:20231211T115637Z
+DTSTART:20231219T083000Z
+DTEND:20231219T103000Z
+DESCRIPTION:Join forces with other members as actor TJ Ramini as he brings 
+	his infamous trivia night to Soho House Holloway's Parlor for a night of h
+	ead-scratching trivia and humor\, this time in partnership with PlusOne's 
+	incredible community of creatives!\n\nPlease note: tables are first come\,
+	 first served and the maximum team number is six if multiple members are p
+	resent.
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:xE21cz4x7UBWJXK7k5NPJ
+SUMMARY:House Party: Hers
+DTSTAMP:20231211T115637Z
+DTSTART:20231220T080000Z
+DTEND:20231220T120000Z
+DESCRIPTION:This evening is dedicated to the ladies! Join us as we embrace 
+	sounds from eras past and honor fierce womxn\, hosted by Shaymari. This is
+	 a space for queer womxn to celebrate their identities. All are welcome.  
+	\n\n 
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:ibm6VkMUJXWoSV0BrfAET
+SUMMARY:Run Club
+DTSTAMP:20231211T115637Z
+DTSTART:20231224T230000Z
+DTEND:20231225T000000Z
+DESCRIPTION:Join Raymond Braun for a weekly run club\, followed by refreshm
+	ents in the Soho House Holloway Library. All abilities are welcome and enc
+	ouraged.\n\nArrive at 8:45 am to stretch\, meet and mingle with fellow Run
+	 Club members. The run will begin promptly at 9 am\, with 1\, 3\, and 5 mi
+	le options depending on your preferred distance.\n\nPlease note that refre
+	shments are available on a first come\, first served basis.
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:_iB4f8uMI62kX7X1mN4PA
+SUMMARY:Soho Celebrates: Christmas Eve Dinner
+DTSTAMP:20231211T115637Z
+DTSTART:20231225T070000Z
+DTEND:20231225T110000Z
+DESCRIPTION:Soho House Holloway invites you to share in great vibes and eve
+	n better food featuring a special Chinese inspired menu by our stellar cul
+	inary team. Open to the festive and bah-humbug bunch alike.  
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:v9RN8wqmYoCHO_6zZevFR
+SUMMARY:Holloway Holiday Brunch 
+DTSTAMP:20231211T115637Z
+DTSTART:20231226T003000Z
+DTEND:20231226T040000Z
+DESCRIPTION:What's better than brunch on Christmas? Brunch on Christmas pre
+	pared by Soho House Holloway's iconic culinary team. Dress in your holiday
+	 themed pajamas and partake in boozy holiday themed cocktails\, games and 
+	our delicious brunch specials\, available 11:30 am to 3 pm. 
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:YQj4xsDF_cM5MoRfvtUeS
+SUMMARY:New Year's Eve 
+DTSTAMP:20231211T115637Z
+DTSTART:20240101T080000Z
+DTEND:20240101T150000Z
+DESCRIPTION:Ring in the new year in style at Soho House Holloway's intimate
+	 New Year's Eve dinner experience. Bring a loved one or two and dine on a 
+	specially prepared 4-course meal by executive chef Jose Dozal and the Soho
+	 House Holloway culinary team. Welcome 2024 with glasses raised and bellie
+	s full. Sounds curated by DJ Frontside alongside magical entertainment by 
+	celebrity magician\, mentalist and hypnotist Johnny Wu. \n\nMenu is $95 pe
+	r person + tax and gratuity. Please note discounts do not apply. Please ca
+	ll reception to confirm and reserve a table. 
 LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
 	069\, United States
 END:VEVENT
