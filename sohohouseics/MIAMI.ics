@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:ApEUDDmFEXnXYz-wTv3l0
+UID:zVjA-CCkDRMeZ7W-JfVUy
 SUMMARY:Calibrate IV in Cowshed
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T190000Z
 DTEND:20231212T000000Z
 DESCRIPTION:Embark on a journey of wellness and relaxation at Soho House Mi
@@ -19,9 +19,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:1aEE7yiopMS4ZEMcJCn2b
+UID:M2Kzb5rVAXYzfIhBzQqf0
 SUMMARY:Teressa Foglia Custom Hat Pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T200000Z
 DTEND:20231212T020000Z
 DESCRIPTION:Discover the art of modern millinery with Teressa Foglia. Join 
@@ -33,9 +33,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:OIyvgmbpivs8TX_1_8a-9
+UID:GMD93LnyBmpITtLwsduax
 SUMMARY:Art Club: macramé workshop with Liene Bosquê 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T040000Z
 DTEND:20231213T060000Z
 DESCRIPTION:Join us for a workshop with one of the Pool House Art Collectio
@@ -49,10 +49,10 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:o3eq9HVbgsnwhswGZA6VY
+UID:Cr2JPh5zJbSa47m0Q1a1H
 SUMMARY:Creative Currents x The Bass: Will the real artist\, please stand u
 	p
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T233000Z
 DTEND:20231214T010300Z
 DESCRIPTION:Join Creative Currents at the Bass Museum for an afternoon in ‘
@@ -63,9 +63,9 @@ DESCRIPTION:Join Creative Currents at the Bass Museum for an afternoon in ‘
 LOCATION:The Bass\, 2100 Collins Ave\, Miami Beach\, FL 33139\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:ZEsxsPEmJ3gDeMOfMuDEa
+UID:Vv75TY9pHhu6YSFjGVYWW
 SUMMARY:The Mandarin Hide takeover 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T030000Z
 DTEND:20231214T060000Z
 DESCRIPTION:For one night only\, Mandarin Hide\, takes over Beach Bar with 
@@ -75,9 +75,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:9_3JZLGcVlhfz0b8E63aW
+UID:7RGbgw7cGiaKFVFj8f2Hf
 SUMMARY:Reprogramming with Ki-Method
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T040000Z
 DTEND:20231214T060000Z
 DESCRIPTION:We are embarking on a profound journey of transformation with t
@@ -91,9 +91,9 @@ DESCRIPTION:We are embarking on a profound journey of transformation with t
 LOCATION:Builders Collective\, 215 NW 24th St\, Miami\, FL 33127\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:6M8bifniNDmPzUFri3eSI
+UID:x49GJ-bgu-KN6hHz3B_Hz
 SUMMARY:Hastens Sleep Spa 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T050000Z
 DTEND:20231214T070000Z
 DESCRIPTION:Relax and reset after Miami Art Week and join us for a Sleep Sp
@@ -104,9 +104,9 @@ DESCRIPTION:Relax and reset after Miami Art Week and join us for a Sleep Sp
 LOCATION:Hästens\, 112 NE 41st St STE 100\, Miami\, FL 33137\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:cbhusbHFH1rc0ws0QfPKX
+UID:O4ziJX9sCbYR7uWl2ZRaF
 SUMMARY:Dream Arcade x Cinema Club presents: "Elf" (2003) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T060000Z
 DTEND:20231214T080000Z
 DESCRIPTION:Join us at Dream Arcade for their newest iteration\, Cinema Clu
@@ -121,9 +121,9 @@ DESCRIPTION:Join us at Dream Arcade for their newest iteration\, Cinema Clu
 LOCATION:8300 NE 2nd Ave\, Miami\, FL 33138\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:mhm_kA7_InMvEj50360YZ
+UID:L9Q-u6DwY8wWWTgpPrhov
 SUMMARY:Soho Foodie Club Holiday Edition @ Pueblito Viejo
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T050000Z
 DTEND:20231215T070000Z
 DESCRIPTION:Join the Soho Foodie Club's festive gathering at Pueblito Viejo
@@ -136,9 +136,9 @@ DESCRIPTION:Join the Soho Foodie Club's festive gathering at Pueblito Viejo
 LOCATION:Pueblito Viejo\, 8285 SW 40th St\, Miami\, FL 33155\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:K0rqoSaQSbjiaca-R9GP5
+UID:cJMry0E5URfGRLVBTrpEZ
 SUMMARY:The Homies Only
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T070000Z
 DTEND:20231216T110000Z
 DESCRIPTION:The Homies Only is back with your hosts\, DJ Reid Waters and Tw
@@ -148,9 +148,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:wEZoRUaN21I_Ub02ZPc3N
+UID:58sxrNmbuoLxnvkQN_jBV
 SUMMARY:Teeny House: Let's Make a Winter Hat
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T203000Z
 DTEND:20231216T213000Z
 DESCRIPTION:Let's make a winter hat! We are experimenting by adding texture
@@ -160,9 +160,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:3K8egamat2BU1k7IWuHba
+UID:WWKmQILi8rN1RqGoD4Qii
 SUMMARY:Lotus House and BPM Wellness toy drive 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T213000Z
 DTEND:20231216T233000Z
 DESCRIPTION:We have partnered with Lotus House women's shelter and BPM Well
@@ -174,9 +174,9 @@ LOCATION:Lotus House Women's Shelter\, 217 NW 15th St\, Miami\, FL 33136\,
 	USA
 END:VEVENT
 BEGIN:VEVENT
-UID:koFes6MDYh-deFA5q_KL5
+UID:lch4F22HWQF9tdW62QGeq
 SUMMARY:BONBONWHIMS Workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T230000Z
 DTEND:20231217T020000Z
 DESCRIPTION:Clare Ngai started her jewelry and accessories brand\, BONBONWH
@@ -192,9 +192,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:Mb_HxJtzq9gxMkNaVDSbY
+UID:w4kEWYc17DXkLfFV0ZmQk
 SUMMARY:Sound Session: Hugh Miles
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T000000Z
 DTEND:20231217T040000Z
 DESCRIPTION:Meet us at Ocho for a Sound Session with Hugh Miles
@@ -202,9 +202,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:dsfg_7M7fYdXipTVZxxaP
+UID:i7y7I7HCegf4xNVIw5Jzb
 SUMMARY:Point Zero Experience: Release to receive
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T043000Z
 DTEND:20231217T053000Z
 DESCRIPTION:In this experience\, you will feel\, make space\, surrender and
@@ -216,9 +216,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:ceN8oM14OvSYRCfihB4xv
+UID:Q4jRHnHtp1-fIQDxGBI_J
 SUMMARY:Teeny House with BONBONWHIMS
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T213000Z
 DTEND:20231217T223000Z
 DESCRIPTION:Meet us at the Beach Bar for a Y2K themed workshop where Clare\
@@ -229,9 +229,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:jjXT-LugTcPXjtvDu55zD
+UID:iv0pgTDw3bRBGfiWS7B9R
 SUMMARY:BONBONWHIMS Pop-Up Shop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T230000Z
 DTEND:20231218T030000Z
 DESCRIPTION:Meet us at the Beach Bar for a BONBONWHIMS pop-up featuring exc
@@ -242,19 +242,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:VmqABo3GjN7GTrl-Fir5r
-SUMMARY:Sound Session: Yissel
-DTSTAMP:20231211T171721Z
-DTSTART:20231218T000000Z
-DTEND:20231218T040000Z
-DESCRIPTION:Meet us on Ocho for a Sound Session by Yissel
-LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\, 
-	United States
-END:VEVENT
-BEGIN:VEVENT
-UID:Gg-nngnHMqpSv3xrMFJoW
+UID:AidlNqRcze8p_73QzQDey
 SUMMARY:Sound Session: Mike Flo
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T000000Z
 DTEND:20231218T040000Z
 DESCRIPTION:Meet us at Beach Bar for a Sound Session by Mike Flo
@@ -262,9 +252,19 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:jPuiml6KwdrCW3GKUAc0A
+UID:FNSyEGrDOiRZdzD2DNLJj
+SUMMARY:Sound Session: Yissel
+DTSTAMP:20231211T171847Z
+DTSTART:20231218T000000Z
+DTEND:20231218T040000Z
+DESCRIPTION:Meet us on Ocho for a Sound Session by Yissel
+LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\, 
+	United States
+END:VEVENT
+BEGIN:VEVENT
+UID:92Df426t_9pZq_MV_nkOX
 SUMMARY:Book Club: Lessons in Chemistry by Bonnie Garmus
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T050000Z
 DTEND:20231219T070000Z
 DESCRIPTION:In this month's book club\, we discuss Bonnie Garmus' novel abo
@@ -277,9 +277,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:DwMG6cyZEFOfA3MWEGDck
+UID:4LvdrcPQXm0EBEbg_DrPH
 SUMMARY:Ugly sweater karaoke with Kellie and Coley
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T043000Z
 DTEND:20231220T103000Z
 DESCRIPTION:Join us in the Snug for our ugly sweater Karaoke hosted by Memb
@@ -289,9 +289,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:U3uFgl1hW7LKvwCG45XCr
+UID:ZtAAMYMjCO3S6omC79-5d
 SUMMARY:House Comedy with Brittany Brave: Ugly Sweater Edition
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T050000Z
 DTEND:20231221T070000Z
 DESCRIPTION:Once a month\, comedian Brittany Brave brings Miami’s best stan
@@ -301,9 +301,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:ORdbR5229jpyyBi24DYNV
+UID:2jQn6uPs_xRVCeqcnKzPt
 SUMMARY:Donut styling workshop with Pamela Wasabi Bakery
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T043000Z
 DTEND:20231222T063000Z
 DESCRIPTION:Whether you're a seasoned baker or a pastry lover this workshop
@@ -315,9 +315,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:xoAOOcd5WfXTM5mL7thS0
+UID:BLAMKjkWU1vwQxagEaZUY
 SUMMARY:Soho Holiday Book Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T050000Z
 DTEND:20231222T070000Z
 DESCRIPTION:Join us in The Snug for a "lit-erature" Holiday party. Holidays
@@ -329,9 +329,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:XUEqpIaMwcU2GtNSlZybw
+UID:9Z7XiOurmwdbCawzNUvny
 SUMMARY: Plein Soleil Pop Up Shop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T220000Z
 DTEND:20231223T030000Z
 DESCRIPTION:Shop Plein Soleil's chic curation of luxe ready-to-wear\, acces
@@ -343,9 +343,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:ZDRWH_tiTBUPALHkUSRXF
+UID:d5_CcjznPMaCTkNhb8_7V
 SUMMARY:Sound Session: Charles Levine 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T000000Z
 DTEND:20231223T040000Z
 DESCRIPTION:Join us at the Beach Bar for Sound Sessions with Charles Levine
@@ -353,9 +353,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:FO4FdJyV71p_UbuOaxgA7
+UID:gbDx1mAoe3CTp_sDmkhch
 SUMMARY:Coquito Night with Candela
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T040000Z
 DTEND:20231223T070000Z
 DESCRIPTION:Come together for a night of festive fun\, good company\, and c
@@ -364,9 +364,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:R0OocXxqv4Ecyy3WckxCa
+UID:Fl4OMvzljoCIBUpb8ipbi
 SUMMARY:Teeny House: How to Draw a Gingerbread House
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T203000Z
 DTEND:20231223T213000Z
 DESCRIPTION:We are spending a nice morning making gingerbread houses that a
@@ -377,9 +377,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:Ky_5DA0Hw2J_ZEQ91yh2C
+UID:ccF80Em9DGjbqdXLBxeoA
 SUMMARY: Plein Soleil Pop Up Shop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T220000Z
 DTEND:20231224T030000Z
 DESCRIPTION:Shop Plein Soleil's chic curation of luxe ready-to-wear\, acces
@@ -391,9 +391,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:7Snmqj9DpraqmyjNyBdIL
+UID:ZsF5rc2YhGVHi51VmOGCW
 SUMMARY:Sound Session: Scollo
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T000000Z
 DTEND:20231224T040000Z
 DESCRIPTION:Meet us at Ocho for a special Noche Buena Sound Session with Sc
@@ -402,9 +402,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:rZ1qfT2K7OiQjuA40Yf3T
+UID:8wdUdzlsLhzWli_jdHXoh
 SUMMARY:Back of House Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T070000Z
 DTEND:20231224T110000Z
 DESCRIPTION:Back of House returns on Saturday\, December 23rd. Don't miss o
@@ -413,9 +413,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:uCX8jm4iHLuRabRDpYmjd
+UID:oFdzPP1X-T8-lgVNPFrPt
 SUMMARY:Sound Session: Scollo 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T000000Z
 DTEND:20231225T040000Z
 DESCRIPTION:Meet us at Ocho for a special Noche Buena Sound Session with Sc
@@ -424,9 +424,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:TGUHGczptDLnTQJl6ZVxN
+UID:BVQe8ji-5jPskX58TcnCu
 SUMMARY:Christmas at Cecconi's 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T220000Z
 DTEND:20231226T050000Z
 DESCRIPTION:Enjoy a traditional Italian Christmas with a decadent feast – m
@@ -438,9 +438,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:fifZf8SUWQVm982oLar4s
+UID:0MmB_ykJ0QmhflcxZqBxC
 SUMMARY:Make your own disco ball with Bari-Lynn Art
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231228T040000Z
 DTEND:20231228T060000Z
 DESCRIPTION:Shimmer into the new year with this workshop at the Library\, t
@@ -450,9 +450,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:q6Wo2kgqEDozrGkpHJWLy
+UID:KPyR9cRmX_3MK9wicRC-d
 SUMMARY:Calypso Happy Hour with Sip Sip & Coconut Cartel
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231229T020000Z
 DTEND:20231229T040000Z
 DESCRIPTION:Bid the year farewell with a cocktail in hand\, mingle and enjo
@@ -462,9 +462,9 @@ LOCATION:SipSip Calypso Rum Bar\, 3000 Florida Ave\, Coconut Grove\, FL 331
 	33\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:MWx2clY_j0DzuQPA9xHJ4
+UID:TWY4uHsibfZBDqWkNLfJX
 SUMMARY:Sound Session: Paperwater
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T000000Z
 DTEND:20231231T040000Z
 DESCRIPTION:Meet us at Ocho for a Sound Session by Paperwater
@@ -472,10 +472,10 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:GsxCz4uPpziwiULKQhd16
+UID:APa-JA4MIOL9KBMPFdBas
 SUMMARY:Run Club: End of year run with Arthur Alexander and the Late Night 
 	Menu Crew
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T180000Z
 DTEND:20231231T200000Z
 DESCRIPTION:Run Club: End of year run with Arthur Alexander and the Late Ni
@@ -487,9 +487,9 @@ LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\,
 	United States
 END:VEVENT
 BEGIN:VEVENT
-UID:Gtneg8T5i6SJdwcDF1R1a
+UID:fv8VNnfqKZCjGPwt-pffe
 SUMMARY:NYE 2024: Surreal 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T070000Z
 DTEND:20240101T095900Z
 DESCRIPTION:This New Year’s Eve leave the physical world behind to enter ou

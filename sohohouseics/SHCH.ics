@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:p6TpMFgSbx8pL41vGOx4b
+UID:kqQHuqzRzK9cIRuYle0u5
 SUMMARY:Barrys Class: Arms & Abs
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T230000Z
 DTEND:20231212T000000Z
 DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
@@ -19,9 +19,9 @@ DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
 LOCATION:Barry’s\, Christian IX's Gade 3\, 1111 København\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:p86AHfdOEJDzeRoAyWwcK
+UID:B4vQLPw-r2fjFrGL0_1XE
 SUMMARY:MC: Movie Screening of Home Alone
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T000000Z
 DTEND:20231212T020000Z
 DESCRIPTION:Join us in the Harbour room for a cosy evening watching Home Al
@@ -30,9 +30,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:K7Idrka2Y-9skUTnFj5Un
+UID:2OYKVrQX1in0KpWuAFUQQ
 SUMMARY:Champions League Screening: FCK - Galatasaray
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T010000Z
 DTEND:20231213T023000Z
 DESCRIPTION:Come and watch as FC København (FCK) goes head-to-head with Gal
@@ -41,9 +41,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:jjp4a0x-Ehqseh-ryoEke
+UID:PrCtnNqNER88c9F8eYGfV
 SUMMARY:Santa Lucia Parade in Kayaks
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T210000Z
 DTEND:20231214T010000Z
 DESCRIPTION:Santa Lucia Parade is passing by the house\, and we invite you 
@@ -55,9 +55,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:yj7C7FdLHS-j_J-iE09Vp
+UID:Ftc7jGgQHcXr98ltA_esK
 SUMMARY:Holiday Prep: Handling the festive season 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T220000Z
 DTEND:20231213T233000Z
 DESCRIPTION:Join us in this nurturing workshop where we explore creating ba
@@ -72,9 +72,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:KNoD0irCRhBdD3LIdTTHR
+UID:aMNeqweES0nWAtqqNPqB8
 SUMMARY:Barrys Class: Abs & Ass
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T160000Z
 DTEND:20231214T170000Z
 DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
@@ -86,9 +86,9 @@ DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
 LOCATION:Barry’s\, Christian IX's Gade 3\, 1111 København\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:6GOh59MKz_1vLeM2dvGyz
+UID:WWao5nf1Lcg6exICkI5_n
 SUMMARY:Sip & Paint: Festive Edition 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T230000Z
 DTEND:20231215T010000Z
 DESCRIPTION:Are you struggling with Christmas gift ideas? Join us for a nig
@@ -102,9 +102,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:pttTsuAs5zg6ZxXVea7jq
+UID:WqR-05-BFvAr8nnE0dZKn
 SUMMARY:Friday Bar
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T210000Z
 DTEND:20231215T230000Z
 DESCRIPTION:Our 'Fredags bar' is an opportunity to unwind with a drink\, co
@@ -113,9 +113,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:34esY4PJ07vaU6hF3kZD2
+UID:ILBhfuzKwAu15oVOFvj5s
 SUMMARY:Soho Presents: CoCo O
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T000000Z
 DTEND:20231216T023000Z
 DESCRIPTION:Danish musician CoCo O is ready to captivate the house with her
@@ -127,9 +127,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:mH9PUWvMR1UaPplawmjir
+UID:KhFX1uWKtSBtpkQFNnXkM
 SUMMARY:Soho x Blonde House: Festive Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T020000Z
 DTEND:20231216T060000Z
 DESCRIPTION:Blonde’s Christmas celebration\, enjoy welcome drinks with DJ’s
@@ -140,9 +140,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:kjOf9PQYRlGSV2dPWog6M
+UID:ZgLMpW07UL9iL9igl6Zpq
 SUMMARY:Viscose Journal: Issue 05 Launch 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T220000Z
 DTEND:20231217T000000Z
 DESCRIPTION:Join us for the launch of the new issue of Viscose\, the cult j
@@ -154,9 +154,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:VVeZZYfO0djClupcxUqnL
+UID:J9SwvoCxwzA1skPBZK9xT
 SUMMARY:Behind the decks: Anker & Gunstone
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T010000Z
 DTEND:20231217T060000Z
 DESCRIPTION:Join us this Saturday night with Member Events Manager Anker & 
@@ -167,9 +167,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:HIqFTdV_Z57MpggeONlyl
+UID:mAKJDbhvG6KKqeG0i9vcU
 SUMMARY:SOFT SEASON x 7 Days Active Walking Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T150000Z
 DTEND:20231217T170000Z
 DESCRIPTION:Join us for the Soho House monthly walking club with SOFT SEASO
@@ -185,9 +185,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:d8wXlWpJZ4tzHuXWakGBU
+UID:pMAGrF8UsOOrOYILchc6-
 SUMMARY:Barrys Class: Arms & Abs
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T230000Z
 DTEND:20231219T000000Z
 DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
@@ -199,9 +199,9 @@ DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
 LOCATION:Barry’s\, Christian IX's Gade 3\, 1111 København\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:iWrJvocpalrvaplEsdkcJ
+UID:DiSj6__1ww3qCy5PK7Kbr
 SUMMARY:Monday Club: Festive Supper
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T000000Z
 DTEND:20231219T030000Z
 DESCRIPTION:We welcome you to our U27 Supper Club: Christmas edition\, our 
@@ -214,9 +214,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:WNJ-BfHqrVuG_TNKIW35X
+UID:ilwzrth4LroIwER3A1Fdw
 SUMMARY:Full Moon\, Individual Mini Tarot Readings
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T220000Z
 DTEND:20231220T000000Z
 DESCRIPTION:Join Clarisse Monahan\, Soho House’s astrology columnist\, for 
@@ -230,9 +230,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:d6_DJdu_KLaGP35cgYt5U
+UID:3XbTjDuGxE5cmdFXjp5F9
 SUMMARY:Behind the decks: Emil AT
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T010000Z
 DTEND:20231223T060000Z
 DESCRIPTION:Introducing a young DJ who's already made a name for himself in
@@ -245,9 +245,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:UQffclpUpictF0lCYoEVS
+UID:OJYBtzZY0rohCBzYMayNb
 SUMMARY:NYE: Silver Dinner
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T214500Z
 DTEND:20240101T080000Z
 DESCRIPTION:As an addition to our Silver Party\, we are offering a special 
@@ -273,9 +273,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:b-09hwBjWlmFi8YwILzZ7
+UID:bbX4UkrS3Y_sa8QHPfbQE
 SUMMARY:NYE: Silver Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T010000Z
 DTEND:20240101T080000Z
 DESCRIPTION:Step into the shimmering world of our silver-themed New Year’s 
@@ -287,9 +287,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:EtAfzMezVl_GXNo9aO0z4
+UID:dHwQOUyQGSNVUOtNbrFeX
 SUMMARY:AIRE Ancient Baths Copenhagen
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240102T120000Z
 DTEND:20240102T140000Z
 DESCRIPTION:Members can sign up for a two-hour session (normal entry is 90 
@@ -312,9 +312,9 @@ DESCRIPTION:Members can sign up for a two-hour session (normal entry is 90
 LOCATION:Aire\, Ny Carlsberg Vej 101\, 1799 København\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:Fyk7PjCkTuL_P28i_DjW4
+UID:m0HJlOOd-EojPS1wVD9yU
 SUMMARY:Start the Year with the Skincare Refresh
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240107T150000Z
 DTEND:20240107T163000Z
 DESCRIPTION:Nuori Skincare introduces two unique events in January to eleva
@@ -328,9 +328,9 @@ LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
 	\, Denmark
 END:VEVENT
 BEGIN:VEVENT
-UID:6KlfyV40sgP6LKL0yssO5
+UID:XFYdLvi1t9hipHhisk-T5
 SUMMARY: Movie Screening: Boogie Nights
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240109T000000Z
 DTEND:20240109T020000Z
 DESCRIPTION:Join us in the Harbour Room for a cosy evening watching ‘Boogie

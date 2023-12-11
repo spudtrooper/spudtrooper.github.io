@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:O_bov0GjaMq8we2_y-BhD
+UID:JO7mXN4JT1KmvNvIi5432
 SUMMARY:180 Wellbeing: Smells like Christmas with Lab Tonica 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T134500Z
 DTEND:20231212T150000Z
 DESCRIPTION:Join Herbalist and Founder Kitty McEntee for a sensory morning 
@@ -18,9 +18,9 @@ DESCRIPTION:Join Herbalist and Founder Kitty McEntee for a sensory morning
 LOCATION:180 House\, 180 Strand\, London\, WC2R 1EA\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:7Yfy_MmHwLv59a-vil7Hp
+UID:cggyOHDgumWIe6om_XGM0
 SUMMARY:180 Creative Mixer: Media and Advertising Mixer with MEFA 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T133000Z
 DTEND:20231213T150000Z
 DESCRIPTION:Join us for an inspiring morning with Media for All (MEFA)\, a 
@@ -44,9 +44,9 @@ DESCRIPTION:Join us for an inspiring morning with Media for All (MEFA)\, a
 LOCATION:180 House\, 180 Strand\, London\, WC2R 1EA\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:-2yDJv44bf0XQ6HmD7_7Y
+UID:MCU4potl8CR-doO2KQioN
 SUMMARY:Secret Sounds
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T020000Z
 DTEND:20231217T040000Z
 DESCRIPTION:Secret Sounds is a series of surprise performances from musical
@@ -57,24 +57,9 @@ DESCRIPTION:Secret Sounds is a series of surprise performances from musical
 LOCATION:180 House\, 180 Strand\, London\, WC2R 1EA\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:WVbBfHIs1Eow9eT4BTjan
-SUMMARY:New Year's Eve 
-DTSTAMP:20231211T171721Z
-DTSTART:20240101T010000Z
-DTEND:20240101T080000Z
-DESCRIPTION:Celebrate New Year’s Eve in style across both floors of 180 Hou
-	se\, with guest DJs and live music\, supported by Moët & Chandon\, and one
-	 of the best views of the annual London fireworks display from anywhere in
-	 the capital. Tickets cost £180 a head and include: access to the party\, 
-	bites and bowls throughout the evening\, plus four complimentary drinks. \
-	n\nPlease note: capacity is limited capacity\, so be sure to book in advan
-	ce.
-LOCATION:180 House\, 180 Strand\, London\, WC2R 1EA\, United Kingdom
-END:VEVENT
-BEGIN:VEVENT
-UID:aVs0tGeTe3pZ5Hacq4_R8
+UID:Vur22zk9ZcyXGmP5GSDI3
 SUMMARY:New Year's Eve Dinner 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T010000Z
 DTEND:20240101T080000Z
 DESCRIPTION:Celebrate New Year’s Eve in style across both floors of 180 Hou
@@ -88,6 +73,21 @@ DESCRIPTION:Celebrate New Year’s Eve in style across both floors of 180 Hou
 	ayment for your tickets. Bookings open on the 1st of December.\nPlease not
 	e: capacity is limited capacity\, so be sure to book well in advance\; ent
 	ry is not guaranteed until payment is taken.  \n \n
+LOCATION:180 House\, 180 Strand\, London\, WC2R 1EA\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:GJ1b3AuO7Wwracnh-wCuh
+SUMMARY:New Year's Eve 
+DTSTAMP:20231211T171847Z
+DTSTART:20240101T010000Z
+DTEND:20240101T080000Z
+DESCRIPTION:Celebrate New Year’s Eve in style across both floors of 180 Hou
+	se\, with guest DJs and live music\, supported by Moët & Chandon\, and one
+	 of the best views of the annual London fireworks display from anywhere in
+	 the capital. Tickets cost £180 a head and include: access to the party\, 
+	bites and bowls throughout the evening\, plus four complimentary drinks. \
+	n\nPlease note: capacity is limited capacity\, so be sure to book in advan
+	ce.
 LOCATION:180 House\, 180 Strand\, London\, WC2R 1EA\, United Kingdom
 END:VEVENT
 END:VCALENDAR

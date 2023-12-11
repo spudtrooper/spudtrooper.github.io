@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:OuypSqfHYaK7Oo63D5W02
+UID:Rf0dSjrkVgiF9AySDUrKR
 SUMMARY:Forward with Jeremy Nash
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T030000Z
 DTEND:20231216T073000Z
 DESCRIPTION:As a teenager\, Jeremy Nash started collecting records after he
@@ -20,9 +20,9 @@ LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
 	gdom
 END:VEVENT
 BEGIN:VEVENT
-UID:cksrUoqncx1D7F8cDPY1t
+UID:wAlKrLrFjjljf7a0vEepC
 SUMMARY:The Reload with Gerry Rooney
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T030000Z
 DTEND:20231217T073000Z
 DESCRIPTION:Gerry Rooney’s roots start in the late 1980s\, inspired by the 
@@ -33,9 +33,9 @@ LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
 	gdom
 END:VEVENT
 BEGIN:VEVENT
-UID:8PpDqZQ7Bo599i9qNqZBR
+UID:WHUnyLtFVPyZKvXWXm93J
 SUMMARY:The Reload with Cam Brott
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T030000Z
 DTEND:20231223T070000Z
 DESCRIPTION:Cam Brott kickstarted his DJ career and since then he has taken
@@ -47,9 +47,9 @@ LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
 	gdom
 END:VEVENT
 BEGIN:VEVENT
-UID:bH5UxN6gq-xf_yF8D4vay
+UID:ml74FlkKwQA3YMhnTj2lM
 SUMMARY:Forward with Leo Greenslade
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T030000Z
 DTEND:20231224T060000Z
 DESCRIPTION:We are hosting a club night here at Electric House. Come along 
@@ -58,9 +58,9 @@ LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
 	gdom
 END:VEVENT
 BEGIN:VEVENT
-UID:ET4203QLBENQeo6a1yky6
+UID:Lqvt20qT0uBYSH9YJmAyQ
 SUMMARY:Forward with Guille Bonesso
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231230T030000Z
 DTEND:20231230T060000Z
 DESCRIPTION:We are hosting a Club Night here in Electric House. Join us for
@@ -74,9 +74,9 @@ LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
 	gdom
 END:VEVENT
 BEGIN:VEVENT
-UID:gZWIFFOm-jt-Czs8uc9bd
+UID:a8De_JbbHmhqJ4vr7Rtmx
 SUMMARY:The Reload with Jeremy Nash
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T030000Z
 DTEND:20231231T070000Z
 DESCRIPTION:As a teenager\, Jeremy Nash started collecting records after he
@@ -89,9 +89,9 @@ LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
 	gdom
 END:VEVENT
 BEGIN:VEVENT
-UID:lujbyUsM5JJs3XzqUv58j
+UID:vWW9N-1wttBaRmdKXY1Ku
 SUMMARY:New Years Eve: Electric House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T000000Z
 DTEND:20240101T073000Z
 DESCRIPTION:Electric will have another installment of its legendary New Yea

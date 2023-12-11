@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:eaGKs-SgtT0ZHaQiZeOTO
+UID:YIRC5YNXJOwmQhX2KOyEV
 SUMMARY:Wreath making workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T160000Z
 DTEND:20231212T180000Z
 DESCRIPTION:Get in the festive spirit while you enjoy mulled wine and mince
@@ -17,9 +17,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:bwWC1CAzNrd_3ro1opTiv
+UID:9l8V4817igyEmFPMMhH_r
 SUMMARY:Come dancing masterclass
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T000000Z
 DTEND:20231213T020000Z
 DESCRIPTION:Join us for our monthly dance class\, where you learn a differe
@@ -31,9 +31,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:TWlB1uDIfHRruFOS0kXPe
+UID:BDcsHfK-dq_y5EBESfySs
 SUMMARY:Wreath making workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T160000Z
 DTEND:20231213T180000Z
 DESCRIPTION:Get in the festive spirit and enjoy mulled wine\, mince pies\, 
@@ -43,9 +43,21 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:lEoehJsHM8E1MTa5pHdwp
+UID:_6NKwZiDIJ6l1gI0E9j_D
 SUMMARY:Wreath making workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
+DTSTART:20231213T230000Z
+DTEND:20231214T010000Z
+DESCRIPTION:Get in the festive spirit while you enjoy mulled wine and mince
+	 pies in this special wreath-making class where you learn how to create a 
+	Christmas wreath using seasonal flowers and foliage.
+LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
+	dshire\, OX7 4JS\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:7TpNWZERa8ztL3ADUhcQm
+SUMMARY:Wreath making workshop
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T190000Z
 DTEND:20231214T210000Z
 DESCRIPTION:Get in the festive spirit while you enjoy mulled wine and mince
@@ -55,9 +67,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:59enShSFWraYdQdemW5Zi
+UID:SYuZMQQjapRhGakIFSjTq
 SUMMARY:Wreath making workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T160000Z
 DTEND:20231215T180000Z
 DESCRIPTION:Get in the festive spirit and enjoy mulled wine\, mince pies\, 
@@ -67,9 +79,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:Y3DjIKFmIHioHxz1gtSdE
+UID:kEmScbrgTSrWZeVd3zxy6
 SUMMARY:Wreath making workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T000000Z
 DTEND:20231216T020000Z
 DESCRIPTION:Get in the festive spirit while you enjoy mulled wine and mince
@@ -79,9 +91,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:71kkWV_RbO8VbLQrGDxj6
+UID:BkN9FYuweld4E33X_VwUS
 SUMMARY:Wreath making workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T160000Z
 DTEND:20231216T180000Z
 DESCRIPTION:Get in the festive spirit and enjoy mulled wine\, mince pies\, 
@@ -91,9 +103,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:Fu-v1x8MRRyz3BQG3KCEe
+UID:BnIrdKnBD3JksVEaC9F3u
 SUMMARY:Farmhouse festive market
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T160000Z
 DTEND:20231216T220000Z
 DESCRIPTION:Come along for a festive day at the Barwell Barn\, Orangery and
@@ -105,9 +117,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:_ogu7Z2JaAHMPlBFlL29V
+UID:MIRKLWiS8CHz19HYxb5qQ
 SUMMARY:The Perfect Moment Winter lounge
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T161500Z
 DTEND:20231216T220000Z
 DESCRIPTION:Situated between the Barwell Barn and the Orangery at the Festi
@@ -117,9 +129,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:wh-_sJSD8U4f_oJ_DZQNS
+UID:CXfQgpifQh4SJQKZRrx4L
 SUMMARY:Festive cake decorating demonstration
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T170000Z
 DTEND:20231216T180000Z
 DESCRIPTION:Join luxury cake designer\, Daisy Pratt\, as you learn expert t
@@ -130,21 +142,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:VUZCkzRSFNqjtvk5XJm02
-SUMMARY:Wreath making workshop
-DTSTAMP:20231211T171721Z
-DTSTART:20231217T160000Z
-DTEND:20231217T180000Z
-DESCRIPTION:Get in the festive spirit and enjoy mulled wine\, mince pies\, 
-	and nibbles on us in this special wreath-making class where you learn how 
-	to create a Christmas wreath using seasonal flowers and foliage.
-LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
-	dshire\, OX7 4JS\, United Kingdom
-END:VEVENT
-BEGIN:VEVENT
-UID:oPyLznOpp7liUdb9fWY3h
+UID:G1SUe1g9rFEWgURCT-rQh
 SUMMARY:Farmhouse festive market
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T160000Z
 DTEND:20231217T220000Z
 DESCRIPTION:Come along for a festive day at the Barwell Barn\, Orangery and
@@ -156,9 +156,21 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:-fwJuAj30OEEgOTvjcG4H
+UID:tbqJrNNhMQck6ROU-JY1E
+SUMMARY:Wreath making workshop
+DTSTAMP:20231211T171847Z
+DTSTART:20231217T160000Z
+DTEND:20231217T180000Z
+DESCRIPTION:Get in the festive spirit and enjoy mulled wine\, mince pies\, 
+	and nibbles on us in this special wreath-making class where you learn how 
+	to create a Christmas wreath using seasonal flowers and foliage.
+LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
+	dshire\, OX7 4JS\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:aBfOxHW9QnwF2vOUQ1gGK
 SUMMARY:The Perfect Moment Winter lounge
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T161500Z
 DTEND:20231217T220000Z
 DESCRIPTION:Situated between the Barwell Barn and the Orangery at the Festi
@@ -168,9 +180,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:MbCZLFRJ8kSP9hdyQIE2z
+UID:AcBnjbCLOqYc74OcgJcfb
 SUMMARY:Festive edible gifting masterclass
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T190000Z
 DTEND:20231217T210000Z
 DESCRIPTION:In this two-hour workshop\, you create your unique edible gift 
@@ -182,9 +194,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:wiKpHB8feU7UvVcCqihCU
+UID:yrG8F9K-C7YEX21Xl0pID
 SUMMARY:Festive canapés masterclass
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T000000Z
 DTEND:20231220T013000Z
 DESCRIPTION:Join Head Chef Damian Bradley as you learn the art of the festi
@@ -194,21 +206,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:xA7vYvirc6FMxN0Btzepp
-SUMMARY:Festive canapés masterclass
-DTSTAMP:20231211T171721Z
-DTSTART:20231220T000000Z
-DTEND:20231220T013000Z
-DESCRIPTION:Join Head Chef Damian Bradley as you learn the art of the festi
-	ve canape. You leave with the knowledge of how to create canapés for all o
-	f your family and friends throughout the festive season. 
-LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
-	dshire\, OX7 4JS\, United Kingdom
-END:VEVENT
-BEGIN:VEVENT
-UID:ubUdBkHO7MmHk8GieGYLn
+UID:KIgQEITht0LkUh3S3ANVh
 SUMMARY:Winter Solstice wellbeing
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T190000Z
 DTEND:20231221T210000Z
 DESCRIPTION:In this meditation\, you slow down to align your energy with th
@@ -221,9 +221,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:E2cE7fXLPurM467g_4Qsv
+UID:AbXRhkJxYmtDNjy6bGAa6
 SUMMARY:Christmas Eve carols
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T224500Z
 DTEND:20231225T000000Z
 DESCRIPTION:Wrap up warm and come along to our annual festivities in the Ba
@@ -233,9 +233,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:JJqkcoqzdHegir-wk8X3J
+UID:KqmILoIKkJh2p5ClM8K7B
 SUMMARY:Boxing Day clays
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231226T170000Z
 DTEND:20231226T200000Z
 DESCRIPTION:Come along to the Farm to burn off some of the Christmas indulg
@@ -245,9 +245,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:OFvD3ttPsOS3Z-KAQQQ6K
+UID:gjJn14coUFZzSSeDQwwWo
 SUMMARY:Boxing Day House Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231227T020000Z
 DTEND:20231227T060000Z
 DESCRIPTION:Keep the festive party going and head to the Barwell Barn for m
@@ -256,9 +256,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:-nkYNI7iY9h95n0ngZBRd
+UID:TyO-8sD_lAtkN5fygxU4r
 SUMMARY:New Year's Eve House Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T020000Z
 DTEND:20240101T070000Z
 DESCRIPTION:From 9pm the Barwell Barn is the place to head for dancing as o
@@ -274,9 +274,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:LBo0mhuRHX-lFwD5UV7F4
+UID:g0TlBrR3bHoJrhqAZocJR
 SUMMARY:Farm Walk
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T160000Z
 DTEND:20240101T180000Z
 DESCRIPTION:Meet us at the Mill Room as we head off for a two-hour walk to 
@@ -294,9 +294,9 @@ LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
 	dshire\, OX7 4JS\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:dE9XqUR6E44HShfnzyliP
+UID:fwlp2X5vxGN6iIEho_CrB
 SUMMARY:New Years Day games
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T170000Z
 DTEND:20240101T200000Z
 DESCRIPTION:Clear your New Year’s Eve hangover with a bit of fresh air and 

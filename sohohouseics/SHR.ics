@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:5aNPu0ivndeh_ykXsOwQK
+UID:hCsa7oidGAnuGaPiIiSFl
 SUMMARY:Wellness Monday with Viola Shanti
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T150000Z
 DTEND:20231211T160000Z
 DESCRIPTION:Soho House Rome member Viola Shanti of #Meditime leads this ses
@@ -16,9 +16,9 @@ DESCRIPTION:Soho House Rome member Viola Shanti of #Meditime leads this ses
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:uzaZwb6eQb-3hVb6wREys
+UID:lcxDRQjdgvVib1lWIu7PU
 SUMMARY:Acting workshop with Roberto Capucci
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T233000Z
 DTEND:20231213T023000Z
 DESCRIPTION:Join the House for an acting workshop\, hosted by Roberto Capuc
@@ -29,9 +29,9 @@ DESCRIPTION:Join the House for an acting workshop\, hosted by Roberto Capuc
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:TKRBLsbY9vPneajqs-_WH
+UID:KMPLVyr5oCr0ngB-ar7eb
 SUMMARY:Tuesday Jazz
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T020000Z
 DTEND:20231213T040000Z
 DESCRIPTION:Join us at the House for our new weekly music series where the 
@@ -40,9 +40,9 @@ DESCRIPTION:Join us at the House for our new weekly music series where the
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:10hTFPPS2Zse75LGNdm8Z
+UID:JoSjWkmzT6KgQhUX13YQq
 SUMMARY:Soho Presents: Venerus
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T030000Z
 DTEND:20231214T040000Z
 DESCRIPTION:Soho Presents is our global series for celebrating big artist m
@@ -54,9 +54,9 @@ DESCRIPTION:Soho Presents is our global series for celebrating big artist m
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:3FtU2N7l1Jdq-8TP2Givh
+UID:_2I7vPnhB22pwfpBAew2Q
 SUMMARY:‘The Art Of Soul Electrified’: talk 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T220000Z
 DTEND:20231214T230000Z
 DESCRIPTION:Immerse yourself in a project that ignites the creativity of yo
@@ -66,9 +66,9 @@ DESCRIPTION:Immerse yourself in a project that ignites the creativity of yo
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:SOV_z0r7oJqEwUZgos3vn
+UID:1H053aJBQxFXrQDkpvrlz
 SUMMARY:‘The Art Of Soul Electrified’: vernissage
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T230000Z
 DTEND:20231215T033000Z
 DESCRIPTION:Immerse yourself in a unique project that ignites the creativit
@@ -78,9 +78,9 @@ DESCRIPTION:Immerse yourself in a unique project that ignites the creativit
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:0CsP3Erm10POTMOwC9w1f
+UID:nEtT_Zb06ClT46SEOjxji
 SUMMARY:‘The Art Of Soul Electrified’: exhibition
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T133000Z
 DTEND:20231216T000000Z
 DESCRIPTION:Embark on an artistic journey at the House with our special exh
@@ -89,9 +89,9 @@ DESCRIPTION:Embark on an artistic journey at the House with our special exh
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:o9cWuMBgNjYFifS7eonwJ
+UID:6osSwcBCJDrdcimfVHLnG
 SUMMARY:‘The Art Of Soul Electrified’: Member Mixer with Stefano Guindani
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T233000Z
 DTEND:20231216T003000Z
 DESCRIPTION:This edition of Member Mixer is hosted by the membership team t
@@ -100,9 +100,9 @@ DESCRIPTION:This edition of Member Mixer is hosted by the membership team t
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:VA-3Uq6SYsyXg0JBJ6yM2
+UID:3dRywbDGUw0IY4mhS1wLG
 SUMMARY:Winter House Party with DJ Spiller
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T023000Z
 DTEND:20231216T063000Z
 DESCRIPTION:Join us for a special House Party and dance the night away as w
@@ -115,10 +115,10 @@ DESCRIPTION:Join us for a special House Party and dance the night away as w
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:ChWXuRv4SvJl77P3fIGnj
+UID:257g9wDrWtJYZdftMYaFV
 SUMMARY:Oroscopo 2024: il giro dell’anno in 365 giorni with Simon & the Sta
 	rs
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T220000Z
 DTEND:20231216T233000Z
 DESCRIPTION:Do you want to find out more about your future in 2024? Step in
@@ -128,9 +128,9 @@ DESCRIPTION:Do you want to find out more about your future in 2024? Step in
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:vVsMPrEcn_spp_fJ097tt
+UID:U-K0kJDtIfiRiW6nN4Yn1
 SUMMARY:Ascoltiamo un disco: 'Selling England By The Pound'
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T203000Z
 DTEND:20231217T220000Z
 DESCRIPTION:Music journalist and radio host Luca De Gennaro invites you to 
@@ -140,9 +140,9 @@ DESCRIPTION:Music journalist and radio host Luca De Gennaro invites you to
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:2F-wPGEWTR2j_E3h73WeA
+UID:KoPBa54QAYwRhWV2Zw0wn
 SUMMARY:Wellness Monday: sound meditation with Daniela Gruber
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T150000Z
 DTEND:20231218T160000Z
 DESCRIPTION:Join us in starting this week off right with Daniela Gruber lea
@@ -151,9 +151,9 @@ DESCRIPTION:Join us in starting this week off right with Daniela Gruber lea
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:8fFTgMYU2nZYqkOl7bnWc
+UID:7lJ13ruGJUxuiBNzEl1p2
 SUMMARY:Member Mixer: Secret Santa
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T230000Z
 DTEND:20231221T000000Z
 DESCRIPTION:Bring a present for this Secret Santa edition of our Member Mix
@@ -161,9 +161,9 @@ DESCRIPTION:Bring a present for this Secret Santa edition of our Member Mix
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:ZrTJfCCBcZGY-nvqwI1CR
+UID:A5xHra0pXRtHmSsduFj8C
 SUMMARY:House Comedy: Daniele Fabbri
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T230000Z
 DTEND:20231222T000000Z
 DESCRIPTION:For this edition of our regular comedy night\, in collaboration
@@ -172,9 +172,9 @@ DESCRIPTION:For this edition of our regular comedy night\, in collaboration
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:Vb94W6Q1xIY0fdE3dfmZa
+UID:aASJyF3EPjD2vE-xuWrAo
 SUMMARY:NYE: Glow! (Dinner)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T000000Z
 DTEND:20240101T070000Z
 DESCRIPTION:Wrap up the year in style with a radiant night and embark on a 
@@ -192,9 +192,9 @@ DESCRIPTION:Wrap up the year in style with a radiant night and embark on a
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:8X2Wy0oWZQ_wV0l1CuX9p
+UID:oPCbFY9BaEM9mR3vJFjzl
 SUMMARY:NYE: Glow! (Countdown Tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T030000Z
 DTEND:20240101T070000Z
 DESCRIPTION:Wrap up the year in style with a radiant night and embark on a 
@@ -207,9 +207,9 @@ DESCRIPTION:Wrap up the year in style with a radiant night and embark on a
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:aCAYpYoh6o3it3AxcL7wY
+UID:O4i3Af-1s_auCluIJU66a
 SUMMARY:NYE: Glow! (Member Tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T040000Z
 DTEND:20240101T070000Z
 DESCRIPTION:Wrap up the year in style with a radiant night and embark on a 
@@ -230,9 +230,9 @@ DESCRIPTION:Wrap up the year in style with a radiant night and embark on a
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:MRGeT9jsra5qNf4eXpepI
+UID:SL4EVsAQrFkQlRDJDz7ng
 SUMMARY:NYE: Glow! (Guests Tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T040000Z
 DTEND:20240101T070000Z
 DESCRIPTION:Wrap up the year in style with a radiant night and embark on a 
@@ -251,9 +251,9 @@ DESCRIPTION:Wrap up the year in style with a radiant night and embark on a
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:8Nqw7_3qyi49aZDSqnMpO
+UID:yzMEgeYbf-vSF8hpZE2ln
 SUMMARY:Member mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240103T230000Z
 DTEND:20240104T000000Z
 DESCRIPTION:We welcome you to the first Member Mixer of 2024 – our regular 
@@ -262,9 +262,9 @@ DESCRIPTION:We welcome you to the first Member Mixer of 2024 – our regular
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:2EaNfpdM-7RWSSItW8LWG
+UID:ZN0ON_3_Sv2M-ejbA2RTE
 SUMMARY:Wellness Monday: ananda mandala meditation with Simone Bretti
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240108T150000Z
 DTEND:20240108T160000Z
 DESCRIPTION:Ananda mandala is an ancient breathing technique that is also k
@@ -274,9 +274,9 @@ DESCRIPTION:Ananda mandala is an ancient breathing technique that is also k
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:OXrHtSB3m7pNVk7hUBexq
+UID:dQm_qyQHNQJgfDZdcVzcZ
 SUMMARY:Jazz Tuesday
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240110T020000Z
 DTEND:20240110T040000Z
 DESCRIPTION:Join us at the House for our new weekly music series where the 
@@ -285,15 +285,62 @@ DESCRIPTION:Join us at the House for our new weekly music series where the
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 BEGIN:VEVENT
-UID:3tfnIXqqMWwKeYns1C7Ry
+UID:KNUufT3A3fW-kzPt61U11
 SUMMARY:“Off the Grid” Speedconnect
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240110T233000Z
 DTEND:20240111T003000Z
 DESCRIPTION:Enjoy a digital break for a couple of hours and get the chance 
 	to make new connections in our fun and fast-paced networking event hosted 
 	by our membership team. Please note that participants have to leave their 
 	phone for the duration of the event. Don’t forget your business cards.
+LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:VgexLqT6s-geW0_mKnNPb
+SUMMARY:House Comedy: Michela Giraud
+DTSTAMP:20231211T171847Z
+DTSTART:20240111T230000Z
+DTEND:20240112T000000Z
+DESCRIPTION:For this edition of our regular comedy night in collaboration w
+	ith Cristiana Baldassari Agenzia di Artisti\, Michela Giraud performs in o
+	ur screening room.\nPlease note: this event is hosted in Italian.
+LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:7i03jeHHWW2uuMb_Z4Yzk
+SUMMARY:Jazz Tuesday
+DTSTAMP:20231211T171847Z
+DTSTART:20240117T030000Z
+DTEND:20240117T040000Z
+DESCRIPTION:Join us at the House for our new weekly music series where the 
+	spotlight is on soulful jazz melodies. Sip a glass of wine and enjoy the m
+	usic. 
+LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:-SbcOPQz9zC-mXRU1kUHQ
+SUMMARY:Ableton crash course with Lorenzo Dada
+DTSTAMP:20231211T171847Z
+DTSTART:20240122T230000Z
+DTEND:20240123T000000Z
+DESCRIPTION:Head to the House for the first session of the Ableton crash co
+	urse\, hosted by Lorenzo Dada. Each session provides an overview of the wo
+	rld of electronic composition in ambient\, house\, minimal\, disco and tec
+	hno genres\, giving an understanding their mechanisms and techniques. The 
+	programme is divided into five exclusive one-hour sessions\, created speci
+	fically for Soho House Rome.
+LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:VcvrAD4MNvVGAZjT0B7_U
+SUMMARY:Jazz Tuesday
+DTSTAMP:20231211T171847Z
+DTSTART:20240124T020000Z
+DTEND:20240124T040000Z
+DESCRIPTION:Join us at the House for our new weekly music series where the 
+	spotlight is on soulful jazz melodies. Sip a glass of wine and enjoy the m
+	usic. 
 LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
 END:VEVENT
 END:VCALENDAR

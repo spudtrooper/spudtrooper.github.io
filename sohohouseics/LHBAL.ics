@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:IaMvEJOo0c3pw-9Nh40Wu
+UID:aOBEjjqMwOeCHGy4Sdsr1
 SUMMARY:Festive Wine Tasting 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T230000Z
 DTEND:20231212T003000Z
 DESCRIPTION:Meet Little House Balham's General Manager\, as he hosts a fest
@@ -17,9 +17,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:hvWMtoOwNs7bT0G-WSQGT
+UID:UPjoPjYVpJXWvEb21JgRF
 SUMMARY:Drag Bingo Christmas Special 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T000000Z
 DTEND:20231213T030000Z
 DESCRIPTION:Join the stunning Camille Leon and Soroyah Marchelle for a nigh
@@ -28,9 +28,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:swfTTSwttGDR7Jo_KHaoA
+UID:JtkedABIHvL_Uljka79bt
 SUMMARY:Festive Cocktail Masterclass 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T230000Z
 DTEND:20231214T003000Z
 DESCRIPTION:Join Little House Balham's Bar Manager for a cocktail mastercla
@@ -40,9 +40,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:pK70lQ14oqbf_q83Vt8Cc
+UID:35bF_ZCPs-aRG0syej_ar
 SUMMARY:Wednesday live 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T003000Z
 DTEND:20231214T020000Z
 DESCRIPTION:Join us for an intimate evening of live music at Little House B
@@ -51,9 +51,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:1XA1BpvwGcAJlClSv0bx9
+UID:MwKB2gawnkeM6h9SEWpTO
 SUMMARY:GoHub Workshop Christmas Mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T230000Z
 DTEND:20231215T050000Z
 DESCRIPTION:GoHub Christmas Mixer\, brings together the most exciting creat
@@ -64,9 +64,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:op_jCToi5yegF3pR7YggX
+UID:NhbEzlSvCRgv_U2aujHZL
 SUMMARY:U27 Christmas Member mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T000000Z
 DTEND:20231219T023000Z
 DESCRIPTION:Meet us in Little House Balham for our next Member Mixer. Wheth
@@ -77,9 +77,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:pAa6i3AWNi_Gln2rEdJuM
+UID:Bj3v-CLPawfhUb1F_RALl
 SUMMARY:Festive vegan cake decorating workshop with Eat by Amy
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T233000Z
 DTEND:20231220T003000Z
 DESCRIPTION:What better way to get in the christmas mood than with a celebr
@@ -92,9 +92,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:Lc3lLgITovNB4P2EGElUJ
+UID:_ho6sz7UYVs-Vdl9cYth0
 SUMMARY:Wednesday live 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T003000Z
 DTEND:20231221T023000Z
 DESCRIPTION:Join us for an intimate evening of live music at Little House B
@@ -103,9 +103,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:L4Z3vgZqg8Qfjj77DpTU9
+UID:uiq2IsHclHYAGOyD2Rtwr
 SUMMARY:Festive Gin Tasting with Green Room Distillery
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T000000Z
 DTEND:20231222T013000Z
 DESCRIPTION:Join us once again in the Snug for an seasonal tasting of Green
@@ -121,9 +121,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:hl0N5P-LNaMF5zc2zbB5f
+UID:uA4RICcZc7CUzR02cUDv-
 SUMMARY:A Night with EZA 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T003000Z
 DTEND:20231224T053000Z
 DESCRIPTION:A night with Eza at Little House Balham\, spotlighting under-gr
@@ -135,9 +135,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:glE5a4L5cQDhfdELu_XZG
+UID:OLwttcONxFBKKaHUHIRzk
 SUMMARY:New Year's Eve Dinner with Bottomless Drinks
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T000000Z
 DTEND:20240101T013000Z
 DESCRIPTION:Start your New Year's Eve with dinner in Pen Yen. We’re offerin
@@ -150,9 +150,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:AnxHtB0XYYs0qyhjw0NB0
+UID:dhrGho6aDRj5SnT35AzIX
 SUMMARY:New Year's Eve at Little House Balham
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T020000Z
 DTEND:20240101T070000Z
 DESCRIPTION:Bring in 2024 in style with a New Year's Eve full of great musi
@@ -162,9 +162,9 @@ LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
 	ted Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:kxi0O-Ec359jubdFwnr1L
+UID:LeJ8B-cddq2VWIA7X1-oV
 SUMMARY:New Year's Eve Dinner with Bottomless Drinks
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T020000Z
 DTEND:20240101T033000Z
 DESCRIPTION:Start your New Year's Eve with dinner in Pen Yen. We’re offerin

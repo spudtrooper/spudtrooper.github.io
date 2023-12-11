@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:gvafTZBOosU6T5GX8cno-
+UID:QFgwt_vvHGvB7f6jnaN4j
 SUMMARY:Wine Club: Holiday's
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T073000Z
 DTEND:20231212T090000Z
 DESCRIPTION:Join our wine captains Lauren Bolona  and Lauren Carlson for a 
@@ -18,9 +18,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:WFfpcg03KUoNe0WEeT53g
+UID:iN6QjwAjRKxr82jiwqp4D
 SUMMARY:Soho Works Presents: Live Podcast Janeshia Adams Ginyard
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T000000Z
 DTEND:20231213T030000Z
 DESCRIPTION:Join fellow members in the Loft for a live podcast conversation
@@ -31,9 +31,9 @@ LOCATION:Soho Works 9000 Sunset\, 9000 Sunset Blvd Floor 3\, West Hollywood
 	\, CA 90069\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:P3-ZZ8OVJ2BTEWlAASXKU
+UID:Ee7G5sdymekyylxkx6X7H
 SUMMARY:New Moon tarot readings
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T040000Z
 DTEND:20231213T080000Z
 DESCRIPTION:This new moon\, enjoy a complimentary tarot reading by clairvoy
@@ -47,9 +47,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:G5NUftwfSRcN9-A-T8iC7
+UID:Uch033LSW4Uzpr5yUX1q9
 SUMMARY:Soho Works presents: 'The Future of Community' book launch 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T060000Z
 DTEND:20231213T080000Z
 DESCRIPTION:Join us at Soho Works for the book launch of  “The Future of Co
@@ -61,9 +61,9 @@ LOCATION:Soho Works 9000 Sunset\, 9000 Sunset Blvd Floor 3\, West Hollywood
 	\, CA 90069\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:CSkNvboKi5kkdSy-w9OlC
+UID:OzbYxSkQOL5ssD0neSSJm
 SUMMARY:Book Club: ‘The Friend’
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T073000Z
 DTEND:20231213T090000Z
 DESCRIPTION:Enjoy a good read and some lively conversation at our monthly B
@@ -75,9 +75,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:gcyb7KD1pAboiQlvtLTuV
+UID:qfe6d6v6LjFWAnNwC-jVG
 SUMMARY: An evening of manifesting miracles with Manifest Beauty
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T080000Z
 DTEND:20231214T100000Z
 DESCRIPTION:Experience an inspiring panel discussion hosted by Tamara Bakir
@@ -94,9 +94,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:DvxCxK4ytqNQOGscyfCfl
+UID:PJjD7b8UsxLNit9DwQzQf
 SUMMARY:Teeny House: Kids' Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T220000Z
 DTEND:20231217T040000Z
 DESCRIPTION:Curated Care provides games\, arts\, and crafts for our weekly 
@@ -109,9 +109,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:gwMNsHGv7FUXMDH5gXweW
+UID:vQWCQROm_NdbtDPg5ySMd
 SUMMARY:Saints: cuts and cocktails 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T230000Z
 DTEND:20231217T060000Z
 DESCRIPTION:Enjoy a complimentary cocktail while getting your hair cut over
@@ -126,9 +126,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:s0u1GtUI3W-T1xVVbUgwN
+UID:adI-ovAICbtxTis9L2D6I
 SUMMARY:Yoga flow and reiki with Nicolette Ficchi
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T230000Z
 DTEND:20231217T000000Z
 DESCRIPTION:Join reiki master and yoga instructor\, Nicolette Ficchi\, for 
@@ -142,9 +142,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:xAOomFoL4YZigYBqD5HAf
+UID:074deoy1DZgcdaT9Hv12A
 SUMMARY:The Enlightened Entrepreneur: women’s brunch
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T003000Z
 DTEND:20231217T023000Z
 DESCRIPTION:Join master coach Elizabeth Canon as she hosts a discussion on 
@@ -156,9 +156,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:scxzCX4iZRt1LXflrr7Tj
+UID:Nl0iVrO6NMJg-2WcrtxWs
 SUMMARY:Teeny House: Kids' Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T220000Z
 DTEND:20231218T040000Z
 DESCRIPTION:Curated Care provides games\, arts\, and crafts for our weekly 
@@ -171,9 +171,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:3ams-TLGVkE22G-U7RsQ5
+UID:vB4pRbjUB_432hExP3Qkh
 SUMMARY:Trivia night with TJ Ramini
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T070000Z
 DTEND:20231218T090000Z
 DESCRIPTION:Join forces with other members as actor TJ Ramini returns to We
@@ -184,9 +184,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:-kqI_Vd2e6qabaUqo6p9i
+UID:erIZyPDW72JlPtLDaSohB
 SUMMARY:Jazz Night
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T080000Z
 DTEND:20231221T100000Z
 DESCRIPTION:Relax in the Sitting Room\, sip on a cocktail and enjoy some ja
@@ -199,9 +199,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:ayxeHld-z6a9-h09P_5w1
+UID:v6vIaiEhWCQ4Td4VRyQUv
 SUMMARY:Teeny House: Kids' Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T220000Z
 DTEND:20231224T040000Z
 DESCRIPTION:Curated Care provides games\, arts\, and crafts for our weekly 
@@ -214,9 +214,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:GuR1AbJHFiex86o1e2MIP
+UID:0zGyfEnLN-psvuXzc_QfG
 SUMMARY:Teeny House: Kids' Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T220000Z
 DTEND:20231225T040000Z
 DESCRIPTION:Curated Care provides games\, arts\, and crafts for our weekly 
@@ -229,9 +229,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:1qz0wyS3kqEc7YmtP2OZe
+UID:4n8y69Rx2yYTPbed63wTX
 SUMMARY:Teeny House: Kids' Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231230T220000Z
 DTEND:20231231T040000Z
 DESCRIPTION:Curated Care provides games\, arts\, and crafts for our weekly 
@@ -244,9 +244,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:2ZMbyRCOTFAwwbWQlWWqk
+UID:poepP47PALulSWfoHXOAM
 SUMMARY:NYE 2024: A Dazzling Affair
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T100000Z
 DTEND:20240101T150000Z
 DESCRIPTION:Step into a world of glitz and glam at our New Year's Eve celeb
@@ -264,9 +264,9 @@ LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
 	s Angeles\, CA 90069\, United States
 END:VEVENT
 BEGIN:VEVENT
-UID:WSctGR_mdvRoPbyUpbsFZ
+UID:JofvnxreRJM6Y61mZdyOT
 SUMMARY:Soho Works Presents: Mela Meditation Retreat 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240109T210000Z
 DTEND:20240112T110000Z
 DESCRIPTION:Soho Works is partnering with Mela to invite you to a private\,

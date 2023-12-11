@@ -5,21 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:0CCk5sRaMnZw-cydc3gFu
-SUMMARY:Cocktail Masterclass
-DTSTAMP:20231211T171721Z
-DTSTART:20231213T000000Z
-DTEND:20231213T020000Z
-DESCRIPTION:This masterclass teaches you about the festive cocktails of win
-	ter\, from the history and categories to the techniques behind some of you
-	r favourite festive drinks. \n\nNo experience needed. 
-LOCATION:White City House\, Television Centre\, 101 Wood Lane\, London\, W1
-	2 7FR\, United Kingdom
-END:VEVENT
-BEGIN:VEVENT
-UID:lmx5kggGL-fvEMSj8uqCu
+UID:NuOCVekLEGYf4KmX28tpp
 SUMMARY:Boardroom: A night of Chess at White City House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T000000Z
 DTEND:20231213T020000Z
 DESCRIPTION:Looking to improve your chess game or meet fellow enthusiasts? 
@@ -31,9 +19,21 @@ LOCATION:White City House\, Television Centre\, 101 Wood Lane\, London\, W1
 	2 7FR\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:dsQ3UvzbeAVYELh5Zpogg
+UID:UQSnk80r-TDD0VjjGmURp
+SUMMARY:Cocktail Masterclass
+DTSTAMP:20231211T171847Z
+DTSTART:20231213T000000Z
+DTEND:20231213T020000Z
+DESCRIPTION:This masterclass teaches you about the festive cocktails of win
+	ter\, from the history and categories to the techniques behind some of you
+	r favourite festive drinks. \n\nNo experience needed. 
+LOCATION:White City House\, Television Centre\, 101 Wood Lane\, London\, W1
+	2 7FR\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:buNQ5fBxMnynyZtL5LovN
 SUMMARY:Santa’s Grotto
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T140000Z
 DTEND:20231216T170000Z
 DESCRIPTION:Ho ho ho: Santa is touching down in White City with a sack full
@@ -45,9 +45,9 @@ LOCATION:White City House\, Television Centre\, 101 Wood Lane\, London\, W1
 	2 7FR\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:id5CvuP5noqxcKxiWJOLR
+UID:Bn9HtnLHsRRYrXqtm_ukK
 SUMMARY:telltale Presents: JAEL 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T030000Z
 DTEND:20231217T080000Z
 DESCRIPTION:telltale invites back selector\, vocalist\, and instrumentalist
@@ -61,9 +61,9 @@ LOCATION:White City House\, Television Centre\, 101 Wood Lane\, London\, W1
 	2 7FR\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:aTXeJ1dOpLSb0b-OeWWgn
+UID:n-qMMoE-wMjl9V4aLL28P
 SUMMARY:White City House: New Years Eve Dinner 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T000000Z
 DTEND:20240101T073000Z
 DESCRIPTION:White City House can’t wait to welcome you into our New Year’s 
@@ -77,9 +77,9 @@ LOCATION:White City House\, Television Centre\, 101 Wood Lane\, London\, W1
 	2 7FR\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:dTOIQMq2lchO5gTQeuAzY
+UID:0AYDnJfqKzguhVUrxYl87
 SUMMARY:White City House: New Years Eve Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T010000Z
 DTEND:20240101T073000Z
 DESCRIPTION:Join us for an unforgettable evening to ring in the new year\, 

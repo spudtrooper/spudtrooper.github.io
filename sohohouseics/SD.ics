@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:3p_xZIjEVIWEhgFjIdvZ3
+UID:M7xdTQwYcCXb3nJ79wU3K
 SUMMARY:Hanukkah Celebration 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T000000Z
 DTEND:20231212T013000Z
 DESCRIPTION:Join us in the Library for our second annual evening of celebra
@@ -19,9 +19,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:1v1RrSV9FE_SW1N-0zGd4
+UID:A1lRWpY-NFhDdjj0IfRSH
 SUMMARY:Mothers Meeting
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T160000Z
 DTEND:20231212T180000Z
 DESCRIPTION:Join Mothers Meeting founder\, Jenny Scott\, in the Back Deck a
@@ -32,9 +32,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:JUl3gbTS598K4tf7P29AX
+UID:vHLDR-CQKfAj1zMgSyFsM
 SUMMARY:Shoreditch House Run Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T000000Z
 DTEND:20231213T010000Z
 DESCRIPTION:Like to run? Like to socialise?\n\nSDH Running club will incorp
@@ -46,9 +46,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:_amfCgZJlRb8LM_B-k9sC
+UID:2pG75FcuxQNBhg1bvij6g
 SUMMARY:Movement Magic with Tamzin Jade
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T000000Z
 DTEND:20231213T020000Z
 DESCRIPTION:Join in the Library for a guided movement experience by Tamzin 
@@ -63,9 +63,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:SZMzqJ6uTolcNtv5eUk_m
+UID:LtfFN9SWxtcXYPy-DHXDF
 SUMMARY:Miss Jason's House Quiz\, Christmas Edition
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T000000Z
 DTEND:20231214T030000Z
 DESCRIPTION: House-favourite\, presenter and host Miss Jason returns for hi
@@ -78,9 +78,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:3UjOnwPGqJWkvxBM8rgBC
+UID:aeXK-1JQLGi5067h-Egdm
 SUMMARY:Festive Fragrance Workshop with 20A Aromatherapy 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T230000Z
 DTEND:20231215T003000Z
 DESCRIPTION:Formulate a bespoke fragrance to evoke festive cheer and keep t
@@ -95,9 +95,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:5yTCOtZPzXP2pcJ4kdK9E
+UID:aW2Vy_876vO1hLdUWFQEj
 SUMMARY:Festive Fragrance Workshop with 20A Aromatherapy 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T010000Z
 DTEND:20231215T023000Z
 DESCRIPTION:Formulate a bespoke fragrance to evoke festive cheer and keep t
@@ -112,9 +112,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:RxUf0RCcFt5h57pTNgyes
+UID:AEMf_xB7oRO-h3T_ixYz5
 SUMMARY:Baby Got Back – powered by Super K
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T030000Z
 DTEND:20231216T080000Z
 DESCRIPTION:Super K takes over the Back Deck for our House Party: Baby Got 
@@ -129,9 +129,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:x895Xc2LxuaC4HtdBZM5x
+UID:d9ELLA_OxesOWGXHJlu40
 SUMMARY:Santa's Grotto in the Library
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T140000Z
 DTEND:20231216T170000Z
 DESCRIPTION:As we welcome in the festive season\, join Santa in the Library
@@ -142,9 +142,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:4BbE5ZLVw5Myvgg_AzMCs
+UID:ZvvTNutXtKzDLD5Chni4Q
 SUMMARY:Shoreditch House Run Club: House to House
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T170000Z
 DTEND:20231216T210000Z
 DESCRIPTION:Come and take part in a fun run between houses\, followed by a 
@@ -156,9 +156,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:yDRrMzGLF65dxwDjy308I
+UID:Hu8A7qsga7V_S03MrxK1Z
 SUMMARY:Party in the Library: Guille Bonesso 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T040000Z
 DTEND:20231217T080000Z
 DESCRIPTION:Join much loved Soho House Selector\, Guille Bonesso\, in the l
@@ -168,9 +168,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:3R6K3TfFV6rjVmNbQYicS
+UID:CQV4cViwWXqwiaBct-NR3
 SUMMARY:House Comedy
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T233000Z
 DTEND:20231219T014000Z
 DESCRIPTION:Join us for another installment of House Comedy where you can e
@@ -181,9 +181,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:swramGUi3jid2WuoQ9W9x
+UID:b2QzAmcDDzPAjj6cXZcv-
 SUMMARY:House Comedy
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T020000Z
 DTEND:20231219T040000Z
 DESCRIPTION:Join us for another installment of House Comedy where you can e
@@ -194,9 +194,32 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:2L4uccTFAJ1PQ8PPJE0Ne
+UID:pqpUqFAsXvcfLdVKI7cV1
+SUMMARY:Festive Christmas Dinner 
+DTSTAMP:20231211T171847Z
+DTSTART:20231220T000000Z
+DTEND:20231220T030000Z
+DESCRIPTION:Join us at Shoreditch House for a special Festive Christmas din
+	ner\, served in the Sitting Room on the 5th floor. Expect all the trimming
+	s with a sharing style traditional menu with a complimentary mulled wine t
+	o welcome you on arrival. \n\nMenu \n\nSTARTERS shared family style:\nPADR
+	ON PEPPERS sea salt (pb) \nBURRATA Heritage beetroot\, balsamic (v) \nSALT
+	 & PEPPER SQUID lemon aioli \nSTEAK TARTARE grilled sourdough\, pickles\n\
+	nMAINS\nRIGATONI plant based Bolognese (pb)\nWOODFIRED BROCCOLI red pepper
+	 & sunflower seed\, romesco\, pickled chilli (pb)\nBRONZE NORFOLK TURKEY t
+	raditional accompaniments\nSALMON chard\, green lentils\, aioli\n\nDESSERT
+	 shared family style - \nBASQUE CHEESECAKE sour cherries (pb) \nSTICKY TOF
+	FEE PUDDING vanilla ice cream \nCHRISTMAS PUDDING brandy custard (v)\n\nPl
+	aces are booked up to a maximum of 6\, expect a long communal dinning tabl
+	e for a shared dining experience. For larger parties please contact the ho
+	use.
+LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
+	ited Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:fuFtTZKQxhtLWgqoob89L
 SUMMARY:The Tasting Club with Aidy Smith
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T000000Z
 DTEND:20231221T020000Z
 DESCRIPTION:Join Aidy Smith\, a drinks expert\, TV personality and presente
@@ -209,9 +232,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:hXva6F3WcYLsd5k9T4Gwd
+UID:fY8hEnuXjuNa4md-TAdfx
 SUMMARY:Checkmates
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T000000Z
 DTEND:20231222T030000Z
 DESCRIPTION:\nCome join us at Shoreditch House for a relaxed evening of che
@@ -225,9 +248,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:tiAzshDeddTrqGetw8pyP
+UID:e6LXdL5yiWHMRcLd-_N6-
 SUMMARY:PAM ANN - DJ set
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T030000Z
 DTEND:20231223T080000Z
 DESCRIPTION:On Friday we welcome special guest Pam Ann\; globally acclaimed
@@ -238,9 +261,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:3FN79fVadra0PYy9K_8fp
+UID:mHLKQXKcm6FQHpX4pCV3T
 SUMMARY:New Year's Eve Dinner - House Kitchen
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T230000Z
 DTEND:20240101T043000Z
 DESCRIPTION:Celebrate New Year’s Eve in style with dinner in our House Kitc
@@ -260,9 +283,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:ca_6XODEN50szzNcFm1kK
+UID:8n_QElgmSIIbLkwr8Z3ec
 SUMMARY:New Year's Eve Dinner - Pen Yen
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T230000Z
 DTEND:20240101T043000Z
 DESCRIPTION:Celebrate New Year’s Eve in style\, with dinner in Pen Yen\, fe
@@ -280,9 +303,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:5UwZfC2eK59HIsFape88o
+UID:aaB_WeDA9wts9lg9831yD
 SUMMARY:New Year's Eve 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T010000Z
 DTEND:20240101T080000Z
 DESCRIPTION:Celebrate New Year’s Eve in style at our full House takeover\, 
@@ -295,9 +318,9 @@ LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
 	ited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:vR5VSoVSoppPWyyED6qO7
+UID:ljSGcEWCP_DBVLIHPrbWW
 SUMMARY:Born N Bread Toasty Tots
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240106T160000Z
 DTEND:20240106T180000Z
 DESCRIPTION:We welcome back Toasty Tots to the library\, a community space 

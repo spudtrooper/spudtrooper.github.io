@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:mnNuSm2Eh2PZJo_BF9CSa
+UID:s93VIqYAw-DPbfSlm9LgA
 SUMMARY:Sound Voyage Meditation with Coral 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T220000Z
 DTEND:20231212T230000Z
 DESCRIPTION:The sound journey goes behind quieting the mind\, it’s a practi
@@ -23,10 +23,10 @@ LOCATION:Soho House Tel Aviv Jaffa\, Yefet Street 27\, Tel Aviv\, 6813005\,
 	 Israel
 END:VEVENT
 BEGIN:VEVENT
-UID:zIPUwUzpQvXz8GtqnkcSK
+UID:cLS6i22McUmTBTNwT9bWT
 SUMMARY:Hanukkah Candlelight at Soho House - Behind the Decks -  DJ NOAH & 
 	MISS SAXO with live Saxophonist
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T220000Z
 DTEND:20231215T030000Z
 DESCRIPTION:A Very Groovy Soho Hanukkah\nJoin Us for a Hanukkah Candle Ligh
@@ -37,9 +37,9 @@ LOCATION:Soho House Tel Aviv Jaffa\, Yefet Street 27\, Tel Aviv\, 6813005\,
 	 Israel
 END:VEVENT
 BEGIN:VEVENT
-UID:3GBCAxVIf_1IZ0eOMGkcN
+UID:zfjeUOAqReRNes-_wXHQe
 SUMMARY:Krav Maga Workshop - NEW!
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T220000Z
 DTEND:20231218T000000Z
 DESCRIPTION:Join us! Krav Maga is a self-defense system developed by the Is
@@ -54,9 +54,9 @@ LOCATION:Soho House Tel Aviv Jaffa\, Yefet Street 27\, Tel Aviv\, 6813005\,
 	 Israel
 END:VEVENT
 BEGIN:VEVENT
-UID:4_Uj9mretebPRtXSQaO-I
+UID:eCU7Sir67kFVSpIG-e5qL
 SUMMARY:The School of Astro-Numerology with Mazal Aharoni
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T210000Z
 DTEND:20231219T230000Z
 DESCRIPTION:A new course on Astro-Numerology - a unique method developed by
@@ -71,10 +71,10 @@ LOCATION:Soho House Tel Aviv Jaffa\, Yefet Street 27\, Tel Aviv\, 6813005\,
 	 Israel
 END:VEVENT
 BEGIN:VEVENT
-UID:417CX16ggy1EzL9mAisq3
+UID:P8Ar6pOn_1IY3yxxrrwLQ
 SUMMARY:Member Mixer with Smadar Gal - Head of Membership and Communication
 	s 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T230000Z
 DTEND:20231222T000000Z
 DESCRIPTION:Join us for an exciting member mixer with Smadjj!\n \nMake the 

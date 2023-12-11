@@ -5,22 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:ifoPrCA_yCTvRNqButdpo
-SUMMARY:House Supper: Hanukkah dinner with Nevin Landi
-DTSTAMP:20231211T171721Z
-DTSTART:20231212T060000Z
-DTEND:20231212T080000Z
-DESCRIPTION:Celebrate the Festival of Lights with F&B Manager Nevin Landi. 
-	Whether you light the menorah every year or it's your first time\, all are
-	 welcome. Tickets are $35 per person and must be purchased via Tock below.
-	 
-LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
-	d States
-END:VEVENT
-BEGIN:VEVENT
-UID:utdl_HqFkcY1FoJzdIrqM
+UID:dwJG_vBePDdukn5173k4d
 SUMMARY:Ingress Gallery: artist talk with Roland Santana
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T060000Z
 DTEND:20231212T080000Z
 DESCRIPTION:Each month\, a featured artist from the Ingress Gallery on the 
@@ -31,9 +18,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:MUHoMXf7K3Zf3jVrJEbQc
+UID:4ar_eWxqY33AZrMNUgrl4
 SUMMARY:Film Club mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T060000Z
 DTEND:20231212T073000Z
 DESCRIPTION:Calling all film fanatics - writers\, directors & more. Meet in
@@ -44,9 +31,22 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:zOLtszxmVCiUuXOc6KM1C
+UID:tSFfqHJVcOLoBP7iuyC7E
+SUMMARY:House Supper: Hanukkah dinner with Nevin Landi
+DTSTAMP:20231211T171847Z
+DTSTART:20231212T060000Z
+DTEND:20231212T080000Z
+DESCRIPTION:Celebrate the Festival of Lights with F&B Manager Nevin Landi. 
+	Whether you light the menorah every year or it's your first time\, all are
+	 welcome. Tickets are $35 per person and must be purchased via Tock below.
+	 
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+BEGIN:VEVENT
+UID:82EWDTOy2MdgNuSDj1qmf
 SUMMARY:Tommaso and friends
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T080000Z
 DTEND:20231212T103000Z
 DESCRIPTION:Calling all Under 27 members. Enjoy your special rate with Chic
@@ -56,9 +56,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:MVUAqfeWtpMhwQgVj-or2
+UID:LKPh69ebtfk-UM8CZ06A6
 SUMMARY:House Mixer: fashion industry
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T050000Z
 DTEND:20231213T080000Z
 DESCRIPTION:Join membership manager\, Portia King\, for a special industry 
@@ -69,9 +69,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:mO7mWF76_3uuZ7byD4Wuw
+UID:MIGthxgOx38FU33o1Qq5v
 SUMMARY:Tech Club meet up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T060000Z
 DTEND:20231213T080000Z
 DESCRIPTION:We are welcoming members from all fields to Tech Club to mix\, 
@@ -83,9 +83,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:DMF4IfEbVwGVuI-LQrqv0
+UID:BEd4pU_rU1F-S-kzvQOed
 SUMMARY:Art Club: Group Critique
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T060000Z
 DTEND:20231214T080000Z
 DESCRIPTION:Join Noel Mercado and Vincent Uribe for the returning Group Cri
@@ -96,9 +96,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:Ly3aJXhcGTrPKfrDCoj5k
+UID:9uHjz4owYOhMXWu1d2mIp
 SUMMARY:Pragmatik at Fox Bar
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T083000Z
 DTEND:20231214T123000Z
 DESCRIPTION:Pragmatik music collective takes over Fox Bar for an intimate W
@@ -109,9 +109,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:FG6LlfqyIySVZMi4Wb2jW
+UID:Xrl65XAxugS9up8b75bB_
 SUMMARY:Burlesque Lounge
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T070000Z
 DTEND:20231215T090000Z
 DESCRIPTION:We've transformed the Music Room into a sultry speakeasy for ou
@@ -123,9 +123,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:Av6chx4Fq3FVr2RHhKAtt
+UID:iYYhBqcny8VVw2O0KL91i
 SUMMARY:Pool in the Parlor
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T080000Z
 DTEND:20231215T093000Z
 DESCRIPTION:Need a break? Join house members Blaise Maugeri and Jake Heilma
@@ -138,9 +138,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:ZiTRs4xPSgHUeC-rsBxLg
+UID:zPt1nlw54e9UumqtK0iLo
 SUMMARY:Teeny House: snow globes
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T230000Z
 DTEND:20231217T000000Z
 DESCRIPTION:Join Mini Studio for Teeny House and learn to make DIY snow glo
@@ -152,9 +152,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:felL9F9muTZt_Dib6PWQw
+UID:SHR9UWQEbTfuEU8Lyo8ip
 SUMMARY:House Market
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T223000Z
 DTEND:20231218T030000Z
 DESCRIPTION:Shop with some of Chicago’s creative entrepreneurs this holiday
@@ -166,9 +166,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:63dfiYRUqgy_R12U_XWGq
+UID:D-ZQZDhpbxBTYpV_89LF6
 SUMMARY:FEAST with Santa
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T223000Z
 DTEND:20231218T030000Z
 DESCRIPTION:Calling all families... Santa is coming to the House! \n\nSpend
@@ -185,9 +185,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:hGSXiQdtMsupz9Eu92l2j
+UID:gxbkdMSbuBwlFQ1fQ4Oz2
 SUMMARY:Ruben's Picks: 'Kiss Kiss Bang Bang'
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T020000Z
 DTEND:20231218T040000Z
 DESCRIPTION:Join Soho House Chicago cinephile and former employee\, Ruben R
@@ -197,9 +197,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:SGYXIzBwce-96qBVCzpUR
+UID:pMjnYcNhd14wtoN2iCYtq
 SUMMARY:Tommaso and friends
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T080000Z
 DTEND:20231219T103000Z
 DESCRIPTION:Calling all Under 27 members. Enjoy your special rate with Chic
@@ -209,21 +209,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:lsptwYNwg-s-YgME_EHlo
-SUMMARY:House Comedy 
-DTSTAMP:20231211T171721Z
-DTSTART:20231220T060000Z
-DTEND:20231220T080000Z
-DESCRIPTION:Twice a month\, we’re bringing a few of Chicago's best standup 
-	comedians and touring through comics in the Music Room. Grab a drink\, tak
-	e a seat\, and get ready to laugh with us.
-LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
-	d States
-END:VEVENT
-BEGIN:VEVENT
-UID:tM3xfMu-PMM01qFBSvKgL
+UID:TlvvmQTN9dwPZ8Vjz12c5
 SUMMARY:Poems While You Wait 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T060000Z
 DTEND:20231220T080000Z
 DESCRIPTION:Grab a glass of wine at the club bar for Poems While You Wait –
@@ -237,9 +225,21 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:HUVO-p-aorXygAInOvw8n
+UID:u-ifHl0zf7PHsNYJLFObx
+SUMMARY:House Comedy 
+DTSTAMP:20231211T171847Z
+DTSTART:20231220T060000Z
+DTEND:20231220T080000Z
+DESCRIPTION:Twice a month\, we’re bringing a few of Chicago's best standup 
+	comedians and touring through comics in the Music Room. Grab a drink\, tak
+	e a seat\, and get ready to laugh with us.
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+BEGIN:VEVENT
+UID:qillKyhuUPMDfJwERNcXz
 SUMMARY:Breakfast Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T180000Z
 DTEND:20231220T200000Z
 DESCRIPTION:Rise and shine for an early morning sweat session and community
@@ -252,9 +252,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:YnU_n64YCLvIU_6TkU7oK
+UID:GhcoHWspKhQmPdD1yWFb4
 SUMMARY:Cowshed gift wrapping
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T060000Z
 DTEND:20231221T080000Z
 DESCRIPTION:Get your holiday shopping started at Cowshed this year. All hol
@@ -266,9 +266,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:P8O51AYU06GQ_nrtZDEPK
+UID:lbhZAJg7kLFXmCT4cIaeY
 SUMMARY:Mermaid Waves Craft Club: beaded beanies
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T060000Z
 DTEND:20231221T080000Z
 DESCRIPTION:Join Dani McGowan from Mermaid Waves Craft Club to create a cus
@@ -280,9 +280,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:CtgHNL4cooTgFe2FAHKul
+UID:msX-OONYwSZ5cWm9FWyv8
 SUMMARY:Denim dinner: Canadian tuxedo
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T060000Z
 DTEND:20231222T080000Z
 DESCRIPTION:Can·a·di·an Tux·e·do /kəˈnādēən/təkˈsēdō/: any combination of j
@@ -296,9 +296,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:OE_7De_WFQ9AM7kJcmr9l
+UID:2Xig1l7o5klqFG-OcZTjx
 SUMMARY:Soho Live: A Charlie Brown Christmas 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T070000Z
 DTEND:20231222T090000Z
 DESCRIPTION:Originally released in December of 1965 by American jazz pianis
@@ -310,9 +310,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:80EMLK3G0SbcMrSlRLRSF
+UID:ZbNHgJFw_bI1-f8M9XzlX
 SUMMARY:9x7FM: Pragmatik takeover
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T050000Z
 DTEND:20231223T063000Z
 DESCRIPTION:Nobody does house music quite like Chicago\, and we're here to 
@@ -327,9 +327,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:6d2vM7VtHPaLbsUqGiK39
+UID:KsjwxeEVkNR4lG6LNzvwM
 SUMMARY:Dash-ing through the snow
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T090000Z
 DTEND:20231223T130000Z
 DESCRIPTION:Get into the Christmas spirit with Chicago member Dash Williams
@@ -339,9 +339,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:T8opVrKtQfvw7Mp6aacpW
+UID:uzGH9_6HWJVnLPYLDn1lx
 SUMMARY:Ruben's Picks: 'Die Hard'
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T020000Z
 DTEND:20231225T040000Z
 DESCRIPTION:Join Soho House Chicago cinephile and former employee\, Ruben R
@@ -351,9 +351,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:pqs2t-2TYq6mwmHhBqdRc
+UID:TFz3QFW-SejaHy0SnibiM
 SUMMARY:Christmas FEAST
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T223000Z
 DTEND:20231226T050000Z
 DESCRIPTION:Enjoy a traditional Soho House Christmas with a decadent family
@@ -365,9 +365,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:HWVMY_-fn6IgGNSejtyAp
+UID:vbHB_A-ZOtEsS21dsRMsk
 SUMMARY:House Comedy 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231227T060000Z
 DTEND:20231227T080000Z
 DESCRIPTION:Twice a month\, we’re bringing a few of Chicago's best standup 
@@ -377,9 +377,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:78k5AWGnZ0N2ei_GWhWTY
+UID:4Lk-IDqASVZitPtDc28M0
 SUMMARY:Get Back to Class with Beauty & Brawn
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231228T060000Z
 DTEND:20231228T080000Z
 DESCRIPTION:House member\, Lindsey Meyers\, invites you to attend this retr
@@ -400,9 +400,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:bdcuMqqYGx08-LT8bwY-J
+UID:-WmoIuLD6iwlC--15qU8r
 SUMMARY:Frock swap
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231229T060000Z
 DTEND:20231229T080000Z
 DESCRIPTION:Join Events Programming Manager\, Kalan Sebert Dondanville for 
@@ -414,9 +414,9 @@ LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
 	d States
 END:VEVENT
 BEGIN:VEVENT
-UID:PFO68PZszlGrQ4qQBrNG-
+UID:HCptu-bYtULqztJh8QsS0
 SUMMARY:Twin Flames: Soho House Chicago New Years Eve Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T080000Z
 DTEND:20240101T130000Z
 DESCRIPTION:There exists a phenomenon beyond the grasp of mortal understand

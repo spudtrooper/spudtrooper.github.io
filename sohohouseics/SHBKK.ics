@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:6-n12IuFnq1uBFcvQlVJV
+UID:33YCDOVkLc3FBOFSCLWwm
 SUMMARY:Holiday Dynamic and Energetic Flow with Rana
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T050000Z
 DTEND:20231212T060000Z
 DESCRIPTION:Get ready to invigorate your holiday season with "Holiday Dynam
@@ -35,9 +35,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:_4tp3WKXAtz4BsHtlv_fm
+UID:KnHQY7H7UkTRnKrA2q2GS
 SUMMARY:Vital Breath Workshop: Awakening Pranayama with Rahul
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T050000Z
 DTEND:20231214T060000Z
 DESCRIPTION:Step into the enriching world of breathwork with the "Vital Bre
@@ -75,10 +75,10 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:xKNAHW6AJDSp95osggi9i
+UID:yeemOzfOzhgBvY9Mm3ugg
 SUMMARY:(Wonderfruit) Fermentation Rehydration Station x Philip Huang’s Ind
 	igo World (Round 1)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T140000Z
 DTEND:20231214T150000Z
 DESCRIPTION:* Wonderfruit activation*\nInspired by the fermentation process
@@ -98,9 +98,9 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:OwK5ok1lgNjh6zDACqqhJ
+UID:h-CD71DquxWXqUDUJP8tt
 SUMMARY:Tickets to Wonderfruit (Limited tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T140000Z
 DTEND:20231218T100000Z
 DESCRIPTION:Wonderfruit is just around the corner\, and with it comes a ran
@@ -126,10 +126,10 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:sfm4pf7w8rdR9x1YxqQpl
+UID:__trsj6pg-zdmDZCTRc2N
 SUMMARY:(Wonderfruit) Fermentation Rehydration Station x Philip Huang’s Ind
 	igo World (Round 2)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T150000Z
 DTEND:20231214T160000Z
 DESCRIPTION:* Wonderfruit activation*\nInspired by the fermentation process
@@ -149,9 +149,9 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:NolLQDXFzLSzRdprgpRt_
+UID:gxRiTW2k2qfXWrBJbuXdJ
 SUMMARY:(Wonderfruit) Yeti Out on stage
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T160000Z
 DTEND:20231215T010000Z
 DESCRIPTION:* Wonderfruit activation*\nCurated by music collective Yeti Out
@@ -165,9 +165,9 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:An1q7drcYbgJn05BqhovS
+UID:KMNfydAuqtvX1UeAYKSKu
 SUMMARY:(Wonderfruit) Picante Picnic
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T130000Z
 DTEND:20231215T150000Z
 DESCRIPTION:* Wonderfruit activation*\n\nAs the trees begin to grow\, we’ll
@@ -182,9 +182,9 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:4YyxGEPrBa7sxvf9poHfp
+UID:HuVrX-JpaMTECHOvxbOVK
 SUMMARY:(Wonderfruit) Lonely Girls Club on stage
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T170000Z
 DTEND:20231215T190000Z
 DESCRIPTION:* Wonderfruit activation*\nCatch Soho House Bangkok Membership 
@@ -198,9 +198,9 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:XwxESyfwd-84r82rUWDG9
+UID:P-8XpPVr7Z5tCJ718bvTX
 SUMMARY:LIVE at Soho | Rejizz& Zeedox
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T180000Z
 DTEND:20231215T215900Z
 DESCRIPTION:Join us on December 15th\, 2023\, at Soho House for a night of 
@@ -211,9 +211,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:5SHxoO4jzfB-b3WfCa_bB
+UID:qkU_bQ53cX-usrLH4iDXu
 SUMMARY:Teeny House : Gingerbread workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T090000Z
 DTEND:20231216T110000Z
 DESCRIPTION:*Ideal for children 5 years old and beyond\n**Please book for y
@@ -227,9 +227,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:LPlBFIG6M94OP1RI68g6Q
+UID:JJokZf7b1JT56hMgGRAOI
 SUMMARY:Meet the Brewers: Saturday's Barrel-Aged Thai Crafted Beer Tasting
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T130000Z
 DTEND:20231216T150000Z
 DESCRIPTION:Indulge your taste buds in a unique fusion of flavors at our ex
@@ -252,9 +252,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:kGuLdKxtr-jXY6ttSRlmd
+UID:V4ky5gZHopL0XdOTMYgOR
 SUMMARY:Special Feast & Mixer at Wonderfruit (Limited tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T170000Z
 DTEND:20231216T200000Z
 DESCRIPTION:Taking place at the Theatre of Feast\, we’ll have 50 spaces res
@@ -278,23 +278,10 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:QYK_KQYlY2ddNqqG8HX6o
-SUMMARY:🎄 Tiny Flick: Dashing Through The Snow (2023)
-DTSTAMP:20231211T171721Z
-DTSTART:20231217T090000Z
-DTEND:20231217T120000Z
-DESCRIPTION:🎄 Holiday spirit is all around\, and we're screening Dashing T
-	hrough The Snow (2023)!\n\nA divorced social worker takes his daughter on 
-	a ride along with him on Christmas Eve.\n\n*Last order for Teeny House men
-	u at 13:30.
-LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
-	hana\, Bangkok\, 10110\, Thailand
-END:VEVENT
-BEGIN:VEVENT
-UID:7QHG1jGVLA-dp_K9CDVAw
+UID:ow7gWI2fagyJULlmoqe4f
 SUMMARY:The Champagne Brunch Club: Unveiling Porsche's Style with Grant Lar
 	son & Muankwan-Siramol Onsri
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T090000Z
 DTEND:20231217T110000Z
 DESCRIPTION:Embark on a delightful journey into the world of automotive des
@@ -316,9 +303,22 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:7e2NGyOt-8EHW4TgXYzzI
+UID:mCMXbs90-nK_9-5Reex_i
+SUMMARY:🎄 Tiny Flick: Dashing Through The Snow (2023)
+DTSTAMP:20231211T171847Z
+DTSTART:20231217T090000Z
+DTEND:20231217T120000Z
+DESCRIPTION:🎄 Holiday spirit is all around\, and we're screening Dashing T
+	hrough The Snow (2023)!\n\nA divorced social worker takes his daughter on 
+	a ride along with him on Christmas Eve.\n\n*Last order for Teeny House men
+	u at 13:30.
+LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
+	hana\, Bangkok\, 10110\, Thailand
+END:VEVENT
+BEGIN:VEVENT
+UID:EUn5pFQfiZEPBACVLU8QT
 SUMMARY:Sunday Roast
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T093000Z
 DTEND:20231217T150000Z
 DESCRIPTION:Join us at Soho House Bangkok in Sunday Roast! Indulge in a del
@@ -328,9 +328,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:-FHKwz_fs2SO8q0hwsCFL
+UID:SzogF93P7uMxnxMy8lfgx
 SUMMARY:(Wonderfruit) Teeny House Beads and Brunch Workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T110000Z
 DTEND:20231217T130000Z
 DESCRIPTION:* Wonderfruit activation*\nOffering little ones (and big ones) 
@@ -343,9 +343,9 @@ LOCATION:Wonderfruit\, 50 Moo 9 T Tambon Pong\, Amphoe Bang Lamung\, Chang
 	Wat Chon Buri 20150\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:HFbKxRjByCA1WHTakgVnA
+UID:IGCCNsYD0v4TeNG27rCnF
 SUMMARY:Sunday Roast
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T093000Z
 DTEND:20231224T150000Z
 DESCRIPTION:Join us at Soho House Bangkok in Sunday Roast! Indulge in a del
@@ -355,9 +355,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:U0vGXeTziaVOlrapN_pa_
+UID:tWIk72WktVS5uu-cVOHdQ
 SUMMARY: Christmas Feast Buffet Lunch
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T093000Z
 DTEND:20231224T150000Z
 DESCRIPTION:Price: 1\,800++ per person\n\nExecutive Chef Kesinee Damrongsak
@@ -371,9 +371,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:Tr6LAebkoQ6l1Z04pCIje
+UID:BjVrWAPz6HNJ9K6VqACO4
 SUMMARY:Christmas Set Menu (family-style) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T160000Z
 DTEND:20231224T203000Z
 DESCRIPTION:Location: Garden Bar\, Garden Lounge & House Kitchen\nPrice: 2\
@@ -387,9 +387,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:zXc5uKV7PaPCEAviT7cAV
+UID:TqIGYXCEPvyVHVEhBABN1
 SUMMARY:Christmas Set Menu (family-style) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T100000Z
 DTEND:20231225T123000Z
 DESCRIPTION:Location: Garden Bar\, Garden Lounge & House Kitchen\nPrice: 2\
@@ -403,9 +403,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:WAiJ7dp9Acm3v44o9k8DE
+UID:F9rBKXh1jgMstICIhcZUA
 SUMMARY:Christmas Set Menu (family-style) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T160000Z
 DTEND:20231225T203000Z
 DESCRIPTION:Location: Garden Bar\, Garden Lounge & House Kitchen\nPrice: 2\
@@ -419,9 +419,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:RZpd5NtY3Lu7ubshaIvBQ
+UID:S5ePuv0mLuH7BMGlaYp7W
 SUMMARY:Sunday Roast
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T093000Z
 DTEND:20231231T150000Z
 DESCRIPTION:Join us at Soho House Bangkok in Sunday Roast! Indulge in a del
@@ -431,9 +431,9 @@ LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
 	hana\, Bangkok\, 10110\, Thailand
 END:VEVENT
 BEGIN:VEVENT
-UID:3nkeN0v8YuO3erkVo74QS
+UID:LMqMS1idATdmtWk3G63cB
 SUMMARY:New Year's Eve Party: Sarong Social Club (Tropical Dreams)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T180000Z
 DTEND:20231231T223000Z
 DESCRIPTION:Get Glammed out à la tropics this New Year’s Eve with our Thai 

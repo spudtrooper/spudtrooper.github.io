@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:6N9bvRRUpQNdZtgAQVJKW
+UID:7IaLpAdrkPq68qIczPTKw
 SUMMARY:Truffle Dinner with Tryffelkranen 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T230000Z
 DTEND:20231214T010000Z
 DESCRIPTION:Join us in Little Cecconi's for an exclusive 6-course truffle-t
@@ -18,9 +18,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:3BW8pBLyVwwHM-ICeQo51
+UID:2NSZ0nIaH7KXBsWdRmpgj
 SUMMARY:Individual Tarot Readings: Clarisse Monahan
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T220000Z
 DTEND:20231215T010000Z
 DESCRIPTION:Join Clarisse Monahan\, Soho House's Astrology columnist\, for 
@@ -36,9 +36,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:DMq6oc1d_FNGk5XTLj7c5
+UID:A3Pj9EdNA6RT5P6wjzlYe
 SUMMARY:Soho Visionaries: The art of buying art 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T120000Z
 DTEND:20231215T133000Z
 DESCRIPTION:PANEL 1: THE GALLERY: A GUIDE TO ART ACQUISITION\n\nNavigating 
@@ -59,9 +59,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:K1cbqgfgBgKjEOjpHr85T
+UID:PWUmtOyfR0k7T9uIzPEGS
 SUMMARY:Soho Visionaries: Future-thinking collage workshop 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T140000Z
 DTEND:20231215T160000Z
 DESCRIPTION:It is so important to actively shape the future we want\, but i
@@ -73,10 +73,10 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:7DX3WWh05kWMCwjhRjgJr
+UID:s8hmIdNRfZzDOu2b9cMqf
 SUMMARY:Soho Visionaries: Lunch & learn with Andrea Pippins - Art as storyt
 	elling
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T160000Z
 DTEND:20231215T173000Z
 DESCRIPTION:Grab a seat in Little Cecconi's for this lunch and learn with r
@@ -89,9 +89,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:LLfZYF8Ww-3POiyZW3KAv
+UID:XV_Nr2Cq5SDyU9UMuPIl8
 SUMMARY:Soho Visionaries: Paper flower class with Charlotte Bernett 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T180000Z
 DTEND:20231215T193000Z
 DESCRIPTION:Join paper artist Charlotte Bernett in a paper flower class. Tr
@@ -101,9 +101,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:JLS7PXPYi2v8fbla_9J7-
+UID:WY_nx82xItCnRXzxvanrx
 SUMMARY:Soho Visionaries: Still life painting with Marta Leyva
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T200000Z
 DTEND:20231215T210000Z
 DESCRIPTION:Spanish designer Marta Leyva is known for her playful and color
@@ -114,30 +114,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:TOmMT74kpn21SZcNJ3KQG
-SUMMARY:Soho Visionaries: Art and Interior - Finding Balance
-DTSTAMP:20231211T171721Z
-DTSTART:20231215T210000Z
-DTEND:20231215T223000Z
-DESCRIPTION:Is the integration of art and interior design taboo? Explore th
-	e dynamics between art and interior design\, delve into the question of wh
-	ether we should be adjusting our art collection in relation to the new sof
-	a\, or vice versa? Our esteemed panelists share their experiences and know
-	ledge on striking the perfect balance between these two creative spheres.\
-	n\nQuestion to consider: Are you allowed to talk about these two subjects 
-	in one sentence? Is it OK to adjust the art in your home in relation to th
-	e sofa? Or should the sofa’s position be changed to suit the installation?
-	  Does the gallerist get annoyed when you ask for something beige? Should 
-	we just keep this separate?\n\nAnna Mårselius - Interior designer\, Founde
-	r of Studio Milde \nMarina Schiptjenko - Founder of the gallery Andrehén-S
-	chipthenko
-LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
-	en
-END:VEVENT
-BEGIN:VEVENT
-UID:xOzodsuR4Re0ay0yD1npD
+UID:lxplwQAX8v5TcxWcMZ3uL
 SUMMARY:Soho Visionaries: House Party with Bella Sarris
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T020000Z
 DTEND:20231216T060000Z
 DESCRIPTION:Soho Visionaries is ending with a bang: a house party with Bell
@@ -153,9 +132,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:c9tARNudOueNF9eL4bgEc
+UID:q9f_SmR5zfXb3A3KSQeu_
 SUMMARY:West Winter
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T000000Z
 DTEND:20231217T060000Z
 DESCRIPTION:A vibrant holiday-themed day party where Swedish artist from We
@@ -166,9 +145,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:-yiDv8ZkzLMcn9f0P5RBF
+UID:qut1kxbjUahrLu3Ymqcmo
 SUMMARY:1st Birthday Celebration 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T190000Z
 DTEND:20231217T230000Z
 DESCRIPTION:Soho House Stockholm turns one! Join us for a wholesome afterno
@@ -179,9 +158,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:mB0I9GGPjkLofnXwxixhp
+UID:392PaQNZYSALknaA90H_M
 SUMMARY:Teeny House
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T200000Z
 DTEND:20231221T210000Z
 DESCRIPTION:Bring your kids to Little Cecconi's for gingerbread decorating 
@@ -191,9 +170,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:0ruR7miwq2SB--WviYuqd
+UID:uuGXH8oGpNLgrrgA1qG4W
 SUMMARY:NYE Dinner: Starry Night 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T000000Z
 DTEND:20240101T020000Z
 DESCRIPTION:Tonight\, we kick off our end of the year party with a magical 
@@ -213,9 +192,9 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:lhM8vugxbfp80-ah4xdor
+UID:P9PmlE02YhmycBvEU45cz
 SUMMARY:Secret Sounds: NYE Special 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T010000Z
 DTEND:20240101T060000Z
 DESCRIPTION:Tonight\, we end the year in spectacular fashion as we host a s
@@ -233,15 +212,76 @@ LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT
 BEGIN:VEVENT
-UID:rBC9gk5sVlE2Rzb_9nSRz
+UID:uM59dyQOZWSCoe-jpPsr-
 SUMMARY:After Work with Studio Constance
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240110T220000Z
 DTEND:20240110T233000Z
 DESCRIPTION:Rebecca Dovenryd Almberg\, the founder of Scandinavian luxury k
 	nitwear STUDIO CONSTANCE is hosting a mingle in the mezzanine\, chatting a
 	bout her entrepreneurship journey in fashion and the real creative process
 	 in making "made to last" products with innovation at the center. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:MsO2v09YwujEqWx4qYTbq
+SUMMARY:RnBrunch vol. 6
+DTSTAMP:20231211T171847Z
+DTSTART:20240120T150000Z
+DTEND:20240120T210000Z
+DESCRIPTION:Your favorite monthly day party RNBrunch\, is back for it's fir
+	st event of the new year - with live music\, RnB DJ sets and a special bru
+	nch menu on the Church Floor. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:ogsjOn49lRPfQ58aHGhzY
+SUMMARY:Monthly Astrology: How to make Saturn work for you
+DTSTAMP:20231211T171847Z
+DTSTART:20240122T220000Z
+DTEND:20240123T000000Z
+DESCRIPTION:The Saturn Return is one of the most feared transits in Astrolo
+	gy\, the first one occurring between the ages of 27 to 30. It’s the astrol
+	ogical coming-of-age moment and generally comes escorted by major life cha
+	nges\, like switching jobs or careers\, breakups\, engagements\, purchasin
+	g homes etc. Saturn is the slowest of the traditional planets and marks th
+	e edge of the solar system that we can see with the naked eye. Therefore\,
+	 Saturn is the ultimate reality check - connected with boundaries and rest
+	rictions\, but also commitment\, hard work\, responsibility and making imp
+	ortant life goals. This talk will focus on how to make your Saturn Return 
+	work for you. You can view your current horoscope for the month by Clariss
+	e on SHAPP in the Health section. \n
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:exFmnw7b0jnMqKRhNEmaG
+SUMMARY:Mindful Cooking with Marion Ringborg
+DTSTAMP:20231211T171847Z
+DTSTART:20240123T220000Z
+DTEND:20240124T000000Z
+DESCRIPTION:Chef Marion Ringborg teaches you how cooking can be used as a t
+	ool to practice mindfullness. Join us in the mezzanine kitchen for a guide
+	d meditation exercise followed by a food workshop. 
+LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
+	en
+END:VEVENT
+BEGIN:VEVENT
+UID:eGgV2V5nry54I7OLAXNfR
+SUMMARY:Sunday Service & Talk Show
+DTSTAMP:20231211T171847Z
+DTSTART:20240128T160000Z
+DTEND:20240128T220000Z
+DESCRIPTION:Sunday Service is back. Created by R.D. (Roger Douglas)\, Sunda
+	y Service is a haven for creatives of all kinds\, to explore the depths of
+	 creativity\, innovation and self-expression. Whether you're an artist\, m
+	usician\, writer\, designer\, or simply an enthusiast of all things creati
+	ve\, this is a chance to immerse yourself in an eclectic fusion of urban m
+	usic vibes with local DJ sets\, plus tune in for a live talk show with spe
+	cial guests\, TBA - and enjoy a special soul food brunch and drinks menu a
+	ll happening on the church floor. 
 LOCATION:Soho House Stockholm\, Majorsgatan\, 7\, Stockholm\, 114 47\, Swed
 	en
 END:VEVENT

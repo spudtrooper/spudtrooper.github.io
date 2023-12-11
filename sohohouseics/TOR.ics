@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:gLojq4HMUGt8ICdVSzgYy
+UID:UVP9FHSrWCqH_d6I4QRCe
 SUMMARY:Illuminarium: private access
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T210000Z
 DTEND:20231225T090000Z
 DESCRIPTION:The Illuminarium at The Distillery District provides Soho House
@@ -20,9 +20,9 @@ LOCATION:Distillery District\, 28 Gristmill Lane\, Toronto\, ON M5A 3R6\, C
 	anada
 END:VEVENT
 BEGIN:VEVENT
-UID:h4wD7GqReRwyONipXGS5O
+UID:BKqzmkMpdwFp5nOP3MnlG
 SUMMARY:The Remix Project presents: graduation
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T040000Z
 DTEND:20231213T070000Z
 DESCRIPTION:The Remix Project invites you to join us for a memorable evenin
@@ -31,9 +31,9 @@ DESCRIPTION:The Remix Project invites you to join us for a memorable evenin
 LOCATION:HISTORY\, 1663 Queen St E\, Toronto\, ON M4L 1G5\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:dYGFQAN1qJiOQOXGwx9Ab
+UID:Uaz_PqRUgBwZZfuHjyK85
 SUMMARY:Clay critter ornament crafting
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T050000Z
 DTEND:20231213T070000Z
 DESCRIPTION:\nJoin member Lotus Tsang for a festive evening of clay craftin
@@ -45,9 +45,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:KLhpEUwjZp78e6PXB1pD3
+UID:css6iqtGLASw8txO3whr_
 SUMMARY:Candle making with Custom by Care
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T043000Z
 DTEND:20231214T060000Z
 DESCRIPTION:Experience a fun and interactive Candle Making Workshop at Picc
@@ -59,9 +59,9 @@ DESCRIPTION:Experience a fun and interactive Candle Making Workshop at Picc
 LOCATION:111 John St\, Toronto\, ON M5V 2E2\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:xPDOZvHxUrv7htnJAdLDR
+UID:iCxfNMyu7dAS1JsITQKhb
 SUMMARY:Poetry and Jazz Night: two year anniversary
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T060000Z
 DTEND:20231214T080000Z
 DESCRIPTION:\nPoetry and Jazz Night returns for its two-year anniversary ce
@@ -73,9 +73,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:I_LCFEmxhJ7g83EBX9Ujd
+UID:MrZrAktgxfP00bOisS42r
 SUMMARY:Chess club with Shirley
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T080000Z
 DTEND:20231216T120000Z
 DESCRIPTION:Experience the best of both worlds at The Secretaries Shirley I
@@ -87,9 +87,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:kCU123bGk4k2vAZlT_uq6
+UID:iBsHdYc3OdyB1-c0MV_CL
 SUMMARY:Opera brunch
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T220000Z
 DTEND:20231216T230000Z
 DESCRIPTION:\nJoin us for brunch and a performance by members of the Canadi
@@ -100,9 +100,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:8bylFxC5_pz_iFQked2ed
+UID:f_8jKluh2aiMSDg2rbV5o
 SUMMARY:Sexy Santa Soirée
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T080000Z
 DTEND:20231217T120000Z
 DESCRIPTION:Ignite your holiday season at the "Sexy Santa Soirée" for a nig
@@ -114,9 +114,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:DzZu0apOtbYmCA3kGIJoA
+UID:bWk1stzJGQYjXKEdbHV12
 SUMMARY:Holiday Brunch Feast
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T200000Z
 DTEND:20231218T020000Z
 DESCRIPTION:\nOur Holiday Feast is back at the House\, offering a variety o
@@ -127,9 +127,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:kuyynzp8CLVYkiZZjBCLJ
+UID:GhZ9zTa8Z6X8inT0xwTqC
 SUMMARY:Teeny house: holiday edition
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T220000Z
 DTEND:20231218T000000Z
 DESCRIPTION:\nIn this Teeny House Holiday Edition\, kids aged 5 and up can 
@@ -141,9 +141,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:pOeV6vzVdNz66NUh1LThQ
+UID:mhF9wBYC6eM4Y2rvcc-cC
 SUMMARY:Letters to yourself: writing workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T020000Z
 DTEND:20231218T040000Z
 DESCRIPTION:Prepare for introspection with Art Director Andreya Klobucar\, 
@@ -155,9 +155,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:sECUnSQIn5E34vBemmI5G
+UID:BSRqEqC2Ib1rLz9SU8oy9
 SUMMARY:Joyia to the world
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T050000Z
 DTEND:20231219T070000Z
 DESCRIPTION:Experience singer and songwriter Joyia\, as she hosts her Chris
@@ -168,9 +168,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:fCmph1U_ZpukMeSkSJn1Z
+UID:BqlsPox-313cFUmD-Fxai
 SUMMARY:Film club: brother
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T050000Z
 DTEND:20231220T070000Z
 DESCRIPTION:This month's Film Club features "Brother\," a compelling narrat
@@ -181,9 +181,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:mRfeV_zWGmoZFSQuHwpcc
+UID:zunBtOcc3kYn4GUMKz9a-
 SUMMARY: Vintage club kids xmas
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T080000Z
 DTEND:20231222T120000Z
 DESCRIPTION:Join The Rebel Mamas and friends for a holiday dance party feat
@@ -196,9 +196,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:iHGHGNqNGGC3nYUeEW11I
+UID:OXvgDyIT23WRCZJUjXBiz
 SUMMARY:Sound Sessions: Young Teesh
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T080000Z
 DTEND:20231223T120000Z
 DESCRIPTION:Kick off your Friday night with the electrifying beats of Young
@@ -208,9 +208,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:KCSQhNuj5s1eHjpMlF6Ri
+UID:po-T9iOhwvlWR1USNYVU6
 SUMMARY:Pilates With Zainab
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T203000Z
 DTEND:20231223T211500Z
 DESCRIPTION:Join us for a 45-minute Pilates session led by Zainab Benson\, 
@@ -223,9 +223,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:UZXfPoWYcJ7JJ4EvZoZeT
+UID:EkMBA67J_bi-Xs18kuOtX
 SUMMARY:An Afrodisiac Christmas
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T080000Z
 DTEND:20231224T120000Z
 DESCRIPTION:Join us for "An Afrodisiac Christmas" at Soho House Toronto—an 
@@ -237,9 +237,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:nhsVb49pCWsb8qLuHOh-I
+UID:5mU8JMXj9KZGUDbsjJjnE
 SUMMARY:History presents: ODESZA
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231229T060000Z
 DTEND:20231229T120000Z
 DESCRIPTION:Soho House Toronto members have a chance to win exclusive ticke
@@ -251,9 +251,9 @@ DESCRIPTION:Soho House Toronto members have a chance to win exclusive ticke
 LOCATION:HISTORY\, 1663 Queen St E\, Toronto\, ON M4L 1G5\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:f3hDCxgS6atpE_Ap9IEPL
+UID:ahNGWUV0cv5kWoGiI6J44
 SUMMARY:Sound Sessions: Xavier Miller
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231230T080000Z
 DTEND:20231230T120000Z
 DESCRIPTION:Start your Friday evening with Asterisks* Sound DJ Xavier Mille
@@ -263,9 +263,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:e-QOwGWUjikOIsuOOVys-
+UID:ijIY7vU5PbMDQDYm5G2Gh
 SUMMARY:Sound Sessions: DJ Phenomenal
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T080000Z
 DTEND:20231231T120000Z
 DESCRIPTION:Get ready for an amazing Saturday night on the club floor with 
@@ -275,9 +275,9 @@ LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
 	, Toronto\, M4H 0A4\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:kTnb3AcKspj4O2cTjZ9SG
+UID:NmvZJNemqCdgklWPEhpis
 SUMMARY:That's Life
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T070000Z
 DTEND:20240101T120000Z
 DESCRIPTION:Experience New Year’s Eve at Soho House Toronto as you are tran

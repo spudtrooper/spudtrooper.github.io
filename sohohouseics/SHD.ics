@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:luvlfA59-eENLVW4qdl2H
+UID:bOXsm3No6DOyBsCBLWfHu
 SUMMARY:Stretch Your Limit with David Nso
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T190000Z
 DTEND:20231211T200000Z
 DESCRIPTION:Made for those who sit all day on their computers and need read
@@ -17,9 +17,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:zgukmeXsfpzGixitNDBoG
+UID:qdZkvXmC4tws4wSbuJpGg
 SUMMARY:Canouan Calling: Members’ Ultimate Caribbean Escapade
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T040000Z
 DTEND:20231212T053000Z
 DESCRIPTION:The Caribbean’s warmth meets New York’s heart. Join us for an e
@@ -33,9 +33,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:3aFRWDbN1tUz1T6KMsgak
+UID:4VM2TwuntH05nBSNh15xl
 SUMMARY:Body and strength with David Nso
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T190000Z
 DTEND:20231212T200000Z
 DESCRIPTION:David Nso’s new body and strength class is designed to help you
@@ -49,9 +49,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:o6jqePrIaPn9ykqI6Jbno
+UID:lCUYDIgmLezkzlWjaYJZc
 SUMMARY:Feel-good stretch with S3 YOGA
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T193000Z
 DTEND:20231213T203000Z
 DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
@@ -65,9 +65,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:ck4uojDDZveUlWZSKVPDN
+UID:klSHkxzPJ7J0C29cv3H_M
 SUMMARY:Diamonds Dancing
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T040000Z
 DTEND:20231214T080000Z
 DESCRIPTION:Celebrate the intersection of jewelry in music and art with Bro
@@ -78,9 +78,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:hpVU86dJ9haG209J1Ixsa
+UID:dJBwJd2gpqfxlqRYqfKWv
 SUMMARY:Surprise & Delight with Spoonful
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T200000Z
 DTEND:20231214T210000Z
 DESCRIPTION:We’re excited to promote our partnership with Spoonful and Soho
@@ -91,9 +91,9 @@ DESCRIPTION:We’re excited to promote our partnership with Spoonful and Soho
 LOCATION:Soho Works: 10 Jay\, 10 Jay St\, Brooklyn\, NY 11201\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:fkPtT58tcq0WXa8nnBRB7
+UID:lEtQOpPApMjJHXPQeEfin
 SUMMARY:Rich Little BrokeGirls and Essence GU Holiday Party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T060000Z
 DTEND:20231215T100000Z
 DESCRIPTION:Essence GU and Rich Little Brokegirls host their second annual 
@@ -103,9 +103,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:NoHRa2KIYmwKLDD_cAcow
+UID:Zt1Y4ln671jnWry5S_Tm1
 SUMMARY:MICKmas: the MICK + friends holiday party
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T070000Z
 DTEND:20231216T110000Z
 DESCRIPTION:Celebrate the holiday season with Brooklyn native MICK. 'Tis th
@@ -116,9 +116,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:UZ2wfKBwPq3J373WXd4AN
+UID:_1m531WaYsoN1s_JnglOz
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T210000Z
 DTEND:20231217T010000Z
 DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
@@ -131,9 +131,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:9WF-zvq7r3dI0r9buPDzR
+UID:uME0ywBnxkVkzJ-kQwVRQ
 SUMMARY:NFL Sundays at DUMBO House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T230000Z
 DTEND:20231218T090000Z
 DESCRIPTION:Catch all the NFL Sunday action in the comfort of the Library a
@@ -147,9 +147,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:TWxyrB0RL5209imOfKHlU
+UID:ZSFMVFwrL1kRVksBlA1NH
 SUMMARY:Stretch your limit with David Nso
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T190000Z
 DTEND:20231218T200000Z
 DESCRIPTION:Made for those who sit all day on their computers and need read
@@ -159,9 +159,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:J48M9mzP6-MmqdwOS24X2
+UID:HyKBegNENzu50bxALO2Xf
 SUMMARY:Body and strength with David Nso
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T190000Z
 DTEND:20231219T200000Z
 DESCRIPTION:David Nso’s new body and strength class is designed to help you
@@ -175,9 +175,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:dE4z0cUgZ0gen8OKlQCLJ
+UID:9Jgq0HyXOVmmyZkQKy-hC
 SUMMARY:BALL TALK: WNBA’s Sydney Colson + Theresa Plaisance
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T050000Z
 DTEND:20231220T080000Z
 DESCRIPTION:Syd and TP discuss their journey as pro-female athletes\, their
@@ -188,9 +188,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:Bo2vJWt4WZesMK8GYIJzV
+UID:UkeBKV4qY8aDPkZZ-5SSI
 SUMMARY:Feel-good stretch with S3 YOGA
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T193000Z
 DTEND:20231220T203000Z
 DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
@@ -204,9 +204,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:e3p4qeZPXMFB28gQVlmMW
+UID:RWpKCfHz4FwHq3rXaCpyO
 SUMMARY:Sip & CPR 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T040000Z
 DTEND:20231221T070000Z
 DESCRIPTION:Enjoy a wine-tasting experience while also receiving CPR/ AED t
@@ -216,9 +216,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:BVVcjMa3tjDgQ0bLgKIQ1
+UID:O_8MzlAkV51Bq2Eh7Vp4V
 SUMMARY:Blame The Twins presents: Nothin’ But Vibes
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T070000Z
 DTEND:20231223T110000Z
 DESCRIPTION:This is a night of open-format beats featuring R&B\, house\, Af
@@ -230,9 +230,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:t_I-eEqOVxNZgUuMdDkMR
+UID:NspsmtzMx6v0JZfMd-Lao
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T210000Z
 DTEND:20231224T020000Z
 DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
@@ -245,9 +245,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:Be2k0HYIGmEhIs1EPrKE6
+UID:EE30YdV8Zq2NMtxuJoQhN
 SUMMARY:NFL Sundays at DUMBO House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T230000Z
 DTEND:20231225T090000Z
 DESCRIPTION:Catch all the NFL Sunday action in the comfort of the Library a
@@ -261,9 +261,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:hRbRAP1UBlaX-PDDhG8qL
+UID:EWDObRq22yHw3U8fkELsz
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231230T210000Z
 DTEND:20231231T020000Z
 DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
@@ -276,9 +276,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:X67EtLYynDafEMlS9hVGt
+UID:Etcy7Mp_Fm-fTzyGcURIu
 SUMMARY:DUMBO New Year's Eve: Renaissance
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T070000Z
 DTEND:20240101T130000Z
 DESCRIPTION:This New Year’s Eve\, round up your crew\, put on your dancing 
@@ -296,9 +296,9 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:gdbhuttY2I6C5R3ax9M9Z
+UID:705PMmzqaYtid-EXLT7cn
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240106T210000Z
 DTEND:20240107T020000Z
 DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
@@ -311,11 +311,58 @@ LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
 	ed States
 END:VEVENT
 BEGIN:VEVENT
-UID:qpwWyTVzaxltLKtRI5Mob
+UID:3-3n38X6sxchy0OjdnCIw
 SUMMARY:NFL Sundays at DUMBO House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240107T230000Z
 DTEND:20240108T090000Z
+DESCRIPTION:Catch all the NFL Sunday action in the comfort of the Library a
+	t DUMBO House. Games start at 1pm and last until the final whistle of NBC’
+	s Sunday Night Football. Enjoy a special game day food and drink menu\, pl
+	us the return of the DUMBO House kegerator. \n\nPlease note the channel wi
+	ll be set to NFL RedZone unless there’s a general democratic consensus amo
+	ng members in attendance to view a specific game at the 1pm and 4pm screen
+	ings. 
+LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
+	ed States
+END:VEVENT
+BEGIN:VEVENT
+UID:GCVjAQlJS3KOdqXCk64y7
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240113T210000Z
+DTEND:20240114T020000Z
+DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
+	r little ones to the Library for games and arts and crafts under the super
+	vision of two caregivers from Curated Care. Please note that children must
+	 be three years old and above (and toilet trained) to participate. Parents
+	 may not leave the club while their child is at Teeny House. \n\nAttendanc
+	e is first come\, first served.
+LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
+	ed States
+END:VEVENT
+BEGIN:VEVENT
+UID:SRKaS3JaXZlEOPgCk8Xkl
+SUMMARY:NFL Sundays at DUMBO House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240114T230000Z
+DTEND:20240115T090000Z
+DESCRIPTION:Catch all the NFL Sunday action in the comfort of the Library a
+	t DUMBO House. Games start at 1pm and last until the final whistle of NBC’
+	s Sunday Night Football. Enjoy a special game day food and drink menu\, pl
+	us the return of the DUMBO House kegerator. \n\nPlease note the channel wi
+	ll be set to NFL RedZone unless there’s a general democratic consensus amo
+	ng members in attendance to view a specific game at the 1pm and 4pm screen
+	ings. 
+LOCATION:DUMBO House\, 55 Water Street\, Brooklyn\, New York\, 11201\, Unit
+	ed States
+END:VEVENT
+BEGIN:VEVENT
+UID:g9iE7qycNHWxqUkpioNJO
+SUMMARY:NFL Sundays at DUMBO House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240121T230000Z
+DTEND:20240122T090000Z
 DESCRIPTION:Catch all the NFL Sunday action in the comfort of the Library a
 	t DUMBO House. Games start at 1pm and last until the final whistle of NBC’
 	s Sunday Night Football. Enjoy a special game day food and drink menu\, pl

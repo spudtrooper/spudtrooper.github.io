@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:oMtvlrdXJWDqyhforzk9p
+UID:ZI9asTy3EWfk9sERrQcpL
 SUMMARY:HIIT\, strength and function with 54D
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T183000Z
 DTEND:20231212T053000Z
 DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
@@ -24,9 +24,9 @@ DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
 LOCATION:54D New York City\, 125 W 25th St\, New York\, NY 10001\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:C39VspoDoB0_5_qkcI69u
+UID:JjG8xsVlNcxHAnfj94rC4
 SUMMARY:Yoga with Jenny Mendez
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T190000Z
 DTEND:20231211T200000Z
 DESCRIPTION:Jenny’s classes are open to students of all levels and offer ac
@@ -42,9 +42,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:en4prmMcTxakPJbkQI8CG
+UID:cNarCii4OI0YppIJuZeZd
 SUMMARY:Creativity in the age of AI
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T043000Z
 DTEND:20231212T063000Z
 DESCRIPTION:Generative AI and groundbreaking technologies are not only resh
@@ -57,9 +57,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:qfeAsgMZXKe0chZoWKGk-
+UID:YrD1w2K0dvucOnmL4fy1o
 SUMMARY:Pilates with Courtney Escoto
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T183000Z
 DTEND:20231212T193000Z
 DESCRIPTION:Courtney Escoto is a New York native based in the Lower East Si
@@ -71,9 +71,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:Azt3EefOj1kFIRpqT7X8J
+UID:MIv566_6uSj_Qtm639Jtv
 SUMMARY:Injectables: how much is too much?
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T040000Z
 DTEND:20231213T053000Z
 DESCRIPTION:Discover the secrets of achieving the perfect balance with reno
@@ -89,9 +89,9 @@ LOCATION:Soho Works: 875 Washington\, 875 Washington St\, New York\, NY 100
 	14\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:yRZCGRp-pET69W8tXxH6C
+UID:U3jcYMhBx3HVSqbuiBVAx
 SUMMARY:HIIT\, strength and function with 54D
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T183000Z
 DTEND:20231214T053000Z
 DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
@@ -108,9 +108,9 @@ DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
 LOCATION:54D New York City\, 125 W 25th St\, New York\, NY 10001\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:LTEog-FYzXDWV5S-BkpUT
+UID:O04PE6oyfY6MBJYjYOxUi
 SUMMARY:The Legacy of Madame Song
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T040000Z
 DTEND:20231214T053000Z
 DESCRIPTION:Inspired by the legacy of Madame Song (1937–2006)\, who transfo
@@ -128,9 +128,9 @@ LOCATION:Soho Works: 875 Washington\, 875 Washington St\, New York\, NY 100
 	14\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:pyVKI60gyoY-uqVjr8kZz
+UID:petTX4WxmFb85xVRP9j6d
 SUMMARY:Fashion meet music with Mimi Plange
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T060000Z
 DTEND:20231216T090000Z
 DESCRIPTION:Holiday Online Pop Up Shop & Party co-hosted by OSHiNstudios\, 
@@ -142,25 +142,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:iL9MNq2NiZbpCZDj8UOEa
-SUMMARY:Feel-good stretch with S3 Yoga
-DTSTAMP:20231211T171721Z
-DTSTART:20231216T210000Z
-DTEND:20231216T220000Z
-DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
-	ertified) leads a feel-good yoga flow open to all levels\, from beginners 
-	to well-seasoned yogis. This class focues on meditation\, breathing techni
-	ques\, dynamic mobility\, and body alignment to stretch and strengthen the
-	 body. Leave feeling relaxed\, energized\, and ready to take on whatever t
-	he world has in store for you. \n\nPlease note: yoga mats are limited\, so
-	 please bring your own if you have one.
-LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
-	ted States
-END:VEVENT
-BEGIN:VEVENT
-UID:ahw3chf9PEY5b_lNGzPFj
+UID:6zXOJDCqrvBFWiqQlUcS-
 SUMMARY:Teeny House presents The Creative Kitchen culinary pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T210000Z
 DTEND:20231217T020000Z
 DESCRIPTION:Every third Saturday of the month at Soho House New York\, The 
@@ -174,9 +158,25 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:XDoyV9WgimdFgD-xsaBvq
+UID:qqt10pRredzaxW3TA7BU0
+SUMMARY:Feel-good stretch with S3 Yoga
+DTSTAMP:20231211T171847Z
+DTSTART:20231216T210000Z
+DTEND:20231216T220000Z
+DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
+	ertified) leads a feel-good yoga flow open to all levels\, from beginners 
+	to well-seasoned yogis. This class focues on meditation\, breathing techni
+	ques\, dynamic mobility\, and body alignment to stretch and strengthen the
+	 body. Leave feeling relaxed\, energized\, and ready to take on whatever t
+	he world has in store for you. \n\nPlease note: yoga mats are limited\, so
+	 please bring your own if you have one.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:7F8vYi97C6x5ucv4LtFk1
 SUMMARY:Glitter Ball with Samantha Michelle
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T070000Z
 DTEND:20231217T120000Z
 DESCRIPTION:DJ Samantha Michelle returns to the Vinyl Room for The Glitter 
@@ -186,9 +186,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:owoo6krTUyRIsJQR72Gnm
+UID:Sa8J5K1zx-IUe6eohOWAY
 SUMMARY:Soho House brunch feast 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T210000Z
 DTEND:20231218T020000Z
 DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
@@ -200,9 +200,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:YjgJnjksTc_MnSbh1xwSb
+UID:KSmvVQmW3QgnZhpEqCbiW
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T210000Z
 DTEND:20231218T010000Z
 DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
@@ -215,9 +215,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:BQV64tOZt-WtVRzcQLA9b
+UID:tGA9sx5uXnZQjBPlr3Yx6
 SUMMARY:NFL Sundays at SHNY
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T230000Z
 DTEND:20231218T093000Z
 DESCRIPTION:\nCatch all the NFL Sunday action at Soho House New York. Games
@@ -233,9 +233,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:lOm3f7TXc2V31W0ab_CyU
+UID:UeIe1TPMFSruPVL-8r2UI
 SUMMARY:Run Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T050000Z
 DTEND:20231218T060000Z
 DESCRIPTION:Soho House NY Run Club is a platform where members can connect 
@@ -246,9 +246,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:ZZpk8j27t-UAxydpVEF1L
+UID:qx2BbUeu-fk37_ygbXcTX
 SUMMARY:HIIT\, strength and function with 54D
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T183000Z
 DTEND:20231219T053000Z
 DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
@@ -265,9 +265,9 @@ DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
 LOCATION:54D New York City\, 125 W 25th St\, New York\, NY 10001\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:w9-5TjJa0wtU7ex8gYcYF
+UID:CoZ5f_QbjObhrqPsUg2Fv
 SUMMARY:Yoga with Marissa Anteby
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T190000Z
 DTEND:20231218T200000Z
 DESCRIPTION:This all-levels flow class has an emphasis on alignment and bio
@@ -278,9 +278,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:Zy8RysRc56EKgnalJrXY9
+UID:88IoBVA72SiEPOZtMvqzp
 SUMMARY:Canouan Calling: Members’ Ultimate Caribbean Escapade
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T043000Z
 DTEND:20231219T053100Z
 DESCRIPTION:The Caribbean’s warmth meets New York’s heart. Join us for an e
@@ -294,9 +294,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:EeC53Qg7odu7CZtuMOyvO
+UID:o2Hb2Z7PsFuWg7eJ1jqXZ
 SUMMARY:Book Club: 'Absolution' by Alice McDermott
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T050000Z
 DTEND:20231219T063000Z
 DESCRIPTION:SHNY’s longest-running member club\, Book Club\, hosts their mo
@@ -308,9 +308,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:xLIZvih218TezUSAAf3TA
+UID:liX3nrGRCE6oJErvsHWM1
 SUMMARY:Pilates with Courtney Escoto
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T183000Z
 DTEND:20231219T193000Z
 DESCRIPTION:Courtney Escoto is a New York native based in the Lower East Si
@@ -322,9 +322,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:PKErh4lmga-rMiksXn6b3
+UID:SsHXcveeSmF6JI2GV9xzq
 SUMMARY:Elite Comedy
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T060000Z
 DTEND:20231220T080000Z
 DESCRIPTION:Meet us at the House for a night of comedy with Andrew Russell.
@@ -335,9 +335,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:5EU3la0PwcXkdjK-H79Dn
+UID:a7LVb5HBQKtIwvxsRzDM1
 SUMMARY:HIIT\, strength and function with 54D
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T183000Z
 DTEND:20231221T053000Z
 DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
@@ -354,9 +354,9 @@ DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
 LOCATION:54D New York City\, 125 W 25th St\, New York\, NY 10001\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:PZnwFjfzIbxkx6zZE6Jeg
+UID:Phc4M76OOTYWKytkoXryJ
 SUMMARY:Sing Harlem
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T060000Z
 DTEND:20231221T080000Z
 DESCRIPTION:Swing by the Vinyl Room for the return of Sing Harlem\, a trave
@@ -367,9 +367,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:CgjZeOMWtxXWtDDVSQ5OG
+UID:Z9iUH4eP1YzZrTOiirppQ
 SUMMARY:House Jazz: Tiff Baira’s holiday special
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T060000Z
 DTEND:20231222T080000Z
 DESCRIPTION:TikToker and singer Tiff Baira invites you for a night of New O
@@ -379,9 +379,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:eDdtjKgzsUOzKxPc3nGdl
+UID:SWpDVhOBWIEm_fXsvSNjn
 SUMMARY:A.S.S. Class with Michelle Kuhnreich
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T200000Z
 DTEND:20231222T210000Z
 DESCRIPTION:Shake up your morning workout routine with the A.S.S. Class cre
@@ -395,9 +395,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:aUsIhNMyHRIB3eE-L0Qzx
+UID:A7P94fu1egJ83xKEpFiHN
 SUMMARY:Drag House
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T070000Z
 DTEND:20231223T110000Z
 DESCRIPTION:Celebrate the holidays with Drag House at its campy holiday-esq
@@ -407,24 +407,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:_bkLzF4Dv_LzYSlzj7cek
-SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
-DTSTART:20231223T210000Z
-DTEND:20231224T020000Z
-DESCRIPTION:Available on Saturdays from 11am to 3pm\, members can bring the
-	ir little ones to the Velvet Room for games and arts and crafts under the 
-	supervision of two caregivers from Curated Care. \n\nPlease note: children
-	 must be three years old and above (and toilet trained) to participate. Pa
-	rents may not leave the club while their child is at Teeny House. Attendan
-	ce is first come\, first served."
-LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
-	ted States
-END:VEVENT
-BEGIN:VEVENT
-UID:AwjHFSERk3PXA6Nb46jnR
+UID:uRNxSCn3ZbKtMeTTPA9nN
 SUMMARY:Feel-good stretch with S3 Yoga
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T210000Z
 DTEND:20231223T220000Z
 DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
@@ -438,9 +423,24 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:TglpWU82xqrhi2wYNLqLq
+UID:mGWU2S8vZe3RfCpPQ1eSP
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20231223T210000Z
+DTEND:20231224T020000Z
+DESCRIPTION:Available on Saturdays from 11am to 3pm\, members can bring the
+	ir little ones to the Velvet Room for games and arts and crafts under the 
+	supervision of two caregivers from Curated Care. \n\nPlease note: children
+	 must be three years old and above (and toilet trained) to participate. Pa
+	rents may not leave the club while their child is at Teeny House. Attendan
+	ce is first come\, first served."
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:8Osn0dwFKhmpXROf7tUP8
 SUMMARY:Soho House brunch feast 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T210000Z
 DTEND:20231225T020000Z
 DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
@@ -452,9 +452,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:3o2wsqr0Xtcd5JLt4TOwW
+UID:iduzj0fF4s15IpvXNT1QP
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T210000Z
 DTEND:20231225T010000Z
 DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
@@ -467,9 +467,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:MgBFNNioJeh0sI48wzYMR
+UID:wBr80szAkuCg0v76lygoh
 SUMMARY:NFL Sundays at SHNY
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T230000Z
 DTEND:20231225T093000Z
 DESCRIPTION:\nCatch all the NFL Sunday action at Soho House New York. Games
@@ -485,9 +485,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:VZBkgfuri5cXB6RMY_vJI
+UID:QsO4B9iW8ExoZIB1atqVm
 SUMMARY:HIIT\, strength and function with 54D
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T183000Z
 DTEND:20231226T053000Z
 DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
@@ -504,9 +504,9 @@ DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
 LOCATION:54D New York City\, 125 W 25th St\, New York\, NY 10001\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:4cOpXyVHfkwUWRKp72oD9
+UID:TvthB7OG5iNOeJBCrzZlt
 SUMMARY:HIIT\, strength and function with 54D
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231227T183000Z
 DTEND:20231228T053000Z
 DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
@@ -523,9 +523,9 @@ DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
 LOCATION:54D New York City\, 125 W 25th St\, New York\, NY 10001\, USA
 END:VEVENT
 BEGIN:VEVENT
-UID:adahFZf0wApLKhQ8AWrBZ
+UID:a8IYRn5f8Vz9_pWzA1-gk
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T210000Z
 DTEND:20240101T010000Z
 DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
@@ -538,9 +538,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:QsIaDT3nnyBjVUMSr9oIq
+UID:X-vO5CFKyqEMGdejq8Q7b
 SUMMARY:SHNY's New Year's Eve: 24K
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T070000Z
 DTEND:20240101T130000Z
 DESCRIPTION:This New Year’s Eve\, ring in 2024 with a touch of glamour at S
@@ -558,9 +558,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:efhoFcyNMWIMP229cW204
+UID:h9ETHP5sSQvg-4jte993g
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240107T210000Z
 DTEND:20240108T010000Z
 DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
@@ -573,9 +573,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:Cj_5tZ82Py6W60NJZq7Br
+UID:un-iZKg6lGGTh8C1hyKbp
 SUMMARY:Soho House brunch feast 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240107T210000Z
 DTEND:20240108T020000Z
 DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
@@ -587,9 +587,9 @@ LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:sYCGtpT_EbL33moHGoM7o
+UID:v6krKWjCLb58qaFWVsWPL
 SUMMARY:NFL Sundays at SHNY
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240107T230000Z
 DTEND:20240108T093000Z
 DESCRIPTION:\nCatch all the NFL Sunday action at Soho House New York. Games
@@ -601,6 +601,288 @@ DESCRIPTION:\nCatch all the NFL Sunday action at Soho House New York. Games
 	w a specific game at the 1pm and 4pm screenings. Game location may vary be
 	tween the Vinyl Room\, rooftop or 6th floor areas of the club. Please chec
 	k with Club Reception to confirm where the games are being screened.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:6K8ahukWuSty8XjcC4Y0I
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240114T210000Z
+DTEND:20240115T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:tir-klWVIfGUiz85Bw_Or
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240114T210000Z
+DTEND:20240115T010000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:Vh_atk-3nEmggjH0qNEOW
+SUMMARY:NFL Sundays at SHNY
+DTSTAMP:20231211T171847Z
+DTSTART:20240114T230000Z
+DTEND:20240115T093000Z
+DESCRIPTION:\nCatch all the NFL Sunday action at Soho House New York. Games
+	 start at 1pm and last until the final whistle of NBC’s Sunday Night Footb
+	all. \n\nEnjoy a special game day food and drink menu with beer + bar snac
+	ks to get you through a day of hooting and hollering to the biggest plays 
+	of the week. \n\nPlease note the channel will be set to NFL RedZone unless
+	 there’s a general democratic consensus among members in attendance to vie
+	w a specific game at the 1pm and 4pm screenings. Game location may vary be
+	tween the Vinyl Room\, rooftop or 6th floor areas of the club. Please chec
+	k with Club Reception to confirm where the games are being screened.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:lWw5YOs3JXtUfsLXeahNS
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240121T210000Z
+DTEND:20240122T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:A4gz-vFU-2qdzjvUWcgGy
+SUMMARY:NFL Sundays at SHNY
+DTSTAMP:20231211T171847Z
+DTSTART:20240121T230000Z
+DTEND:20240122T093000Z
+DESCRIPTION:\nCatch all the NFL Sunday action at Soho House New York. Games
+	 start at 1pm and last until the final whistle of NBC’s Sunday Night Footb
+	all. \n\nEnjoy a special game day food and drink menu with beer + bar snac
+	ks to get you through a day of hooting and hollering to the biggest plays 
+	of the week. \n\nPlease note the channel will be set to NFL RedZone unless
+	 there’s a general democratic consensus among members in attendance to vie
+	w a specific game at the 1pm and 4pm screenings. Game location may vary be
+	tween the Vinyl Room\, rooftop or 6th floor areas of the club. Please chec
+	k with Club Reception to confirm where the games are being screened.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:s8SwH4kHOlzOxs7KgK0T7
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240128T210000Z
+DTEND:20240129T010000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:BxCqrZcBoy1kr9fVr3Rrc
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240128T210000Z
+DTEND:20240129T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:9qeGP4oVSHfrpH3zgmgd9
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240204T210000Z
+DTEND:20240205T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:8O9mP3eKugSR2xN9HjcBw
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240204T210000Z
+DTEND:20240205T010000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:MsTxsi7xyeWJnoKwlGEtY
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240211T210000Z
+DTEND:20240212T010000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:GMSkvjRFMT6t7b2SFQ5ju
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240211T210000Z
+DTEND:20240212T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:2zlqwNDbwfMB5gFCunnE2
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240218T210000Z
+DTEND:20240219T010000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:ItUtypHIqy_6xZjAbFmHv
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240218T210000Z
+DTEND:20240219T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:Y8NBkT7xahBqxNA1ZkKS1
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240225T210000Z
+DTEND:20240226T010000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:k1Nk-s2PZEjT2r_zC5wze
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240225T210000Z
+DTEND:20240226T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:6g90WFcB7SlIHLsg5YSHi
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240303T210000Z
+DTEND:20240304T020000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:Aq7KyvZK7LGKjtjDAW6Uz
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240303T210000Z
+DTEND:20240304T010000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:DaKxi1-WtzCE-Tzee87Da
+SUMMARY:Soho House brunch feast 
+DTSTAMP:20231211T171847Z
+DTSTART:20240310T190000Z
+DTEND:20240311T000000Z
+DESCRIPTION:Every Sunday\, we transform the pantry on the club floor into a
+	n expansive brunch feast for $85/PP ($35/PP for children). Feast includes 
+	a seafood tower\, omelet station along with a selection of fruits\, vegeta
+	bles\, salads and more. You're welcome to drop in or if preferred\, reserv
+	ations can be made by e-mailing reception.newyork@sohohouse.com.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:rhELGge3TPkuE0GkG-zP4
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240310T190000Z
+DTEND:20240310T230000Z
+DESCRIPTION:Now available on Sundays from 11am - 3pm\, members can bring th
+	eir little ones to the Club Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. Attendanc
+	e is first come\, first served.
 LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
 	ted States
 END:VEVENT

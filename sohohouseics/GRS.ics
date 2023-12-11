@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:-gPyYT1S2r4FlIFZ96cBM
+UID:akCoX1ekQnrXl26yALdk-
 SUMMARY:Greek Street Christmas Carols
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T233000Z
 DTEND:20231214T020000Z
 DESCRIPTION:Join the hosts with the most Podge and Jae for our annual Chris
@@ -15,9 +15,9 @@ DESCRIPTION:Join the hosts with the most Podge and Jae for our annual Chris
 LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:4c72FsiLkdeS9aTH-_k6S
+UID:ZFhdiMFslfkM8XUB-BwYe
 SUMMARY:Greek Street Christmas Carols
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T023000Z
 DTEND:20231214T043000Z
 DESCRIPTION:Join the hosts with the most Podge and Jae for our annual Chris
@@ -25,9 +25,9 @@ DESCRIPTION:Join the hosts with the most Podge and Jae for our annual Chris
 LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:S-afinXYhWhrkgIOugeqe
+UID:5DvlsEsxQO99SGaHDNsqL
 SUMMARY:Studio 40 NYE Dinner with Melon Bomb and COCO & BREEZY
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T233000Z
 DTEND:20240101T020000Z
 DESCRIPTION:Bring in the New Year at 40 Greek Street in partnership with Mo
@@ -49,9 +49,9 @@ DESCRIPTION:Bring in the New Year at 40 Greek Street in partnership with Mo
 LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:g6yJ_JsDZ5SZWdReHUT2b
+UID:64E06XpFE2CWZAYqB2ITv
 SUMMARY:Studio 40 NYE with Melon Bomb and COCO & BREEZY
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T020000Z
 DTEND:20240101T080000Z
 DESCRIPTION:Bring in the New Year at Studio 40 – Soho House 40 Greek Street
@@ -67,9 +67,9 @@ DESCRIPTION:Bring in the New Year at Studio 40 – Soho House 40 Greek Street
 LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:WkztDuqGWA2y24nUYX0JD
+UID:x_pbroNyg1YIQPM46HCsM
 SUMMARY:Studio 40 NYE Dinner with Melon Bomb and COCO & BREEZY
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T023000Z
 DTEND:20240101T080000Z
 DESCRIPTION:Bring in the New Year at 40 Greek Street in partnership with Mo

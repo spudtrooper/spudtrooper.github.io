@@ -5,35 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:Y6SUcdMTOgPRHNzps_cZC
-SUMMARY:Snowflake Pendant Workshop
-DTSTAMP:20231211T171721Z
-DTSTART:20231213T230000Z
-DTEND:20231214T010000Z
-DESCRIPTION:Create your own winter wonderland at the snowflake pendant work
-	shop. Run by Tilayo\, you will learn to construct your own festive decorat
-	ions sustainably\, making pendants that can be hung from the ceiling. Come
-	 along and start your Festive celebrations early!
-LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
-	nited Kingdom
-END:VEVENT
-BEGIN:VEVENT
-UID:A4Wb4m_wUBlnnCcnxXAeK
-SUMMARY:Snowflake Pendant Workshop
-DTSTAMP:20231211T171721Z
-DTSTART:20231213T230000Z
-DTEND:20231214T010000Z
-DESCRIPTION:Create your own winter wonderland at the snowflake pendant work
-	shop. Run by Tilayo\, you will learn to construct your own festive decorat
-	ions sustainably\, making pendants that can be hung from the ceiling. Come
-	 along and start your Festive celebrations early!
-LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
-	nited Kingdom
-END:VEVENT
-BEGIN:VEVENT
-UID:l5D_OfT6Y903IDqT-w45f
+UID:HdYtRMC_bjKKnLJdch2k0
 SUMMARY:Carol Singing
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T210000Z
 DTEND:20231216T220000Z
 DESCRIPTION:Tis the season to be jolly so enjoy some of your favourite caro
@@ -42,9 +16,9 @@ LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
 	nited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:X4uBsF7QPbH5UWMHHV2TC
+UID:ZHSfidJEQqzWMqm-GOdM0
 SUMMARY:Live Music at High Road House with Louise Golbey
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T000000Z
 DTEND:20231223T030000Z
 DESCRIPTION:Enjoy an evening of signature cocktails and feel-good music fro
@@ -57,9 +31,9 @@ LOCATION:High Road House\, 162-166 Chiswick High Road\, London\, W4 1PR\, U
 	nited Kingdom
 END:VEVENT
 BEGIN:VEVENT
-UID:VkKdBwWs3h8K-464NGaF2
+UID:hXS9mY8N394AedmsWJ5T0
 SUMMARY:New Years Eve at High Road House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T230000Z
 DTEND:20240101T073000Z
 DESCRIPTION:Join us for a night of live music and celebrations as we bring 

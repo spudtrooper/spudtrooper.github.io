@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:OsWVGcMSzVFNIm4QtUBMx
+UID:RVscKsbnNtqpKBc4rT7-i
 SUMMARY:Food and Drink Club presents Wegmans’ cheese and charcuterie 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T043000Z
 DTEND:20231212T060000Z
 DESCRIPTION:Chef Edy Massih from Edy’s Grocer hosts Food and Drink Club. Fo
@@ -23,10 +23,10 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:IKr_Ugq8VCK2yLTor37dZ
+UID:eEhxkv8wPrjXP7BBnZsEg
 SUMMARY:The Future of Fashion: Sustainability in Footwear & Investment in C
 	limate Solutions 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T050000Z
 DTEND:20231212T080000Z
 DESCRIPTION:Expert panelists from Steve Madden\, SuperCircle & more discuss
@@ -36,9 +36,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:FCczjUa3_dToxiRvlN46N
+UID:iH7xONrXpRS_olXxyL1JT
 SUMMARY:Backgammon Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T053000Z
 DTEND:20231213T073000Z
 DESCRIPTION:Backgammon is one of the oldest board games in the world. The E
@@ -51,9 +51,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:mE_gXcES2DWIidON4Zm4Q
+UID:HpnyzzX-L1Z8HARCZTOlH
 SUMMARY:Feel-Good Stretch with S3 YOGA
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T193000Z
 DTEND:20231214T203000Z
 DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
@@ -67,9 +67,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:fjBpkAhpacGxwjj70aBws
+UID:sQQGQe_X9Wb4CD72yUNlg
 SUMMARY:Dimepiece and Foundwell vintage watch pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T030000Z
 DTEND:20231216T050000Z
 DESCRIPTION:Brynn Wallner (Ludlow House member and founder of Dimepiece\, a
@@ -81,9 +81,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:X9jgJem4qocWXXmuCBb28
+UID:7A9GmV7g_600M-_Xsa8I4
 SUMMARY:Canouan Calling: Members’ Ultimate Caribbean Escapade
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T043000Z
 DTEND:20231216T053000Z
 DESCRIPTION:The Caribbean’s warmth meets New York’s heart. Join us for an e
@@ -97,9 +97,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:BXEo3J3gyTx3oB2AX0spj
+UID:v370eblYlYGj5sksGFeus
 SUMMARY:Art Walks with Marina Press Granger 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T220000Z
 DTEND:20231217T000000Z
 DESCRIPTION:Embark on a guided tour of local Lower East Side galleries with
@@ -110,9 +110,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:km79CzGYwwedzY79EMIWz
+UID:5TfgtpAKGVvtNXXS5RakM
 SUMMARY:MAJR and friends
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T080000Z
 DTEND:20231217T120000Z
 DESCRIPTION:BMAJR’s iconic dance party series is back. BMAJR’s friends join
@@ -122,9 +122,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:oSs_Iw0wzP5OHSGB4f55R
+UID:DDMXZM687GQjgiC9-LWt_
 SUMMARY:NFL Sundays at Ludlow House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T230000Z
 DTEND:20231218T093000Z
 DESCRIPTION:\nCatch all the NFL Sunday action in the comfort of the Velvet 
@@ -139,9 +139,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:lboVDALDtm-qHPAby74I1
+UID:Uo732YLYWo45bT-a04cmX
 SUMMARY:Feel-Good Stretch with S3 YOGA
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T193000Z
 DTEND:20231221T203000Z
 DESCRIPTION:S3 Yoga founder Savanna Stevens (RYT200 and Yoga For Athletes c
@@ -155,9 +155,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:aBuZvqVjqeKD4HlVlOQvQ
+UID:npVSgyq8-XPtRFWWJAsVs
 SUMMARY:Sound Session: Jamesy
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T080000Z
 DTEND:20231223T120000Z
 DESCRIPTION:NYC's own Jamesy returns to Ludlow House for a night of past an
@@ -168,10 +168,10 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:gttCoUmPKarhTyh10YwMP
+UID:eSwab3cKmACCbcOE8nRDg
 SUMMARY:Sound Session: Museum of Love featuring Pat Mahoney of LCD Soundsys
 	tem
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231229T070000Z
 DTEND:20231229T090000Z
 DESCRIPTION:\nMuseum Of Love is Pat Mahoney and Dennis McNany. Mahoney is b
@@ -184,9 +184,9 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:tiOJ73g-McBWtNncMprEB
+UID:ypPnjQyQamJGqLx2OxAtG
 SUMMARY:Teeny House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240106T210000Z
 DTEND:20240107T020000Z
 DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
@@ -199,11 +199,60 @@ LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
 	ates
 END:VEVENT
 BEGIN:VEVENT
-UID:BiTSl3PhecGJoy6ao4v5k
+UID:lO85A63C8MY_VbP747AE8
 SUMMARY:NFL Sundays at Ludlow House 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240107T230000Z
 DTEND:20240108T093000Z
+DESCRIPTION:\nCatch all the NFL Sunday action in the comfort of the Velvet 
+	Room at Ludlow House. Games start at 1pm and last until the final whistle 
+	of NBC’s Sunday Night Football. \n\nEnjoy a special game day food and drin
+	k menu with beer + bar snacks to get you through a day of hooting and holl
+	ering to the biggest plays of the week. \n\nPlease note the channel will b
+	e set to NFL RedZone unless there’s a general democratic consensus among m
+	embers in attendance to view a specific game at the 1pm and 4pm screenings
+	.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:S-DACXm4ygNFn9zvroccO
+SUMMARY:Teeny House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240113T210000Z
+DTEND:20240114T020000Z
+DESCRIPTION:Available on Saturdays from 11am - 3pm\, members can bring thei
+	r little ones to the Velvet Room for games and arts and crafts under the s
+	upervision of two caregivers from Curated Care. Please note that children 
+	must be three years old and above (and toilet trained) to participate. Par
+	ents may not leave the club while their child is at Teeny House. \n\nAtten
+	dance is first come\, first served.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:GkM6GsClYynUIDgH4t6v8
+SUMMARY:NFL Sundays at Ludlow House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240114T230000Z
+DTEND:20240115T093000Z
+DESCRIPTION:\nCatch all the NFL Sunday action in the comfort of the Velvet 
+	Room at Ludlow House. Games start at 1pm and last until the final whistle 
+	of NBC’s Sunday Night Football. \n\nEnjoy a special game day food and drin
+	k menu with beer + bar snacks to get you through a day of hooting and holl
+	ering to the biggest plays of the week. \n\nPlease note the channel will b
+	e set to NFL RedZone unless there’s a general democratic consensus among m
+	embers in attendance to view a specific game at the 1pm and 4pm screenings
+	.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:Lodm6J00sc-uIbEE9Lr5R
+SUMMARY:NFL Sundays at Ludlow House 
+DTSTAMP:20231211T171847Z
+DTSTART:20240121T230000Z
+DTEND:20240122T093000Z
 DESCRIPTION:\nCatch all the NFL Sunday action in the comfort of the Velvet 
 	Room at Ludlow House. Games start at 1pm and last until the final whistle 
 	of NBC’s Sunday Night Football. \n\nEnjoy a special game day food and drin

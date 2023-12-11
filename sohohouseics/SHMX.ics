@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:31GqhwY6mCOKu5fjezSQo
+UID:UJzuKdJoDWxZBd0feZH_Z
 SUMMARY:Yoga with Yohanna
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T193000Z
 DTEND:20231211T203000Z
 DESCRIPTION:In this 60-minute Vinyasa class suitable for all levels\, Yohan
@@ -21,9 +21,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:Re_FObYrWOAWtDQssoOui
+UID:1YPvnC6JIKl8Mc40hIgBP
 SUMMARY:My Cycles: Letting go\, Transcending and Rebirth by In-tent
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T210000Z
 DTEND:20231212T220000Z
 DESCRIPTION:Come to this mindful experience to reflect how the end of the y
@@ -33,9 +33,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:XJ8Z-WEDpdJEsbBM8vC44
+UID:TArHLMwQOM7DlU4-Y7kQn
 SUMMARY:Tequila Masterclass: The Art of Ageing
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T050000Z
 DTEND:20231214T060000Z
 DESCRIPTION:Discover the fascinating history of Tequila and gain insights i
@@ -53,9 +53,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:LJs22P7cUVeJpsyJ9TVD_
+UID:_bLVxGIAo5H3YMly0x6GW
 SUMMARY:Rosé tequila tasting by Celosa 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T070000Z
 DTEND:20231215T110000Z
 DESCRIPTION:Celosa is the first young rosé tequila\, aged in red wine barre
@@ -72,9 +72,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:YAuKTy-C2MtLtFr1yO61k
+UID:ObjBeykKqYZbgGfZdeMXK
 SUMMARY:Cocktail premier of ‘Lost In The Night’ 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T090000Z
 DTEND:20231215T120000Z
 DESCRIPTION:Come and meet the cast of ‘Lost In The Night’\,  Mexican\, Germ
@@ -86,9 +86,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:xRLLqQTO2pZ4ZNb-hG5wX
+UID:izXeiaqdC5dO2yicAAF_v
 SUMMARY:Lacoste day -Tennis Tournament with Pool-side Dj set by Macarena
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T210000Z
 DTEND:20231216T040000Z
 DESCRIPTION:Be part of a Tennis tournament in the house hosted by Rodrigo P
@@ -97,9 +97,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:MAgHfZxhbAaowy0wt5Esg
+UID:WWqEJ0IYJ-mJVJT7jEAi0
 SUMMARY:Lacoste day - Brunch by Elena Reygadas
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T220000Z
 DTEND:20231215T233000Z
 DESCRIPTION:Elena Reygadas is a Mexican chef  selected as The World's Best 
@@ -110,9 +110,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:JpiV8f4EphihjsFPBpbsP
+UID:JgCQhDIxmcnHE5bu8iRAo
 SUMMARY:Lacoste day - Natura Dye Workshop by Antonia Alarcón
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T233000Z
 DTEND:20231216T023000Z
 DESCRIPTION:Visual artist\, writer and researcher of textile media. She is 
@@ -124,9 +124,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:8qYyEvwPKol004vVfbXxT
+UID:2Pa-tBamNiSDToyKh-HGw
 SUMMARY:Fashion talk and Installation x Dan Cassab 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T220000Z
 DTEND:20231217T050000Z
 DESCRIPTION:Fashion talk: 11:00am - 12:00pm\nPop up and customization:  12:
@@ -141,9 +141,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:fvqO_NAhLFoOqD_ePQbc_
+UID:ATOb9-wNSbaGPoMDQbkeb
 SUMMARY:Yoga with Yohanna
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T193000Z
 DTEND:20231218T203000Z
 DESCRIPTION:In this 60-minute Vinyasa class suitable for all levels\, Yohan
@@ -157,9 +157,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:k_FJBmXDVw7LjOnMALhrz
+UID:CcpL6s0l_eDLBQ3hNIQuo
 SUMMARY:Sersana Session
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T200000Z
 DTEND:20231222T210000Z
 DESCRIPTION:Sersana is the first well-living platform in Mexico\, which aim
@@ -172,9 +172,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:RCCZnUk7CeVdQVO-UKZk0
+UID:4y9zRmaUFhY6_jUVMrdad
 SUMMARY:Poetry Evening with The Napkin Poetry Review
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231230T070000Z
 DTEND:20231230T093000Z
 DESCRIPTION:Join us for a night of poetry along with featured emerging and 
@@ -187,9 +187,9 @@ LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
 	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
 END:VEVENT
 BEGIN:VEVENT
-UID:1YBSJKHL983Y7iRu2uOqs
+UID:PQL2fBPOd4ucK7UwDgY-E
 SUMMARY:New Year's Eve Party -  Disco Club Kids
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T073000Z
 DTEND:20240101T150000Z
 DESCRIPTION:Welcome the New Year with this electrifying party that encapsul

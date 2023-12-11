@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:xiK1Og-rz8Wo70iPcZSfU
+UID:K4-LTvJ9jhKsGAZlsrCv1
 SUMMARY:Mindfulness Monday
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T153000Z
 DTEND:20231211T161500Z
 DESCRIPTION:\nFeeling rushed and overwhelmed? Please join us for a moment o
@@ -25,9 +25,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:pp1svk0l9P_J1ht9eFhzg
+UID:QeTTd10cspFRiutiXMAWj
 SUMMARY:Festive Wreath Making Workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T160000Z
 DTEND:20231211T180000Z
 DESCRIPTION:Get into the holiday spirit and join us for a festive workshop 
@@ -37,9 +37,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:5hLU02e50woRWo-jCQCH7
+UID:ktB6mhAZIFFFOWQR46f8h
 SUMMARY:Face Yoga & Gua Sha
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231211T163000Z
 DTEND:20231211T173000Z
 DESCRIPTION:Experience the power of Face Yoga\, a natural anti-stress and s
@@ -50,9 +50,9 @@ DESCRIPTION:Experience the power of Face Yoga\, a natural anti-stress and s
 LOCATION:Soho House Hong Kong Active\, Hong Kong
 END:VEVENT
 BEGIN:VEVENT
-UID:pd7fgmgwggoa8LOgoF72X
+UID:E7KqLFBCJC6iLeyAke6Tu
 SUMMARY:Run Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T160000Z
 DTEND:20231212T170000Z
 DESCRIPTION:Join fellow member\, co-founder of Hong Kong Harbour Runners an
@@ -63,9 +63,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:7lmqpQ80mC6MP7emsuXd-
+UID:2zWj1Ir9OvZRauuMD_pvm
 SUMMARY:Yoga for Beginner
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T103000Z
 DTEND:20231213T113000Z
 DESCRIPTION:This beginner-friendly yoga class is designed to help you devel
@@ -75,9 +75,9 @@ DESCRIPTION:This beginner-friendly yoga class is designed to help you devel
 LOCATION:Soho House Hong Kong Active\, Hong Kong
 END:VEVENT
 BEGIN:VEVENT
-UID:c4vTP4n7A76IlpI77qCuo
+UID:rzgcgi5qdw3vBHC3cuPJZ
 SUMMARY:Expressions: An afternoon of photography and neurodiversity 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T110000Z
 DTEND:20231215T120000Z
 DESCRIPTION:Enjoy a talk with international speaker and world-class photogr
@@ -89,9 +89,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:2OeF0vQqAw6i2iAUxH0ne
+UID:ugSzHVQY4R1sHyiVVAs1u
 SUMMARY:House Sessions: Mayao Hi Five Live 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T163000Z
 DTEND:20231215T190000Z
 DESCRIPTION:Join us at the Studio Duplex for local singer Mayao's first sol
@@ -105,9 +105,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:heSVTYKNQs7GDQzEu_53U
+UID:0T-APwcFi8rVIZ7Vi39Ms
 SUMMARY:Fashion For Breakfast: Le Mandorle 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T080000Z
 DTEND:20231216T093000Z
 DESCRIPTION:Sit down with Tara Lee\, founder of Le Mandorle\, a jewelry des
@@ -118,9 +118,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:KnOKvYE6TCS4VZl-zJQS2
+UID:oVS748qFvFhnP8TbQUgTB
 SUMMARY:Le Mandorle x Ron Wan Takeover: Cultivating Conversations
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T080000Z
 DTEND:20231217T150000Z
 DESCRIPTION:Hong Kong’s designer jewelry brand\, Le Mandorle\, and food exp
@@ -134,9 +134,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:7RbN_WoIi-SzhN6F5Rtxo
+UID:etl1xaKkpwl7ttKPAgrRc
 SUMMARY:Matt Force <LAND> EP Launch Pop-up 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T110000Z
 DTEND:20231217T180000Z
 DESCRIPTION:Join us on December 16th-17th from 2pm to 9pm at the Sheung Wan
@@ -162,9 +162,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:W53qYjKdd3Ti4kLsNK1BI
+UID:mIGBu1enfYX_jQpFaNL2d
 SUMMARY:Hearty Mixology: House Tonic with Le Mandorle 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T130000Z
 DTEND:20231216T140000Z
 DESCRIPTION:Kick-start your holiday spirit with the art of cocktail making 
@@ -177,9 +177,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:ULeGzTNlu289131g6HSWb
+UID:NzAYWi1Oob0Q97F0QBxiK
 SUMMARY:Matt Force <LAND> EP Launch Afterparty 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T190000Z
 DTEND:20231216T230000Z
 DESCRIPTION:Join us at the Pool Room for Matt Force's EP release after-part
@@ -189,9 +189,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:VfifjVngSYHlbe1iRc6KZ
+UID:yWC4B4XMIfNlJfbZK7OEG
 SUMMARY:Velvety Bites: Holiday Cookhouse with Le Mandorle 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T080000Z
 DTEND:20231217T090000Z
 DESCRIPTION:Join us for a hands-on cooking class where you’ll learn to prep
@@ -203,9 +203,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:PGUNtVmJD-vwvhn0OITmF
+UID:NwcVI6LDrFfWhAgiqMn7A
 SUMMARY:Teeny House: Santa's Secret Kingdom
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T090000Z
 DTEND:20231217T100000Z
 DESCRIPTION:Join us for a magical experience where families will be transpo
@@ -218,9 +218,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:quzn47C3kv4x524RDZ3U9
+UID:qxcTZrv20wdDGXbEc_0q9
 SUMMARY:Sundown Set: Happy Hour with Le Mandorle 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T130000Z
 DTEND:20231217T153000Z
 DESCRIPTION:Wrap up the weekend of jewellery x food experience at the Drawi
@@ -231,9 +231,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:GVFy8F1wS6b4zIafSNFpk
+UID:pAYHOMaxcbZYLC2eQPAt7
 SUMMARY:Christmas Concert: From Corelli to Mariah Carey!
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T160000Z
 DTEND:20231218T170000Z
 DESCRIPTION:Join us for a festive concert of classic works inspired by the 
@@ -244,9 +244,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:IDW0bmiOPUV7fIiz-e-Lj
+UID:zTvrPyWxoIpk4iEIgMUC6
 SUMMARY:Holiday Member Mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T150000Z
 DTEND:20231219T160000Z
 DESCRIPTION:Meet us at the Drawing Room for our Holiday Member Mixer. Celeb
@@ -257,9 +257,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:GnEVGdKD5Ytlnrt4fXn38
+UID:_pUu18HCMJKy7sWIuX-zX
 SUMMARY:Run Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T160000Z
 DTEND:20231219T170000Z
 DESCRIPTION:Join fellow member\, co-founder of Hong Kong Harbour Runners an
@@ -270,9 +270,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:l1q9JkQxUm0_oHGNN-_AF
+UID:NwujlzLg6Pep-xJRei2W-
 SUMMARY:Xmas Vinyasa Flow with Ankie Beilke 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T160000Z
 DTEND:20231220T170000Z
 DESCRIPTION:Using your breath to move from one asana to the next\, mindfull
@@ -281,9 +281,9 @@ DESCRIPTION:Using your breath to move from one asana to the next\, mindfull
 LOCATION:Soho House Hong Kong Active\, Hong Kong
 END:VEVENT
 BEGIN:VEVENT
-UID:ejfOlCl6YxdXkWDAXwSA3
+UID:rwTiRB1rfALZEjY_vItkv
 SUMMARY:Festive Gemstone Earrings workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T160000Z
 DTEND:20231220T170000Z
 DESCRIPTION:Create your festive gemstone earrings with member Josephine Chu
@@ -299,9 +299,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:ppDYIE4op6O_dyY__JymH
+UID:8xhOGJTUCPnKyA1vqElKK
 SUMMARY:Sing For Your Drink
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T180000Z
 DTEND:20231221T210000Z
 DESCRIPTION:Join us for the Christmas edition of Sing for Your Drink\, wher
@@ -316,9 +316,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:OUXM3gbGLagTHGuGkk0pK
+UID:J6evZYGBWFYPlZ2-BISz_
 SUMMARY:Ho Ho Ho-liday Market 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T100000Z
 DTEND:20231224T160000Z
 DESCRIPTION:Discover the joy of the holiday season at our Ho Ho Ho-liday Ma
@@ -328,9 +328,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:p5Q5P_6_iYZTibef446Ur
+UID:p6B6Ne97Wi3rQKyNhhpSw
 SUMMARY:SoHoHo: A very 90s Christmas 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T180000Z
 DTEND:20231223T230000Z
 DESCRIPTION:Get ready to celebrate the holidays in true 90s style brought t
@@ -345,9 +345,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:jlX6AEuVwYTAnLrETx2ED
+UID:XSiGtvNYGqRfA7GTDpTKN
 SUMMARY:Christmas Eve Celebration at Club Cecconi’s 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T090000Z
 DTEND:20231224T190000Z
 DESCRIPTION:On Sunday 24 December\, celebrate this festive season with fami
@@ -361,9 +361,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:lUddhh794_3hX-nMLs9jW
+UID:YAKk2Vs7zepFGWoFhUdAs
 SUMMARY:Christmas Day Feast at Club Cecconi's 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T090000Z
 DTEND:20231225T133000Z
 DESCRIPTION:Join us on Christmas Day for a generous brunch feast featuring 
@@ -379,9 +379,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:oVstVwNypFH0kRDW6-asP
+UID:7anzAwg-EUk6Y14T-38tV
 SUMMARY:Christmas Carols
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T093000Z
 DTEND:20231225T113000Z
 DESCRIPTION:Join Hong Kong Grand Opera for some Christmas favorites which w
@@ -393,9 +393,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:t73arbTJdAKsBcWCusTPv
+UID:0Q7mxbEEJhuwAYKxgJxES
 SUMMARY:Run Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231226T160000Z
 DTEND:20231226T170000Z
 DESCRIPTION:Join fellow member\, co-founder of Hong Kong Harbour Runners an
@@ -406,9 +406,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:yJPenxDO2EcfSESu9O4Nc
+UID:PTs0M-mqBrTYgZEATKUey
 SUMMARY:New Year's Eve Dinner: The Skyfall Countdown (early bird)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T170000Z
 DTEND:20231231T230000Z
 DESCRIPTION:Join us for an exquisite sit-down dinner as we bid farewell to 
@@ -428,9 +428,9 @@ LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong
 	Kong\, 999077
 END:VEVENT
 BEGIN:VEVENT
-UID:mRhatY95IB8bEochmz4fZ
+UID:912D9SQoQD-FZEhapsIVW
 SUMMARY:New Year's Eve: The Skyfall Countdown (early bird) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T180000Z
 DTEND:20231231T230000Z
 DESCRIPTION:Prepare to be shaken and stirred as we transport you to the gla

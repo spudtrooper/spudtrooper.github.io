@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:QrwEjurvd16BZQuRJ9FiE
+UID:4WIpkyoqkE44mdhR1bMne
 SUMMARY:Olive oil tasting
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T230000Z
 DTEND:20231214T000000Z
 DESCRIPTION:Olive oil tasting\nJoin Cana and Mey Cezairli\, the team behind
@@ -17,9 +17,21 @@ DESCRIPTION:Olive oil tasting\nJoin Cana and Mey Cezairli\, the team behind
 LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:vmx3kCw3O7HCe2AiuGHv0
+UID:QIN1VPKgKePjnQ4zdtU1h
+SUMMARY:Olive oil tasting
+DTSTAMP:20231211T171847Z
+DTSTART:20231213T230000Z
+DTEND:20231214T000000Z
+DESCRIPTION:Olive oil tasting\nJoin Cana and Mey Cezairli\, the team behind
+	 The O Collection\, for an olive oil tasting event. The tasting is a blend
+	 of education\, indulgence and cultural exploration of culinary artistry f
+	rom the Mediterranean region.
+LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:PqMuWd5gbKegZ1Lpegmlo
 SUMMARY:Christmas Jazz 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T000000Z
 DTEND:20231214T023000Z
 DESCRIPTION:This week's Jazz Wednesday warms our heart with Christmas Carol
@@ -28,9 +40,9 @@ DESCRIPTION:This week's Jazz Wednesday warms our heart with Christmas Carol
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:32Cw0rZWH3D38B0rf2U4V
+UID:YpjLQR-8vZ494bjNxZ2eN
 SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T210000Z
 DTEND:20231215T010000Z
 DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
@@ -41,9 +53,9 @@ DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:e6L1KfW8_oubm6pHQm7RV
+UID:DkeBmQ8yaGcc19BFqau-T
 SUMMARY:Wine Masterclass
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T230000Z
 DTEND:20231215T010000Z
 DESCRIPTION:Join Norma Quinto for an Italian wine masterclass featuring Ste
@@ -59,9 +71,9 @@ DESCRIPTION:Join Norma Quinto for an Italian wine masterclass featuring Ste
 LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:X-XPbiHGp1CrW2RPbryRS
+UID:EcbsGI6GY-HWBBrZwXIoX
 SUMMARY:Bipolar Soundsystem x Soho House Xmas Party 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T020000Z
 DTEND:20231215T060000Z
 DESCRIPTION:Tonight the BPLR Soundsystem is hosting a Xmas themed B2B party
@@ -71,9 +83,9 @@ DESCRIPTION:Tonight the BPLR Soundsystem is hosting a Xmas themed B2B party
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:6WtfdMkzQ8o9bcQ3u59VH
+UID:vPjX6N-qigzhA20KuL3OK
 SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T210000Z
 DTEND:20231215T220000Z
 DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
@@ -84,22 +96,9 @@ DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:aztfgQYdpoX9qf9EPe-V3
-SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
-DTSTART:20231215T210000Z
-DTEND:20231215T220000Z
-DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
-	from Soho Roc House Mykonos. Indulge in a week-long restaurant popup\, whe
-	re we will be offering a taste of Mykonian dishes crafted by Chef Lavdas. 
-	\n\nOpen from Monday to Friday 5 - 10pm. To book a table\, please contact 
-	us over the phone or via clubhost.berlin@sohohouse.com
-LOCATION:Berlin Club\, Berlin\, Germany
-END:VEVENT
-BEGIN:VEVENT
-UID:gBd1jznQNrqLXBiTKIZMB
+UID:SD4XVwbC7k0G5klSLirdP
 SUMMARY:Member Mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T233000Z
 DTEND:20231216T020000Z
 DESCRIPTION:Let's celebrate the festive season\, mingle and be merry before
@@ -108,9 +107,9 @@ DESCRIPTION:Let's celebrate the festive season\, mingle and be merry before
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:k9Vp5AbSSE4Om-uLn-02Z
+UID:4L3OOvIsBW43rDsokejFk
 SUMMARY:Sing-along with the Dames - Christmas edition
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T020000Z
 DTEND:20231216T040000Z
 DESCRIPTION:Tonight\, join the Dames to spread the Christmas cheer with an 
@@ -122,9 +121,9 @@ DESCRIPTION:Tonight\, join the Dames to spread the Christmas cheer with an
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:KoXUT7v-xEsoxbii98PfW
+UID:ut7TRis8KjhNlevZim85T
 SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T210000Z
 DTEND:20231217T020000Z
 DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
@@ -135,9 +134,9 @@ DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:GNNnvYlfoHA91mIPY7E0G
+UID:2WTeB8w5vplppM2qosn52
 SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T210000Z
 DTEND:20231218T020000Z
 DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
@@ -148,9 +147,9 @@ DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:Olm2ZlGY1kw3QI9PunrI7
+UID:lflmG2-F1prU9PEAVBqXA
 SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T210000Z
 DTEND:20231219T020000Z
 DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
@@ -161,9 +160,9 @@ DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:HHnMEjpWTj34jnfE0MtVg
+UID:C6Mqx2JIpRFgOx4QUmxgR
 SUMMARY:Cosmic Snapshot
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T220000Z
 DTEND:20231219T010000Z
 DESCRIPTION:Join Clarisse Monahan\, Soho House's Astrology columnist\, for 
@@ -178,9 +177,9 @@ DESCRIPTION:Join Clarisse Monahan\, Soho House's Astrology columnist\, for
 LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:Y_gCXg_6zewf1ROuOsV1h
+UID:toD8LczZNOb1k3Kz2gQ6D
 SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T210000Z
 DTEND:20231220T020000Z
 DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
@@ -191,9 +190,9 @@ DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:7p2kBVdqlWtWIN5BH00ny
+UID:voXE5o0csG2-mNHBUX4I_
 SUMMARY:House Comedy
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T233000Z
 DTEND:20231222T010000Z
 DESCRIPTION:Join us in the Red Room as we bring you another edition of our 
@@ -202,9 +201,9 @@ DESCRIPTION:Join us in the Red Room as we bring you another edition of our
 LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:Y51yWiXRqncxydeqX_pQI
+UID:vHr4HDeR7K3KfWxP5eqgf
 SUMMARY:Mykonian pop-up
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T210000Z
 DTEND:20231223T020000Z
 DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas 
@@ -215,9 +214,9 @@ DESCRIPTION:Join us on the rooftop as we welcome Head Chef Leyteris Lavdas
 LOCATION:Berlin Club\, Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:BMrQ2pypY4v5UQxrFgYCk
+UID:YNsVUKwW2MIRE6fQaTKnC
 SUMMARY:NYE 2023: Midnight Stardust dinner ticket
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T230000Z
 DTEND:20240101T070000Z
 DESCRIPTION: For this year’s New Year’s Eve party\, Midnight Stardust\, we 
@@ -230,23 +229,9 @@ DESCRIPTION: For this year’s New Year’s Eve party\, Midnight Stardust\, we
 LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
 END:VEVENT
 BEGIN:VEVENT
-UID:2prx6w4CQ-R5GNAqtbHto
-SUMMARY:NYE Party: Midnight Stardust (guest tickets)
-DTSTAMP:20231211T171721Z
-DTSTART:20240101T020000Z
-DTEND:20240101T070000Z
-DESCRIPTION:For this year’s New Year’s Eve party\, Midnight Stardust\, we i
-	nvite you to shine bright and burst into the new year like a shooting star
-	. Join our celestial celebration\, enjoy the fireworks on the rooftop at m
-	idnight before dancing the night away with live acts and DJ sets on both f
-	loors. \n\nPlease note that this ticket includes a welcome drink and is fo
-	r non-member guests only. \n
-LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
-END:VEVENT
-BEGIN:VEVENT
-UID:mbk4spvtmTu16EO_6098y
+UID:CzKCqu7posseFfS5hEPVv
 SUMMARY:NYE Party: Midnight Stardust (member tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T020000Z
 DTEND:20240101T070000Z
 DESCRIPTION:For this year’s New Year’s Eve party\, Midnight Stardust\, we i
@@ -255,6 +240,20 @@ DESCRIPTION:For this year’s New Year’s Eve party\, Midnight Stardust\, we i
 	idnight before dancing the night away with live acts and DJ sets on both f
 	loors. \n\nPlease note that this ticket includes a welcome drink and is fo
 	r members only. 
+LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:HHHEVIqyLA1V-tRoQ9mxb
+SUMMARY:NYE Party: Midnight Stardust (guest tickets)
+DTSTAMP:20231211T171847Z
+DTSTART:20240101T020000Z
+DTEND:20240101T070000Z
+DESCRIPTION:For this year’s New Year’s Eve party\, Midnight Stardust\, we i
+	nvite you to shine bright and burst into the new year like a shooting star
+	. Join our celestial celebration\, enjoy the fireworks on the rooftop at m
+	idnight before dancing the night away with live acts and DJ sets on both f
+	loors. \n\nPlease note that this ticket includes a welcome drink and is fo
+	r non-member guests only. \n
 LOCATION:Soho House Berlin\, Torstraße 1\, Berlin\, 10119\, Germany
 END:VEVENT
 END:VCALENDAR

@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fcVYi6NAXw8864xeqLlh6
+UID:xefLss27bM1S7Ex8cOC-v
 SUMMARY:One Night Only: Julien Sebbag 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T230000Z
 DTEND:20231213T020000Z
 DESCRIPTION:One Night Only is our signature evening for the foodies where w
@@ -27,9 +27,9 @@ DESCRIPTION:One Night Only is our signature evening for the foodies where w
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:qR-hRuHut7XvnT7fZVmAI
+UID:Jo2eanch1N83HKylVdWzx
 SUMMARY:Tribune La Bruyère: Borussia Dortmund VS PSG 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T004500Z
 DTEND:20231214T020000Z
 DESCRIPTION:Head to our Cabaret\, take a spot in Tribune La Bruyère and enj
@@ -41,9 +41,9 @@ DESCRIPTION:Head to our Cabaret\, take a spot in Tribune La Bruyère and enj
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:QgBBFQR6bGb4_advqQPsr
+UID:5pnvU0lTR4cbnCxFrB98G
 SUMMARY:Winter House Party : Gospel Night 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T000000Z
 DTEND:20231215T003000Z
 DESCRIPTION:Tonight\, come to the Club\, light up your night and enjoy a sp
@@ -53,9 +53,9 @@ DESCRIPTION:Tonight\, come to the Club\, light up your night and enjoy a sp
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:iJ_2Q866rd3t4RVUbBMAy
+UID:AKZPC3ft_zwHgIRFPyiCX
 SUMMARY:Winter House Party : Corine & Dorion 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T013000Z
 DTEND:20231215T060000Z
 DESCRIPTION:Welcome to our end of the year Winter House Party. Tonight\, ge
@@ -66,9 +66,9 @@ DESCRIPTION:Welcome to our end of the year Winter House Party. Tonight\, ge
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:AB39WCtn8fBzFPxpFo0W8
+UID:Nx_Nu1DZTI4FjJYKzAgjO
 SUMMARY:Etat de la Culture #6 by Moriba Koné 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T000000Z
 DTEND:20231216T020000Z
 DESCRIPTION:All for the sake of Culture\, sacrificing creativity? A look ba
@@ -88,9 +88,9 @@ DESCRIPTION:All for the sake of Culture\, sacrificing creativity? A look ba
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:6jXj5PMX1lgIHi7BbmTGB
+UID:dejxcRbSlkrDCKD10lt9B
 SUMMARY:In da club : OG. D
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T030000Z
 DTEND:20231216T060000Z
 DESCRIPTION:Tonight\, Parisian DJ & producer OG.D\, Gazo's DJ\, is taking c
@@ -99,9 +99,9 @@ DESCRIPTION:Tonight\, Parisian DJ & producer OG.D\, Gazo's DJ\, is taking c
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:E1Ze3dmknZa4JrP-GVeXQ
+UID:Kfm9lvkI8ygS500e1z3Zb
 SUMMARY:Unexpected Cabaret Club!
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T020000Z
 DTEND:20231217T033000Z
 DESCRIPTION:This Saturday\, join us for the last 2023 night of our burlesqu
@@ -116,9 +116,9 @@ DESCRIPTION:This Saturday\, join us for the last 2023 night of our burlesqu
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:moxs6g5UEiR2KGDKLInZt
+UID:Dtug0t9DmjSOfhtJzlIft
 SUMMARY:Unexpected Cabaret Club After-Party 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T033000Z
 DTEND:20231217T054500Z
 DESCRIPTION:Join the second part of our Unexpected Cabaret Club night with 
@@ -127,9 +127,9 @@ DESCRIPTION:Join the second part of our Unexpected Cabaret Club night with
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:tW4zPq-eGcKccR_TwKX6N
+UID:UXBT5fqc9jyqWGIMQvPhx
 SUMMARY:House Tonic: Winter Classic 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231218T233000Z
 DTEND:20231219T010000Z
 DESCRIPTION:Tonight\, come downstairs in our Cabaret as our Barman Andy sha
@@ -138,9 +138,9 @@ DESCRIPTION:Tonight\, come downstairs in our Cabaret as our Barman Andy sha
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:-0oAXGqTgBG0CjrOk9h9l
+UID:rPSfmYgd90flOXh9EPXmv
 SUMMARY:Member Mixer: film industry edition 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T233000Z
 DTEND:20231220T013000Z
 DESCRIPTION:We welcome you to this new edition of Member Mixer – our regula
@@ -151,9 +151,9 @@ DESCRIPTION:We welcome you to this new edition of Member Mixer – our regula
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:ZVVASzymVoHAs-qG4pVlR
+UID:_67uPEtGvLq6p73qS0mkN
 SUMMARY:Drag Bingo\, Winter Edition 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T000000Z
 DTEND:20231222T020000Z
 DESCRIPTION:Minima Gesté\, the self-proclaimed queen of bingo\, hosts this 
@@ -163,9 +163,9 @@ DESCRIPTION:Minima Gesté\, the self-proclaimed queen of bingo\, hosts this
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:kicsw5dWX-K41oLJ5J_IZ
+UID:nrqr0D76LhsFp-V63-n_v
 SUMMARY:Bitch Party Paris is back ! 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T023000Z
 DTEND:20231223T060000Z
 DESCRIPTION:BITCH PARTY PARIS is the Parisian LGBTQIA+ Pop party\, and one 
@@ -177,9 +177,9 @@ DESCRIPTION:BITCH PARTY PARIS is the Parisian LGBTQIA+ Pop party\, and one
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:Wb9KpA2FhGqnOtA-b6P8S
+UID:1oOvISqeS1XmrEHDgxEpm
 SUMMARY:New Year’s Eve Dinner
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T230000Z
 DTEND:20240101T070000Z
 DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
@@ -203,9 +203,9 @@ DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:84fXICfvjSrcYDF7OO4xg
+UID:qNb0bqCmbw7w-fOj9IMol
 SUMMARY:New Year’s Eve Party : Bubbles (members tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T020000Z
 DTEND:20240101T070000Z
 DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
@@ -224,9 +224,9 @@ DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:SjRPLBqlzAKX4CDKUu4t5
+UID:6Y2JGfIDp1q_kGhwP0kP_
 SUMMARY:New Year’s Eve Party: Bubbles (early-bird guests tickets)
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T020000Z
 DTEND:20240101T070000Z
 DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
@@ -244,9 +244,9 @@ DESCRIPTION:We welcome you to celebrate New Year’s Eve in a fizzy house inv
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:qJZ240WDkcWDaFW1LB01w
+UID:ans29NBUIbmotdmoOGchk
 SUMMARY:Introduction to Astrology: Sun\, Moon\, Beyond
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240102T113000Z
 DTEND:20240102T130000Z
 DESCRIPTION:There has been an explosion of all things astrological in the p
@@ -260,9 +260,9 @@ DESCRIPTION:There has been an explosion of all things astrological in the p
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:4bjsJbUQ5RIDvgOxcahjd
+UID:7NbTcvmJUcxmA7Fw9KgKq
 SUMMARY:House Comedy
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240105T003000Z
 DTEND:20240105T020000Z
 DESCRIPTION:Head to the Cabaret Room as we host a new edition of our monthl
@@ -273,9 +273,9 @@ DESCRIPTION:Head to the Cabaret Room as we host a new edition of our monthl
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:v4sWFhK_DkHIqopwBL7NP
+UID:irGYr_d0582NHHA555Usx
 SUMMARY:Only Clits Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240108T110000Z
 DTEND:20240108T130000Z
 DESCRIPTION:Camille Aumont Carnel is the founder of @jemenbatsleclito\, a f
@@ -287,9 +287,9 @@ DESCRIPTION:Camille Aumont Carnel is the founder of @jemenbatsleclito\, a f
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:h5Db480tQD7daoHg99SdU
+UID:NKjoXl5ft0Ff4sCJJRgIv
 SUMMARY:Critical Fashion: has menswear taken over fashion? 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240109T113000Z
 DTEND:20240109T130000Z
 DESCRIPTION:Fashion journalist Melody Thomas is the author of the remarkabl
@@ -299,6 +299,19 @@ DESCRIPTION:Fashion journalist Melody Thomas is the author of the remarkabl
 	tion\, Melody Thomas discusses what lies behind the current revolution in 
 	men’s fashion\, symbolised by the ever-growing importance and influence of
 	 Menswear Fashion Week\, set to open next week. 
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:gWxZYImv1dqRywBqDWR9S
+SUMMARY:House Jazz: Jazz Reworks featuring The Hush Trio
+DTSTAMP:20231211T171847Z
+DTSTART:20240112T010000Z
+DTEND:20240112T023000Z
+DESCRIPTION:Tonight\, we kick off the first House Jazz of 2024 with The Hus
+	h Trio. The Hush Trio is a brand new project involving three of the UK’s m
+	ost celebrated musicians: Ego Ella May (vocals)\, Jansen Santana (drums) a
+	nd Nathan Britton (piano). \n\nWith their project Jazz Reworks\, the band 
+	channels classic jazz\, R&B and nu-soul into a stripped-back performance. 
 LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
 END:VEVENT
 END:VCALENDAR

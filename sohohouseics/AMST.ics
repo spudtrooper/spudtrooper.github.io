@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:axfIG-_xu3dKYBCkLjeyV
+UID:I7CQJsgOVSd7prPKMnjAL
 SUMMARY:U27 Christmas Member Mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T000000Z
 DTEND:20231212T020000Z
 DESCRIPTION:Meet us in the Club next to the Christmas tree for our U27 Memb
@@ -18,9 +18,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:Z04BKDSV9-_3gp_iY6rsu
+UID:xZF4u-3HCotWRmzrFS_li
 SUMMARY:The Monday Club music by Marcy Mane
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T000000Z
 DTEND:20231212T040000Z
 DESCRIPTION:Join us a The Monday Club for some drinks and bites in the Club
@@ -31,9 +31,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:y3WWfCPe63YRwkzPVXvzt
+UID:Q7ymwOU0d2QPQveBMq7jx
 SUMMARY:TEN Club: Generational Wealth
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T210000Z
 DTEND:20231213T000000Z
 DESCRIPTION:We welcome you to join our upcoming TEN Club gathering\, which 
@@ -60,9 +60,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:t-bahKPboWeDU7sdnf-4R
+UID:f6AdHvBO5zb49eeoJG4os
 SUMMARY:Jazz Wednesday 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T000000Z
 DTEND:20231214T020000Z
 DESCRIPTION:Join us in the club for our weekly jazz sessions with local tal
@@ -71,9 +71,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:G8hzKQtUtZjjRBj_3m2Xp
+UID:sIGWINebaioRGkPCnrTpw
 SUMMARY:Locally Sourced: Maey
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T010000Z
 DTEND:20231215T050000Z
 DESCRIPTION:DJ and producer Maey\, sonically melds together Hip Hop\, R&B\,
@@ -88,9 +88,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:CCusUvlIl8TYQ8i0AMBay
+UID:PoOd0VNMm2oxqnZGN4rU4
 SUMMARY:Christmas workshop: Manifest Your Light
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T180000Z
 DTEND:20231216T200000Z
 DESCRIPTION:Join us for a workshop where creativity meets intention. In our
@@ -106,9 +106,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:uxUIcHCWTuinlxcGWCTuM
+UID:pZ8XcaIPHf13LJOhlJfo4
 SUMMARY:Teeny House: Christmas decorations
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T150000Z
 DTEND:20231217T170000Z
 DESCRIPTION:Christmas is coming\, the story of Joseph and Mary whose baby J
@@ -120,9 +120,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:7_2-uCSSvfTPUNFw0ylFM
+UID:of7WPXCIf6GxrY5q7rxDC
 SUMMARY:Soho Christmas Market 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T160000Z
 DTEND:20231217T220000Z
 DESCRIPTION:On Sunday 17 December\, we will be hosting a Christmas Market i
@@ -132,9 +132,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:fh2WqGRvsRagI30Ml0ivj
+UID:8MBFOqcLhP2GW2JNjbZ35
 SUMMARY:The Monday Club music by Tida Kamara
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T000000Z
 DTEND:20231219T040000Z
 DESCRIPTION:For this edition of The Monday Club we've invited Tida Kamara t
@@ -147,9 +147,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:kYkOZqjOBgUuCHuyKPkl4
+UID:iz0az5b-qsKZ0Gc-8Ar0-
 SUMMARY:The Monday Club presents Michael Ekow\, May & YOUANDI
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T000000Z
 DTEND:20231219T013000Z
 DESCRIPTION:The Monday Club presents is our platform for upcoming musicians
@@ -169,9 +169,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:-kKDaNfhTMCk557FMfwS3
+UID:hEhZzvDcmQCn5ldGfNQUt
 SUMMARY:2024 Vision Board Workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T223000Z
 DTEND:20231220T010000Z
 DESCRIPTION:Ready to make 2024 your best year yet? Come and be part of a fu
@@ -186,9 +186,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:aH966ei4dM9b571Co5ZS_
+UID:JfLf8AJqaMVKINB94qKif
 SUMMARY:Jazz Wednesday: Christmas special with Steven Aswin
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T000000Z
 DTEND:20231221T020000Z
 DESCRIPTION:It's almost Christmas and to get into the holiday spirit\, this
@@ -197,9 +197,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:g2zNBcDC2mbGT9XdPcoFl
+UID:9H_-VlJOsb9JgZSE7GkMH
 SUMMARY:Festive Cocktail Workshop
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T230000Z
 DTEND:20231222T000000Z
 DESCRIPTION:In this festive cocktail workshop\, you'll learn to create cock
@@ -210,9 +210,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:530CknpOnn2X7Pu31WSa8
+UID:Ks3StzFZmaFjVvnXHitlg
 SUMMARY:Nostalgic Board Game Night
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231222T000000Z
 DTEND:20231222T030000Z
 DESCRIPTION:On these darker days we can’t think of a better way to warm our
@@ -223,9 +223,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:BRHzOFUEuM1at-tWaH4MC
+UID:FPTiqaAD05lAnW0isLKw8
 SUMMARY:Christmas House Party & Karaoke: Ugly Sweater edition
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T020000Z
 DTEND:20231224T060000Z
 DESCRIPTION:Mark your calander for night of merriment\, mischief\, and mism
@@ -238,23 +238,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:zTduCDpZFAjgXRccFJ-Wf
-SUMMARY:Teeny House: Christmas cookie decorations
-DTSTAMP:20231211T171721Z
-DTSTART:20231224T160000Z
-DTEND:20231224T180000Z
-DESCRIPTION:Join us for a festive and delightful workshop hosted by Semih\,
-	 our Membership Manager\, as we gather to decorate Christmas cookies with 
-	little ones! Embrace the holiday spirit and create sweet memories together
-	 with an array of delicious cookies\, colourful icing\, and a variety of f
-	estive toppings.
-LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
-	erlands
-END:VEVENT
-BEGIN:VEVENT
-UID:Ocpvt5uRNfuJC8CvYojIX
+UID:WfDc2QFY8Fy0hA_MZBdPe
 SUMMARY:Sunday festive Roast 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231224T160000Z
 DTEND:20231224T200000Z
 DESCRIPTION:Join us for a Sunday lunch Christmas special. Expect traditiona
@@ -267,9 +253,23 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:JeqoycgjArn7tAlVbIh3z
+UID:SK8Omd4KEjtLmtUThKoAB
+SUMMARY:Teeny House: Christmas cookie decorations
+DTSTAMP:20231211T171847Z
+DTSTART:20231224T160000Z
+DTEND:20231224T180000Z
+DESCRIPTION:Join us for a festive and delightful workshop hosted by Semih\,
+	 our Membership Manager\, as we gather to decorate Christmas cookies with 
+	little ones! Embrace the holiday spirit and create sweet memories together
+	 with an array of delicious cookies\, colourful icing\, and a variety of f
+	estive toppings.
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+BEGIN:VEVENT
+UID:9WMZXgQ4q37H3MfqAcCJK
 SUMMARY:Festive roast 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231225T160000Z
 DTEND:20231225T200000Z
 DESCRIPTION:Join our festive Christmas roast in the House Kitchen. Expect t
@@ -282,9 +282,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:GSsMOw5XqUXgXnuADCg1-
+UID:GN2ygVryZqww5hPQyF2pA
 SUMMARY:Festive roast 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231226T160000Z
 DTEND:20231226T200000Z
 DESCRIPTION:Join our festive Christmas roast in the House Kitchen. Expect t
@@ -297,9 +297,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:oWpldhy3GXcnBL5gSMubp
+UID:bjEBVss0v_bxDWxJMd1XX
 SUMMARY:LVRSNFRNDS x Soho House
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231226T230000Z
 DTEND:20231227T020000Z
 DESCRIPTION:Join us on boxing day and immerse into some soulful melodies. D
@@ -310,9 +310,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:Tp-vqZ8Gnsg_Tw_eYkbL5
+UID:7c5aUzbTjn2gq6JK1fyfX
 SUMMARY:Jazz Wednesday 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231228T000000Z
 DTEND:20231228T020000Z
 DESCRIPTION:Join us in the club for our weekly jazz sessions with local tal
@@ -321,9 +321,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:i9dnhBa0V-rGLyPPoK8np
+UID:nzviOj_TSp8H25I09KGyf
 SUMMARY:Member Mixer
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231229T010000Z
 DTEND:20231229T020000Z
 DESCRIPTION:Meet us in the Club for this month's Member Mixer. Whether you’
@@ -333,9 +333,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:bMf-j-vi1wSHjOUh2U1dH
+UID:2LVtSphwVc8pxfcxIQkYP
 SUMMARY:AFTER WERQ by DJ Covergirl Sunny
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231229T220000Z
 DTEND:20231230T020000Z
 DESCRIPTION:Get ready for some post-work drinks at DJ Covergirl Sunny's AFT
@@ -344,9 +344,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:hvLo19zv5qDiapPdPrqzU
+UID:EM53k0f0FUPJsANmBu4aO
 SUMMARY:NYE: A Glittery Affair (dinner ticket) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231231T233000Z
 DTEND:20240101T013000Z
 DESCRIPTION:Step into a world of glitter and glamour at Soho House Amsterda
@@ -375,9 +375,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:QhJidVubvkkEoyr8QdrkP
+UID:6p-pZbVRf2TzVve2Cda1e
 SUMMARY:NYE: A Glittery Affair (guest ticket) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T013000Z
 DTEND:20240101T070000Z
 DESCRIPTION:Step into a world of glitter and glamour at Soho House Amsterda
@@ -395,9 +395,9 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:-6MF9EZTEhAUJYpuZasfG
+UID:3IRCgLYxndd3jbJakaJVk
 SUMMARY:NYE: A Glittery Affair (member ticket) 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T013000Z
 DTEND:20240101T070000Z
 DESCRIPTION:Step into a world of glitter and glamour at Soho House Amsterda
@@ -415,13 +415,62 @@ LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT
 BEGIN:VEVENT
-UID:N-clk2rajNbnKmYajaPLz
+UID:w7Y7TaB9jlEE9SZIZs34Z
 SUMMARY:Meditation with Bruno Sitton
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240107T150000Z
 DTEND:20240107T160000Z
 DESCRIPTION:Bruno Sitton\, an expert in zen practices\, yoga\, breathwork a
 	nd ayurveda\, leads you through this meditation in the screening room.
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+BEGIN:VEVENT
+UID:ADOujykqNH0ZwnSsNgJkI
+SUMMARY:English Comedy Night: Ghislaine Guardiola & Karan Karthik
+DTSTAMP:20231211T171847Z
+DTSTART:20240112T000000Z
+DTEND:20240112T020000Z
+DESCRIPTION:It’s time to ditch the stress and embrace the laughs. Dutch com
+	edian Howard Komproe hosts an evening of English stand-up comedy in the Ca
+	nal Room. Secure your spot and get ready for an evening with humour and jo
+	y.
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+BEGIN:VEVENT
+UID:1_MWBwOn5GSWgSxCkkOFH
+SUMMARY:Mocktail workshop with Good Jamu
+DTSTAMP:20231211T171847Z
+DTSTART:20240113T000000Z
+DTEND:20240113T020000Z
+DESCRIPTION:New year’s resolutions start with a good alcohol-free drink. Wh
+	ether you’re a mocktail maestro or a first-time mixer\, the Good Jamu team
+	 guides you through the art of shaking the perfect mocktail. Get ready to 
+	shake things up. 
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+BEGIN:VEVENT
+UID:cJyx6ybcRGR01Hows0aSW
+SUMMARY:Member Mixer
+DTSTAMP:20231211T171847Z
+DTSTART:20240126T010000Z
+DTEND:20240126T020000Z
+DESCRIPTION:Meet us in the Club for this month's Member Mixer. Whether you’
+	re a new member or have been one for years\, come along and enjoy drinks o
+	n us. Socialise\, connect and meet other members.\n
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+BEGIN:VEVENT
+UID:X5itkXHAb9XxuSedcVjzE
+SUMMARY:AFTER WERQ by DJ Covergirl Sunny
+DTSTAMP:20231211T171847Z
+DTSTART:20240126T220000Z
+DTEND:20240127T000000Z
+DESCRIPTION:Get ready for some post-work drinks at DJ Covergirl Sunny's AFT
+	ER WERQ\, this Friday!
 LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
 	erlands
 END:VEVENT

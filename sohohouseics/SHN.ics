@@ -5,9 +5,9 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:LZEenzPRm_lVA2bBp_wsP
+UID:14HScxKYj-MyjieymBdWV
 SUMMARY:Hanukkah at the House
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T050000Z
 DTEND:20231212T070000Z
 DESCRIPTION:Come celebrate the 'Festival of Lights' with us in the main clu
@@ -18,22 +18,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:uarC6ytiUrIbb021vyqQC
-SUMMARY:Tailgate watch party: Titans at Dolphins
-DTSTAMP:20231211T171721Z
-DTSTART:20231212T053000Z
-DTEND:20231212T090000Z
-DESCRIPTION:The Soho tailgate is in May’s Dive at the Alley. We offer draft
-	 beers and your favorite tailgate-adjacent bites while cheering on our Ten
-	nessee Titans. This event is open to the public. House policies still appl
-	y for access to the club.
-LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
-	ted States
-END:VEVENT
-BEGIN:VEVENT
-UID:gpCE6Km9SIJFAUOKWsWCC
+UID:vr6HRcGgz42dvgASB41Vb
 SUMMARY:Breathwork with Millana Snow
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231212T053000Z
 DTEND:20231212T070000Z
 DESCRIPTION:Join Millana Snow\, an LA-based breathwork guide and healer in 
@@ -47,9 +34,22 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:hh5XwXGiTibdl8_-Kwv3o
+UID:1ot1pNoFlmY4IHjfa-kRU
+SUMMARY:Tailgate watch party: Titans at Dolphins
+DTSTAMP:20231211T171847Z
+DTSTART:20231212T053000Z
+DTEND:20231212T090000Z
+DESCRIPTION:The Soho tailgate is in May’s Dive at the Alley. We offer draft
+	 beers and your favorite tailgate-adjacent bites while cheering on our Ten
+	nessee Titans. This event is open to the public. House policies still appl
+	y for access to the club.
+LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:tImnhl79FaJZ_aOvUx8eU
 SUMMARY:Women In Biz monthly meet-up: Abundant Money Mindset 
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T050000Z
 DTEND:20231213T063000Z
 DESCRIPTION:Calling all boss professionals\, entrepreneurs or side-hustlers
@@ -62,9 +62,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:ea0xABUWX2xzwb-LQ43Om
+UID:ci6_6SpH4LRGRzlWwN233
 SUMMARY:La Vie Quartet and friends: a holiday concert
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231213T060000Z
 DTEND:20231213T080000Z
 DESCRIPTION:Enjoy an evening in the Sock Room with your favorite band of st
@@ -76,9 +76,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:XfD6_mVj6LfInmWO3PfPc
+UID:1JTUYVikxAcMesw0-XWBz
 SUMMARY:U27 showcase: Elise Koscso
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231214T070000Z
 DTEND:20231214T090000Z
 DESCRIPTION:Under 27 Membership Manager Zack Grady hosts a night of emergin
@@ -93,22 +93,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:cHNE__BI9LWDKXdyOJMIL
-SUMMARY:Get pressed with Eastside Nails
-DTSTAMP:20231211T171721Z
-DTSTART:20231215T053000Z
-DTEND:20231215T073000Z
-DESCRIPTION:Time to show off your holiday nails for the gram. Learn how to 
-	do nail art and create your own press-on set with owner and technicians fr
-	om Nashville’s very own\, Eastside Nails. This event is $5 to confirm your
-	 attendance and includes all supplies.
-LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
-	ted States
-END:VEVENT
-BEGIN:VEVENT
-UID:NViCi-TNxg2BKsbvnYe1z
+UID:vN98kNbhtQ_s0O9LOZk7w
 SUMMARY:Rock and Reel: Buena Vista Social Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231215T053000Z
 DTEND:20231215T080000Z
 DESCRIPTION:Member and writer Aaron Davis hosts a screening of music films 
@@ -119,9 +106,22 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:qtV7Sh1FR_FtItehp9-u1
+UID:_smMd24b70b-xT-AItKKE
+SUMMARY:Get pressed with Eastside Nails
+DTSTAMP:20231211T171847Z
+DTSTART:20231215T053000Z
+DTEND:20231215T073000Z
+DESCRIPTION:Time to show off your holiday nails for the gram. Learn how to 
+	do nail art and create your own press-on set with owner and technicians fr
+	om Nashville’s very own\, Eastside Nails. This event is $5 to confirm your
+	 attendance and includes all supplies.
+LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:0uYfDyDqe_uIuws6G5Kt9
 SUMMARY:Movie night: A Biltmore Christmas
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T053000Z
 DTEND:20231216T073000Z
 DESCRIPTION:Meet us in May's for a 'Build Your Own' movie snacks bar\, then
@@ -137,9 +137,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:rGYNZm8zlLOLUGCoXQkD3
+UID:AGlRcxQKxRWDbasIqr6R2
 SUMMARY:SPEAKEASY: Drag me through the Holidays
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T060000Z
 DTEND:20231216T080000Z
 DESCRIPTION:Come to the Sock Room for an immersive storytelling event hoste
@@ -152,9 +152,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:5JFa42vlGjamERVniHgbn
+UID:I0ZUKWg_pI8a6EA65uG7c
 SUMMARY:Holiday ho'down with Reneeka Rae. and Amaria
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231216T070000Z
 DTEND:20231216T110000Z
 DESCRIPTION:Step into the holiday spirit with with your Member Events team\
@@ -166,9 +166,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:hoplSRr3lzUSlhE8D96Yk
+UID:EvMWc0Uir9fK9TQeHKzul
 SUMMARY:LEGO Builders Club
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T020000Z
 DTEND:20231217T040000Z
 DESCRIPTION:Entertain your inner child at LEGO Builders club\, hosted by me
@@ -180,9 +180,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:n2GVSa7iPtLU0n7sRrnH0
+UID:UEUS7k8rKmbcYk066RipG
 SUMMARY:Sunday Feast
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231217T220000Z
 DTEND:20231218T020000Z
 DESCRIPTION:We're bringing our signature Feast to Nashville with a Sunday s
@@ -195,9 +195,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:FzG3A4WxDw7h4maxPVDhp
+UID:oHjtlG0tHt1Bpf1e8OYRu
 SUMMARY:Boozy Bingo with Zack Grady
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231219T060000Z
 DTEND:20231219T080000Z
 DESCRIPTION:Membership manager\, Zack Grady hosts an evening of mixing and 
@@ -207,9 +207,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:Kv3Lv9332ZkWy-FXedav1
+UID:RWAZHXwIEgqiYNGGqNZE1
 SUMMARY:Tech Club: Crush Your Goals in 2024
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231220T050000Z
 DTEND:20231220T070000Z
 DESCRIPTION:Embark on a transformative journey to supercharge your goals in
@@ -230,9 +230,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:mSHgrvaO2CM59h96vpU_9
+UID:3zQxw8yix9-j1GyccSzma
 SUMMARY:Art Club social
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231221T040000Z
 DTEND:20231221T060000Z
 DESCRIPTION:Mix and mingle in May's with managers\, directors\, curators an
@@ -245,9 +245,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:aOTz-M8bHvMofJyu6bXCP
+UID:LUbmLetZ7hTbrOsEw9hHO
 SUMMARY:Screening: D2: The Mighty Ducks
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20231223T000000Z
 DTEND:20231223T020000Z
 DESCRIPTION:Come to the cinema for a family screening of 1994's D2: The Mig
@@ -264,9 +264,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:Se8y1Jfm25eaSNuZyoVnx
+UID:VfAtrH1BKpupiGKJ2Aye-
 SUMMARY:2 Classy 4 this World: a celestial countdown
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T080000Z
 DTEND:20240101T120000Z
 DESCRIPTION:In 2023\, it was confirmed what many of us have already suspect
@@ -290,9 +290,9 @@ LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
 	ted States
 END:VEVENT
 BEGIN:VEVENT
-UID:GRObJ6B2tCe9ji2CecYOu
+UID:ILlTjhxSdTMNWern1l0pL
 SUMMARY:Hangover Feast
-DTSTAMP:20231211T171721Z
+DTSTAMP:20231211T171847Z
 DTSTART:20240101T220000Z
 DTEND:20240102T020000Z
 DESCRIPTION:We're bringing our signature Feast following our NYE party with
