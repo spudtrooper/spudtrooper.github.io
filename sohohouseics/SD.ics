@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:GG7yI7MnC82KlOe9SnZ-v
+SUMMARY:Hanukkah Celebration 
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T000000Z
+DTEND:20231212T013000Z
+DESCRIPTION:Join us in the Library for our second annual evening of celebra
+	tion and connection! Enjoy delicious Hanukkah doughnuts and a festive cock
+	tail. Everyone welcome\, members of all faiths and backgrounds can come an
+	d celebrate the Jewish Festival of Lights\, bring your menorah to light th
+	e candles together!\n\n\n\n
+LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
+	ited Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:lVlAKEs9Pip6H3KZ26Ca2
+SUMMARY:Mothers Meeting
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T160000Z
+DTEND:20231212T180000Z
+DESCRIPTION:Join Mothers Meeting founder\, Jenny Scott\, in the Back Deck a
+	t Shoreditch House where she welcomes special guests to discuss their care
+	ers both pre and post motherhood. Don't miss this opportunity to network w
+	ith like-minded moms and make waves in the business world.
+LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
+	ited Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:0tdPfobuu3ru1Ujy47GZ5
+SUMMARY:Movement Magic with Tamzin Jade
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T000000Z
+DTEND:20231213T020000Z
+DESCRIPTION:Join in the Library for a guided movement experience by Tamzin 
+	Jade. An embodiment practice to reconnect with your divine self\, this is 
+	a space to listen to your desires and express them through shapes and path
+	ways. Guided into an intuitive movement\, exploring space where the physic
+	al and spiritual body intertwine. With gentle curiosity and care\, celebra
+	ting being present. The soundscape for the practice is a curated playlist 
+	that amplifies Black Artists. Please wear comfortable clothes suitable for
+	 yoga/movement. Ticket price includes one House Press juice.
+LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
+	ited Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:c-ZIaWWerp1Ra90tZaKUb
+SUMMARY:Shoreditch House Run Club
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T000000Z
+DTEND:20231213T010000Z
+DESCRIPTION:Like to run? Like to socialise?\n\nSDH Running club will incorp
+	orate both! \n\nWe will meet at the house to embark on a leisurely 5-6km r
+	un\, followed by a meetup in the house\, with a Running Club special offer
+	 menu.\n\nWe will be doing different routes each week. Members only\, 1 sp
+	ot per member. All levels welcome! \n\n
+LOCATION:Shoreditch House\, Ebor Street\, Shoreditch\, London\, E1 6AW\, Un
+	ited Kingdom
+END:VEVENT
+END:VCALENDAR

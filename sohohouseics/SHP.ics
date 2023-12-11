@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:7Zj6m97HhEmcaQTS6VAFT
+SUMMARY:Only Clits Club
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T230000Z
+DTEND:20231212T010000Z
+DESCRIPTION:Camille Aumont Carnel is the founder of @jemenbatsleclito\, a f
+	eminist IG account that challenges sexual stereotypes while celebrating se
+	xual empowerment for women. She invites you to this talk for women and int
+	ersex people only. From orgasms to menstruation\, hair and solo pleasures\
+	, the Only Clits Club is a safe zone to discuss sexuality free of judgemen
+	t\, embarrassment\, and taboos. This event is held in french
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:8rcx03uGztgV0jE2uaZHa
+SUMMARY:One Night Only: Julien Sebbag 
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T230000Z
+DTEND:20231213T020000Z
+DESCRIPTION:One Night Only is our signature evening for the foodies where w
+	e invite acclaimed chefs to take over our kitchen for one night only. Toni
+	ght\, we welcome Julien Sebbag\, the self-taught Parisian visionary Chef b
+	ehind Micho and Forest in Paris and Marseille. Enjoy a special mediterrane
+	an-influenced and generous set menu with paired cocktails suggestions cour
+	tesy of Angel's Envy. \n\nPlease book your table as usual via the SH.APP.\
+	n\nMENU (Regular 65€ / Vege 60€) \n\nHallah Mamiche x Micho\nSunflower see
+	d hummus\, onion confit labneh and spicy condiment\n\nStarter\nRed tuna ta
+	rtare\, shallots & yellow kiwi\, chopped mint\, sumac\n\nVeg : \nTreviso r
+	adiccio\, fresh goat's cheese\, chives\, pickled onions & glazed pear peta
+	ls \n\nMain\nSautéed chanterelles\, parsnip & rosemary cream\, grilled lam
+	b chops\n\nVeg : \nRoasted pumpkin\, cauliflower tabbouleh\, parsnip cream
+	\, marinated feta\n\nDessert\nHomemade apple strudel & cinnamon chantilly\
+	n
+LOCATION:Soho House Paris\, 45 Rue de la Bruyère\, Paris\, 75009\, France
+END:VEVENT
+END:VCALENDAR

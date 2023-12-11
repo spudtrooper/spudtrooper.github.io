@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:u3zT5P8PMas41f_KUdysm
+SUMMARY:Festive carol singing with Podge
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T000000Z
+DTEND:20231212T020000Z
+DESCRIPTION:Celebrate the festive season at the House and come along to the
+	 Bar for our annual carolling session with Podge and Jay Alexander. Bring 
+	your best singing voice and don't forget to wear your best or worst Christ
+	mas jumper.\n
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:6QQQRt-p5W3c-t7fv6CYq
+SUMMARY:House Comedy
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T000000Z
+DTEND:20231213T020000Z
+DESCRIPTION:Head to the cinema to enjoy an evening of stand-up comedy with 
+	the some of the best comics in the UK
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+END:VCALENDAR

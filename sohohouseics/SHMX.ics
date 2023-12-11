@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:X6uMOCYVJfS81Vdg0uueh
+SUMMARY:My Cycles: Letting go\, Transcending and Rebirth by In-tent
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T210000Z
+DTEND:20231212T220000Z
+DESCRIPTION:Come to this mindful experience to reflect how the end of the y
+	ear present it self a moment to evaluate the life experiences we had  and 
+	serve as motivation for what we desire. 
+LOCATION:Soho House Mexico City\, Calle Versalles 28\, Colonia Juarez\, Del
+	egación Cuauthemoc\, Mexico City\, 06600\, Mexico
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:odLtvPBimxm_BketnWMfz
+SUMMARY:Smash the blues: Bootcamp
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T183000Z
+DTEND:20231211T193000Z
+DESCRIPTION:This is a bodyweight bootcamp conducted by Avinash Mansukhani\,
+	 founder of Fight the Sunrise Fitness. This is a fun community workout whe
+	re we burn off some of those massive extra weekend calories. We are doing 
+	a mix of bodyweight and weighted conditioning\, to work on strength and mu
+	scle endurance. Come have fun\, sweat a whole lot\, make some new friends 
+	and learn some new skills.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:XdFbtttehxr46_3cQCJnw
+SUMMARY:Founders' night
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T210000Z
+DTEND:20231213T003000Z
+DESCRIPTION:Join us for an evening of conversations\, food and music before
+	 we close the year.
+LOCATION:Soho House Mumbai\, 16 Juhu Tara Road\, Santa Cruz West\, Mumbai\,
+	 400049\, India
+END:VEVENT
+END:VCALENDAR

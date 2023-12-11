@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:cMfJm1jjJ9DRHGWbNuMoL
+SUMMARY:Hanukkah at the House
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T050000Z
+DTEND:20231212T070000Z
+DESCRIPTION:Come celebrate the 'Festival of Lights' with us in the main clu
+	b. Hosted by members David Gale and Sara Stile and F&B manager Sara Strum\
+	, illuminate the menorah\, spin the dreidel and play trivia\, with lots of
+	 prizes to go around.
+LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:WbG8D798V41wYauTUBCfE
+SUMMARY:Tailgate watch party: Titans at Dolphins
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T053000Z
+DTEND:20231212T090000Z
+DESCRIPTION:The Soho tailgate is in May’s Dive at the Alley. We offer draft
+	 beers and your favorite tailgate-adjacent bites while cheering on our Ten
+	nessee Titans. This event is open to the public. House policies still appl
+	y for access to the club.
+LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:ZaX1Grv9my979Baij3wSC
+SUMMARY:Breathwork with Millana Snow
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T053000Z
+DTEND:20231212T070000Z
+DESCRIPTION:Join Millana Snow\, an LA-based breathwork guide and healer in 
+	the Sock Room for a transformative Integrative Breathwork experience to le
+	t go of 2023 and prepare for the new year ahead. Infused with music to gui
+	de you into altered states\, this mindful three-part breath practice will 
+	empower you to witness your subconscious\, release the past\, and move for
+	ward with confidence and clarity. Come with an open mind and heart\; you’l
+	l leave feeling renewed and ready for 2024.
+LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:5Li1MEP5j_MgCZPAJ7uK_
+SUMMARY:Women In Biz monthly meet-up: Abundant Money Mindset 
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T050000Z
+DTEND:20231213T063000Z
+DESCRIPTION:Calling all boss professionals\, entrepreneurs or side-hustlers
+	 to May's. The inaugural Women in Biz meet-up is one part networking and o
+	ne part practical tips for how to succeed in all things business. Hosted b
+	y member Hannah Kaul\, a career and business coach\, walk through a worksh
+	op to address limiting beliefs surrounding money and offer practical tips 
+	on how to increase profits before entering 2024. 
+LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:ONpbRQhVjK_POG9waQg6w
+SUMMARY:La Vie Quartet and friends: a holiday concert
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T060000Z
+DTEND:20231213T080000Z
+DESCRIPTION:Enjoy an evening in the Sock Room with your favorite band of st
+	rings\, La Vie Quartet. Known around here for its modern take on popular m
+	usic during Feast\, the quartet performs a set that includes special guest
+	s for KING + COUNTRY\, Caroline Kole\, Abby Jane and more.\n\nPlease note:
+	 seating is limited and on a first-come\, first-served basis.  
+LOCATION:Soho House Nashville\, 500 Houston St\, Nashville\, TN 37203\, Uni
+	ted States
+END:VEVENT
+END:VCALENDAR

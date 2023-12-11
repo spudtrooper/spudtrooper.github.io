@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:Vi_le8CDkSYoYDsJYWGY2
+SUMMARY:Wreath making workshop
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T160000Z
+DTEND:20231212T180000Z
+DESCRIPTION:Get in the festive spirit while you enjoy mulled wine and mince
+	 pies in this special wreath-making class where you learn how to create a 
+	Christmas wreath using seasonal flowers and foliage.
+LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
+	dshire\, OX7 4JS\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:P7rP7a6QYzu85QXmaq-la
+SUMMARY:Come dancing masterclass
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T000000Z
+DTEND:20231213T020000Z
+DESCRIPTION:Join us for our monthly dance class\, where you learn a differe
+	nt style each session lead by guest instructors from the worlds of stage a
+	nd screen. This month it's the Jive. Come over to the Barwell Barn for a f
+	un evening and enjoy a drink on us. Please wear clothing you can move in a
+	nd comfortable  footwear - dance shoes/heels optional.
+LOCATION:Soho Farmhouse\, Tracey Farm\, Great Tew\, Chipping Norton\, Oxfor
+	dshire\, OX7 4JS\, United Kingdom
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:nsFhzPFsm4r0iJi5olpuQ
+SUMMARY:Festive Wine Tasting 
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T230000Z
+DTEND:20231212T003000Z
+DESCRIPTION:Meet Little House Balham's General Manager\, as he hosts a fest
+	ive wine tasting evening on the bar\, try some of the most interesting win
+	es from across Europe.\n
+LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:A8yFBT98coCr322MUpHgt
+SUMMARY:Drag Bingo Christmas Special 
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T000000Z
+DTEND:20231213T030000Z
+DESCRIPTION:Join the stunning Camille Leon and Soroyah Marchelle for a nigh
+	t of fabulousness & outrageous christmas bingo special\n
+LOCATION:Little House Balham\, 15-19 Bedford Hill\, London\, SW12 9DS\, Uni
+	ted Kingdom
+END:VEVENT
+END:VCALENDAR

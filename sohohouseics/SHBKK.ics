@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:04gVDyfFcjmatB6ADBopg
+SUMMARY:Holiday Dynamic and Energetic Flow with Rana
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T050000Z
+DTEND:20231212T060000Z
+DESCRIPTION:Get ready to invigorate your holiday season with "Holiday Dynam
+	ic and Energetic Flow with Rana\," a yoga class that's all about celebrati
+	ng the festive spirit with vitality and joy. Teacher Rana brings his vibra
+	nt energy and expertise to create a yoga experience that perfectly complem
+	ents the excitement and cheer of the holiday season.\n\nIn this class\, Ra
+	na will guide you through a series of dynamic and rhythmic sequences that 
+	are designed to energize your body and elevate your spirit. The flow is vi
+	gorous and uplifting\, making it a fantastic way to shake off any holiday 
+	stress and refocus on the joy of the season. Expect to move\, sweat\, and 
+	most importantly\, smile as you flow through poses that challenge and invi
+	gorate.\n\nRana's approachable teaching style ensures that the class is su
+	itable for a variety of levels\, from those looking to intensify their pra
+	ctice to newcomers ready to dive into a dynamic yoga experience. With modi
+	fications offered throughout\, everyone can join in on this holiday fun.\n
+	\nAs you flow to the rhythm of energizing beats\, you'll find a unique ble
+	nd of traditional yoga postures interwoven with creative\, holiday-inspire
+	d movements. This class isn't just a workout\; it's a celebration of movem
+	ent\, breath\, and the festive energy of the holidays.\n\nSo come join "Ho
+	liday Dynamic and Energetic Flow with Rana" and add an extra sparkle to yo
+	ur holiday season. It's the perfect opportunity to gift yourself a moment 
+	of health and happiness amidst the festive rush!
+LOCATION:Soho House Bangkok\, 267 Soi Sukhumvit 31\, Khlong Tan Nuea\, Watt
+	hana\, Bangkok\, 10110\, Thailand
+END:VEVENT
+END:VCALENDAR

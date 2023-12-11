@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:FyjZzwf_0mkfhm22nU6O8
+SUMMARY:The Monday Club: hot mulled wine
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T220000Z
+DTEND:20231211T233000Z
+DESCRIPTION:As the winter chill sets in\, we invite you to warm up with a c
+	ozy and aromatic hot mulled wine workshop. Join us for an evening where th
+	e art of crafting the perfect mulled wine meets the warmth of community an
+	d creativity. 
+LOCATION:Istanbul Club\, Evliya Çelebi\, Meşrutiyet Cd\, Istanbul\, 56\, 34
+	430\, Turkey
+END:VEVENT
+BEGIN:VEVENT
+UID:jhDQ5vq_aCw_270lCgAva
+SUMMARY:Soho Talks: Ali Tufan Koç 'asking the right questions and engaging 
+	in meaningful conversations' 
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T210000Z
+DTEND:20231212T223000Z
+DESCRIPTION:Inspired by his newly released second book\, "The Book of Conve
+	rsations: 973 Questions about Love\, Death\, Hope\, Fear\, Goodness\, Doub
+	ts\, Future\, and Some Other Important Stuff"\, Ali Tufan Koç offers us gu
+	idance and solutions on how to ask the right questions and engage in meani
+	ngful conversations in our daily lives. Koç is a New York-based journalist
+	-author/media entrepreneur and he is the former editor-in-chief at GQ Turk
+	ey\, as well as the former Publishing Director at Vogue Turkey.
+LOCATION:Soho House Istanbul\, Meşrutiyet Caddesi No:56\, Beyoğlu\, Istanbu
+	l\, 34430\, Turkey
+END:VEVENT
+END:VCALENDAR

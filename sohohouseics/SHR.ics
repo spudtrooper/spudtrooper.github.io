@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:DqNSDezjkAi69ZsWH6GHe
+SUMMARY:Wellness Monday with Viola Shanti
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T150000Z
+DTEND:20231211T160000Z
+DESCRIPTION:Soho House Rome member Viola Shanti of #Meditime leads this ses
+	sion that’s focused on the practice of yoga nidra a meditation technique t
+	hat induces a state of conscious relaxation.
+LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:2WGYoXiaF9yswGtZnBsqY
+SUMMARY:Acting workshop with Roberto Capucci
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T233000Z
+DTEND:20231213T023000Z
+DESCRIPTION:Join the House for an acting workshop\, hosted by Roberto Capuc
+	ci\, on character work and its arc within the narrative development of the
+	 film. Through the director’s guidance\, the theme of the actor’s ‘choice’
+	 is introduced\, exploring how one establishes their unique and creative i
+	nterpretation.
+LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:CGfMiycnKXYK_JQNVqPbf
+SUMMARY:Tuesday Jazz
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T020000Z
+DTEND:20231213T040000Z
+DESCRIPTION:Join us at the House for our new weekly music series where the 
+	spotlight is on soulful jazz melodies. Sip a glass of wine and enjoy the m
+	usic. Tonight we have: Selen Capaci Trio.
+LOCATION:Soho House Rome\, Via Cesare de Lollis\, 14\, Rome\, 00185\, Italy
+END:VEVENT
+END:VCALENDAR

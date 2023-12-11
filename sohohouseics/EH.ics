@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:MJv2CcUiPygBFCSCuqvPT
+SUMMARY:Christmas Member Mixer
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T000000Z
+DTEND:20231212T030000Z
+DESCRIPTION:Meet us at the Electric House for one of our member mixers. Whe
+	ther you’re a new member or have been one for years\, come along\, sociali
+	se\, connect and meet other members\, as well as the membership team. A gr
+	eat chance to network and build connections within Soho House and within y
+	our industry!
+LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
+	gdom
+END:VEVENT
+END:VCALENDAR

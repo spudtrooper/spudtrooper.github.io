@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:0GmoZ3v0pGoVt_4PaW4Y_
+SUMMARY:Illuminarium: private access
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T210000Z
+DTEND:20231225T090000Z
+DESCRIPTION:The Illuminarium at The Distillery District provides Soho House
+	 members with a festive\, immersive experience blending technology and hol
+	iday artistry. The Winter Wonderland Spectacular includes scenes from Sant
+	a’s palace to futuristic fantasylands\, complemented by festive drinks. At
+	tendees can also enjoy free access to the Distillery District’s Christmas 
+	market after the event.
+LOCATION:Distillery District\, 28 Gristmill Lane\, Toronto\, ON M5A 3R6\, C
+	anada
+END:VEVENT
+BEGIN:VEVENT
+UID:-trwudpq7HKiFjP9l3KU_
+SUMMARY:The Remix Project presents: graduation
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T040000Z
+DTEND:20231213T070000Z
+DESCRIPTION:The Remix Project invites you to join us for a memorable evenin
+	g as we honour the accomplishments of our students at this year's Graduati
+	on event for Round 18.0.\n\nTo RSVP simply click the link.
+LOCATION:HISTORY\, 1663 Queen St E\, Toronto\, ON M4L 1G5\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:MVrL_aVTBGLheDedtN-j6
+SUMMARY:Clay critter ornament crafting
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T050000Z
+DTEND:20231213T070000Z
+DESCRIPTION:\nJoin member Lotus Tsang for a festive evening of clay craftin
+	g to create unique Christmas tree ornaments. Rediscover your inner child\,
+	 share laughter\, and embrace the holiday spirit as you craft personalized
+	 decorations. This event is more than an activity\; it’s a heartwarming ex
+	perience that brings out the childlike wonder in everyone."
+LOCATION:Soho House Toronto\, Bishop's Building\, 192 Adelaide Street West\
+	, Toronto\, M4H 0A4\, Canada
+END:VEVENT
+END:VCALENDAR

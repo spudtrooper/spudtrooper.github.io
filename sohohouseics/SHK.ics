@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:qrzDAC3eAOoR8AWTPjeSQ
+SUMMARY:Mindfulness Monday
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T153000Z
+DTEND:20231211T161500Z
+DESCRIPTION:\nFeeling rushed and overwhelmed? Please join us for a moment o
+	f pause and presence to end the year on a positive note. We are so busy wi
+	th our daily lives\, our minds are always rushing somewhere else and many 
+	times we forget to enjoy the precious present.\n\nCome and share this Mind
+	fulness Monday together so we can slow down\, pause\, reflect and learn to
+	 stay a bit more in the moment with joy and gratitude.\n\n*This session is
+	 open to all levels. If you are new to mindfulness or an experienced pract
+	itioner\, come share this moment with us. With simple guidance\, love and 
+	kindness\, we will set an intention and do some simple mindfulness practic
+	es together that might leave you feeling a bit more grounded\, calm and gr
+	ateful.
+LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong 
+	Kong\, 999077
+END:VEVENT
+BEGIN:VEVENT
+UID:gSIHRnusYzSF2bRQasUWu
+SUMMARY:Run Club
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T160000Z
+DTEND:20231212T170000Z
+DESCRIPTION:Join fellow member\, co-founder of Hong Kong Harbour Runners an
+	d Lululemon ambassador\, Brian Woo for a neighbourhood 5K run\, with one c
+	oach leading the pack and another taking up the rear – so no one’s left be
+	hind. Meet at Soho Active beforehand and return after the run to recharge.
+LOCATION:Soho House Hong Kong\, 33 Des Voeux Road West\, Sheung Wan\, Hong 
+	Kong\, 999077
+END:VEVENT
+END:VCALENDAR

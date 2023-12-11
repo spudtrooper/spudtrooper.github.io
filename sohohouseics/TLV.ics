@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:_uv85zMFe_GU6vgGg0H6F
+SUMMARY:Rebirthing Treatment with Gal Deren
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T210000Z
+DTEND:20231212T000000Z
+DESCRIPTION:Join us for a session\, which includes finding a quiet space\, 
+	following a facilitator's guidance\, and being open to emotional and spiri
+	tual insights for personal growth. Rebirthing Breathwork is an active brea
+	thing process that inspires access to your full potential for joy\, aliven
+	ess\, and peace in life
+LOCATION:Soho House Tel Aviv Jaffa\, Yefet Street 27\, Tel Aviv\, 6813005\,
+	 Israel
+END:VEVENT
+BEGIN:VEVENT
+UID:WtiEJedD0omOmAWe-bCBR
+SUMMARY:Sound Voyage Meditation with Coral 
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T220000Z
+DTEND:20231212T230000Z
+DESCRIPTION:The sound journey goes behind quieting the mind\, it’s a practi
+	ce that takes you into the depth of your being\, where you can experience 
+	a range of spiritual\, emotional\, and physiological benefits. The practic
+	e combines Yoga Nidra\, it balances the nerves system\, cancels the harmfu
+	l impact of long term stress and anxieties\, releases fears\, insecurities
+	 and reduces depression. As a result from that the concentration level is 
+	higher\, the memory improves and the ability to respond to changes is fast
+	er and more efficient. All the above will impact the choices\, behaviors\,
+	 relationships\, work\, and the overall health of a person.
+LOCATION:Soho House Tel Aviv Jaffa\, Yefet Street 27\, Tel Aviv\, 6813005\,
+	 Israel
+END:VEVENT
+END:VCALENDAR

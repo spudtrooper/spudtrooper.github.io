@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:SbZGcTE3C8l5DF1CADuSV
+SUMMARY:Barrys Class: Arms & Abs
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T230000Z
+DTEND:20231212T000000Z
+DESCRIPTION:A 60min high intensity and dynamic class\, led by a top trainer
+	. The workout includes 25min strength work on the floor\, where we focus o
+	n a burn for your Arms & Abs\, along with 25min interval training on the t
+	readmill. We bring you the night club vibe into our Red Room\, with carefu
+	lly curated playlists that inspire you to sprint faster and lift heavier –
+	 every time.
+LOCATION:Barry’s\, Christian IX's Gade 3\, 1111 København\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:MvcHUoHQrGLcVAFBo6ttM
+SUMMARY:MC: Movie Screening of Home Alone
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T000000Z
+DTEND:20231212T020000Z
+DESCRIPTION:Join us in the Harbour room for a cosy evening watching Home Al
+	one with Popcorn and Gloog to to immerse you into the holiday spirit.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:KsN7QoAAM2wRV64C4U3zb
+SUMMARY:Champions League Screening: FCK - Galatasaray
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T010000Z
+DTEND:20231213T023000Z
+DESCRIPTION:Come and watch as FC København (FCK) goes head-to-head with Gal
+	atasaray in the Champions League.
+LOCATION:Soho House Copenhagen\, Havnegade 44\, Copenhagen\, 1058 København
+	\, Denmark
+END:VEVENT
+END:VCALENDAR

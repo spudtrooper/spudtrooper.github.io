@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:680r-xlzCVKuFKlD0eB3W
+SUMMARY:Cookhouse: Gingerbread Decorating 
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T060000Z
+DTEND:20231213T073000Z
+DESCRIPTION:Cookhouse: Gingerbread Decorating:\nWhat’s better than art you 
+	can eat? Get into the holiday spirit and activate your inner child as you 
+	decorate gingerbread houses with the Soho House Holloway staff. Children a
+	nd adults both welcome. 
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:nulb4XatmToYJDjDWqQyS
+SUMMARY:New moon sound healing experience 
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T083000Z
+DTEND:20231213T093000Z
+DESCRIPTION:Put on something cozy and join Michelle Vezilj (Victim to Victo
+	r) for an immersive sound healing experience. Michelle leads you on a tran
+	sformative hypno-journey guiding you to release energies no longer in reso
+	nance with your mind\, body\, and spirit. Tap into your heart and align yo
+	urself with your highest timeline and greatest potential. End the evening 
+	feeling refreshed and ready for a restful night's sleep. 
+LOCATION:Soho House Holloway\, 8465 Holloway Drive\, West Hollywood\, CA 90
+	069\, United States
+END:VEVENT
+END:VCALENDAR

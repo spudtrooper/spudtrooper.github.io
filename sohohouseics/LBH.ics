@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:O2aBntT8Bb21y3N7E9tt0
+SUMMARY:Slow Flow Yoga
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T221500Z
+DTEND:20231211T231500Z
+DESCRIPTION:A slower paced class with time for you to absorb each posture. 
+	This class takes you through fewer flows and longer holds to challenge you
+	r balance and calm your mind. Yogis of all levels are welcome. Members are
+	 encouraged to bring their own mat.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:X2yhb5zr4B3XwCdNY-A6X
+SUMMARY:Meditation
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T233000Z
+DTEND:20231212T000000Z
+DESCRIPTION:Stick around after today’s yoga flow to realign your mind with 
+	this 30-minute meditation session. All levels welcome.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:pnNNiEKXnLp2UH-h7ePXE
+SUMMARY:New moon tarot reading
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T040000Z
+DTEND:20231212T080000Z
+DESCRIPTION:Enjoy a complimentary tarot reading by clairvoyant Sophia Knapp
+	. These pop-up sessions are designed to help you cultivate emotional\, men
+	tal\, and spiritual clarity. They provide insight and awareness\, so you c
+	an navigate life with wisdom. The sessions are first-come\, first-serve.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:h1mDLhCKjR9cXVIUUe-ix
+SUMMARY:Ashtanga Yoga Flow
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T221500Z
+DTEND:20231212T233000Z
+DESCRIPTION:This 75-minute practice is a led class through the primary seri
+	es of Ashtanga. Expect to work hard and learn a valuable practice. Todays 
+	class will be lead by Angel. Members are encouraged to bring their own mat
+	.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:GOMMY-vDmxAyQ_5F1LbSU
+SUMMARY:House Boxing
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T233000Z
+DTEND:20231213T003000Z
+DESCRIPTION:Join owner and trainer of BRAWLR\, Shane for a 50 minute boxing
+	 class. Get a great sweat in\, while learning a professional level of tech
+	nique and fundamentals on how to punch and defend yourself.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:RLInodyo7qyy1TWuDwDyY
+SUMMARY:Wreath workshop with Maximum Bloomage
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T050000Z
+DTEND:20231213T070000Z
+DESCRIPTION:Wreather Madness\, taught by Selena Gooch\, Los Angeles native 
+	and owner of Maximum Bloomage\, will be sure to usher you into the spirit 
+	of the season. Wreaths provided with unique accoutrements for a festive pe
+	rsonally designed wreath\, taught with tips and tricks to sprinkle some ma
+	gic on your holiday.\n\nConfirmation is required for attendance.
+LOCATION:Little Beach House Malibu\, 22716 Pacific Coast Highway\, Malibu\,
+	 CA 90265\, United States
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:_zcfg_GRxqFKK9Fs7e0xC
+SUMMARY:The Monday Club music by Marcy Mane
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T000000Z
+DTEND:20231212T040000Z
+DESCRIPTION:Join us a The Monday Club for some drinks and bites in the Club
+	. This time we've invited Marcy Mane hailing from Washington DC to select 
+	the tunes while you're having dinner and sippin' cocktails. See you in the
+	 Club. 
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+BEGIN:VEVENT
+UID:LPR0zoVwKHNHw8F4Xzdyz
+SUMMARY:U27 Christmas Member Mixer
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T000000Z
+DTEND:20231212T020000Z
+DESCRIPTION:Meet us in the Club next to the Christmas tree for our U27 Memb
+	er Mixer. Whether you’re a new member or have been one for years\, come al
+	ong and enjoy drinks on us. Socialise\, connect and meet other members and
+	 toast on the festivities. 
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+BEGIN:VEVENT
+UID:CkN7TAl_3NmWexXVpRzJO
+SUMMARY:TEN Club: Generational Wealth
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T210000Z
+DTEND:20231213T000000Z
+DESCRIPTION:We welcome you to join our upcoming TEN Club gathering\, which 
+	has been carefully designed for women looking for genuine connections and 
+	meaningful conversations.\n\n\nTEN is a networking community for women who
+	 are looking to connect deeply. Through monthly member events\, we focus o
+	n knowledge sharing\, meaningful conversations and real connections. Here\
+	, we focus on the essence of you\, for it's the people you meet that shape
+	 your journey.\n\n\nJoin us on Tuesday\, December 12\, as we delve into th
+	e subject of Generational Wealth. Creating a legacy that can benefit your 
+	family and future generations for years to come. At this event\, you will 
+	gain invaluable insights into the art of investing\, discovering innovativ
+	e ways to find funding for your business\, and most importantly\, how to b
+	uild a lasting financial legacy. Our speaker will share personal stories o
+	n resilience\, resourcefulness\, and entrepreneurial spirit\, providing yo
+	u with the motivation and guidance needed to take charge of your financial
+	 future.\n\n\n\nWe're excited to meet you at this event\, where you'll hav
+	e the opportunity to make life changing connections with like minded women
+	. Whether you're an entrepreneur\, intrapreneur\, or industry professional
+	\, TEN Club is the right place for developing lasting connections\, exchan
+	ging thoughts\, and achieving your business aspirations.\n\n\nPlease note 
+	that doors will close at 17:00\n\n
+LOCATION:Soho House Amsterdam\, 210 Spuistraat\, Amsterdam\, 1012 VT\, Neth
+	erlands
+END:VEVENT
+END:VCALENDAR

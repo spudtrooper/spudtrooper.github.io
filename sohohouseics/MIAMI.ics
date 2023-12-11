@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:BeLYhktnPZeK7MTuuGNfh
+SUMMARY:Calibrate IV in Cowshed
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T190000Z
+DTEND:20231212T000000Z
+DESCRIPTION:Embark on a journey of wellness and relaxation at Soho House Mi
+	ami during Art Week. Explore our IV treatments ensuring you stay energized
+	 and refreshed throughout your adventures.\n\nLimited daily appointments a
+	re available. RSVPing to this event does not guarantee treatment spot. Pri
+	cing varies based on treatment selected. 
+LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\, 
+	United States
+END:VEVENT
+BEGIN:VEVENT
+UID:rbbGmZtJb5YDH8mIb-NKv
+SUMMARY:Teressa Foglia Custom Hat Pop-up
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T200000Z
+DTEND:20231212T020000Z
+DESCRIPTION:Discover the art of modern millinery with Teressa Foglia. Join 
+	us at the Beach Bar for an exclusive hat pop-up event\, as Teressa and her
+	 skilled team will be on-site\, offering a curated selection of ready-to-w
+	ear hats\; experience the luxury of being expertly sized for your perfect 
+	hat\, and add a personal touch by customizing your hat right there.
+LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\, 
+	United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fzMv1NtNf-ozb8LsOqmcw
+SUMMARY:Art Club: macramé workshop with Liene Bosquê 
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T040000Z
+DTEND:20231213T060000Z
+DESCRIPTION:Join us for a workshop with one of the Pool House Art Collectio
+	n’s featured artists\, Liene Bosquê. Participants will learn the basics of
+	 macramé technique such as knots\, hitches\, and plaiting to create either
+	 utilitarian design or abstract artworks. For tonight’s workshop\, Liene w
+	ill be showing us how to use the cord tying technique to construct a bottl
+	e holder. No experience is necessary. All materials + wine will be provide
+	d.
+LOCATION:Soho Beach House\, 4385 Collins Avenue\, Miami Beach\, FL 33140\, 
+	United States
+END:VEVENT
+END:VCALENDAR

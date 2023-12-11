@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:8lnQ2qC8QchbC0HyUh9xn
+SUMMARY:Ingress Gallery: artist talk with Roland Santana
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T060000Z
+DTEND:20231212T080000Z
+DESCRIPTION:Each month\, a featured artist from the Ingress Gallery on the 
+	Allis Mezzanine speaks on their inspirations and expertise. Spend the even
+	ing with Roland Santana as he talks about his upbringing\, how he navigate
+	s the Chicago art scene\, and his interest in underground art movements.
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+BEGIN:VEVENT
+UID:TQh77sGTpov0z1dZkadM_
+SUMMARY:Film Club mixer
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T060000Z
+DTEND:20231212T073000Z
+DESCRIPTION:Calling all film fanatics - writers\, directors & more. Meet in
+	 the club with others from the industry\, whether just to bounce ideas off
+	 each other or find skilled collaborators for an upcoming project. Attende
+	es are offered a glass of wine and space to connect.
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+BEGIN:VEVENT
+UID:_otPKPAW8wEGokN7CIJIT
+SUMMARY:House Supper: Hanukkah dinner with Nevin Landi
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T060000Z
+DTEND:20231212T080000Z
+DESCRIPTION:Celebrate the Festival of Lights with F&B Manager Nevin Landi. 
+	Whether you light the menorah every year or it's your first time\, all are
+	 welcome. Tickets are $35 per person and must be purchased via Tock below.
+	 
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+BEGIN:VEVENT
+UID:TRdvu8-tk6Ydr1rVf8IWT
+SUMMARY:Tommaso and friends
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T080000Z
+DTEND:20231212T103000Z
+DESCRIPTION:Calling all Under 27 members. Enjoy your special rate with Chic
+	ago U27 member\, DJ Tommaso\, as he takes over the decks every Monday from
+	 9p to 11:30pm. Expect special guests spinning throughout the evening.
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+BEGIN:VEVENT
+UID:5DoUzl4lBoD16KjOvh9bG
+SUMMARY:House Mixer: fashion industry
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T050000Z
+DTEND:20231213T080000Z
+DESCRIPTION:Join membership manager\, Portia King\, for a special industry 
+	mixer with vibes by Sigma Chris and DJ Kid Clay. Grab a drink from the bar
+	 while enjoying good beats for an evening of networking amongst fellow pro
+	fessionals in the fashion industry.
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+BEGIN:VEVENT
+UID:wC4l8J113dx5K-BjlhUDn
+SUMMARY:Tech Club meet up
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T060000Z
+DTEND:20231213T080000Z
+DESCRIPTION:We are welcoming members from all fields to Tech Club to mix\, 
+	mingle\, & help contribute. Come network across multiple disciplines and s
+	ee how creatives are using or pivoting into tech. This isn't your usual me
+	etup - be ready to interact\, participate\, & highlight what you're workin
+	g on or need help with.
+LOCATION:Soho House Chicago\, 113-125 N. Green St\, Chicago\, 60607\, Unite
+	d States
+END:VEVENT
+END:VCALENDAR

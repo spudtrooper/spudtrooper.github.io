@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:SjN0Bynsl_FFmJPQPqitr
+SUMMARY:180 Wellbeing: Smells like Christmas with Lab Tonica 
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T134500Z
+DTEND:20231212T150000Z
+DESCRIPTION:Join Herbalist and Founder Kitty McEntee for a sensory morning 
+	exploring the healing properties of essential oils and the nostalgic scent
+	s of Christmas. You’ll learn how to blend oils and create your own festive
+	 mood mist\, to lift the spirits and enhance well being in your home this 
+	holiday season. You’ll also take away a complimentary Lab Tonica gift.
+LOCATION:180 House\, 180 Strand\, London\, WC2R 1EA\, United Kingdom
+END:VEVENT
+END:VCALENDAR

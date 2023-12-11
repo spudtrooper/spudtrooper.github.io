@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:aTe7VKX571wb6WoV65Kal
+SUMMARY:HIIT\, strength and function with 54D
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T183000Z
+DTEND:20231212T053000Z
+DESCRIPTION:NOTE: this is an offsite workout happening at the 54D studio in
+	 Chelsea and needs to be booked in advance by emailing the address at the 
+	foot of the event description below.\n\n54D is a global fitness brand dedi
+	cated to human transformation through achieving physical\, mental and emot
+	ional changes in every participant. Based on an understanding of the human
+	 body and rooted in professional athletic practices\, their programs guara
+	ntee visible and measurable results in 54 days.\n\n54D is offering Soho Ho
+	use members a chance to attend a one-hour group training session led by ex
+	-professional athletes at their Chelsea studio. The available classes happ
+	en Mondays and Wednesdays at either 8:30am or 6:15pm and can be booked by 
+	emailing omar@54d.com. 
+LOCATION:54D New York City\, 125 W 25th St\, New York\, NY 10001\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:tGM1JOYnqoUQzLJ7-Ownx
+SUMMARY:Yoga with Jenny Mendez
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T190000Z
+DTEND:20231211T200000Z
+DESCRIPTION:Jenny’s classes are open to students of all levels and offer ac
+	cessible alignment principles and biomechanics from which students can be 
+	playful\, explore their creative potential\, heal and transform. You'll al
+	ways be given the option to keep your practice chill or turn it up with mo
+	re challenging variations of the poses offered. Arrive as you are\, tune i
+	n and unearth your flow and enjoy an aromatherapy experience with sage at 
+	the beginning of class and essential oils at the end.\n\nNOTE: Please brin
+	g your own yoga mats if possible\, as in-house mats are limited and availa
+	ble on a first-come\, first-served basis.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:SIV__QF0FzLUrBvg2g3gu
+SUMMARY:Creativity in the age of AI
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T043000Z
+DTEND:20231212T063000Z
+DESCRIPTION:Generative AI and groundbreaking technologies are not only resh
+	aping our artistic landscapes and experiences but also echoing our most pr
+	ofound thoughts and concerns about the essence of human uniqueness. Join u
+	s for a conversation on the topic with Katrin Zimmermann (CEO at TLGG/ Omn
+	icom)\, Diana Cravely (global CSO at MRM McCann)\, and Dominik Heinrich (A
+	I design leader and faculty at PRATT Institute). 
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:j8-C_wHkLGZOU95JHZdRW
+SUMMARY:Pilates with Courtney Escoto
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T183000Z
+DTEND:20231212T193000Z
+DESCRIPTION:Courtney Escoto is a New York native based in the Lower East Si
+	de of Manhattan. Her fitness approach involves a highly personalized progr
+	amme rooted in the fundamentals of pilates\, designed to shape\, sculpt\, 
+	and build strength. Escoto’s upbeat attitude and seamless flow leave you f
+	eeling challenged but invigorated. All experience levels are welcome.
+LOCATION:Soho House New York\, 29-35 9th Avenue\, New York\, NY 10014\, Uni
+	ted States
+END:VEVENT
+BEGIN:VEVENT
+UID:sZgMccKpgCbG_3VZE6u9F
+SUMMARY:Injectables: how much is too much?
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T040000Z
+DTEND:20231213T053000Z
+DESCRIPTION:Discover the secrets of achieving the perfect balance with reno
+	wned and award-winning expert and injector\, Akis Ntonos\, DNP. Get ready 
+	for an engaging Q&A session where you can ask all your burning questions a
+	bout injectables. Aion Aesthetics is an upscale boutique clinic nestled in
+	 the Upper East Side of Manhattan. Get two complimentary months of the cli
+	nic’s loyalty program when you sign up\, and receive special offers. This 
+	offer is reserved for first-time clients of Aion Aesthetics. Must attend t
+	he event to redeem offers. This event takes place at Soho Works 875 Washin
+	gton.
+LOCATION:Soho Works: 875 Washington\, 875 Washington St\, New York\, NY 100
+	14\, USA
+END:VEVENT
+END:VCALENDAR

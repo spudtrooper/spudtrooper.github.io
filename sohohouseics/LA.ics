@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:FozhpRNqluCEJAt6GKAMB
+SUMMARY:Wine Club: Holiday's
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T073000Z
+DTEND:20231212T090000Z
+DESCRIPTION:Join our wine captains Lauren Bolona  and Lauren Carlson for a 
+	wine tasting. Prepare to embark on an adventure where taste\, texture and 
+	aroma come together. In this very special Holiday Dinner tasting. \n\nNote
+	: this event has no plus one
+LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
+	s Angeles\, CA 90069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:wSy1SQrJw0oC-L8dWGb8X
+SUMMARY:New Moon tarot readings
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T040000Z
+DTEND:20231213T080000Z
+DESCRIPTION:This new moon\, enjoy a complimentary tarot reading by clairvoy
+	ant Sophia Knapp\, who is also a modern mystic and resident tarot teacher 
+	at The DEN Meditation. These one-on-one sessions are designed to help you 
+	cultivate emotional\, mental\, and spiritual clarity by providing insight 
+	and awareness\, so you can navigate life with wisdom. \n\nReadings are lim
+	ited and available on a first-come\, first-served basis. Be sure to arrive
+	 early to sign up.
+LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
+	s Angeles\, CA 90069\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fEXtH--0XDtFXCwmq72in
+SUMMARY:Soho Works presents: 'The Future of Community' book launch 
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T060000Z
+DTEND:20231213T080000Z
+DESCRIPTION:Join us at Soho Works for the book launch of  “The Future of Co
+	mmunity”\, which is focused on how creators and brands can leverage AI\, w
+	eb3\, and emerging technologies to grow their brands and businesses. All t
+	hree authors of the book\, John Kraski\, Justin Shenkarow\, and Charles Ad
+	kins\, are also fellow Soho House members.
+LOCATION:Soho Works 9000 Sunset\, 9000 Sunset Blvd Floor 3\, West Hollywood
+	\, CA 90069\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:EkNGgMM7VAh4Tg6mpBHg-
+SUMMARY:Book Club: ‘The Friend’
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T073000Z
+DTEND:20231213T090000Z
+DESCRIPTION:Enjoy a good read and some lively conversation at our monthly B
+	ook Club. This month’s book is ‘The Friend’ by Sigrid Nunez.\n\nPlease rea
+	d the book in advance and come ready for a discussion in the Sitting Room.
+	 Copies of the book are available at reception in limited quantities. Drin
+	ks and snacks are provided.
+LOCATION:Soho House West Hollywood\, 9200 Sunset Blvd\, West Hollywood\, Lo
+	s Angeles\, CA 90069\, United States
+END:VEVENT
+END:VCALENDAR

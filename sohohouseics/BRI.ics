@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:jBCKETxbROWpaK_PocX17
+SUMMARY:Box @ ROX with Alex
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T213000Z
+DTEND:20231211T223000Z
+DESCRIPTION:Held at ROX\, our fitness partner studio in Hove\, this offsite
+	 class splits between boxing bags and weighted bench stations. Box is a fu
+	ll body workout combining punching combos and technique on their water fil
+	led aqua bags\, and weighted and body weight full body exercises on bench 
+	stations.\n\nWith choreographed boxing routines and station work for all a
+	bilities\, zone out\, attack the class and no matter what day you’ve had\,
+	 punch it out on their state-of-the-art aqua bags. Boxing gloves are provi
+	ded if needed. Please arrive 10 minutes before the class start time.
+LOCATION:Rox Life\, 115 Western Rd\, Hove\, Brighton and Hove\, Hove BN3 1D
+	D\, UK
+END:VEVENT
+BEGIN:VEVENT
+UID:NwXj6Kw-LE1EsujK8Hm9a
+SUMMARY:Men of Melanin
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T000000Z
+DTEND:20231212T030000Z
+DESCRIPTION:Men of Melanin is monthly support group for men of colour. Led 
+	by cofounders Bud Johnston and Cameron Okai\, these sessions give particip
+	ants a safe space to share the experiences and challenges navigating life 
+	as a man of colour. It’s also an opportunity to just kick back and release
+	 tension with the brotherhood. \n\nPlease note: the group runs every secon
+	d Monday of the month. Doors open 7pm\, session starts promptly at 7.30pm.
+LOCATION:Brighton Beach House\, Madeira Drive\, Brighton\, BN2 1TS\, United
+	 Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:JzHYJ6QhUJgLkYPNjXkNP
+SUMMARY:House Quiz: Christmas Special
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T000000Z
+DTEND:20231213T030000Z
+DESCRIPTION:This month our House Quiz takes a turn to the North Pole for ou
+	r Christmas special. As always\, come prepared for an evening of questions
+	\, challenges and comedy\, with exciting prizes to be won.
+LOCATION:Brighton Beach House\, Madeira Drive\, Brighton\, BN2 1TS\, United
+	 Kingdom
+END:VEVENT
+END:VCALENDAR

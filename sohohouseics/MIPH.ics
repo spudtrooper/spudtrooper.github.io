@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:j1o114jgyZEsEk2olNDCt
+SUMMARY:Members only at TREMBLE
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T021500Z
+DTEND:20231212T033000Z
+DESCRIPTION:TREMBLE is a high-intensity\, low-impact\, 50-minute full-body 
+	workout that combines the best of strength training\, cardio and pilates-i
+	nspired movements\, all in one session on reformers. We’re booking out the
+	 Midtown studio for an exclusive members-only session with one of their ma
+	ster trainers\, so come ready to sweat. \n\nGrip socks are required and al
+	so available to purchase in studio. Please arrive at least five minutes ea
+	rly to class start to get set up. Due to a limited number of reformers\, t
+	his event is RSVP only\, with no off-waitlist accommodations. 
+LOCATION:131 NE 34th St\, Miami\, FL 33137\, USA
+END:VEVENT
+END:VCALENDAR

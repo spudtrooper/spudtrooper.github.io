@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:6fPYDwn-p8jP6oGZPsnzu
+SUMMARY:Food and Drink Club presents Wegmans’ cheese and charcuterie 
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T043000Z
+DTEND:20231212T060000Z
+DESCRIPTION:Chef Edy Massih from Edy’s Grocer hosts Food and Drink Club. Fo
+	r this installation\, in celebration of Wegmans’ first Manhattan location 
+	in Astor Place\, we are excited to welcome our members to a holiday-inspir
+	ed 'how to make a cheese & charcuterie board class\,' hosted by Wegmans’ f
+	amed cheese department team. \n\nThe Wegmans team shares tips and tricks o
+	n creating a stunning spread to elevate your holiday season celebrations. 
+	Following\, guests taste test selections from their expansive portfolio of
+	 cheese and charcuterie\,  accompanied by curated wine pairings from Centu
+	ry Wines.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:pRT3KDpQJGd3yCU3QKxZO
+SUMMARY:The Future of Fashion: Sustainability in Footwear & Investment in C
+	limate Solutions 
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T050000Z
+DTEND:20231212T080000Z
+DESCRIPTION:Expert panelists from Steve Madden\, SuperCircle & more discuss
+	 a sustainable future for fashion and investment in climate solutions live
+	 from the Velvet Room.
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+BEGIN:VEVENT
+UID:F5cwsVewbKMmwKNTwi2-n
+SUMMARY:Backgammon Club
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T053000Z
+DTEND:20231213T073000Z
+DESCRIPTION:Backgammon is one of the oldest board games in the world. The E
+	gyptians played it. The Greeks played it. The Romans played it. Now it's y
+	our turn. \n\nJoin the Village Backgammon Club and roll the dice. Make you
+	r moves at the Backgammon Game Night. All levels are welcome with opportun
+	ities to learn and make new friends. Join us in the Parlor Room and feel f
+	ree to BYOB ('Bring Your Own Board').
+LOCATION:Ludlow House\, 139 Ludlow Street\, New York\, NY 10002\, United St
+	ates
+END:VEVENT
+END:VCALENDAR

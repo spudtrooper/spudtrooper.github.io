@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:yEioZYcuHfFNs6eK4RnaL
+SUMMARY:Foodie Tuesdays: Ramen
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T230000Z
+DTEND:20231213T030000Z
+DESCRIPTION:Indulge in your preferred ramen selection from our menu of the 
+	day\, gather your friends and family\, and relish a steaming bowl of diver
+	se Asian flavours. Explore our vegan\, vegetarian\, and pescatarian option
+	s for a delightful dining experience.
+LOCATION:Soho House Barcelona\, Plaça del Duc de Medinaceli 4\, Barcelona\,
+	 08002\, Spain
+END:VEVENT
+END:VCALENDAR

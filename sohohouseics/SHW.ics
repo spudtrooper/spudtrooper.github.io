@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:TusM7Fo4_wXRvsp-9uUb2
+SUMMARY:Tarot readings with Sanyu Estelle
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T070000Z
+DTEND:20231212T100000Z
+DESCRIPTION:This new moon\, join Sanyu Estelle as she gives members direct 
+	access to unique and deep insight through complimentary card readings offe
+	red in 10-minute increments. These mini readings are audio recorded and em
+	ailed to clients afterwards\, along with a photograph of their card pull f
+	or their convenience. All readings are first come first serve.\n
+LOCATION:Soho Warehouse\, 1000 S Santa Fe Ave\, Los Angeles\, CA 90021\, Un
+	ited States
+END:VEVENT
+END:VCALENDAR

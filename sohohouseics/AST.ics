@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:FsBXeCYa1n2vDrLy5YFN8
+SUMMARY:YTX presents conscious yoga: Carter Miles
+DTSTAMP:20231211T115500Z
+DTSTART:20231211T210000Z
+DTEND:20231211T220000Z
+DESCRIPTION:Carter studies many different styles of yoga\, taking influence
+	 from each to create a unique blend that is truly his own with the goal of
+	 sharing yoga-based mind\, body\, and breathwork practices to help student
+	s feel\, heal\, and grow. There is growth in discomfort\, and by using fun
+	ctional and advanced breathing practices\, we increase energy and journey 
+	through emotional expression and self-regulation.\n\nSoho House members re
+	ceive a 20% discount on a monthly membership at YTX Yoga. Please reach out
+	 to membership.atx@sohohouse.com for the code.
+LOCATION:Soho House Austin\, 1011 South Congress\, Building 2\, Suite 100\,
+	 Austin\, TX 78704\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:4S3z2_DR1NPSfSuKxAULt
+SUMMARY:One Night Only: Colter Peck of Elementary
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T060000Z
+DTEND:20231212T080000Z
+DESCRIPTION:Chef Colter Peck of Austin's own Elementary puts on a special o
+	ne night only. Peck's love of food evolved from everyday moments in the ki
+	tchen focusing on the simplicity of ingredient and how food can enhance co
+	mmunity. From slicing herbs\, to braising beef cheeks\, to visiting the fa
+	rmers market\, every day was full of beauty and wonder. He continued to fu
+	el my desire to learn and connect with others by moving to northern Idaho\
+	, Portland\, Boulder\, and finally Austin. Now Peck brings a special menu 
+	curated for Soho House and paired with Teeling Whiskey cocktails. \n\n*Ple
+	ase note this is a ticketed event. Tickets can be purchased at the link be
+	low*
+LOCATION:Soho House Austin\, 1011 South Congress\, Building 2\, Suite 100\,
+	 Austin\, TX 78704\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:rIExz5MpU4wHPyjSNst1W
+SUMMARY:Savor and sweat with Erin Stewart
+DTSTAMP:20231211T115500Z
+DTSTART:20231212T210000Z
+DTEND:20231212T220000Z
+DESCRIPTION:This full-body athletic barre flow is inspired fitness to empow
+	er you from the inside out and incorporates excerpts of meditative movemen
+	t\, low intensity intervals\, and athletic barre toning on the mat. Approp
+	riate for any fitness level\, experience this perfect combination of inspi
+	ration and athleticism.
+LOCATION:Soho House Austin\, 1011 South Congress\, Building 2\, Suite 100\,
+	 Austin\, TX 78704\, United States
+END:VEVENT
+BEGIN:VEVENT
+UID:NQ2wtE8cDg6ctDFIjkJpE
+SUMMARY:Art corner: Mail art
+DTSTAMP:20231211T115500Z
+DTSTART:20231213T053000Z
+DTEND:20231213T073000Z
+DESCRIPTION:With the holidays around the corner\, what better way to spread
+	 joy than sending someone some mail. In this Art Corner\, we create a spec
+	ial\, collage style postcard/letter out of beautiful\, Texas inspired ephe
+	mera. No artist talent needed\, an open heart and an address required!
+LOCATION:Soho House Austin\, 1011 South Congress\, Building 2\, Suite 100\,
+	 Austin\, TX 78704\, United States
+END:VEVENT
+END:VCALENDAR
