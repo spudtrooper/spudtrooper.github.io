@@ -1,0 +1,205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:yh3IjpDW_lqwz-F7VdwJp
+SUMMARY:Being Christmas present
+DTSTAMP:20231211T171721Z
+DTSTART:20231211T160000Z
+DTEND:20231211T180000Z
+DESCRIPTION:Join Tessa Kirby\, as you learn why the holiday season doesn’t 
+	need to be a time of high stress. You leave this workshop with a better un
+	derstanding of how to be present\, in the moment and stress free. Discover
+	 what stresses and pressures you put on yourself and learn how to dissolve
+	 them.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:3duTKCBUngcUL7x1lnDdQ
+SUMMARY:House Comedy
+DTSTAMP:20231211T171721Z
+DTSTART:20231213T000000Z
+DTEND:20231213T020000Z
+DESCRIPTION:Head to the cinema to enjoy an evening of stand-up comedy with 
+	the some of the best comics in the UK
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:DCd_Le-ra8WX76EMBNetW
+SUMMARY:Festive wreath making workshop
+DTSTAMP:20231211T171721Z
+DTSTART:20231215T160000Z
+DTEND:20231215T180000Z
+DESCRIPTION:Get in the festive spirit and enjoy mulled wine\, mince pies\, 
+	and nibbles on us in this special  wreath-making class where you learn how
+	 to create a Christmas  wreath using seasonal flowers and foliage. 
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:PcGygTc6YQR-DPjByg-f9
+SUMMARY:Festive wreath making workshop
+DTSTAMP:20231211T171721Z
+DTSTART:20231215T230000Z
+DTEND:20231216T010000Z
+DESCRIPTION:Get in the festive spirit while you enjoy mulled wine and mince
+	 pies in this special wreath-making class where you learn how to create a 
+	Christmas wreath using seasonal flowers and foliage.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:57GpWg9alD1AcvSDE7WES
+SUMMARY:House Session
+DTSTAMP:20231211T171721Z
+DTSTART:20231219T000000Z
+DTEND:20231219T020000Z
+DESCRIPTION:Head to the Bar for our monthly music session and enjoy live mu
+	sic from our House band between 7pm and 9pm. Seating is first come\, first
+	 served.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:otfLUHEvAr5v6RdAzyLvf
+SUMMARY:House Quiz
+DTSTAMP:20231211T171721Z
+DTSTART:20231220T000000Z
+DTEND:20231220T030000Z
+DESCRIPTION:Join Soho House quiz master\, Gavin Inskip for a quiz that’s fa
+	st\, tense\, and competitive\, as well as good fun. Bring a charged phone 
+	or iPad to answer the questions with – not for cheating. Maximum of four i
+	n a team.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:Xd1d4sNI3lS-yl9oLez7B
+SUMMARY:Mulled cocktail masterclass
+DTSTAMP:20231211T171721Z
+DTSTART:20231221T000000Z
+DTEND:20231221T013000Z
+DESCRIPTION:Join Babington bar manager\, Aditya Jain\, as you learn the art
+	 of the festive cocktail. You leave this masterclass with the knowledge of
+	 how to create a mulled cocktail certain to wow your guests over the festi
+	ve season. 
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:QZCP29lOBNS05KbiD2omD
+SUMMARY:Lino-cut wrapping paper workshop
+DTSTAMP:20231211T171721Z
+DTSTART:20231221T160000Z
+DTEND:20231221T180000Z
+DESCRIPTION:\nJoin the team from Rubino Wilson as you learn how to carve yo
+	ur own lino tile\, a traditional printmaking technique that has stood the 
+	test of time. The process begins with designing your personal Christmas mo
+	tif on the lino tile. Once your masterpiece is complete\, it’s time to bri
+	ng your artistry to paper. You leave the workshop with your beautifully cr
+	afted wrapping paper and gift cards\, along with a linocut panel.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:jglxI6Dv4UXFJvfnPK3_W
+SUMMARY:Festive trifle masterclass
+DTSTAMP:20231211T171721Z
+DTSTART:20231222T160000Z
+DTEND:20231222T180000Z
+DESCRIPTION:The trifle is a mainstay of dinner-party hosting. In this two-h
+	our workshop\, luxury cake designer\, Daisy Pratt\, shows you how to creat
+	e your own miniature pear and ginger trifles using flavoured creams\, soft
+	 sponges and spiced fruit to create a festive dessert that you can recreat
+	e at home. 
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:QBWbIgAtoUZ_2e9u15jx-
+SUMMARY:Christmas Eve carols
+DTSTAMP:20231211T171721Z
+DTSTART:20231224T230000Z
+DTEND:20231224T233000Z
+DESCRIPTION:Wrap up warm and join us for our annual festivities in the Chap
+	el\, featuring a singalong alongside our choir with hot drinks and nibbles
+	.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:4rBaxigeKSv4gg50QJfRh
+SUMMARY:Boxing Day games
+DTSTAMP:20231211T171721Z
+DTSTART:20231226T170000Z
+DTEND:20231226T200000Z
+DESCRIPTION:Come along to the House to burn off some of the Christmas indul
+	gence. Wrap up warm and head over any time between 12pm and 3pm to enjoy s
+	ome fresh air and some our favourite country pursuits.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:FSj_OdZNN_nW8ChS_sC5m
+SUMMARY:New Year's Eve Feast
+DTSTAMP:20231211T171721Z
+DTSTART:20240101T000000Z
+DTEND:20240101T060000Z
+DESCRIPTION:Come along to the Orangery for a fabulous feast to celebrate Ne
+	w Year’s Eve. Tickets are £160 per person and include a welcome drink\, ca
+	napes and five-course dinner\, finishing with a glass of bubbles at midnig
+	ht in the bar.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:WE_5VCrm2KZLJFxX2XnPS
+SUMMARY:New Year's Eve House Party
+DTSTAMP:20231211T171721Z
+DTSTART:20240101T030000Z
+DTEND:20240101T060000Z
+DESCRIPTION:Head to the Bar from 10pm to ring in the New Year with music fr
+	om our House DJ. Tickets are £35 per person and include an arrival drink\,
+	 nibbles and glass of fizz at midnight. Please note this event is for over
+	 18s only.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:kQA81abg5Be5230i1fX28
+SUMMARY:Babington walk
+DTSTAMP:20231211T171721Z
+DTSTART:20240101T160000Z
+DTEND:20240101T180000Z
+DESCRIPTION:Meet us outside reception as we head off for a two-hour walk to
+	 explore the local area. Our route takes us via farm tracks\, open fields\
+	, and quiet country lanes to the pretty hamlets surrounding the House\, th
+	en back. The terrain is mostly flat with gentle hills\, but a good level o
+	f fitness is required as we will be walking at a moderate pace\, and it’s 
+	not suitable for pushchairs. Gates must be shut and crops considered along
+	 with any livestock we may pass along the way. Children over 12 years are 
+	welcome and must be accompanied by an adult and dogs must be kept on leads
+	 at all times. Please dress according to the weather and wear suitable foo
+	twear such as walking boots or wellies - sandals are not suitable due to t
+	he uneven ground. We recommend bringing water and a snack.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:XolRi7w1dq_Y_GTjtqfWJ
+SUMMARY:New Years Day games
+DTSTAMP:20231211T171721Z
+DTSTART:20240101T170000Z
+DTEND:20240101T200000Z
+DESCRIPTION:Clear your New Year’s Eve hangover with a bit of fresh air and 
+	some our favourite country pursuits. Wrap up warm and head over any time b
+	etween 12pm and 3pm.
+LOCATION:Babington House\, Babington near Frome\, Somerset\, BA11 3RW\, Uni
+	ted Kingdom
+END:VEVENT
+END:VCALENDAR

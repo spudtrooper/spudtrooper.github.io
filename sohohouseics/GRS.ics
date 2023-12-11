@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:-gPyYT1S2r4FlIFZ96cBM
+SUMMARY:Greek Street Christmas Carols
+DTSTAMP:20231211T171721Z
+DTSTART:20231213T233000Z
+DTEND:20231214T020000Z
+DESCRIPTION:Join the hosts with the most Podge and Jae for our annual Chris
+	tmas singalong. 
+LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:4c72FsiLkdeS9aTH-_k6S
+SUMMARY:Greek Street Christmas Carols
+DTSTAMP:20231211T171721Z
+DTSTART:20231214T023000Z
+DTEND:20231214T043000Z
+DESCRIPTION:Join the hosts with the most Podge and Jae for our annual Chris
+	tmas singalong. 
+LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:S-afinXYhWhrkgIOugeqe
+SUMMARY:Studio 40 NYE Dinner with Melon Bomb and COCO & BREEZY
+DTSTAMP:20231211T171721Z
+DTSTART:20231231T233000Z
+DTEND:20240101T020000Z
+DESCRIPTION:Bring in the New Year at 40 Greek Street in partnership with Mo
+	ët & Chandon. An ode to Studio 54\, meet studio 40! We’re welcoming in 202
+	4 with an evening of celebration with Melon Bomb – one of the most well-kn
+	own and respected brands in Ibiza with credits that include headlining the
+	 legendary Space Ibiza closing party and takeovers in Printworks. Joined b
+	y the fierce and stylish New York duo\, COCO & BREEZY. Expect encapsulatin
+	g vibes.\n\n\nTickets cost £175pp\, and include: Welcome cocktail\, 5 Cour
+	se Menu & Canapés throughout the evening\n\nPlease note: We have limited c
+	apacity - so make sure you book in advance. The menu is subject to last mi
+	nute changes.\n\nNYE Menu:\nAmuse-bouche\nOyster\, passion fruit\, coriand
+	er\nSaffron arancini\, amalfi lemon pb\n\nStarters\nHand dived scallops\, 
+	cauliflower\, XO Sauce\nRaw beef\, kohlrabi\, caviar\nJerusalem artichoke\
+	, girolles\, truffle pb\n\nMains \nTurbot\, clams\, champagne sauce\nBeef 
+	fillet\, watercress\, stilton \nPappardelle\, romesco\, stracciatella pb\n
+	\nDessert \nDark chocolate delice\, caramel ice cream\, chestnut\nSelectio
+	n of British cheeses\n\nChocolate truffles to finish
+LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:g6yJ_JsDZ5SZWdReHUT2b
+SUMMARY:Studio 40 NYE with Melon Bomb and COCO & BREEZY
+DTSTAMP:20231211T171721Z
+DTSTART:20240101T020000Z
+DTEND:20240101T080000Z
+DESCRIPTION:Bring in the New Year at Studio 40 – Soho House 40 Greek Street
+	 in partnership with Moët & Chandon. An ode to legendary New York nightclu
+	b\, Studio 54. We’re welcoming in 2024 with an evening of celebration with
+	 Melon Bomb – one of the most well-known and respected brands in Ibiza wit
+	h credits that include headlining the legendary Space Ibiza closing party 
+	and takeovers in Printworks. Joined by the fierce and stylish New York duo
+	\, COCO & BREEZY. Expect encapsulating vibes and dress accordingly. \n\nTi
+	ckets cost £80.00pp\, and include: a welcome drink and canapés throughout 
+	the evening.\n\nPlease note: We have limited capacity - so make sure you b
+	ook in advance
+LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:WkztDuqGWA2y24nUYX0JD
+SUMMARY:Studio 40 NYE Dinner with Melon Bomb and COCO & BREEZY
+DTSTAMP:20231211T171721Z
+DTSTART:20240101T023000Z
+DTEND:20240101T080000Z
+DESCRIPTION:Bring in the New Year at 40 Greek Street in partnership with Mo
+	ët & Chandon. An ode to Studio 54\, meet studio 40! We’re welcoming in 202
+	4 with an evening of celebration with Melon Bomb – one of the most well-kn
+	own and respected brands in Ibiza with credits that include headlining the
+	 legendary Space Ibiza closing party and takeovers in Printworks. Joined b
+	y the fierce and stylish New York duo\, COCO & BREEZYExpect encapsulating 
+	vibes.\n\n\nTickets cost £175pp\, and include: Welcome cocktail\, 5 Course
+	 Menu & Canapés throughout the evening\n\nPlease note: We have limited cap
+	acity - so make sure you book in advance. The menu is subject to last minu
+	te changes.\n\nNYE Menu:\nAmuse-bouche\nOyster\, passion fruit\, coriander
+	\nSaffron arancini\, amalfi lemon pb\n\nStarters\nHand dived scallops\, ca
+	uliflower\, XO Sauce\nRaw beef\, kohlrabi\, caviar\nJerusalem artichoke\, 
+	girolles\, truffle pb\n\nMains \nTurbot\, clams\, champagne sauce\nBeef fi
+	llet\, watercress\, stilton \nPappardelle\, romesco\, stracciatella pb\n\n
+	Dessert \nDark chocolate delice\, caramel ice cream\, chestnut\nSelection 
+	of British cheeses\n\nChocolate truffles to finish
+LOCATION:40 Greek Street\, Soho\, London\, W1D 4EB\, United Kingdom
+END:VEVENT
+END:VCALENDAR

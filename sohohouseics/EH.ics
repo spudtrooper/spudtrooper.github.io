@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:OuypSqfHYaK7Oo63D5W02
+SUMMARY:Forward with Jeremy Nash
+DTSTAMP:20231211T171721Z
+DTSTART:20231216T030000Z
+DTEND:20231216T073000Z
+DESCRIPTION:As a teenager\, Jeremy Nash started collecting records after he
+	aring samples used by his favorite hip-hop artists A Tribe Called Quest\, 
+	Jungle Brothers\, and De La Soul. This led to him discovering an electric 
+	mix of jazz\, funk\, reggae\, rock\, disco\, and house genres\, which he s
+	till continues to explore today.\n\nCome along to the House for music\, dr
+	inks and dancing into the early hours.
+LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
+	gdom
+END:VEVENT
+BEGIN:VEVENT
+UID:cksrUoqncx1D7F8cDPY1t
+SUMMARY:The Reload with Gerry Rooney
+DTSTAMP:20231211T171721Z
+DTSTART:20231217T030000Z
+DTEND:20231217T073000Z
+DESCRIPTION:Gerry Rooney’s roots start in the late 1980s\, inspired by the 
+	acid house cultural revolution\, warehouse raves and parties in the UK. He
+	 was then drawn to NYC and its music and nightlife scene. \n\nCome along t
+	o the House for music\, drinks and dancing into the early hours.
+LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
+	gdom
+END:VEVENT
+BEGIN:VEVENT
+UID:8PpDqZQ7Bo599i9qNqZBR
+SUMMARY:The Reload with Cam Brott
+DTSTAMP:20231211T171721Z
+DTSTART:20231223T030000Z
+DTEND:20231223T070000Z
+DESCRIPTION:Cam Brott kickstarted his DJ career and since then he has taken
+	 his brand of genre-hopping DJing and tight mixing on a musical tour round
+	 the globe. He’s played alongside disco favourites including Greg Wilson\,
+	 Todd Terje\, John Morales\, Tensnake\, Soulwax\, and Groove Armada.\n\nCo
+	me along for music\, drinks and dancing into the early hours.
+LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
+	gdom
+END:VEVENT
+BEGIN:VEVENT
+UID:bH5UxN6gq-xf_yF8D4vay
+SUMMARY:Forward with Leo Greenslade
+DTSTAMP:20231211T171721Z
+DTSTART:20231224T030000Z
+DTEND:20231224T060000Z
+DESCRIPTION:We are hosting a club night here at Electric House. Come along 
+	for music\, drinks and dancing into the early hours.
+LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
+	gdom
+END:VEVENT
+BEGIN:VEVENT
+UID:ET4203QLBENQeo6a1yky6
+SUMMARY:Forward with Guille Bonesso
+DTSTAMP:20231211T171721Z
+DTSTART:20231230T030000Z
+DTEND:20231230T060000Z
+DESCRIPTION:We are hosting a Club Night here in Electric House. Join us for
+	 music\, drinks and dancing into the early hours.\n\nOriginating from Rosa
+	rio\, Argentina\, Guille followed his passion for music around the world. 
+	His DJing career officially started in 1996\, in his hometown Rosario. In 
+	2005 he moved to London and since then has been involved in the East Londo
+	n underground scene\, playing at venues and parties like Lo*kee\, Krush\, 
+	Damaged\, Half Baked\, Warm\, Plastic People\, Katerholzig and tons more.
+LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
+	gdom
+END:VEVENT
+BEGIN:VEVENT
+UID:gZWIFFOm-jt-Czs8uc9bd
+SUMMARY:The Reload with Jeremy Nash
+DTSTAMP:20231211T171721Z
+DTSTART:20231231T030000Z
+DTEND:20231231T070000Z
+DESCRIPTION:As a teenager\, Jeremy Nash started collecting records after he
+	aring samples used by his favorite hip-hop artists A Tribe Called Quest\, 
+	Jungle Brothers\, and De La Soul. This led to him discovering an electric 
+	mix of jazz\, funk\, reggae\, rock\, disco\, and house genres\, which he s
+	till continues to explore today.\n\nCome along to the House for music\, dr
+	inks and dancing into the early hours.
+LOCATION:Electric House\, 191 Portobello Rd\, London\, W11 2ED\, United Kin
+	gdom
+END:VEVENT
+BEGIN:VEVENT
+UID:lujbyUsM5JJs3XzqUv58j
+SUMMARY:New Years Eve: Electric House 
+DTSTAMP:20231211T171721Z
+DTSTART:20240101T000000Z
+DTEND:20240101T073000Z
+DESCRIPTION:Electric will have another installment of its legendary New Yea
+	rs Eve party - we are offering a premium £120 set dinner menu which includ
+	es a drink for those who want to grab a table with friends which will be y
+	ours for the night. \n\nTable bookings will open on December 1st on the SH
+	.APP or call reception to book. \nLimited walk in space will be available 
+	in the library from 7-10pm for a reduced menu and drinks with DJ before we
+	 kick off the club DJ at 10pm\n\nPlease note: If you have any dietary requ
+	irements\, please call our Electric House reception team in advance.
+LOCATION:Electric Club\, London\, United Kingdom
+END:VEVENT
+END:VCALENDAR
