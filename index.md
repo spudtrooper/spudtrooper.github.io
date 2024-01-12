@@ -2,6 +2,7 @@
 
 ## fun
 
+* [loomp3r](/loomp3r) - Tool to loop over audio tracks, e.g. for iterating over songs.
 * [ticketloob](https://www.youtube.com/watch?v=W6O6n3VJ5vs) - Mobile app to compare ticket prices across ticket sites
 * [ticketmixer](https://www.youtube.com/watch?v=dWuh5RmTBTk) - Web app to compare ticket prices across ticket sites
 * [twimmage](https://instagram.com/twimmage) - Mobile app to create images from tweets for sharing on other social networks.
@@ -26,6 +27,6 @@
 * [getter followers](articles/gettrfollowers) - The odd way gettr.com counted followers.
 
 ## more
-    
+
 * [jeffpalm.com](https://jeffpalm.com)
 * [github](https://github.com/spudtrooper)
