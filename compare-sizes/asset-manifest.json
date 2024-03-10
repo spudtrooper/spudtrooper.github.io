@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/compare-sizes/static/css/main.f855e6bc.css",
+    "main.js": "/compare-sizes/static/js/main.65e0f6d9.js",
+    "index.html": "/compare-sizes/index.html",
+    "main.f855e6bc.css.map": "/compare-sizes/static/css/main.f855e6bc.css.map",
+    "main.65e0f6d9.js.map": "/compare-sizes/static/js/main.65e0f6d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.65e0f6d9.js"
+  ]
+}
