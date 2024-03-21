@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/citibikemon/static/css/main.e6c13ad2.css",
-    "main.js": "/citibikemon/static/js/main.78aa455c.js",
+    "main.js": "/citibikemon/static/js/main.fce4da04.js",
     "index.html": "/citibikemon/index.html",
     "main.e6c13ad2.css.map": "/citibikemon/static/css/main.e6c13ad2.css.map",
-    "main.78aa455c.js.map": "/citibikemon/static/js/main.78aa455c.js.map"
+    "main.fce4da04.js.map": "/citibikemon/static/js/main.fce4da04.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.78aa455c.js"
+    "static/js/main.fce4da04.js"
   ]
 }
