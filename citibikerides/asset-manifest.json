@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/citibikerides/static/css/main.85d8c52a.css",
-    "main.js": "/citibikerides/static/js/main.ee3a1bab.js",
+    "main.js": "/citibikerides/static/js/main.cce9122b.js",
     "index.html": "/citibikerides/index.html",
     "main.85d8c52a.css.map": "/citibikerides/static/css/main.85d8c52a.css.map",
-    "main.ee3a1bab.js.map": "/citibikerides/static/js/main.ee3a1bab.js.map"
+    "main.cce9122b.js.map": "/citibikerides/static/js/main.cce9122b.js.map"
   },
   "entrypoints": [
     "static/css/main.85d8c52a.css",
-    "static/js/main.ee3a1bab.js"
+    "static/js/main.cce9122b.js"
   ]
 }
