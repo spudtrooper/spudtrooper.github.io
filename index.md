@@ -2,7 +2,6 @@
 
 ## fun
 
-* [citibikerides](citibikerides) - Visualization of relative citibike traffic over a week.
 * [citibikemon](/citibikemon) - Client for finding citibikes
 * [loomp3r](/loomp3r) - Tool to loop over audio tracks, e.g. for iterating over songs.
 * [ticketloob](https://www.youtube.com/watch?v=W6O6n3VJ5vs) - Mobile app to compare ticket prices across ticket sites
