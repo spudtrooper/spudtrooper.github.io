@@ -63,6 +63,17 @@
       </h1>
       <ul>
         <li>
+          <a href="javascript:(async function(){const getShadowRoot=(par,sel)=>par.querySelector(sel).shadowRoot;const sleep=async(ms=1000)=>await new Promise(resolve=>setTimeout(resolve,ms));const main=async()=>{let extId=localStorage.getItem("id");if(!extId){extId=prompt("Enter the id of the extension");localStorage.setItem("id",extId);}
+const extensionsManager=getShadowRoot(document,"extensions-manager");const viewManager=getShadowRoot(extensionsManager,"#viewManager");const slot=viewManager.querySelector("slot");const extensionsItemList=slot.assignedNodes()[0];const extensionsItem=extensionsItemList.shadowRoot.querySelector("#"+extId);const removeButton=extensionsItem.shadowRoot.querySelector("#removeButton");removeButton.click();const reloadButton=extensionsItem.shadowRoot.querySelector("#dev-reload-button");reloadButton.click();await sleep();const swBtn=extensionsItem.shadowRoot.querySelector(`a[title="service worker"]`);if(swBtn){swBtn.click();}};await main();})();">
+            Chrome Extension Reload
+          </a>
+          (
+          <a target="_" href="https://github.com/spudtrooper/bookmarklets/blob/main/src/chrome-extension-reload.js">
+            src
+          </a>
+          ) - Reloads a particular chrome extension
+        </li>
+        <li>
           <a href="javascript:(function(){function findEls(){let els=[];Array.from(document.getElementsByTagName('span')).forEach((el,i)=>{if(el.className=='result-title'){els.push(el);}});els.sort((a,b)=>{let fst=a.innerText.toLowerCase();let snd=b.innerText.toLowerCase();if(fst<snd){return-1;}
 if(snd<fst){return 1;}
 return 0;});return els;}
@@ -99,11 +110,7 @@ main();})();">
           <a target="_" href="https://github.com/spudtrooper/bookmarklets/blob/main/src/recent-remote-meetings.js">
             src
           </a>
-          ) - Scrolls to the soonest or most recent meetings in
-          <a target="_" href="https://www.nyintergroup.org/remote-meetings/list/">
-            www.nyintergroup.org/remote-meetings/list/
-          </a>
-          .
+          ) - Scrolls to the soonest or most recent meetings in https://www.nyintergroup.org/remote-meetings/list/.
         </li>
         <li>
           <a href="javascript:(function(){function createBox(els){let box=document.getElementById('_box_');if(box){box.parentNode.removeChild(box);}
@@ -144,6 +151,24 @@ main();})();">
             Context
           </a>
           ]
+        </li>
+        <li>
+          <a href="javascript:(function(){function clickFollowersButton(){Array.from(document.getElementsByTagName('a')).forEach((el)=>{if(el.href&&el.href.match(/\/followers\//)){console.log('click');el.click();}});}
+function findFollowButtons(){return Array.from(document.querySelectorAll('button')).filter(el=>el.textContent=='Follow');}
+function findFollowButton(){return Array.from(document.querySelectorAll('button')).find(el=>el.textContent=='Follow');}
+function expandDialog(){const div=Array.from(document.querySelectorAll('div')).filter(el=>el.style?.maxHeight==="400px")[0];if(!div)return;div.style.maxHeight="1800px";}
+function click(btn){btn.style.backgroundColor="green";btn.click();}
+function main(){clickFollowersButton();expandDialog();const loop=()=>
+            {const followButtons=findFollowButtons();if(!followButtons||!followButtons.length||followButtons.length<5){console.log('waiting for follow buttons');setTimeout(loop,1000);return;}
+            const followNext=(done)=>{let btn=findFollowButton();if(!btn){setTimeout(followNext.bind(null,done),200);return;}
+            click(btn);done.call(null);};const burnDownFollowingButtons=()=>{if(followButtons.length){let nextBtn=followButtons.pop(0);nextBtn.click();followNext(burnDownFollowingButtons);}};burnDownFollowingButtons();};loop();}
+            main();})();">Instagram Follow All
+          </a>
+          (
+          <a target="_" href="https://github.com/spudtrooper/bookmarklets/blob/main/src/instagram-follow-all.js">
+            src
+          </a>
+          ) - Follows people in bulk, 25 at a time.
         </li>
         <li>
           <a href="javascript:(function(){let srcset=document.querySelector('img[sizes="600px"]').getAttribute('srcset');srcset.split(',').map(function(e){let p=e.split(' ');return p[1]+' '+p[0];}).forEach(function(e){console.log(e);});})();">
@@ -259,11 +284,7 @@ main();})();">
           <a target="_" href="https://github.com/spudtrooper/bookmarklets/blob/main/src/rarible-sort-users.js">
             src
           </a>
-          ) - Sort users by followers on rarible search page (e.g.
-          <a target="_" href="https://rarible.com/search/users/art">
-            rarible.com/search/users/art
-          </a>
-          )
+          ) - Sort users by followers on rarible search page (e.g. https://rarible.com/search/users/art)
         </li>
         <li>
           <a href="javascript:(function(){function findMax(){let ul=document.getElementsByClassName('pagination-list-container')[0];let li=ul.getElementsByClassName('page gap')[0].nextSibling.nextSibling;let a=li.firstChild.nextSibling;let max=parseInt(a.innerText);let baseUrl=a.href.replace('?page='+max,'');return{max:max,baseUrl:baseUrl,};}
@@ -330,7 +351,7 @@ window.scrollTo(0,document.body.scrollHeight);console.log('Liked '+count+' tweet
         </a>
         on
         <em>
-          Thu Nov  3 08:54:06 EDT 2022
+          Wed May 15 06:30:33 EDT 2024
         </em>
       </p>
     </div>
