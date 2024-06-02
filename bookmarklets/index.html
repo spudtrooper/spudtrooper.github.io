@@ -287,6 +287,18 @@ main();})();">
           ) - Sort users by followers on rarible search page (e.g. https://rarible.com/search/users/art)
         </li>
         <li>
+          <a href="javascript:(function(){function main(){let token=window.__NUXT__.state.oauth.accessToken;if(!token){alert('Click this again after navigating to https://www.sohohouse.com/whats-on/visits');document.location='https://www.sohohouse.com/whats-on/visits';return;}
+prompt('This is your token',token);}
+main();})();">
+            Soho House Show Token
+          </a>
+          (
+          <a target="_" href="https://github.com/spudtrooper/bookmarklets/blob/main/src/soho-house-show-token.js">
+            src
+          </a>
+          ) - Shows the user your Soho House token.
+        </li>
+        <li>
           <a href="javascript:(function(){function findMax(){let ul=document.getElementsByClassName('pagination-list-container')[0];let li=ul.getElementsByClassName('page gap')[0].nextSibling.nextSibling;let a=li.firstChild.nextSibling;let max=parseInt(a.innerText);let baseUrl=a.href.replace('?page='+max,'');return{max:max,baseUrl:baseUrl,};}
 function getOrCreate(tag,id,opt_parent){let el=document.getElementById(id);if(!el){el=document.createElement(tag);if(opt_parent){opt_parent.appendChild(el);}}
 return el;}
@@ -351,7 +363,7 @@ window.scrollTo(0,document.body.scrollHeight);console.log('Liked '+count+' tweet
         </a>
         on
         <em>
-          Thu May 16 02:35:36 EDT 2024
+          Sun Jun  2 10:49:48 EDT 2024
         </em>
       </p>
     </div>
