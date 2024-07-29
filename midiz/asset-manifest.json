@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/midiz/static/css/main.241b30f5.css",
-    "main.js": "/midiz/static/js/main.5ad2c1e0.js",
+    "main.js": "/midiz/static/js/main.c0a805fd.js",
     "static/media/jsoneditor-icons.svg": "/midiz/static/media/jsoneditor-icons.15f2789dd231f36d43a4.svg",
     "static/media/roboto-latin-500-normal.woff2": "/midiz/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/midiz/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -61,10 +61,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/midiz/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/midiz/index.html",
     "main.241b30f5.css.map": "/midiz/static/css/main.241b30f5.css.map",
-    "main.5ad2c1e0.js.map": "/midiz/static/js/main.5ad2c1e0.js.map"
+    "main.c0a805fd.js.map": "/midiz/static/js/main.c0a805fd.js.map"
   },
   "entrypoints": [
     "static/css/main.241b30f5.css",
-    "static/js/main.5ad2c1e0.js"
+    "static/js/main.c0a805fd.js"
   ]
 }
