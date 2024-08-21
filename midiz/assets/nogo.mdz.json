@@ -1,0 +1,184 @@
+{
+  "animations": [
+    {
+      "id": "2641f5fd-c246-4bc2-89ea-3d7f2aaf062a",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "80s FM Piano"
+      },
+      "options": {
+        "diameter": 12,
+        "scale": 3.666666666666667,
+        "lineWidth": 3,
+        "fillColor": "rgb(173,187,140,.3)",
+        "lineColor": "rgb(182,111,170,.3)",
+        "origin": {
+          "x": 376.66666666666663,
+          "y": 199.16666666666669
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "36ab65bb-197d-4e39-98d7-da479e0975e3",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "Vintage Synth Bass"
+      },
+      "options": {
+        "diameter": 6,
+        "scale": 2.666666666666667,
+        "lineWidth": 8,
+        "fillColor": "rgb(100,217,32,.3)",
+        "lineColor": "rgb(148,205,161,.3)",
+        "origin": {
+          "x": 129.16666666666669,
+          "y": 326.66666666666663
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "87951b7a-d102-4d25-ab69-529f03d59c38",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "70s Analog Lead"
+      },
+      "options": {
+        "diameter": 10,
+        "scale": 3.666666666666667,
+        "lineWidth": 6,
+        "fillColor": "rgb(41,254,183,.3)",
+        "lineColor": "rgb(145,198,62,.3)",
+        "origin": {
+          "x": 172.5,
+          "y": 214.16666666666669
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "1dd5f2c7-ced9-4b06-ac0a-3a56e8fa96e7",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "Analog Fizz Lead"
+      },
+      "options": {
+        "diameter": 7,
+        "scale": 2.666666666666667,
+        "lineWidth": 4,
+        "fillColor": "rgb(253,47,15,.3)",
+        "lineColor": "rgb(109,86,194,.3)",
+        "origin": {
+          "x": 195.83333333333334,
+          "y": 179.16666666666669
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "f419133c-c0dd-4c02-9b97-e5bf38b256da",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "Overstuffed 808 Bass"
+      },
+      "options": {
+        "diameter": 7,
+        "scale": 2.666666666666667,
+        "lineWidth": 6,
+        "fillColor": "rgb(30,70,120,.3)",
+        "lineColor": "rgb(123,211,30,.3)",
+        "origin": {
+          "x": 104.16666666666669,
+          "y": 105.83333333333334
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "b736187e-85ef-4d57-8c72-80605efd22d0",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "Heavy Sub Bass"
+      },
+      "options": {
+        "diameter": 15,
+        "scale": 2.666666666666667,
+        "lineWidth": 6,
+        "fillColor": "rgb(222,71,85,.3)",
+        "lineColor": "rgb(57,64,144,.3)",
+        "origin": {
+          "x": 303.33333333333337,
+          "y": 324.1666666666667
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "85747c3b-609a-49b0-87c5-b1230dee290c",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "Retro Box"
+      },
+      "options": {
+        "diameter": 6,
+        "scale": 3.666666666666667,
+        "lineWidth": 7,
+        "fillColor": "rgb(127,238,162,.3)",
+        "lineColor": "rgb(103,88,221,.3)",
+        "origin": {
+          "x": 104.16666666666669,
+          "y": 105
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "6404c4a4-7313-4d1a-afb0-66184cf5c5ab",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "Analog Waves"
+      },
+      "options": {
+        "diameter": 10,
+        "scale": 2.666666666666667,
+        "lineWidth": 4,
+        "fillColor": "rgb(29,8,254,.3)",
+        "lineColor": "rgb(22,143,13,.3)",
+        "origin": {
+          "x": 105,
+          "y": 297.5
+        }
+      },
+      "created": 1723129501042
+    },
+    {
+      "id": "867c5fe9-f1fd-4e6d-95be-a2e429e41347",
+      "name": "circles",
+      "criteria": {
+        "trackRef": "Roland TR-606"
+      },
+      "options": {
+        "diameter": 8,
+        "scale": 2.666666666666667,
+        "lineWidth": 6,
+        "fillColor": "rgb(93,241,242,.3)",
+        "lineColor": "rgb(234,43,116,.3)",
+        "origin": {
+          "x": 103.33333333333334,
+          "y": 105.83333333333334
+        }
+      },
+      "created": 1723129501042
+    }
+  ],
+  "audioSource": {
+    "name": "nogo.mp3"
+  },
+  "midiSource": {
+    "name": "nogo.mid"
+  },
+  "thisSource": {
+    "name": "nogo.mdz-1.json"
+  }
+}
