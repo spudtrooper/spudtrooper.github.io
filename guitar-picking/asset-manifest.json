@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/guitar-picking/static/css/main.a9f590e5.css",
+    "main.js": "/guitar-picking/static/js/main.7ee22120.js",
+    "index.html": "/guitar-picking/index.html",
+    "main.a9f590e5.css.map": "/guitar-picking/static/css/main.a9f590e5.css.map",
+    "main.7ee22120.js.map": "/guitar-picking/static/js/main.7ee22120.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f590e5.css",
+    "static/js/main.7ee22120.js"
+  ]
+}
