@@ -21,7 +21,7 @@
 * [food cover game](food-cover-game) - A addicting internet website food game.
 * [ighar](ighar) - Extract IG story videos from a HAR file.
 
-## articles
+## writing
 
 * [foxnews vulnerabilities](articles/foxnews) - 3 vulnerabilities found on foxnews.com.
 * [optional params](articles/optionalparams) - A pattern for optional parameters in go.
