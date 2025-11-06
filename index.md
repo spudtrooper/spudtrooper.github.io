@@ -2,6 +2,7 @@
 
 ## fun
 
+* [zoomies](/zoomies) - Zoomy sounds that react to your device's movement.
 * [guitar-picking](/guitar-picking) - Play with guitar pickings.
 * [citibikerides](/citibikerides) - Visualization of citibike traffic in NYC over a week.
 * [loomp3r](/loomp3r) - Tool to loop over audio tracks, e.g. for iterating over songs.
