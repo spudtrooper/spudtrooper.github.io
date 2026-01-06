@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDI Eclipse Animation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="d-flex flex-wrap align-items-center gap-3 flex-grow-1">
+                <div class="d-flex gap-2">
+                    <button class="btn btn-success btn-sm" id="playBtn" disabled>
+                        <i class="bi bi-play-fill"></i> Play
+                    </button>
+                    <button class="btn btn-warning btn-sm" id="pauseBtn" disabled>
+                        <i class="bi bi-pause-fill"></i> Pause
+                    </button>
+                    <button class="btn btn-light btn-sm" id="resetBtn" disabled>
+                        <i class="bi bi-arrow-clockwise"></i> Reset
+                    </button>
+                    <span class="badge bg-light text-dark" id="timeInfo">Time: 0.00s</span>
+                </div>
+
+                <div class="ms-auto" style="min-width: 500px">
+                    <audio id="audioPlayer" class="w-100" controls></audio>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                    <label for="midiFile" class="text-white mb-0 small">MIDI:</label>
+                    <input type="file" class="form-control form-control-sm" id="midiFile" accept=".mid,.midi"
+                        style="width: auto;">
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                    <label for="audioFile" class="text-white mb-0 small">Audio:</label>
+                    <input type="file" class="form-control form-control-sm" id="audioFile" accept="audio/*"
+                        style="width: auto;">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+
+                <div class="row mb-4">
+                    <div class="col-lg-8">
+                        <div class="card shadow-lg">
+                            <div class="card-body p-0">
+                                <canvas id="eclipseCanvas" class="w-100 d-block"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <div id="debugInfo" class="font-monospace small"
+                                    style="max-height: 765px; overflow-y: auto;">
+                                    Load a MIDI file to see debug information...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mb-4 shadow-lg">
+                    <div class="card-header bg-secondary text-white">
+                        <div class="d-flex flex-wrap gap-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="showTracksToggle" checked>
+                                <label class="form-check-label" for="showTracksToggle">
+                                    Show Track Clusters
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="showTimelinesToggle" checked>
+                                <label class="form-check-label" for="showTimelinesToggle">
+                                    Show Timelines
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body" id="trackInfo" style="max-height: 800px; overflow-y: auto;">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tonejs/midi@2.0.28/build/Midi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="midi-animation.js"></script>
+</body>
+
+</html>
