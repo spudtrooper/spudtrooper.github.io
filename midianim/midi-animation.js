@@ -26,8 +26,15 @@ class MIDIEclipseAnimation {
         // Control canvas legend visibility
         this.showCanvasLegend = true;
         
-        // Control timeline visibility
-        this.showTimelines = true;
+        // Control timeline display mode: 'none', 'compressed', 'expanded'
+        this.timelineDisplayMode = 'expanded';
+        
+        // Control combined timeline visibility
+        this.showCombinedTimeline = false;
+        
+        // Cluster mute/solo state
+        this.mutedClusters = new Set();
+        this.soloedClusters = new Set();
         
         // Audio player
         this.audioPlayer = document.getElementById('audioPlayer');
@@ -61,9 +68,14 @@ class MIDIEclipseAnimation {
             toggle.addEventListener('change', (e) => this.toggleTrackInfo(e));
         }
         
-        const timelinesToggle = document.getElementById('showTimelinesToggle');
-        if (timelinesToggle) {
-            timelinesToggle.addEventListener('change', (e) => this.toggleTimelines(e));
+        const timelineDisplayMode = document.getElementById('timelineDisplayMode');
+        if (timelineDisplayMode) {
+            timelineDisplayMode.addEventListener('change', (e) => this.changeTimelineDisplayMode(e));
+        }
+        
+        const combinedTimelineToggle = document.getElementById('showCombinedTimelineToggle');
+        if (combinedTimelineToggle) {
+            combinedTimelineToggle.addEventListener('change', (e) => this.toggleCombinedTimeline(e));
         }
     }
     
@@ -73,17 +85,25 @@ class MIDIEclipseAnimation {
         this.saveSettings();
     }
     
-    toggleTimelines(event) {
-        this.showTimelines = event.target.checked;
-        console.log('Timeline visibility:', this.showTimelines);
-        this.displayTrackInfo(); // Redraw the track info with/without timelines
+    changeTimelineDisplayMode(event) {
+        this.timelineDisplayMode = event.target.value;
+        console.log('Timeline display mode:', this.timelineDisplayMode);
+        this.displayTrackInfo(); // Redraw the track info with new timeline mode
+        this.saveSettings();
+    }
+    
+    toggleCombinedTimeline(event) {
+        this.showCombinedTimeline = event.target.checked;
+        console.log('Combined timeline visibility:', this.showCombinedTimeline);
+        this.displayTrackInfo(); // Redraw the track info with/without combined timeline
         this.saveSettings();
     }
     
     saveSettings() {
         const settings = {
             showCanvasLegend: this.showCanvasLegend,
-            showTimelines: this.showTimelines
+            timelineDisplayMode: this.timelineDisplayMode,
+            showCombinedTimeline: this.showCombinedTimeline
         };
         localStorage.setItem('eclipseSettings', JSON.stringify(settings));
         console.log('Settings saved:', settings);
@@ -96,7 +116,15 @@ class MIDIEclipseAnimation {
             try {
                 const settings = JSON.parse(settingsJson);
                 this.showCanvasLegend = settings.showCanvasLegend ?? true;
-                this.showTimelines = settings.showTimelines ?? true;
+                // Migrate old boolean setting to new mode
+                if (settings.timelineDisplayMode !== undefined) {
+                    this.timelineDisplayMode = settings.timelineDisplayMode;
+                } else if (settings.showTimelines !== undefined) {
+                    this.timelineDisplayMode = settings.showTimelines ? 'expanded' : 'none';
+                } else {
+                    this.timelineDisplayMode = 'expanded';
+                }
+                this.showCombinedTimeline = settings.showCombinedTimeline ?? false;
                 
                 // Update UI
                 const toggle = document.getElementById('showTracksToggle');
@@ -104,9 +132,14 @@ class MIDIEclipseAnimation {
                     toggle.checked = this.showCanvasLegend;
                 }
                 
-                const timelinesToggle = document.getElementById('showTimelinesToggle');
-                if (timelinesToggle) {
-                    timelinesToggle.checked = this.showTimelines;
+                const timelineDisplayMode = document.getElementById('timelineDisplayMode');
+                if (timelineDisplayMode) {
+                    timelineDisplayMode.value = this.timelineDisplayMode;
+                }
+                
+                const combinedTimelineToggle = document.getElementById('showCombinedTimelineToggle');
+                if (combinedTimelineToggle) {
+                    combinedTimelineToggle.checked = this.showCombinedTimeline;
                 }
                 
                 console.log('Settings loaded:', settings);
@@ -466,30 +499,66 @@ class MIDIEclipseAnimation {
         const duration = this.midiData ? this.midiData.duration : 0;
         const timelineWidth = 300; // pixels;
         
+        // Add combined timeline if enabled
+        if (this.showCombinedTimeline) {
+            trackInfo.innerHTML += `
+                <div style="margin: 15px 0; padding: 10px; background: rgba(0,0,0,0.2); border-radius: 5px;">
+                    <div style="font-weight: bold; margin-bottom: 8px;">Combined Timeline</div>
+                    <canvas id="combinedTimeline" width="${timelineWidth}" height="100" 
+                            style="background: rgba(0,0,0,0.3); border-radius: 3px; cursor: crosshair;"></canvas>
+                </div>
+            `;
+        }
+        
         this.clusters.forEach((cluster, index) => {
             const clusterId = `cluster-${index}`;
             const checkboxId = `checkbox-${index}`;
             const timelineId = `timeline-${index}`;
             
-            const timelineHtml = this.showTimelines ? `
-                <canvas id="${timelineId}" width="${timelineWidth}" height="30" 
-                        style="background: rgba(0,0,0,0.3); border-radius: 3px; cursor: crosshair;"
-                        data-cluster-index="${index}"></canvas>
-            ` : '';
+            let timelineHtml = '';
+            if (this.timelineDisplayMode === 'compressed') {
+                timelineHtml = `
+                    <canvas id="${timelineId}" width="600" height="24" 
+                            style="background: rgba(0,0,0,0.3); border-radius: 2px; cursor: crosshair; flex-grow: 1;"
+                            data-cluster-index="${index}"></canvas>
+                `;
+            } else if (this.timelineDisplayMode === 'expanded') {
+                timelineHtml = `
+                    <canvas id="${timelineId}" width="${timelineWidth}" height="30" 
+                            style="background: rgba(0,0,0,0.3); border-radius: 3px; cursor: crosshair;"
+                            data-cluster-index="${index}"></canvas>
+                `;
+            }
+            
+            const isMuted = this.mutedClusters.has(cluster.name);
+            const isSoloed = this.soloedClusters.has(cluster.name);
+            
+            // For compressed mode, put timeline inline; for expanded, put it below
+            const isCompressed = this.timelineDisplayMode === 'compressed';
+            const isExpanded = this.timelineDisplayMode === 'expanded';
             
             trackInfo.innerHTML += `
                 <div style="margin: 10px 0; display: flex; flex-direction: column; gap: 5px;">
                     <div style="display: flex; align-items: center; gap: 8px;">
-                        <input type="checkbox" id="${checkboxId}" class="cluster-checkbox"
-                               data-cluster-name="${cluster.name}"
-                               style="cursor: pointer;">
-                        <input type="color" id="${clusterId}" value="${cluster.color}" 
-                               style="width: 20px; height: 20px; border: none; cursor: pointer;"
-                               data-cluster-name="${cluster.name}">
-                        <span style="font-weight: bold;">${cluster.name}</span>
-                        <span style="font-size: 11px; opacity: 0.7;">(${cluster.notes.length} notes)</span>
+                        <div style="display: flex; align-items: center; gap: 8px; min-width: 300px;">
+                            <button class="mute-btn" data-cluster-name="${cluster.name}" 
+                                    style="width: 24px; height: 24px; font-size: 11px; font-weight: bold; padding: 0; cursor: pointer; border: 1px solid #666; border-radius: 3px; background: ${isMuted ? '#ff6b6b' : '#333'}; color: ${isMuted ? '#fff' : '#999'};"
+                                    title="Mute">M</button>
+                            <button class="solo-btn" data-cluster-name="${cluster.name}" 
+                                    style="width: 24px; height: 24px; font-size: 11px; font-weight: bold; padding: 0; cursor: pointer; border: 1px solid #666; border-radius: 3px; background: ${isSoloed ? '#4ecdc4' : '#333'}; color: ${isSoloed ? '#fff' : '#999'};"
+                                    title="Solo">S</button>
+                            <input type="checkbox" id="${checkboxId}" class="cluster-checkbox"
+                                   data-cluster-name="${cluster.name}"
+                                   style="cursor: pointer;">
+                            <input type="color" id="${clusterId}" value="${cluster.color}" 
+                                   style="width: 20px; height: 20px; border: none; cursor: pointer;"
+                                   data-cluster-name="${cluster.name}">
+                            <span style="font-weight: bold;">${cluster.name}</span>
+                            <span style="font-size: 11px; opacity: 0.7;">(${cluster.notes.length} notes)</span>
+                        </div>
+                        ${isCompressed ? timelineHtml : ''}
                     </div>
-                    ${timelineHtml}
+                    ${isExpanded ? timelineHtml : ''}
                 </div>
             `;
         });
@@ -515,9 +584,29 @@ class MIDIEclipseAnimation {
             applyBulkBtn.addEventListener('click', () => this.applyBulkColor());
         }
         
+        // Add mute/solo button event listeners
+        document.querySelectorAll('.mute-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const clusterName = e.target.getAttribute('data-cluster-name');
+                this.toggleMute(clusterName);
+            });
+        });
+        
+        document.querySelectorAll('.solo-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const clusterName = e.target.getAttribute('data-cluster-name');
+                this.toggleSolo(clusterName);
+            });
+        });
+        
         // Draw timelines after DOM elements are added (if enabled)
-        if (this.showTimelines) {
+        if (this.timelineDisplayMode !== 'none') {
             setTimeout(() => this.drawTimelines(), 0);
+        }
+        
+        // Draw combined timeline if enabled
+        if (this.showCombinedTimeline) {
+            setTimeout(() => this.drawCombinedTimeline(), 0);
         }
     }
     
@@ -530,6 +619,14 @@ class MIDIEclipseAnimation {
             const canvas = document.getElementById(`timeline-${index}`);
             if (!canvas) return;
             
+            // For compressed mode, resize canvas to match its displayed width
+            if (this.timelineDisplayMode === 'compressed') {
+                const displayWidth = canvas.offsetWidth;
+                if (displayWidth > 0) {
+                    canvas.width = displayWidth;
+                }
+            }
+            
             const ctx = canvas.getContext('2d');
             const width = canvas.width;
             const height = canvas.height;
@@ -537,15 +634,17 @@ class MIDIEclipseAnimation {
             // Clear canvas
             ctx.clearRect(0, 0, width, height);
             
-            // Draw background grid lines (every second)
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
-            ctx.lineWidth = 1;
-            for (let t = 0; t < duration; t += 1) {
-                const x = (t / duration) * width;
-                ctx.beginPath();
-                ctx.moveTo(x, 0);
-                ctx.lineTo(x, height);
-                ctx.stroke();
+            // Draw background grid lines (every second) - skip for compressed mode
+            if (this.timelineDisplayMode !== 'compressed') {
+                ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+                ctx.lineWidth = 1;
+                for (let t = 0; t < duration; t += 1) {
+                    const x = (t / duration) * width;
+                    ctx.beginPath();
+                    ctx.moveTo(x, 0);
+                    ctx.lineTo(x, height);
+                    ctx.stroke();
+                }
             }
             
             // Find min and max MIDI note values for this cluster
@@ -572,8 +671,20 @@ class MIDIEclipseAnimation {
                 ctx.fillRect(x, height - noteHeight, noteWidth, 2);
             });
             
+            // Draw current time indicator for compressed mode
+            if (this.timelineDisplayMode === 'compressed' && this.isPlaying) {
+                const currentX = (this.currentTime / duration) * width;
+                ctx.strokeStyle = 'rgba(255, 0, 0, 0.8)';
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(currentX, 0);
+                ctx.lineTo(currentX, height);
+                ctx.stroke();
+            }
+            
             // Add timeline click handler for seeking
-            canvas.onclick = (e) => {
+            // For compressed mode, use double-click; for expanded, use single click
+            const clickHandler = (e) => {
                 const rect = canvas.getBoundingClientRect();
                 const clickX = e.clientX - rect.left;
                 const clickTime = (clickX / width) * duration;
@@ -592,7 +703,118 @@ class MIDIEclipseAnimation {
                     this.explosions = [];
                 }
             };
+            
+            if (this.timelineDisplayMode === 'compressed') {
+                canvas.ondblclick = clickHandler;
+            } else {
+                canvas.onclick = clickHandler;
+            }
         });
+    }
+    
+    toggleMute(clusterName) {
+        if (this.mutedClusters.has(clusterName)) {
+            this.mutedClusters.delete(clusterName);
+        } else {
+            this.mutedClusters.add(clusterName);
+        }
+        console.log('Muted clusters:', Array.from(this.mutedClusters));
+        this.displayTrackInfo();
+    }
+    
+    toggleSolo(clusterName) {
+        if (this.soloedClusters.has(clusterName)) {
+            this.soloedClusters.delete(clusterName);
+        } else {
+            this.soloedClusters.add(clusterName);
+        }
+        console.log('Soloed clusters:', Array.from(this.soloedClusters));
+        this.displayTrackInfo();
+    }
+    
+    isClusterActive(clusterName) {
+        // If any clusters are soloed, only soloed clusters are active
+        if (this.soloedClusters.size > 0) {
+            return this.soloedClusters.has(clusterName);
+        }
+        // Otherwise, all non-muted clusters are active
+        return !this.mutedClusters.has(clusterName);
+    }
+    
+    drawCombinedTimeline() {
+        if (!this.midiData) return;
+        
+        const canvas = document.getElementById('combinedTimeline');
+        if (!canvas) return;
+        
+        const ctx = canvas.getContext('2d');
+        const width = canvas.width;
+        const height = canvas.height;
+        const duration = this.midiData.duration;
+        
+        // Clear canvas
+        ctx.clearRect(0, 0, width, height);
+        
+        // Draw background grid lines (every second)
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+        ctx.lineWidth = 1;
+        for (let t = 0; t < duration; t += 1) {
+            const x = (t / duration) * width;
+            ctx.beginPath();
+            ctx.moveTo(x, 0);
+            ctx.lineTo(x, height);
+            ctx.stroke();
+        }
+        
+        // Find global min and max MIDI note values across all clusters
+        let globalMinNote = 127;
+        let globalMaxNote = 0;
+        this.clusters.forEach(cluster => {
+            cluster.notes.forEach(note => {
+                globalMinNote = Math.min(globalMinNote, note.note);
+                globalMaxNote = Math.max(globalMaxNote, note.note);
+            });
+        });
+        const noteRange = globalMaxNote - globalMinNote || 1;
+        
+        // Draw all notes from all clusters with their respective colors
+        this.clusters.forEach(cluster => {
+            const r = parseInt(cluster.color.slice(1, 3), 16);
+            const g = parseInt(cluster.color.slice(3, 5), 16);
+            const b = parseInt(cluster.color.slice(5, 7), 16);
+            
+            cluster.notes.forEach(note => {
+                const x = (note.time / duration) * width;
+                // Normalize note pitch to height using global range
+                const noteHeight = ((note.note - globalMinNote) / noteRange) * (height - 4) + 2;
+                const opacity = note.velocity / 127;
+                
+                ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${opacity * 0.8})`;
+                const noteWidth = Math.max(1, (0.1 / duration) * width); // 100ms minimum width
+                ctx.fillRect(x, height - noteHeight, noteWidth, 2);
+            });
+        });
+        
+        // Add timeline click handler for seeking
+        canvas.onclick = (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const clickX = e.clientX - rect.left;
+            const clickTime = (clickX / width) * duration;
+            
+            if (this.hasAudio && this.audioPlayer) {
+                this.audioPlayer.currentTime = clickTime;
+            } else {
+                this.currentTime = clickTime;
+                this.startTime = performance.now() - (clickTime * 1000);
+                // Reset note triggers
+                this.clusters.forEach(c => {
+                    c.notes.forEach(n => {
+                        n.triggered = n.time < clickTime;
+                    });
+                });
+                this.explosions = [];
+            }
+        };
     }
     
     displayDebugInfo() {
@@ -803,6 +1025,11 @@ class MIDIEclipseAnimation {
         this.activeClusterColors.clear();
         
         this.clusters.forEach(cluster => {
+            // Skip if cluster is muted or not soloed (when solo is active)
+            if (!this.isClusterActive(cluster.name)) {
+                return;
+            }
+            
             cluster.notes.forEach(note => {
                 if (Math.abs(note.time - this.currentTime) < 0.05 && !note.triggered) {
                     note.triggered = true;
@@ -823,6 +1050,12 @@ class MIDIEclipseAnimation {
         });
         
         this.drawFrame();
+        
+        // Update compressed timelines to show current time indicator
+        if (this.timelineDisplayMode === 'compressed') {
+            this.drawTimelines();
+        }
+        
         this.animationFrame = requestAnimationFrame(() => this.animate());
     }
     

@@ -36,7 +36,7 @@
                         <audio id="audioPlayer" controls></audio>
                     </div>
 
-                    <div class="d-flex gap-3">
+                    <div class="d-flex gap-3 align-items-center">
                         <div class="file-input-group">
                             <input type="file" class="form-control form-control-sm" id="midiFile" accept=".mid,.midi"
                                 style="width: auto;">
@@ -46,6 +46,12 @@
                             <input type="file" class="form-control form-control-sm" id="audioFile" accept="audio/*"
                                 style="width: auto;">
                             <label for="audioFile" class="file-input-label">Audio</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="showTracksToggle" checked>
+                            <label class="form-check-label" for="showTracksToggle">
+                                Show Track Clusters
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -77,17 +83,19 @@
 
                 <div class="card mb-4 shadow-lg">
                     <div class="card-header bg-secondary text-white">
-                        <div class="d-flex flex-wrap gap-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="showTracksToggle" checked>
-                                <label class="form-check-label" for="showTracksToggle">
-                                    Show Track Clusters
-                                </label>
+                        <div class="d-flex flex-wrap gap-3 align-items-center">
+                            <div>
+                                <label for="timelineDisplayMode" class="form-label mb-0 me-2">Timelines:</label>
+                                <select id="timelineDisplayMode" class="form-select form-select-sm" style="width: auto; display: inline-block;">
+                                    <option value="none">Don't Show</option>
+                                    <option value="compressed">Show Compressed</option>
+                                    <option value="expanded" selected>Show Expanded</option>
+                                </select>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="showTimelinesToggle" checked>
-                                <label class="form-check-label" for="showTimelinesToggle">
-                                    Show Timelines
+                                <input class="form-check-input" type="checkbox" id="showCombinedTimelineToggle">
+                                <label class="form-check-label" for="showCombinedTimelineToggle">
+                                    Show Combined Timeline
                                 </label>
                             </div>
                         </div>
