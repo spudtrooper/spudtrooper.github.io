@@ -51,8 +51,9 @@ class MIDIEclipseAnimation {
     setupEventListeners() {
         document.getElementById('audioFile').addEventListener('change', (e) => this.loadAudio(e));
         document.getElementById('midiFile').addEventListener('change', (e) => this.loadMIDI(e));
-        document.getElementById('playBtn').addEventListener('click', () => this.play());
-        document.getElementById('pauseBtn').addEventListener('click', () => this.pause());
+        document.getElementById('playPauseBtn').addEventListener('click', () => this.togglePlayPause());
+        document.getElementById('rewindBtn').addEventListener('click', () => this.rewind());
+        document.getElementById('fastForwardBtn').addEventListener('click', () => this.fastForward());
         document.getElementById('resetBtn').addEventListener('click', () => this.reset());
         
         const toggle = document.getElementById('showTracksToggle');
@@ -652,8 +653,18 @@ class MIDIEclipseAnimation {
     }
     
     enableControls() {
-        document.getElementById('playBtn').disabled = false;
+        document.getElementById('playPauseBtn').disabled = false;
+        document.getElementById('rewindBtn').disabled = false;
+        document.getElementById('fastForwardBtn').disabled = false;
         document.getElementById('resetBtn').disabled = false;
+    }
+    
+    togglePlayPause() {
+        if (this.isPlaying) {
+            this.pause();
+        } else {
+            this.play();
+        }
     }
     
     play() {
@@ -679,8 +690,7 @@ class MIDIEclipseAnimation {
         }
         
         this.isPlaying = true;
-        document.getElementById('playBtn').disabled = true;
-        document.getElementById('pauseBtn').disabled = false;
+        this.updatePlayPauseButton();
         this.animate();
     }
     
@@ -691,10 +701,58 @@ class MIDIEclipseAnimation {
         if (this.hasAudio) {
             this.audioPlayer.pause();
         }
-        document.getElementById('playBtn').disabled = false;
-        document.getElementById('pauseBtn').disabled = true;
+        this.updatePlayPauseButton();
         if (this.animationFrame) {
             cancelAnimationFrame(this.animationFrame);
+        }
+    }
+    
+    updatePlayPauseButton() {
+        const btn = document.getElementById('playPauseBtn');
+        const icon = btn.querySelector('i');
+        
+        if (this.isPlaying) {
+            icon.className = 'bi bi-pause-fill';
+            btn.setAttribute('data-state', 'pause');
+            btn.setAttribute('title', 'Pause');
+        } else {
+            icon.className = 'bi bi-play-fill';
+            btn.setAttribute('data-state', 'play');
+            btn.setAttribute('title', 'Play');
+        }
+    }
+    
+    rewind() {
+        this.seekRelative(-5);
+    }
+    
+    fastForward() {
+        this.seekRelative(5);
+    }
+    
+    seekRelative(seconds) {
+        if (this.hasAudio && this.audioPlayer) {
+            const newTime = Math.max(0, Math.min(this.audioPlayer.duration || 0, this.audioPlayer.currentTime + seconds));
+            this.audioPlayer.currentTime = newTime;
+        } else {
+            const newTime = Math.max(0, Math.min(this.midiData?.duration || 0, this.currentTime + seconds));
+            this.currentTime = newTime;
+            this.startTime = performance.now() - (newTime * 1000);
+            this.pausedTime = performance.now() - this.startTime;
+        }
+        
+        // Reset note triggers for the new time position
+        if (this.clusters && this.clusters.length > 0) {
+            this.clusters.forEach(cluster => {
+                cluster.notes.forEach(note => {
+                    note.triggered = note.time < (this.hasAudio ? this.audioPlayer.currentTime : this.currentTime);
+                });
+            });
+        }
+        this.explosions = [];
+        if (!this.isPlaying) {
+            this.drawFrame();
+            document.getElementById('timeInfo').textContent = `Time: ${(this.hasAudio ? this.audioPlayer.currentTime : this.currentTime).toFixed(2)}s`;
         }
     }
     
@@ -716,8 +774,7 @@ class MIDIEclipseAnimation {
                 });
             });
         }
-        document.getElementById('playBtn').disabled = false;
-        document.getElementById('pauseBtn').disabled = true;
+        this.updatePlayPauseButton();
         document.getElementById('timeInfo').textContent = 'Time: 0.00s';
         if (this.animationFrame) {
             cancelAnimationFrame(this.animationFrame);
