@@ -2,6 +2,7 @@
 
 ## fun
 
+* [midi-harmonizer](/midi-harmonizer) - Harmonize midi files
 * [midianim](/midianim) - Animate midi files
 * [zoomies](/zoomies) - Zoomy sounds that react to your device's movement.
 * [guitar-picking](/guitar-picking) - Play with guitar pickings.
