@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDI Player Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .upload-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 4px;
+            text-align: center;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+        }
+        .controls {
+            margin: 20px 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .info {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .info p {
+            margin: 5px 0;
+            color: #555;
+        }
+        #status {
+            margin-top: 10px;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .error {
+            color: #dc3545;
+        }
+        .volume-control {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .volume-control label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+        .volume-slider {
+            width: 100%;
+            height: 40px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: transparent;
+        }
+        .volume-slider::-webkit-slider-track {
+            width: 100%;
+            height: 8px;
+            background: #ddd;
+            border-radius: 4px;
+        }
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            background: #007bff;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        .volume-slider::-moz-range-track {
+            width: 100%;
+            height: 8px;
+            background: #ddd;
+            border-radius: 4px;
+        }
+        .volume-slider::-moz-range-thumb {
+            width: 24px;
+            height: 24px;
+            background: #007bff;
+            cursor: pointer;
+            border-radius: 50%;
+            border: none;
+        }
+        .volume-value {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 18px;
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MIDI Player Test</h1>
+        
+        <div class="upload-section">
+            <p>Upload a MIDI file to play it</p>
+            <input type="file" id="midiFile" accept=".mid,.midi" />
+        </div>
+
+        <div class="controls">
+            <button id="playBtn" disabled>Play</button>
+            <button id="pauseBtn" disabled>Pause</button>
+            <button id="stopBtn" disabled>Stop</button>
+        </div>
+
+        <div class="volume-control">
+            <label>
+                Master Volume: <span class="volume-value" id="volumeValue">100%</span>
+            </label>
+            <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="100" />
+        </div>
+
+        <div class="info">
+            <p><strong>File:</strong> <span id="fileName">No file loaded</span></p>
+            <p><strong>Status:</strong> <span id="status">Ready</span></p>
+        </div>
+
+        <div class="info">
+            <p><strong>Note:</strong> This uses the Web MIDI API and Web Audio API. Make sure your browser supports these features.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tonejs/midi@2.0.28/build/Midi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tone@14.8.49/build/Tone.js"></script>
+    <script>
+        let synth;
+        let parts = [];
+        let midiData;
+
+        // Initialize synthesizer
+        async function initSynth() {
+            synth = new Tone.PolySynth(Tone.Synth).toDestination();
+            synth.volume.value = -10; // Set initial volume (in dB)
+            await Tone.start();
+        }
+
+        // Handle volume changes
+        document.getElementById('volumeSlider').addEventListener('input', (e) => {
+            const volume = parseInt(e.target.value);
+            document.getElementById('volumeValue').textContent = volume + '%';
+            
+            if (synth) {
+                // Convert 0-100 to decibels (-60 to 0 dB)
+                // 0% = -60dB (nearly silent), 100% = 0dB (full volume)
+                const volumeDb = volume === 0 ? -Infinity : (volume - 100) * 0.6;
+                synth.volume.value = volumeDb;
+            }
+        });
+
+        // Handle file upload
+        document.getElementById('midiFile').addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            try {
+                document.getElementById('status').textContent = 'Loading...';
+                document.getElementById('status').className = '';
+                
+                const arrayBuffer = await file.arrayBuffer();
+                midiData = new Midi(arrayBuffer);
+                
+                document.getElementById('fileName').textContent = file.name;
+                document.getElementById('status').textContent = 'Loaded successfully';
+                document.getElementById('playBtn').disabled = false;
+                document.getElementById('stopBtn').disabled = false;
+                
+                // Initialize synth if not already done
+                if (!synth) {
+                    await initSynth();
+                }
+            } catch (error) {
+                document.getElementById('status').textContent = 'Error loading file: ' + error.message;
+                document.getElementById('status').className = 'error';
+                console.error('Error loading MIDI file:', error);
+            }
+        });
+
+        // Play button
+        document.getElementById('playBtn').addEventListener('click', async () => {
+            if (!midiData) return;
+
+            try {
+                document.getElementById('status').textContent = 'Playing...';
+                document.getElementById('playBtn').disabled = true;
+                document.getElementById('pauseBtn').disabled = false;
+
+                // Clear any existing parts
+                parts.forEach(part => part.dispose());
+                parts = [];
+
+                // Create parts for each track
+                midiData.tracks.forEach((track, trackIndex) => {
+                    const part = new Tone.Part((time, note) => {
+                        synth.triggerAttackRelease(
+                            note.name,
+                            note.duration,
+                            time,
+                            note.velocity
+                        );
+                    }, track.notes.map(note => ({
+                        time: note.time,
+                        name: note.name,
+                        duration: note.duration,
+                        velocity: note.velocity
+                    })));
+                    
+                    part.start(0);
+                    parts.push(part);
+                });
+
+                // Start transport
+                Tone.Transport.start();
+                
+                // Stop when finished
+                Tone.Transport.schedule(() => {
+                    stop();
+                }, midiData.duration);
+
+            } catch (error) {
+                document.getElementById('status').textContent = 'Error playing: ' + error.message;
+                document.getElementById('status').className = 'error';
+                console.error('Error playing MIDI:', error);
+            }
+        });
+
+        // Pause button
+        document.getElementById('pauseBtn').addEventListener('click', () => {
+            if (Tone.Transport.state === 'started') {
+                Tone.Transport.pause();
+                document.getElementById('status').textContent = 'Paused';
+                document.getElementById('playBtn').disabled = false;
+                document.getElementById('pauseBtn').disabled = true;
+            }
+        });
+
+        // Stop button
+        document.getElementById('stopBtn').addEventListener('click', () => {
+            stop();
+        });
+
+        function stop() {
+            Tone.Transport.stop();
+            parts.forEach(part => part.dispose());
+            parts = [];
+            document.getElementById('status').textContent = 'Stopped';
+            document.getElementById('playBtn').disabled = false;
+            document.getElementById('pauseBtn').disabled = true;
+        }
+    </script>
+</body>
+</html>
