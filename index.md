@@ -3,7 +3,7 @@
 ## fun
 
 * [midi-harmonizer](/midi-harmonizer) - Harmonize midi files
-* [midi-animator](/midi-animator) - Animate midi files
+* [midi-animator](/midi-animator) - Animate midi files - [example](https://youtu.be/l7XJs0y3Dgw)
 * [zoomies](/zoomies) - Zoomy sounds that react to your device's movement.
 * [guitar-picking](/guitar-picking) - Play with guitar pickings.
 * [citibikerides](/citibikerides) - Visualization of citibike traffic in NYC over a week.
